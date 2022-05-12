@@ -29,18 +29,12 @@ function showTable() {
 function showText() {
   var x = document.getElementById("text");
   if (x.style.display === "none") {
-    x.style.display = "block";
+    x.style.display = "flex";
   } else {
     x.style.display = "none";
   }
 }
 
-let iframe = document.querySelector("#child-iframe");
-
-iframe.addEventListener('load', function() {
-iframe.style.height = iframe.contentDocument.body.scrollHeight + 'px';
-
-});	
 </script>
 
 <div class="padding center"> <button style="font-size: large;" onclick="showTable()">Table with detailed estimates &#x25BC;</button></div>
@@ -369,9 +363,9 @@ iframe.style.height = iframe.contentDocument.body.scrollHeight + 'px';
 <div class="padding center">
     <button id="arrow" style="font-size: large;" onclick="showText()">Interpretation &#x25BC;</button>
 </div>
-<div class="padding" align="center" id="text" >
+<div class="center" id="text" >
 
-  <iframe width="800px" id="child-iframe" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vQhq_zQHaqizEMDIhw1XhQx7okNJiWBbdAhTrrc4aIVOw0BGxGASzOGM3mvpLFRb7FK6gEhfWxGe2NI/pub?embedded=true"></iframe>
+  <iframe class="center" width="800px" height="350px" id="child-iframe" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vQhq_zQHaqizEMDIhw1XhQx7okNJiWBbdAhTrrc4aIVOw0BGxGASzOGM3mvpLFRb7FK6gEhfWxGe2NI/pub?embedded=true"></iframe>
 </div>
 </body>
 
