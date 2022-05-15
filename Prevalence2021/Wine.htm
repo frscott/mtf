@@ -1,0 +1,920 @@
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Wine</title></head><body>
+<div id="observablehq-chart-c343f580" class="center"></div>
+<div id="observablehq-viewof-radio-c343f580" class="center padding large"></div>
+<div id="observablehq-css-c343f580"></div>
+<script type="module">import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";import define from "https://api.observablehq.com/d/258ddddb569b86c7.js?v=3";new Runtime().module(define, name => {  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-c343f580"));  if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-c343f580"));  if (name === "css") return new Inspector(document.querySelector("#observablehq-css-c343f580"));  return ["wine"].includes(name);});</script>
+<style>
+.center { display: flex; justify-content: center;}
+.padding { padding-top: 1em;}
+.branch {overflow-x:scroll; direction: rtl; margin-left:200px ; }
+.inner {direction: ltr;}
+.large {font-size:large; font-family: arial;}
+td, th { vertical-align: center; width: 5em; padding: .5em; }
+th { text-decoration: underline; }
+td:first-child, td:nth-child(2), th:first-child {position:absolute; width:100px; top:auto; white-space:nowrap}
+td:nth-child(1), th:first-child {left:0;width:150px; white-space:nowrap; }
+td:nth-child(2) {left:100px} ;
+</style>
+<script>
+    
+    function showTable() {
+      var x = document.getElementById("table");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    
+    function showText() {
+      var x = document.getElementById("text");
+      if (x.style.display === "none") {
+        x.style.display = "flex";
+      } else {
+        x.style.display = "none";
+      }
+    }
+</script>
+<div class="padding center"> <button style="font-size: large;" onclick="showTable()">Table with detailed estimates &#x25BC;</button></div>
+<div id="table" style="display: none;">
+<div class="branch" >
+<div >
+<div >
+<table class="table inner" style=" background-color: #FFFFFF; border-bottom-width: 0pt; border-left-width: 0px; border-right-width: 0px; border-top-width: 0pt; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" cellspacing="0" cellpadding="2" rules="all" frame="hsides" border="0" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: none;" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1976</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1977</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1978</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1979</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1980</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1981</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1982</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1983</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1984</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1985</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1986</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1987</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1988</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1989</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1990</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1991</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1992</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1993</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1994</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1995</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1996</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1997</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1998</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">1999</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2000</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2001</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2002</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2003</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2004</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2005</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2006</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2007</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2008</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2009</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2010</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2011</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2012</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2013</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2014</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2015</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2016</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2017</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2018</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2019</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2020</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">2021</th>
+<th class="r header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: none;" scope="col">&nbsp;</th>
+<th class="l header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col"> 2020 - <br/>2021<br/>Change</th>
+<th class="r header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: none;" scope="col">&nbsp;</th>
+<th class="l header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col"> 2016 - <br/>2021<br/>Change</th>
+<th class="l header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">Proportional<br/>Change</th>
+<th class="r header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: none;" scope="col">&nbsp;</th>
+<th class="l header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col"> Peak year - <br/>2021<br/>Change</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">Proportional<br/>Change</th>
+<th class="r header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: none;" scope="col">&nbsp;</th>
+<th class="l header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col"> Low year - <br/>2021<br/>Change</th>
+<th class="c header" style=" background-color: #FFFFFF; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; text-decoration: underline;" scope="col">Proportional<br/>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">Lifetime      </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">8th Grade </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">10th Grade</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">12th Grade</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   85.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   86.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   87.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   85.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: bold;">   87.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   86.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   85.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   87.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   85.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   85.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   84.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   86.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   76.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   74.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   70.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   67.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   65.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   64.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   62.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   62.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   62.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   63.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   63.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   62.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   63.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   59.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   56.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   55.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   55.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   52.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   50.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   51.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   49.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   46.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   43.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   45.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   43.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   42.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   42.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   35.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   38.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   33.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   35.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     &sect; </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   31.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap>  -3.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -10.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -56.1***</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -63.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">Last 12 Months</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">8th Grade </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">10th Grade</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">12th Grade</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   67.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   69.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   69.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   68.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: bold;">   71.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   68.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   68.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   68.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   67.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   67.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   65.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   66.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   52.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   50.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   45.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   44.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   41.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   40.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   41.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   41.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   44.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   44.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   43.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   44.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   45.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   40.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   38.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   37.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   33.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   35.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   32.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   30.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   28.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   30.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   29.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   29.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   29.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   23.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   26.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   28.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   23.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   25.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     &sect; </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   21.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap>  -5.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -19.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -50.3***</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -70.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">Past 30 Days  </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">8th Grade </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">10th Grade</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">12th Grade</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   34.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   37.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   37.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: bold;">   39.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   37.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   34.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   36.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   34.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   33.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   22.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   19.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   16.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   16.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   18.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   17.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   16.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   15.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   16.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   11.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    9.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   10.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   10.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   11.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   11.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    8.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    9.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   10.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    9.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   10.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     &sect; </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    8.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap>  -1.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -10.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -31.0***</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -78.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">Binge Drinking</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">8th Grade </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">10th Grade</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" background-color: #ADD8E6; border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+<tr>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">&nbsp;</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">12th Grade</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: bold;">   14.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   14.3</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   13.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">   12.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    7.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    6.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    7.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    6.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    6.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.8</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.1</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    5.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.7</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.9</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    4.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.6</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">     &sect; </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    3.2</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap>  -0.4</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -11.0</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -11.7***</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;" nowrap> -78.5</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">|</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    .</td>
+<td class="c data" style=" border: 0pt none #000000; border-spacing: 0px; color: #00008B; font-family: arial; font-size: 10pt; font-weight: normal;">    . </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<h5 style="text-align:left; color:#00008B; line-height:.7px; font-family:arial;"> Source: The Monitoring the Future study, the University of Michigan.</h5>
+<h5 style="color:#00008B; line-height:.7px; font-family:arial;" >  The peak year prevalence is noted in BOLD.  The lowest prevalence after the peak is underlined. </h5>
+<h5 style="color:#00008B; line-height:.7px; font-family:arial;" >  Binge Drinking is defined as 5 or more drinks in a row in the last two weeks.   </h5>
+<h5 style="color:#00008B; line-height:.7px; font-family: arial;" >&sect Missing 12th grade estimates in 2020 are due to insufficient sample size because of stop in data collection during COVID-19 pandemic    </h5>
+<h5 style="color:#00008B; line-height:.7px;" > *** = p < 0.001 ** = p < 0.01 * = p < 0.05</h5>
+</div>
+<div class="padding center">
+    <button id="arrow" style="font-size: large;" onclick="showText()">Interpretation &#x25BC;</button>
+</div>
+<div class="center" id="text">
+  <iframe class="center padding" width="800px" height="400px" frameBorder="0" 
+  src="https://docs.google.com/document/d/e/2PACX-1vTMWLmF7ugQtDvTGbN9yl6WzouXqqt4u_GyWXoH08exZoEAXDYqsIUhJSGWklEc60mrgU_qQZ5_2gIi/pub?embedded=true"></iframe>
+  </div>
+</body>
+</html>
