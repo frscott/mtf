@@ -7,21 +7,26 @@
     <title>Drug Prevalence 2021</title>
 </head>
 <body>
-  <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-select-807cf617"></div>  
-  <div style="display: flex; justify-content: center;" id="observablehq-title-807cf617"></div>
-  <div style="display: flex; justify-content: center;" id="observablehq-plot-807cf617"></div>
-  <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-radio-807cf617"></div>
-  
-  <script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/@frscott/drug-prevalence-dashboard.js?v=3";
-  new Runtime().module(define, name => {
-    if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-807cf617"));
-    if (name === "title") return new Inspector(document.querySelector("#observablehq-title-807cf617"));
-    if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-807cf617"));
-    if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-807cf617"));
-    return ["data"].includes(name);
-  });
-  </script>
+
+<div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-select-bdf2dcb7"></div>
+<div style="display: flex; justify-content: center;" id="observablehq-title-bdf2dcb7"></div>
+<div style="display: flex; justify-content: center;" id="observablehq-plot-bdf2dcb7"></div>
+<div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-radio-bdf2dcb7"></div>
+
+
+<div style="display: flex; justify-content: center; padding-top: 1em;" id="observablehq-googledoc-bdf2dcb7"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@frscott/drug-prevalence-dashboard.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-bdf2dcb7"));
+  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-bdf2dcb7"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-bdf2dcb7"));
+  if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-bdf2dcb7"));
+  if (name === "googledoc") return new Inspector(document.querySelector("#observablehq-googledoc-bdf2dcb7"));
+  return ["data","googledoclink"].includes(name);
+});
+</script>
 </body>
 </html>
