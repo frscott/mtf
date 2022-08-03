@@ -7,26 +7,29 @@
     <title>Drug Prevalence 2021</title>
 </head>
 <body>
+  <div id="observablehq-css-f053c4ba"></div>
 
-<div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-select-bdf2dcb7"></div>
-<div style="display: flex; justify-content: center;" id="observablehq-title-bdf2dcb7"></div>
-<div style="display: flex; justify-content: center;" id="observablehq-plot-bdf2dcb7"></div>
-<div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-radio-bdf2dcb7"></div>
-
-
-<div style="display: flex; justify-content: center; padding-top: 1em;" id="observablehq-googledoc-bdf2dcb7"></div>
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@frscott/drug-prevalence-dashboard.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-bdf2dcb7"));
-  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-bdf2dcb7"));
-  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-bdf2dcb7"));
-  if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-bdf2dcb7"));
-  if (name === "googledoc") return new Inspector(document.querySelector("#observablehq-googledoc-bdf2dcb7"));
-  return ["data","googledoclink"].includes(name);
-});
-</script>
+  <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;" id="observablehq-viewof-select-f053c4ba"></div>
+  <div style="display: flex; justify-content: center;" id="observablehq-title-f053c4ba"></div>
+  <div style="display: flex; justify-content: center;" id="observablehq-plot-f053c4ba"></div>
+  <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em;"  id="observablehq-viewof-radio-f053c4ba"></div>
+  <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding-top: 1em;" id="observablehq-table-f053c4ba"></div>
+  <div style="display: flex; justify-content: center; padding-top: 1em;" id="observablehq-googledoc-f053c4ba"></div>
+  
+  <script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/d/10a2848056d40865.js?v=3";
+  new Runtime().module(define, name => {
+    if (name === "css") return new Inspector(document.querySelector("#observablehq-css-f053c4ba"));
+    if (name === "table") return new Inspector(document.querySelector("#observablehq-table-f053c4ba"));
+    if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-f053c4ba"));
+    if (name === "title") return new Inspector(document.querySelector("#observablehq-title-f053c4ba"));
+    if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-f053c4ba"));
+    if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-f053c4ba"));
+    if (name === "googledoc") return new Inspector(document.querySelector("#observablehq-googledoc-f053c4ba"));
+    return ["data","googledoclink"].includes(name);
+  });
+  </script>
 </body>
 </html>
+
