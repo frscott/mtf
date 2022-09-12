@@ -10,11 +10,15 @@
     <title>Drug Prevalence Dashboard</title>
     <style>
 .branch {overflow-x:scroll; direction: rtl; margin-left:200px;  }
-td, th { vertical-align: middle;  padding: .5em; color: #00008B; }
-th { text-decoration: underline; white-space:nowrap; }  
 td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
-td:nth-child(1), th:first-child  {left:120px; white-space:nowrap; }
-td:nth-child(2), th:nth-child(2) {left:220px; } 
+td:nth-child(1), th:first-child  {left: 110px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 210px; word-wrap: break-word;} 
+td, th { vertical-align: middle;  padding: .5em; color: black; }
+th { text-decoration: underline; white-space:nowrap; }  
+.citation {
+  width: 42%;
+}
+
 tr:nth-child(3) {
   background-color: #ADD8E6;
 } 
@@ -26,6 +30,70 @@ table {
   border-collapse: collapse;
   text-align: center;
 }
+
+/* On screens that are 1720px or less, do this for the table and citation size */
+
+@media screen and (max-width: 1680px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:190px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 90px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 190px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 55%;
+}
+}
+
+/* On screens that are 1720px or less, do this for the table and citation size */
+
+@media screen and (max-width: 1375px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:180px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 65px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 170px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 70%;
+}
+}
+
+
+/* On screens that are 992px or less, do this for the table and citation size */
+
+@media screen and (max-width: 992px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:175px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 45px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 145px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 90%;
+}
+}
+
+
+/* On screens that are 600px or less, do this for table and citation size */
+@media screen and (max-width: 600px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:155px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 25px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 115px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 90%;
+}
+}
+
+
+
     </style>
 </head>
 <body> 
@@ -51,8 +119,8 @@ table {
 
     <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em; padding-bottom: 1em;" id="observablehq-viewof-select-f1c9e2e0"></div>
     <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: xx-large;" id="observablehq-title-f1c9e2e0"></div>
-    <div style="display: flex; justify-content: center;" id="observablehq-plot-f1c9e2e0"></div>
-    <div style="margin: 0 auto; width:800px;"><p style="font-size: smaller;">Suggested citation: Miech, R. A., Johnston, L. D., O’Malley, P. M., Bachman, J. G., Schulenberg, J. E., & Patrick, M. E. (2023).
+    <div aria-live="polite" style="display: flex; justify-content: center;" id="observablehq-plot-f1c9e2e0"></div>
+    <div class="citation" style="margin: 0 auto;"><p style="font-size: smaller;">Suggested citation: Miech, R. A., Johnston, L. D., O’Malley, P. M., Bachman, J. G., Schulenberg, J. E., & Patrick, M. E. (2023).
       Monitoring the Future national survey results on drug use, 1975–2022: Volume I, Secondary school students. Ann Arbor: Institute for Social Research, The University of Michigan</p></div>
     <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large;"  id="observablehq-viewof-radio-f1c9e2e0"></div>
     <div style="padding-top: 1em;" class="accordion" id="accordionExample">
@@ -65,11 +133,15 @@ table {
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
             <div class="accordion-body">
               <div class="branch"><div id="observablehq-table1-f1c9e2e0"></div></div>
-              <div style="padding-top: 1em;"><p style="font-size: small;">Note: Level of significance: *=p<.05, **=p<.01, ***=p<.001. <br>
+                <div>
+                <p style="font-size: small; margin-bottom: 0px;">Note:
+                      Level of significance: *=p<.05, **=p<.01, ***=p<.001. <br>
                       "." indicates data is not available. <br>
                       "&Dagger;" indicates that the question changed the following year. <br>
                       "&sect;" indicates insufficient data for that year. <br>
-                      <a href="Footnotes.pdf">Footnotes</a></p></div>
+                      <div id="observablehq-footnoteLetter-e649749e"></div>
+                      <a style="font-size: small;" href="Footnotes.pdf">Footnotes (PDF)</a></p></div>
+                      
           </div>
         </div>
         </div>
@@ -97,17 +169,10 @@ new Runtime().module(define, name => {
   if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-f1c9e2e0"));
   if (name === "table1") return new Inspector(document.querySelector("#observablehq-table1-f1c9e2e0"));
   if (name === "editdoc") return new Inspector(document.querySelector("#observablehq-editdoc-f1c9e2e0"));
+  if (name === "footnoteLetter") return new Inspector(document.querySelector("#observablehq-footnoteLetter-e649749e"));
   return ["data","googledoclink","publishdoc","htmlTables","table0"].includes(name);
 });
 </script>
   </body>
   </html>
-
-  <div ></div>
-<div ></div>
-<div ></div>
-<div ></div>
-<div ></div>
-<div ></div>
-
 
