@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="mtflogo.gif" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Perceived Harmfulness Dashboard</title>
+    <style>
+.branch {overflow-x:scroll; direction: rtl; margin-left:200px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 110px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 210px; word-wrap: break-word;} 
+td, th { vertical-align: middle;  padding: .5em; color: black; }
+th { text-decoration: underline; white-space:nowrap; }  
+.citation {
+  width: 42%;
+}
+
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+} 
+table {
+  font-family: arial, sans-serif;
+  font-size: small;
+  direction: ltr;
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* On screens that are 1720px or less, do this for the table and citation size */
+
+@media screen and (max-width: 1680px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:190px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 90px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 190px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 55%;
+}
+}
+
+/* On screens that are 1720px or less, do this for the table and citation size */
+
+@media screen and (max-width: 1375px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:180px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 65px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 170px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 70%;
+}
+}
+
+
+/* On screens that are 992px or less, do this for the table and citation size */
+
+@media screen and (max-width: 992px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:175px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 45px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 145px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 90%;
+}
+}
+
+
+/* On screens that are 600px or less, do this for table and citation size */
+@media screen and (max-width: 600px) {
+  .branch {overflow-x:scroll; direction: rtl; margin-left:155px;  }
+td:first-child, td:nth-child(2), th:first-child, th:nth-child(2) {position:absolute; width:100px; top:auto; white-space:normal;} 
+td:nth-child(1), th:first-child  {left: 25px; white-space:nowrap; word-wrap: break-word; }
+td:nth-child(2), th:nth-child(2) {left: 115px; word-wrap: break-word;}
+tr:nth-child(3) {
+  background-color: #ADD8E6;
+}
+.citation {
+  width: 90%;
+}
+}
+
+
+
+    </style>
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="http://www.monitoringthefuture.org">Monitoring the Future</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prevalence</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Attitudes <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Harmfulness <span class="sr-only">(current)</span></a>
+            <a class="dropdown-item" href="#">Disapproval</a>
+            <a class="dropdown-item" href="#">Legality of Drug Use</a>
+          </div>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Social Context
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+      </ul>
+    </div>
+  </nav> 
+
+    <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em; padding-bottom: 1em;" id="observablehq-viewof-select-8f404566"></div>
+    <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: xx-large;" id="observablehq-title-8f404566"></div>
+    <div aria-live="polite" style="display: flex; justify-content: center;" id="observablehq-plot-8f404566"></div>
+    <div class="citation" style="margin: 0 auto;"><p style="font-size: smaller;">Suggested citation: Miech, R. A., Johnston, L. D., O’Malley, P. M., Bachman, J. G., Schulenberg, J. E., & Patrick, M. E. (2023).
+      Monitoring the Future national survey results on drug use, 1975–2022: Volume I, Secondary school students. Ann Arbor: Institute for Social Research, The University of Michigan</p></div>
+    <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large;"  id="observablehq-viewof-radio-8f404566"></div>
+    <div class="citation" style="margin: 0 auto; padding-top: 1em;" id="observablehq-footnoteLetter2-dcc3a2e1"></div>
+    <div style="padding-top: 1em;" class="accordion" id="accordionExample">
+        <div style="margin: 0 auto; width: 90%;" class="accordion-item">
+          <h2  class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family: Arial, Helvetica, sans-serif; font-size: large;">
+              Table with Detailed Estimates
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+            <div class="accordion-body">
+              <div class="branch"><div id="observablehq-table1-8f404566"></div></div>
+                <div>
+                <p style="font-size: small; margin-bottom: 0px;">Note:
+                      Level of significance: *=p<.05, **=p<.01, ***=p<.001. <br>
+                      "." indicates data is not available. <br>
+                      "&Dagger;" indicates that the question changed the following year. <br>
+                      "&sect;" indicates insufficient data for that year. <br>
+                      <div id="observablehq-footnoteLetter-e649749e"></div></p></div>
+                      
+          </div>
+        </div>
+        </div>
+
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/ad867426df0213c0.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-8f404566"));
+  if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-8f404566"));
+  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-8f404566"));
+  if (name === "viewof radio") return new Inspector(document.querySelector("#observablehq-viewof-radio-8f404566"));
+  if (name === "table1") return new Inspector(document.querySelector("#observablehq-table1-8f404566"));
+  return ["data","radioSet","gradeTitle","gradeQuestion","htmlTables","htmlTables0"].includes(name);
+});
+</script>
+  </body>
+  </html>
+
