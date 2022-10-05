@@ -99,7 +99,7 @@ tr:nth-child(3) {
 <body> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="http://www.monitoringthefuture.org">Monitoring the Future</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -107,15 +107,32 @@ tr:nth-child(3) {
         <li class="nav-item ">
           <a class="nav-link" href="#">Home </a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#">Prevalence <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Attitudes</a>
-        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Attitudes 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Perceived Risk</a>
+            <a class="dropdown-item" href="#">Disapproval</a>
+            <a class="dropdown-item" href="#">Legality of Drug Use</a>
+          </div>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Social Context
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Friends' Attitudes</a>
+              <a class="dropdown-item" href="#">Exposure</a>
+              <a class="dropdown-item" href="#">Friends' Use</a>
+              <a class="dropdown-item" href="#">Source for Prescription Drugs</a>
+              <a class="dropdown-item" href="#">Availability</a>
+            </div>
       </ul>
     </div>
-  </nav> 
+  </nav>
 
     <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: large; padding-top: 1em; padding-bottom: 1em;" id="observablehq-viewof-select-f1c9e2e0"></div>
     <div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif; font-size: xx-large;" id="observablehq-title-f1c9e2e0"></div>
@@ -156,7 +173,7 @@ tr:nth-child(3) {
                 <div style="display: flex; justify-content: center; width:100%" id="observablehq-editdoc-f1c9e2e0"></div></div>
             </div>
           </div>
-    
+          <div style="margin-bottom: 5em;"></div>
     
     
 <script type="module">
