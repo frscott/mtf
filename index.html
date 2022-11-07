@@ -1,119 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTF Drug Prevalence 2021</title>
-</head>
-<style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Password Protected</title>
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #002060;
-}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
 
-a {
-    color: #002060;
-}
+        <style>
+            *,
+            *:after,
+            *:before {
+                box-sizing: border-box;
+            }
+            body,
+            html {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 300;
+                font-size: 16px;
+                background: #f2f2f2;
+                color: #2D3737;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100%;
+            }
 
-a:visited {
-  color: black;
-}
+            .protected {
+                background: #fff;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                border-radius: 3px;
+                min-width: 500px;
 
-.center { 
-    display: flex; 
-    justify-content: center;
-}
+            }
+            .protected__content {
+                padding: 24px 28px;
+            }
+            .protected__content__heading {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0 0 12px;
+                line-height: 1;
+            }
+            .protected__alert {
+                display: none;
+                border-bottom: 1px solid transparent;
+                border-radius: 3px 3px 0 0;
+                padding: 12px 14px;
+                color: #a94442;
+                background-color: #f2dede;
+                border-color: #ebccd1;
+            }
+            .protected__content__input {
+                display: block;
+                border: solid 1px #ccc;
+                padding: 12px 14px;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                font-size: 16px;
+                width: 100%;
+                border-radius: 3px;
 
-.grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-      }
-    
-.grid-item {
-        text-align: center;
-        margin: 20px;
-      }
-</style>
+                margin-bottom: 12px;
+            }
+            .protected__content__input:focus {
+                outline: none;
+                border-color: #228843;
+            }
+            .protected__content__btn {
+                background-color: #228843;
+                border-radius: 3px;
+                cursor: pointer;
+                border: none;
+                color: #fff;
+                padding: 12px 14px;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
 
-<body>
-    <h1>MTF Drug Prevalence 2021</h1>
-    <div class="grid-container">
+            }
+            .protected__content__btn:hover {
+                background-color: #1C6D36;
+            }
 
-    <div class="grid-item"><h2><a href="Prevalence2021/Adderall.htm">Adderall</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/ADHDEither.htm">ADHD Either</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/ADHDNonStim.htm">ADHD Non Stimulant</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/ADHDStim.htm">ADHD Stimulant</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Alcohol.htm">Alcohol</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AlcCaffeine.htm">Alcoholic Beverages with Caffeine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Amphetamines.htm">Amphetamines</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Andros.htm">Androstenedione</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AnyIllicitDrug.htm">Any Illict Drug</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AnyIllicitInhal.htm">Any Illict Drug including Inhalants</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AnyIllicitOTM.htm">Any Illict Drug other than Marijuana</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AnyNicOthVape.htm">Any Nicotine Use other than Vaping</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/AnyNicUse.htm">Any Nicotine Use</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/BathSalts.htm">Bath Salts</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Drunk.htm">Been Drunk</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Beer.htm">Beer</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Bidis.htm">Bidis</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/SmCigars.htm">Cigarillos/Small Cigars</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Cigarettes.htm">Cigarettes</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Cocaine.htm">Cocaine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/OthCocaine.htm">Cocaine other than Crack</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Crack.htm">Crack</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Creatine.htm">Creatine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/CryMeth.htm">Crystal Methamphetamines</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/DietPills.htm">Diet Pills</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/DisTob.htm">Dissolvable Tobacco</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Ecstasy.htm">Ecstasy (MDMA)</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/FlavAlc.htm">Flavored Alcoholic Beverages</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/FlavoredCigars.htm">Flavored Little Cigars</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/GHB.htm">GHB</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Hallucinogens.htm">Hallucinogens</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/HallucOthLSD.htm">Hallucinogens other than LSD</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Heroin.htm">Heroin</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/HeroinWN.htm">Heroin with a Needle</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/HeroinWoN.htm">Heroin without a Needle</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Inhalants.htm">Inhalants</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/JUUL.htm">JUUL</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Ketamine.htm">Ketamine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Kreteks.htm">Kreteks</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/LargeCigars.htm">Large Cigars</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Liquor.htm">Liquor</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/LSD.htm">LSD</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Marijuana.htm">Marijuana</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Methamphetamines.htm">Methamphetamines</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Methaqualone.htm">Methaqualone (Quaaludes)</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/OthNarcotics.htm">Narcotics other than Heroin</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Nitrites.htm">Nitrites</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/OvCCough.htm">OTC Cough/Cold Meds</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/OxyContin.htm">Oxycontin</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/PCP.htm">PCP</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Provigil.htm">Provigil</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/RegSmCigars.htm">Regular Small Cigars</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Ritalin.htm">Ritalin</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Rohypnol.htm">Rohypnol</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Salvia.htm">Salvia</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Sedatives.htm">Sedatives (Barbiturates)</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/SmklessTob.htm">Smokeless Tobacco</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Snus.htm">Snus</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/StayAwakes.htm">Stay Awake Pills</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Steroids.htm">Steroids</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/SynMJ.htm">Synthetic Marijuana</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/TobHookah.htm">Tobacco Hookah</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Tranquilizers.htm">Tranquilizers</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/VapeNicotine.htm">Vape Nicotine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/VapFlav.htm">Vape Flavoring</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/VapFlavNoNic.htm">Vape Flavoring with no Nicotine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/VapMJ.htm">Vape Marijuana</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Vicodin.htm">Vicodin</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/Wine.htm">Wine</a></h2></div>
-    <div class="grid-item"><h2><a href="Prevalence2021/WineCoolers.htm">Wine Coolers</a></h2></div>
-    
-</div>
+        </style>
 
-</body>
+    </head>
+
+    <body>
+
+        <div class="protected">
+            <div class="protected__alert" data-id="alert">You entered the wrong password</div>
+            <div class="protected__content">
+                <h1 class="protected__content__heading">You need a password to continue</h1>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
+                <button data-id="button" type="button" class="protected__content__btn">Continue</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript">
+            "use strict"
+            var button = document.querySelectorAll('[data-id="button"]')
+            var password = document.querySelectorAll('[data-id="password"]')
+
+            function login(secret) {
+                var hash = sha1(secret)
+                var url = hash + "/index.html"
+                var alert = document.querySelectorAll('[data-id="alert"]')
+
+                var request = new XMLHttpRequest()
+                request.open('GET', url, true)
+
+                request.onload = function () {
+                    if (request.status >= 200 && request.status < 400) {
+                        window.location = url
+                    } else {
+                        parent.location.hash = hash
+                        alert[0].style.display = 'block'
+                        password[0].setAttribute('placeholder', 'Incorrect password')
+                        password[0].value = ''
+                    }
+                }
+                request.onerror = function () {
+                    parent.location.hash = hash
+                    alert[0].style.display = 'block'
+                    password[0].setAttribute('placeholder', 'Incorrect password')
+                    password[0].value = ''
+                }
+                request.send()
+            }
+
+            button[0].addEventListener("click", function () {
+                login(password[0].value)
+            })
+
+            document.onkeydown = function (e) {
+                e = e || window.event
+                if (e.keyCode == 13) {
+                    login(password[0].value)
+                }
+            }
+        </script>
+    </body>
 </html>
