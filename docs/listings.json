@@ -1,0 +1,63 @@
+[
+  {
+    "listing": "/panel/demographic-subgroups/index.html",
+    "items": [
+      "/panel/demographic-subgroups/race-differences/index.html",
+      "/panel/demographic-subgroups/sex-differences/index.html"
+    ]
+  },
+  {
+    "listing": "/bx-by/index.html",
+    "items": [
+      "/bx-by/drug-prevalence/index.html",
+      "/bx-by/attitudes/index.html",
+      "/bx-by/social-context/index.html"
+    ]
+  },
+  {
+    "listing": "/bx-by/attitudes/index.html",
+    "items": [
+      "/bx-by/attitudes/disapproval/index.html",
+      "/bx-by/attitudes/legality/index.html",
+      "/bx-by/attitudes/mj-laws/index.html",
+      "/bx-by/attitudes/perceived-risk/index.html"
+    ]
+  },
+  {
+    "listing": "/bx-by/social-context/index.html",
+    "items": [
+      "/bx-by/social-context/availability/index.html",
+      "/bx-by/social-context/exposure/index.html",
+      "/bx-by/social-context/friends-attitudes/index.html",
+      "/bx-by/social-context/friends-use/index.html",
+      "/bx-by/social-context/parent-disapproval/index.html",
+      "/bx-by/social-context/source/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/bx-by/drug-prevalence/index.html",
+      "/bx-by/attitudes/index.html",
+      "/bx-by/social-context/index.html",
+      "/panel/substance-use/index.html",
+      "/panel/college-noncollege/index.html",
+      "/panel/demographic-subgroups/index.html"
+    ]
+  },
+  {
+    "listing": "/panel/college-noncollege/index.html",
+    "items": [
+      "/panel/college-noncollege/college-sex-differences/index.html",
+      "/panel/college-noncollege/college-noncollege-differences/index.html"
+    ]
+  },
+  {
+    "listing": "/panel/index.html",
+    "items": [
+      "/panel/substance-use/index.html",
+      "/panel/college-noncollege/index.html",
+      "/panel/demographic-subgroups/index.html"
+    ]
+  }
+]
