@@ -1,0 +1,515 @@
+grade,time,drug,year,attitude,estimate,LBYear1
+12th Grade,In Private,Alcohol,1976,Legality,18.262999685,2019
+12th Grade,In Private,Alcohol,1977,Legality,15.597703343,2019
+12th Grade,In Private,Alcohol,1978,Legality,15.583932559,2019
+12th Grade,In Private,Alcohol,1979,Legality,15.818191696,2019
+12th Grade,In Private,Alcohol,1980,Legality,16.014907363,2019
+12th Grade,In Private,Alcohol,1981,Legality,17.159667791,2019
+12th Grade,In Private,Alcohol,1982,Legality,18.192109982,2019
+12th Grade,In Private,Alcohol,1983,Legality,18.385270032,2019
+12th Grade,In Private,Alcohol,1984,Legality,17.396173241,2019
+12th Grade,In Private,Alcohol,1985,Legality,20.309179521,2019
+12th Grade,In Private,Alcohol,1986,Legality,20.931785872,2019
+12th Grade,In Private,Alcohol,1987,Legality,21.418242712,2019
+12th Grade,In Private,Alcohol,1988,Legality,22.555270588,2019
+12th Grade,In Private,Alcohol,1989,Legality,27.312765259,2019
+12th Grade,In Private,Alcohol,1990,Legality,29.400717353,2019
+12th Grade,In Private,Alcohol,1991,Legality,29.758224637,2019
+12th Grade,In Private,Alcohol,1992,Legality,33.009301849,2019
+12th Grade,In Private,Alcohol,1993,Legality,30.14480223,2019
+12th Grade,In Private,Alcohol,1994,Legality,28.418593525,2019
+12th Grade,In Private,Alcohol,1995,Legality,27.276437408,2019
+12th Grade,In Private,Alcohol,1996,Legality,26.484184359,2019
+12th Grade,In Private,Alcohol,1997,Legality,26.07638014,2019
+12th Grade,In Private,Alcohol,1998,Legality,24.486239792,2019
+12th Grade,In Private,Alcohol,1999,Legality,24.614245408,2019
+12th Grade,In Private,Alcohol,2000,Legality,25.24847735,2019
+12th Grade,In Private,Alcohol,2001,Legality,26.604432298,2019
+12th Grade,In Private,Alcohol,2002,Legality,26.337918833,2019
+12th Grade,In Private,Alcohol,2003,Legality,27.204383528,2019
+12th Grade,In Private,Alcohol,2004,Legality,26.003044473,2019
+12th Grade,In Private,Alcohol,2005,Legality,26.412670628,2019
+12th Grade,In Private,Alcohol,2006,Legality,28.996066426,2019
+12th Grade,In Private,Alcohol,2007,Legality,31.030853608,2019
+12th Grade,In Private,Alcohol,2008,Legality,29.840146339,2019
+12th Grade,In Private,Alcohol,2009,Legality,30.583882126,2019
+12th Grade,In Private,Alcohol,2010,Legality,30.705045067,2019
+12th Grade,In Private,Alcohol,2011,Legality,28.695222127,2019
+12th Grade,In Private,Alcohol,2012,Legality,25.432688328,2019
+12th Grade,In Private,Alcohol,2013,Legality,27.255636614,2019
+12th Grade,In Private,Alcohol,2014,Legality,29.152186215,2019
+12th Grade,In Private,Alcohol,2015,Legality,28.928540967,2019
+12th Grade,In Private,Alcohol,2016,Legality,28.765503771,2019
+12th Grade,In Private,Alcohol,2017,Legality,27.191412319,2019
+12th Grade,In Private,Alcohol,2018,Legality,31.300825049,2019
+12th Grade,In Private,Alcohol,2019,Legality,26.25080983,2019
+12th Grade,In Private,Alcohol,2021,Legality,22.34972475,2019
+12th Grade,In Private,Alcohol,2022,Legality,26.727214179,2019
+12th Grade,In Public,Alcohol,1976,Legality,68.941202621,2019
+12th Grade,In Public,Alcohol,1977,Legality,66.799862238,2019
+12th Grade,In Public,Alcohol,1978,Legality,67.664711631,2019
+12th Grade,In Public,Alcohol,1979,Legality,68.332306985,2019
+12th Grade,In Public,Alcohol,1980,Legality,69.009187483,2019
+12th Grade,In Public,Alcohol,1981,Legality,69.059895695,2019
+12th Grade,In Public,Alcohol,1982,Legality,69.890605974,2019
+12th Grade,In Public,Alcohol,1983,Legality,68.916371028,2019
+12th Grade,In Public,Alcohol,1984,Legality,72.868880978,2019
+12th Grade,In Public,Alcohol,1985,Legality,70.927144896,2019
+12th Grade,In Public,Alcohol,1986,Legality,72.75647773,2019
+12th Grade,In Public,Alcohol,1987,Legality,74.227918537,2019
+12th Grade,In Public,Alcohol,1988,Legality,75.028857741,2019
+12th Grade,In Public,Alcohol,1989,Legality,76.489154739,2019
+12th Grade,In Public,Alcohol,1990,Legality,77.890878509,2019
+12th Grade,In Public,Alcohol,1991,Legality,76.456155973,2019
+12th Grade,In Public,Alcohol,1992,Legality,75.896835336,2019
+12th Grade,In Public,Alcohol,1993,Legality,77.817213369,2019
+12th Grade,In Public,Alcohol,1994,Legality,73.053443745,2019
+12th Grade,In Public,Alcohol,1995,Legality,73.283318766,2019
+12th Grade,In Public,Alcohol,1996,Legality,70.779321795,2019
+12th Grade,In Public,Alcohol,1997,Legality,70.00998283,2019
+12th Grade,In Public,Alcohol,1998,Legality,69.4314542,2019
+12th Grade,In Public,Alcohol,1999,Legality,67.191895922,2019
+12th Grade,In Public,Alcohol,2000,Legality,70.018547334,2019
+12th Grade,In Public,Alcohol,2001,Legality,69.17446059,2019
+12th Grade,In Public,Alcohol,2002,Legality,69.144798564,2019
+12th Grade,In Public,Alcohol,2003,Legality,68.883896178,2019
+12th Grade,In Public,Alcohol,2004,Legality,69.503748664,2019
+12th Grade,In Public,Alcohol,2005,Legality,70.806905661,2019
+12th Grade,In Public,Alcohol,2006,Legality,72.823855721,2019
+12th Grade,In Public,Alcohol,2007,Legality,73.310066406,2019
+12th Grade,In Public,Alcohol,2008,Legality,74.549488658,2019
+12th Grade,In Public,Alcohol,2009,Legality,70.493809531,2019
+12th Grade,In Public,Alcohol,2010,Legality,71.541131693,2019
+12th Grade,In Public,Alcohol,2011,Legality,72.75590681,2019
+12th Grade,In Public,Alcohol,2012,Legality,70.801184367,2019
+12th Grade,In Public,Alcohol,2013,Legality,71.90380138,2019
+12th Grade,In Public,Alcohol,2014,Legality,71.692014827,2019
+12th Grade,In Public,Alcohol,2015,Legality,71.137148367,2019
+12th Grade,In Public,Alcohol,2016,Legality,71.846964639,2019
+12th Grade,In Public,Alcohol,2017,Legality,70.750404822,2019
+12th Grade,In Public,Alcohol,2018,Legality,74.698670797,2019
+12th Grade,In Public,Alcohol,2019,Legality,73.401634776,2019
+12th Grade,In Public,Alcohol,2021,Legality,67.363494396,2019
+12th Grade,In Public,Alcohol,2022,Legality,71.013493762,2019
+12th Grade,In Private,Amphetamines or Sedatives,1976,Legality,53.470463174,2019
+12th Grade,In Private,Amphetamines or Sedatives,1977,Legality,52.773715918,2019
+12th Grade,In Private,Amphetamines or Sedatives,1978,Legality,52.238870954,2019
+12th Grade,In Private,Amphetamines or Sedatives,1979,Legality,53.373259013,2019
+12th Grade,In Private,Amphetamines or Sedatives,1980,Legality,54.09749459,2019
+12th Grade,In Private,Amphetamines or Sedatives,1981,Legality,51.981744109,2019
+12th Grade,In Private,Amphetamines or Sedatives,1982,Legality,53.507811455,2019
+12th Grade,In Private,Amphetamines or Sedatives,1983,Legality,52.78272395,2019
+12th Grade,In Private,Amphetamines or Sedatives,1984,Legality,54.449916066,2019
+12th Grade,In Private,Amphetamines or Sedatives,1985,Legality,56.250611904,2019
+12th Grade,In Private,Amphetamines or Sedatives,1986,Legality,56.785625948,2019
+12th Grade,In Private,Amphetamines or Sedatives,1987,Legality,59.131844369,2019
+12th Grade,In Private,Amphetamines or Sedatives,1988,Legality,60.16290844,2019
+12th Grade,In Private,Amphetamines or Sedatives,1989,Legality,61.096774468,2019
+12th Grade,In Private,Amphetamines or Sedatives,1990,Legality,64.532069749,2019
+12th Grade,In Private,Amphetamines or Sedatives,1991,Legality,59.713554355,2019
+12th Grade,In Private,Amphetamines or Sedatives,1992,Legality,60.478517373,2019
+12th Grade,In Private,Amphetamines or Sedatives,1993,Legality,57.355426734,2019
+12th Grade,In Private,Amphetamines or Sedatives,1994,Legality,55.710080795,2019
+12th Grade,In Private,Amphetamines or Sedatives,1995,Legality,57.518641858,2019
+12th Grade,In Private,Amphetamines or Sedatives,1996,Legality,54.58955442,2019
+12th Grade,In Private,Amphetamines or Sedatives,1997,Legality,54.55209922,2019
+12th Grade,In Private,Amphetamines or Sedatives,1998,Legality,58.488431569,2019
+12th Grade,In Private,Amphetamines or Sedatives,1999,Legality,55.094051302,2019
+12th Grade,In Private,Amphetamines or Sedatives,2000,Legality,56.048031863,2019
+12th Grade,In Private,Amphetamines or Sedatives,2001,Legality,55.864214601,2019
+12th Grade,In Private,Amphetamines or Sedatives,2002,Legality,55.963090141,2019
+12th Grade,In Private,Amphetamines or Sedatives,2003,Legality,55.816605851,2019
+12th Grade,In Private,Amphetamines or Sedatives,2004,Legality,52.146967256,2019
+12th Grade,In Private,Amphetamines or Sedatives,2005,Legality,53.560916103,2019
+12th Grade,In Private,Amphetamines or Sedatives,2006,Legality,51.484350136,2019
+12th Grade,In Private,Amphetamines or Sedatives,2007,Legality,54.252526863,2019
+12th Grade,In Private,Amphetamines or Sedatives,2008,Legality,53.029696344,2019
+12th Grade,In Private,Amphetamines or Sedatives,2009,Legality,51.145879631,2019
+12th Grade,In Private,Amphetamines or Sedatives,2010,Legality,50.827554934,2019
+12th Grade,In Private,Amphetamines or Sedatives,2011,Legality,50.231625326,2019
+12th Grade,In Private,Amphetamines or Sedatives,2012,Legality,48.73949193,2019
+12th Grade,In Private,Amphetamines or Sedatives,2013,Legality,48.939825835,2019
+12th Grade,In Private,Amphetamines or Sedatives,2014,Legality,46.221365404,2019
+12th Grade,In Private,Amphetamines or Sedatives,2015,Legality,43.00100109,2019
+12th Grade,In Private,Amphetamines or Sedatives,2016,Legality,45.344633633,2019
+12th Grade,In Private,Amphetamines or Sedatives,2017,Legality,44.162328908,2019
+12th Grade,In Private,Amphetamines or Sedatives,2018,Legality,42.42671491,2019
+12th Grade,In Private,Amphetamines or Sedatives,2019,Legality,40.341057215,2019
+12th Grade,In Private,Amphetamines or Sedatives,2020,Legality,42.884989378,2019
+12th Grade,In Private,Amphetamines or Sedatives,2021,Legality,42.235652085,2019
+12th Grade,In Private,Amphetamines or Sedatives,2022,Legality,33.767743753,2019
+12th Grade,In Public,Amphetamines or Sedatives,1976,Legality,76.08722588,2019
+12th Grade,In Public,Amphetamines or Sedatives,1977,Legality,73.655971338,2019
+12th Grade,In Public,Amphetamines or Sedatives,1978,Legality,75.807075961,2019
+12th Grade,In Public,Amphetamines or Sedatives,1979,Legality,77.259095999,2019
+12th Grade,In Public,Amphetamines or Sedatives,1980,Legality,76.145345469,2019
+12th Grade,In Public,Amphetamines or Sedatives,1981,Legality,74.178201806,2019
+12th Grade,In Public,Amphetamines or Sedatives,1982,Legality,75.523554141,2019
+12th Grade,In Public,Amphetamines or Sedatives,1983,Legality,76.677659116,2019
+12th Grade,In Public,Amphetamines or Sedatives,1984,Legality,76.769294349,2019
+12th Grade,In Public,Amphetamines or Sedatives,1985,Legality,78.310360749,2019
+12th Grade,In Public,Amphetamines or Sedatives,1986,Legality,79.079601719,2019
+12th Grade,In Public,Amphetamines or Sedatives,1987,Legality,79.827935215,2019
+12th Grade,In Public,Amphetamines or Sedatives,1988,Legality,80.228015132,2019
+12th Grade,In Public,Amphetamines or Sedatives,1989,Legality,79.211486685,2019
+12th Grade,In Public,Amphetamines or Sedatives,1990,Legality,81.583723737,2019
+12th Grade,In Public,Amphetamines or Sedatives,1991,Legality,79.68033106,2019
+12th Grade,In Public,Amphetamines or Sedatives,1992,Legality,78.485368209,2019
+12th Grade,In Public,Amphetamines or Sedatives,1993,Legality,77.950768563,2019
+12th Grade,In Public,Amphetamines or Sedatives,1994,Legality,76.437095276,2019
+12th Grade,In Public,Amphetamines or Sedatives,1995,Legality,77.626374751,2019
+12th Grade,In Public,Amphetamines or Sedatives,1996,Legality,74.266021102,2019
+12th Grade,In Public,Amphetamines or Sedatives,1997,Legality,76.532590288,2019
+12th Grade,In Public,Amphetamines or Sedatives,1998,Legality,77.360667035,2019
+12th Grade,In Public,Amphetamines or Sedatives,1999,Legality,76.062746185,2019
+12th Grade,In Public,Amphetamines or Sedatives,2000,Legality,75.394992802,2019
+12th Grade,In Public,Amphetamines or Sedatives,2001,Legality,74.47517251,2019
+12th Grade,In Public,Amphetamines or Sedatives,2002,Legality,73.581348934,2019
+12th Grade,In Public,Amphetamines or Sedatives,2003,Legality,74.437596859,2019
+12th Grade,In Public,Amphetamines or Sedatives,2004,Legality,69.912071201,2019
+12th Grade,In Public,Amphetamines or Sedatives,2005,Legality,71.999161889,2019
+12th Grade,In Public,Amphetamines or Sedatives,2006,Legality,69.4491693,2019
+12th Grade,In Public,Amphetamines or Sedatives,2007,Legality,72.775453427,2019
+12th Grade,In Public,Amphetamines or Sedatives,2008,Legality,71.551904827,2019
+12th Grade,In Public,Amphetamines or Sedatives,2009,Legality,71.072132071,2019
+12th Grade,In Public,Amphetamines or Sedatives,2010,Legality,70.730159196,2019
+12th Grade,In Public,Amphetamines or Sedatives,2011,Legality,68.527968534,2019
+12th Grade,In Public,Amphetamines or Sedatives,2012,Legality,69.836004406,2019
+12th Grade,In Public,Amphetamines or Sedatives,2013,Legality,68.482053927,2019
+12th Grade,In Public,Amphetamines or Sedatives,2014,Legality,66.997916971,2019
+12th Grade,In Public,Amphetamines or Sedatives,2015,Legality,61.543745038,2019
+12th Grade,In Public,Amphetamines or Sedatives,2016,Legality,66.137852366,2019
+12th Grade,In Public,Amphetamines or Sedatives,2017,Legality,63.341076456,2019
+12th Grade,In Public,Amphetamines or Sedatives,2018,Legality,60.231176209,2019
+12th Grade,In Public,Amphetamines or Sedatives,2019,Legality,62.351739995,2019
+12th Grade,In Public,Amphetamines or Sedatives,2020,Legality,58.632375848,2019
+12th Grade,In Public,Amphetamines or Sedatives,2021,Legality,61.078138305,2019
+12th Grade,In Public,Amphetamines or Sedatives,2022,Legality,56.28358553,2019
+12th Grade,In Public,Cigarettes,1976,Legality,53.470463174,2019
+12th Grade,In Public,Cigarettes,1977,Legality,52.773715918,2019
+12th Grade,In Public,Cigarettes,1978,Legality,52.238870954,2019
+12th Grade,In Public,Cigarettes,1979,Legality,53.373259013,2019
+12th Grade,In Public,Cigarettes,1980,Legality,54.09749459,2019
+12th Grade,In Public,Cigarettes,1981,Legality,51.981744109,2019
+12th Grade,In Public,Cigarettes,1982,Legality,53.507811455,2019
+12th Grade,In Public,Cigarettes,1983,Legality,52.78272395,2019
+12th Grade,In Public,Cigarettes,1984,Legality,54.449916066,2019
+12th Grade,In Public,Cigarettes,1985,Legality,56.250611904,2019
+12th Grade,In Public,Cigarettes,1986,Legality,56.785625948,2019
+12th Grade,In Public,Cigarettes,1987,Legality,59.131844369,2019
+12th Grade,In Public,Cigarettes,1988,Legality,60.16290844,2019
+12th Grade,In Public,Cigarettes,1989,Legality,61.096774468,2019
+12th Grade,In Public,Cigarettes,1990,Legality,64.532069749,2019
+12th Grade,In Public,Cigarettes,1991,Legality,59.713554355,2019
+12th Grade,In Public,Cigarettes,1992,Legality,60.478517373,2019
+12th Grade,In Public,Cigarettes,1993,Legality,57.355426734,2019
+12th Grade,In Public,Cigarettes,1994,Legality,55.710080795,2019
+12th Grade,In Public,Cigarettes,1995,Legality,57.518641858,2019
+12th Grade,In Public,Cigarettes,1996,Legality,54.58955442,2019
+12th Grade,In Public,Cigarettes,1997,Legality,54.55209922,2019
+12th Grade,In Public,Cigarettes,1998,Legality,58.488431569,2019
+12th Grade,In Public,Cigarettes,1999,Legality,55.094051302,2019
+12th Grade,In Public,Cigarettes,2000,Legality,56.048031863,2019
+12th Grade,In Public,Cigarettes,2001,Legality,55.864214601,2019
+12th Grade,In Public,Cigarettes,2002,Legality,55.963090141,2019
+12th Grade,In Public,Cigarettes,2003,Legality,55.816605851,2019
+12th Grade,In Public,Cigarettes,2004,Legality,52.146967256,2019
+12th Grade,In Public,Cigarettes,2005,Legality,53.560916103,2019
+12th Grade,In Public,Cigarettes,2006,Legality,51.484350136,2019
+12th Grade,In Public,Cigarettes,2007,Legality,54.252526863,2019
+12th Grade,In Public,Cigarettes,2008,Legality,53.029696344,2019
+12th Grade,In Public,Cigarettes,2009,Legality,51.145879631,2019
+12th Grade,In Public,Cigarettes,2010,Legality,50.827554934,2019
+12th Grade,In Public,Cigarettes,2011,Legality,50.231625326,2019
+12th Grade,In Public,Cigarettes,2012,Legality,48.73949193,2019
+12th Grade,In Public,Cigarettes,2013,Legality,48.939825835,2019
+12th Grade,In Public,Cigarettes,2014,Legality,46.221365404,2019
+12th Grade,In Public,Cigarettes,2015,Legality,43.00100109,2019
+12th Grade,In Public,Cigarettes,2016,Legality,45.344633633,2019
+12th Grade,In Public,Cigarettes,2017,Legality,44.162328908,2019
+12th Grade,In Public,Cigarettes,2018,Legality,42.42671491,2019
+12th Grade,In Public,Cigarettes,2019,Legality,40.341057215,2019
+12th Grade,In Public,Cigarettes,2020,Legality,42.884989378,2019
+12th Grade,In Public,Cigarettes,2021,Legality,42.235652085,2019
+12th Grade,In Public,Cigarettes,2022,Legality,33.767743753,2019
+12th Grade,In Private,Heroin,1976,Legality,72.388575198,2019
+12th Grade,In Private,Heroin,1977,Legality,69.180812557,2019
+12th Grade,In Private,Heroin,1978,Legality,68.784011025,2019
+12th Grade,In Private,Heroin,1979,Legality,68.476801754,2019
+12th Grade,In Private,Heroin,1980,Legality,70.278959939,2019
+12th Grade,In Private,Heroin,1981,Legality,68.798982531,2019
+12th Grade,In Private,Heroin,1982,Legality,69.316923281,2019
+12th Grade,In Private,Heroin,1983,Legality,69.70741116,2019
+12th Grade,In Private,Heroin,1984,Legality,69.756959903,2019
+12th Grade,In Private,Heroin,1985,Legality,73.287185778,2019
+12th Grade,In Private,Heroin,1986,Legality,71.713780443,2019
+12th Grade,In Private,Heroin,1987,Legality,74.997833401,2019
+12th Grade,In Private,Heroin,1988,Legality,74.187211748,2019
+12th Grade,In Private,Heroin,1989,Legality,74.425345447,2019
+12th Grade,In Private,Heroin,1990,Legality,76.43974769,2019
+12th Grade,In Private,Heroin,1991,Legality,72.828142847,2019
+12th Grade,In Private,Heroin,1992,Legality,71.432133497,2019
+12th Grade,In Private,Heroin,1993,Legality,70.741373064,2019
+12th Grade,In Private,Heroin,1994,Legality,70.144188808,2019
+12th Grade,In Private,Heroin,1995,Legality,72.24777257,2019
+12th Grade,In Private,Heroin,1996,Legality,70.826195595,2019
+12th Grade,In Private,Heroin,1997,Legality,70.58070317,2019
+12th Grade,In Private,Heroin,1998,Legality,73.929649571,2019
+12th Grade,In Private,Heroin,1999,Legality,72.937215152,2019
+12th Grade,In Private,Heroin,2000,Legality,71.085278388,2019
+12th Grade,In Private,Heroin,2001,Legality,70.598526885,2019
+12th Grade,In Private,Heroin,2002,Legality,73.570072852,2019
+12th Grade,In Private,Heroin,2003,Legality,73.075411735,2019
+12th Grade,In Private,Heroin,2004,Legality,72.022506496,2019
+12th Grade,In Private,Heroin,2005,Legality,71.330410826,2019
+12th Grade,In Private,Heroin,2006,Legality,71.556686946,2019
+12th Grade,In Private,Heroin,2007,Legality,72.458650765,2019
+12th Grade,In Private,Heroin,2008,Legality,72.004488169,2019
+12th Grade,In Private,Heroin,2009,Legality,71.319304062,2019
+12th Grade,In Private,Heroin,2010,Legality,70.141826805,2019
+12th Grade,In Private,Heroin,2011,Legality,68.81658209,2019
+12th Grade,In Private,Heroin,2012,Legality,68.916338977,2019
+12th Grade,In Private,Heroin,2013,Legality,70.960083027,2019
+12th Grade,In Private,Heroin,2014,Legality,68.392259362,2019
+12th Grade,In Private,Heroin,2015,Legality,64.083649502,2019
+12th Grade,In Private,Heroin,2016,Legality,69.594290608,2019
+12th Grade,In Private,Heroin,2017,Legality,68.491748842,2019
+12th Grade,In Private,Heroin,2018,Legality,66.433733111,2019
+12th Grade,In Private,Heroin,2019,Legality,67.927270638,2019
+12th Grade,In Private,Heroin,2020,Legality,62.643427442,2019
+12th Grade,In Private,Heroin,2021,Legality,65.236864409,2019
+12th Grade,In Private,Heroin,2022,Legality,62.827816765,2019
+12th Grade,In Public,Heroin,1976,Legality,84.817237704,2019
+12th Grade,In Public,Heroin,1977,Legality,81.0269704,2019
+12th Grade,In Public,Heroin,1978,Legality,82.486326308,2019
+12th Grade,In Public,Heroin,1979,Legality,84.019661532,2019
+12th Grade,In Public,Heroin,1980,Legality,83.76964305,2019
+12th Grade,In Public,Heroin,1981,Legality,82.413829264,2019
+12th Grade,In Public,Heroin,1982,Legality,82.5251615,2019
+12th Grade,In Public,Heroin,1983,Legality,83.67092772,2019
+12th Grade,In Public,Heroin,1984,Legality,83.37389139,2019
+12th Grade,In Public,Heroin,1985,Legality,85.800696042,2019
+12th Grade,In Public,Heroin,1986,Legality,84.996676187,2019
+12th Grade,In Public,Heroin,1987,Legality,86.245181576,2019
+12th Grade,In Public,Heroin,1988,Legality,86.648259018,2019
+12th Grade,In Public,Heroin,1989,Legality,85.181766384,2019
+12th Grade,In Public,Heroin,1990,Legality,86.730200079,2019
+12th Grade,In Public,Heroin,1991,Legality,85.380396844,2019
+12th Grade,In Public,Heroin,1992,Legality,83.32252736,2019
+12th Grade,In Public,Heroin,1993,Legality,84.494231629,2019
+12th Grade,In Public,Heroin,1994,Legality,82.937338311,2019
+12th Grade,In Public,Heroin,1995,Legality,84.750165571,2019
+12th Grade,In Public,Heroin,1996,Legality,82.33208449,2019
+12th Grade,In Public,Heroin,1997,Legality,84.316698848,2019
+12th Grade,In Public,Heroin,1998,Legality,86.43409145,2019
+12th Grade,In Public,Heroin,1999,Legality,84.236807757,2019
+12th Grade,In Public,Heroin,2000,Legality,83.924535981,2019
+12th Grade,In Public,Heroin,2001,Legality,81.657821203,2019
+12th Grade,In Public,Heroin,2002,Legality,83.673839297,2019
+12th Grade,In Public,Heroin,2003,Legality,83.243589165,2019
+12th Grade,In Public,Heroin,2004,Legality,80.916149937,2019
+12th Grade,In Public,Heroin,2005,Legality,81.95108849,2019
+12th Grade,In Public,Heroin,2006,Legality,80.106593962,2019
+12th Grade,In Public,Heroin,2007,Legality,81.658235211,2019
+12th Grade,In Public,Heroin,2008,Legality,80.600176967,2019
+12th Grade,In Public,Heroin,2009,Legality,80.450663921,2019
+12th Grade,In Public,Heroin,2010,Legality,80.036203451,2019
+12th Grade,In Public,Heroin,2011,Legality,79.098379769,2019
+12th Grade,In Public,Heroin,2012,Legality,80.627717692,2019
+12th Grade,In Public,Heroin,2013,Legality,80.620631496,2019
+12th Grade,In Public,Heroin,2014,Legality,78.716184565,2019
+12th Grade,In Public,Heroin,2015,Legality,74.080715198,2019
+12th Grade,In Public,Heroin,2016,Legality,79.218197424,2019
+12th Grade,In Public,Heroin,2017,Legality,77.326927483,2019
+12th Grade,In Public,Heroin,2018,Legality,74.835640055,2019
+12th Grade,In Public,Heroin,2019,Legality,77.239599126,2019
+12th Grade,In Public,Heroin,2020,Legality,71.604063346,2019
+12th Grade,In Public,Heroin,2021,Legality,74.809205719,2019
+12th Grade,In Public,Heroin,2022,Legality,75.053870036,2019
+12th Grade,In Private,LSDLeg1,1976,Legality,65.148445897,2019
+12th Grade,In Private,LSDLeg1,1977,Legality,63.332399116,2019
+12th Grade,In Private,LSDLeg1,1978,Legality,62.665727245,2019
+12th Grade,In Private,LSDLeg1,1979,Legality,62.378437323,2019
+12th Grade,In Private,LSDLeg1,1980,Legality,65.786928938,2019
+12th Grade,In Private,LSDLeg1,1981,Legality,62.580141181,2019
+12th Grade,In Private,LSDLeg1,1982,Legality,67.099125093,2019
+12th Grade,In Private,LSDLeg1,1983,Legality,66.676832392,2019
+12th Grade,In Private,LSDLeg1,1984,Legality,67.877732981,2019
+12th Grade,In Private,LSDLeg1,1985,Legality,70.613572455,2019
+12th Grade,In Private,LSDLeg1,1986,Legality,69.017230921,2019
+12th Grade,In Private,LSDLeg1,1987,Legality,70.784448773,2019
+12th Grade,In Private,LSDLeg1,1988,Legality,71.515006594,2019
+12th Grade,In Private,LSDLeg1,1989,Legality,71.570162968,2019
+12th Grade,In Private,LSDLeg1,1990,Legality,72.893003466,2019
+12th Grade,In Private,LSDLeg1,1991,Legality,68.11774052,2019
+12th Grade,In Private,LSDLeg1,1992,Legality,67.189797682,2019
+12th Grade,In Private,LSDLeg1,1993,Legality,63.510431497,2019
+12th Grade,In Private,LSDLeg1,1994,Legality,63.206978222,2019
+12th Grade,In Private,LSDLeg1,1995,Legality,64.267708767,2019
+12th Grade,In Private,LSDLeg1,1996,Legality,61.977057967,2019
+12th Grade,In Private,LSDLeg1,1997,Legality,61.173206348,2019
+12th Grade,In Private,LSDLeg1,1998,Legality,64.713933396,2019
+12th Grade,In Private,LSDLeg1,1999,Legality,62.601937376,2019
+12th Grade,In Private,LSDLeg1,2000,Legality,62.865751627,2019
+12th Grade,In Private,LSDLeg1,2001,Legality,63.096011535,2019
+12th Grade,In Private,LSDLeg1,2002,Legality,64.17472325,2019
+12th Grade,In Private,LSDLeg1,2003,Legality,64.162282674,2019
+12th Grade,In Private,LSDLeg1,2004,Legality,64.379195002,2019
+12th Grade,In Private,LSDLeg1,2005,Legality,63.647367944,2019
+12th Grade,In Private,LSDLeg1,2006,Legality,62.342799165,2019
+12th Grade,In Private,LSDLeg1,2007,Legality,63.557783074,2019
+12th Grade,In Private,LSDLeg1,2008,Legality,60.92699962,2019
+12th Grade,In Private,LSDLeg1,2009,Legality,60.173772413,2019
+12th Grade,In Private,LSDLeg1,2010,Legality,56.156104767,2019
+12th Grade,In Private,LSDLeg1,2011,Legality,56.970217285,2019
+12th Grade,In Private,LSDLeg1,2012,Legality,56.365208684,2019
+12th Grade,In Private,LSDLeg1,2013,Legality,57.571317996,2019
+12th Grade,In Private,LSDLeg1,2014,Legality,54.043199858,2019
+12th Grade,In Private,LSDLeg1,2015,Legality,47.577758932,2019
+12th Grade,In Private,LSDLeg1,2016,Legality,50.562552184,2019
+12th Grade,In Private,LSDLeg1,2017,Legality,48.315016241,2019
+12th Grade,In Private,LSDLeg1,2018,Legality,44.309075806,2019
+12th Grade,In Private,LSDLeg1,2019,Legality,46.145192719,2019
+12th Grade,In Private,LSDLeg1,2020,Legality,40.068687834,2019
+12th Grade,In Private,LSDLeg1,2021,Legality,39.784358516,2019
+12th Grade,In Public,LSD,1976,Legality,81.90181684,2019
+12th Grade,In Public,LSD,1977,Legality,79.335380903,2019
+12th Grade,In Public,LSD,1978,Legality,80.696263773,2019
+12th Grade,In Public,LSD,1979,Legality,81.450596093,2019
+12th Grade,In Public,LSD,1980,Legality,82.787062899,2019
+12th Grade,In Public,LSD,1981,Legality,80.669561189,2019
+12th Grade,In Public,LSD,1982,Legality,82.096352188,2019
+12th Grade,In Public,LSD,1983,Legality,82.768098227,2019
+12th Grade,In Public,LSD,1984,Legality,82.443080582,2019
+12th Grade,In Public,LSD,1985,Legality,84.774102675,2019
+12th Grade,In Public,LSD,1986,Legality,84.855478641,2019
+12th Grade,In Public,LSD,1987,Legality,85.229144039,2019
+12th Grade,In Public,LSD,1988,Legality,86.025543069,2019
+12th Grade,In Public,LSD,1989,Legality,84.410507218,2019
+12th Grade,In Public,LSD,1990,Legality,84.931287653,2019
+12th Grade,In Public,LSD,1991,Legality,83.901194087,2019
+12th Grade,In Public,LSD,1992,Legality,82.157057412,2019
+12th Grade,In Public,LSD,1993,Legality,82.050135074,2019
+12th Grade,In Public,LSD,1994,Legality,80.456985739,2019
+12th Grade,In Public,LSD,1995,Legality,81.548696033,2019
+12th Grade,In Public,LSD,1996,Legality,79.230922203,2019
+12th Grade,In Public,LSD,1997,Legality,80.302703357,2019
+12th Grade,In Public,LSD,1998,Legality,82.7360669,2019
+12th Grade,In Public,LSD,1999,Legality,80.402660294,2019
+12th Grade,In Public,LSD,2000,Legality,80.366066996,2019
+12th Grade,In Public,LSD,2001,Legality,78.845448084,2019
+12th Grade,In Public,LSD,2002,Legality,79.946508369,2019
+12th Grade,In Public,LSD,2003,Legality,79.105595074,2019
+12th Grade,In Public,LSD,2004,Legality,77.007175661,2019
+12th Grade,In Public,LSD,2005,Legality,77.389869287,2019
+12th Grade,In Public,LSD,2006,Legality,75.020108462,2019
+12th Grade,In Public,LSD,2007,Legality,76.946245663,2019
+12th Grade,In Public,LSD,2008,Legality,74.222494448,2019
+12th Grade,In Public,LSD,2009,Legality,74.752385106,2019
+12th Grade,In Public,LSD,2010,Legality,72.279943228,2019
+12th Grade,In Public,LSD,2011,Legality,73.310644094,2019
+12th Grade,In Public,LSD,2012,Legality,72.804577789,2019
+12th Grade,In Public,LSD,2013,Legality,73.920857992,2019
+12th Grade,In Public,LSD,2014,Legality,71.924542695,2019
+12th Grade,In Public,LSD,2015,Legality,66.852946727,2019
+12th Grade,In Public,LSD,2016,Legality,71.910729432,2019
+12th Grade,In Public,LSD,2017,Legality,68.585507401,2019
+12th Grade,In Public,LSD,2018,Legality,65.409253892,2019
+12th Grade,In Public,LSD,2019,Legality,68.505331844,2019
+12th Grade,In Public,LSD,2020,Legality,59.124325427,2019
+12th Grade,In Public,LSD,2021,Legality,63.682831576,2019
+12th Grade,In Public,LSD,2022,Legality,60.569219204,2019
+12th Grade,In Private,Marijuana,1976,Legality,27.485490361,2019
+12th Grade,In Private,Marijuana,1977,Legality,26.747207928,2019
+12th Grade,In Private,Marijuana,1978,Legality,25.36691792,2019
+12th Grade,In Private,Marijuana,1979,Legality,28.019623385,2019
+12th Grade,In Private,Marijuana,1980,Legality,28.904233029,2019
+12th Grade,In Private,Marijuana,1981,Legality,35.35913017,2019
+12th Grade,In Private,Marijuana,1982,Legality,36.588878074,2019
+12th Grade,In Private,Marijuana,1983,Legality,37.816672143,2019
+12th Grade,In Private,Marijuana,1984,Legality,41.587413955,2019
+12th Grade,In Private,Marijuana,1985,Legality,44.683147408,2019
+12th Grade,In Private,Marijuana,1986,Legality,43.784151893,2019
+12th Grade,In Private,Marijuana,1987,Legality,47.586680595,2019
+12th Grade,In Private,Marijuana,1988,Legality,51.763743887,2019
+12th Grade,In Private,Marijuana,1989,Legality,51.455107522,2019
+12th Grade,In Private,Marijuana,1990,Legality,56.031610106,2019
+12th Grade,In Private,Marijuana,1991,Legality,51.612235791,2019
+12th Grade,In Private,Marijuana,1992,Legality,52.395688732,2019
+12th Grade,In Private,Marijuana,1993,Legality,48.034098162,2019
+12th Grade,In Private,Marijuana,1994,Legality,42.872066746,2019
+12th Grade,In Private,Marijuana,1995,Legality,44.018831466,2019
+12th Grade,In Private,Marijuana,1996,Legality,40.405948018,2019
+12th Grade,In Private,Marijuana,1997,Legality,38.793641584,2019
+12th Grade,In Private,Marijuana,1998,Legality,39.814223227,2019
+12th Grade,In Private,Marijuana,1999,Legality,39.279920311,2019
+12th Grade,In Private,Marijuana,2000,Legality,38.824846125,2019
+12th Grade,In Private,Marijuana,2001,Legality,39.146159184,2019
+12th Grade,In Private,Marijuana,2002,Legality,38.426579102,2019
+12th Grade,In Private,Marijuana,2003,Legality,40.256387478,2019
+12th Grade,In Private,Marijuana,2004,Legality,41.417139846,2019
+12th Grade,In Private,Marijuana,2005,Legality,40.674259393,2019
+12th Grade,In Private,Marijuana,2006,Legality,42.279451881,2019
+12th Grade,In Private,Marijuana,2007,Legality,38.681689905,2019
+12th Grade,In Private,Marijuana,2008,Legality,39.264350047,2019
+12th Grade,In Private,Marijuana,2009,Legality,36.676307841,2019
+12th Grade,In Private,Marijuana,2010,Legality,32.788795163,2019
+12th Grade,In Private,Marijuana,2011,Legality,34.221426504,2019
+12th Grade,In Private,Marijuana,2012,Legality,32.96027899,2019
+12th Grade,In Private,Marijuana,2013,Legality,32.049802817,2019
+12th Grade,In Private,Marijuana,2014,Legality,28.454106993,2019
+12th Grade,In Private,Marijuana,2015,Legality,26.453856473,2019
+12th Grade,In Private,Marijuana,2016,Legality,23.787403369,2019
+12th Grade,In Private,Marijuana,2017,Legality,22.881001358,2019
+12th Grade,In Private,Marijuana,2018,Legality,21.708673179,2019
+12th Grade,In Private,Marijuana,2019,Legality,20.538113634,2019
+12th Grade,In Private,Marijuana,2020,Legality,23.623721586,2019
+12th Grade,In Private,Marijuana,2021,Legality,16.850899383,2019
+12th Grade,In Private,Marijuana,2022,Legality,15.313273939,2019
+12th Grade,In Public,Marijuana,1976,Legality,59.070641584,2019
+12th Grade,In Public,Marijuana,1977,Legality,58.730227702,2019
+12th Grade,In Public,Marijuana,1978,Legality,59.475809075,2019
+12th Grade,In Public,Marijuana,1979,Legality,61.77982457,2019
+12th Grade,In Public,Marijuana,1980,Legality,66.050023443,2019
+12th Grade,In Public,Marijuana,1981,Legality,67.361874692,2019
+12th Grade,In Public,Marijuana,1982,Legality,72.806744506,2019
+12th Grade,In Public,Marijuana,1983,Legality,73.560724405,2019
+12th Grade,In Public,Marijuana,1984,Legality,75.225326786,2019
+12th Grade,In Public,Marijuana,1985,Legality,78.192909763,2019
+12th Grade,In Public,Marijuana,1986,Legality,78.865692286,2019
+12th Grade,In Public,Marijuana,1987,Legality,79.658841824,2019
+12th Grade,In Public,Marijuana,1988,Legality,81.277037052,2019
+12th Grade,In Public,Marijuana,1989,Legality,80.000447409,2019
+12th Grade,In Public,Marijuana,1990,Legality,81.930366044,2019
+12th Grade,In Public,Marijuana,1991,Legality,79.820489322,2019
+12th Grade,In Public,Marijuana,1992,Legality,78.315485978,2019
+12th Grade,In Public,Marijuana,1993,Legality,77.335626224,2019
+12th Grade,In Public,Marijuana,1994,Legality,72.533429807,2019
+12th Grade,In Public,Marijuana,1995,Legality,72.926031304,2019
+12th Grade,In Public,Marijuana,1996,Legality,70.033691798,2019
+12th Grade,In Public,Marijuana,1997,Legality,69.437574821,2019
+12th Grade,In Public,Marijuana,1998,Legality,72.152543085,2019
+12th Grade,In Public,Marijuana,1999,Legality,71.521608199,2019
+12th Grade,In Public,Marijuana,2000,Legality,72.13770395,2019
+12th Grade,In Public,Marijuana,2001,Legality,68.274428358,2019
+12th Grade,In Public,Marijuana,2002,Legality,67.639365675,2019
+12th Grade,In Public,Marijuana,2003,Legality,68.627596062,2019
+12th Grade,In Public,Marijuana,2004,Legality,69.153084267,2019
+12th Grade,In Public,Marijuana,2005,Legality,69.570542415,2019
+12th Grade,In Public,Marijuana,2006,Legality,68.539842399,2019
+12th Grade,In Public,Marijuana,2007,Legality,69.43422487,2019
+12th Grade,In Public,Marijuana,2008,Legality,70.179274156,2019
+12th Grade,In Public,Marijuana,2009,Legality,67.067916938,2019
+12th Grade,In Public,Marijuana,2010,Legality,62.434603421,2019
+12th Grade,In Public,Marijuana,2011,Legality,63.811374616,2019
+12th Grade,In Public,Marijuana,2012,Legality,64.378957522,2019
+12th Grade,In Public,Marijuana,2013,Legality,61.329700862,2019
+12th Grade,In Public,Marijuana,2014,Legality,57.040970828,2019
+12th Grade,In Public,Marijuana,2015,Legality,55.738305942,2019
+12th Grade,In Public,Marijuana,2016,Legality,57.008402515,2019
+12th Grade,In Public,Marijuana,2017,Legality,50.327320482,2019
+12th Grade,In Public,Marijuana,2018,Legality,47.900258496,2019
+12th Grade,In Public,Marijuana,2019,Legality,49.086436751,2019
+12th Grade,In Public,Marijuana,2020,Legality,45.399637138,2019
+12th Grade,In Public,Marijuana,2021,Legality,41.965726137,2019
+12th Grade,In Public,Marijuana,2022,Legality,38.491558347,2019
