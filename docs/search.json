@@ -4,7 +4,7 @@
     "href": "panel/substance-use/index.html",
     "title": "Adult and Young Adult Substance Use",
     "section": "",
-    "text": "import {\n  title,\n  plots,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof dataSwitchButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nhtml`&lt;div&gt;${plots}&lt;/di&gt;`\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nhtml`&lt;div style=\"display: flex; gap: 3em\"&gt; ${viewof dataSwitchButton} ${viewof zoomInButton} &lt;/div&gt;`\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nhtml`${footnotes}`\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
+    "text": "import {\n  title,\n  plots,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof dataSwitchButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nhtml`&lt;div&gt;${plots}&lt;/di&gt;`\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nhtml`&lt;div style=\"display: flex; gap: 3em\"&gt; ${viewof dataSwitchButton} ${viewof zoomInButton} &lt;/div&gt;`\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nhtml`${footnotes}`\n\n\n\n\n\n\n\ndownloadData"
   },
   {
     "objectID": "panel/index.html",
