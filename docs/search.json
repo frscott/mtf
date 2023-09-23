@@ -1,59 +1,10 @@
 [
   {
-    "objectID": "panel/substance-use/index.html",
-    "href": "panel/substance-use/index.html",
-    "title": "Adult and Young Adult Substance Use",
-    "section": "",
-    "text": "import {\n  title,\n  plots,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof dataSwitchButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nhtml`&lt;div&gt;${plots}&lt;/di&gt;`\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nhtml`&lt;div style=\"display: flex; gap: 3em\"&gt; ${viewof dataSwitchButton} ${viewof zoomInButton} &lt;/div&gt;`\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nhtml`${footnotes}`\n\n\n\n\n\n\n\ndownloadData"
-  },
-  {
-    "objectID": "panel/index.html",
-    "href": "panel/index.html",
-    "title": "Ages 19-30 & 35-50",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAdult and Young Adult Substance Use\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollege and Noncollege Substance Use\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographic Subgroup Differences\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "panel/college-noncollege/index.html",
-    "href": "panel/college-noncollege/index.html",
-    "title": "College and Noncollege Substance Use",
-    "section": "",
-    "text": "College Sex Differences\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollege and Noncollege Substance Use\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Monitoring the Future Dashboards",
     "section": "",
-    "text": "A short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#grades-8-10-12",
-    "href": "index.html#grades-8-10-12",
-    "title": "Monitoring the Future Dashboards",
-    "section": "",
-    "text": "A short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#ages-19-30-and-35-50",
-    "href": "index.html#ages-19-30-and-35-50",
-    "title": "Monitoring the Future Dashboards",
-    "section": "Ages 19-30 and 35-50",
-    "text": "Ages 19-30 and 35-50\n\n\n\n\n\n\n\n\n\n\nAdult and Young Adult Substance Use\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollege and Noncollege Substance Use\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographic Subgroup Differences\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "faq/index.html",
-    "href": "faq/index.html",
-    "title": "Frequently Asked Questions",
-    "section": "",
-    "text": "What is the Monitoring the Future study?\nClick here for more about the MTF study and its design.\n\n\nWhere can I find MTF data?\nData Products page on our website.\n\n\nHow can I keep up to date with MTF news?\nPress Releases page on our website."
-  },
-  {
-    "objectID": "bx-by/social-context/index.html",
-    "href": "bx-by/social-context/index.html",
-    "title": "Social Context",
-    "section": "",
-    "text": "Availability\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExposure\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriends’ Attitudes\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFriends’ Use\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParent Disapproval\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource of Prescription Drug\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Drug Prevalence\n\n\n8th, 10th, and 12th Grade Estimates\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "bx-by/drug-prevalence/index.html",
@@ -63,80 +14,10 @@
     "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
   },
   {
-    "objectID": "bx-by/attitudes/perceived-risk/index.html",
-    "href": "bx-by/attitudes/perceived-risk/index.html",
-    "title": "Perceived Risk",
-    "section": "",
-    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
-  },
-  {
-    "objectID": "bx-by/attitudes/disapproval/index.html",
-    "href": "bx-by/attitudes/disapproval/index.html",
-    "title": "Disapproval",
-    "section": "",
-    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
-  },
-  {
-    "objectID": "bx-by/attitudes/index.html",
-    "href": "bx-by/attitudes/index.html",
-    "title": "Attitudes",
-    "section": "",
-    "text": "Disapproval\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLegality of Drug Use\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarijuana Laws\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerceived Risk\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "bx-by/attitudes/legality/index.html",
-    "href": "bx-by/attitudes/legality/index.html",
-    "title": "Legality of Drug Use",
-    "section": "",
-    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
-  },
-  {
-    "objectID": "bx-by/index.html",
-    "href": "bx-by/index.html",
-    "title": "Grades 8, 10, 12",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDrug Prevalence\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAttitudes\n\n\nA short description could go here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial Context\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Ask a Question",
     "section": "",
     "text": "html`\n&lt;form action=\"https://formsubmit.co/frscott@umich.edu\" method=\"POST\"&gt;\n     &lt;input size=\"38\" type=\"text\" name=\"name\" placeholder=\"Your Name\" required&gt;\n     &lt;input size=\"39\" type=\"email\" name=\"email\" placeholder=\"Your Email\" required&gt;\n     &lt;br&gt;\n     &lt;textarea placeholder=\"How can we help you?\" name=\"message\" rows=\"6\" cols=\"80\"&gt;&lt;/textarea&gt;\n     &lt;br&gt;\n     &lt;button type=\"submit\"&gt;Send&lt;/button&gt;\n&lt;/form&gt;`"
-  },
-  {
-    "objectID": "flowchart.html",
-    "href": "flowchart.html",
-    "title": "MTF Dashboard Navigation Flowchart",
-    "section": "",
-    "text": "flowchart LR\n  A(Home Page) --&gt; B(BX/BY Dashboards)\n  A --&gt; C(Panel Dashboards)\n  B --&gt; D(Drug Prevalence)\n  B --&gt; E(Attitudes)\n  E --&gt; G(Perceived Risk)\n  E --&gt; H(Disapproval)\n  E --&gt; I(Legality of Drug Use)\n  E --&gt; J(Marijuana Laws)\n  B --&gt; F(Social Context)\n  F --&gt; K(Availability)\n  F --&gt; L(Exposure)\n  F --&gt; M(Friends Attitudes)\n  F --&gt; N(Friends Use)\n  F --&gt; O(Parent Disapproval)\n  F --&gt; P(Source of Prescription)\n  C --&gt; Q(Young Adult/Adult Substance Use)\n  C --&gt; R(College and Noncollege Differences)\n  C --&gt; S(Demographic Subgroup Differences)\n  R --&gt; T(College and Noncollege Differences)\n  R --&gt; U(College Student Sex Differences)\n  S --&gt; V(Young Adult/Adult Sex Difference)\n  S --&gt; W(Young Adult/Adult Race/Ethnicity Differences)"
-  },
-  {
-    "objectID": "listing-options.html",
-    "href": "listing-options.html",
-    "title": "Listing Options",
-    "section": "",
-    "text": "Currently, I have listing pages set to Grid but any of these options can be applied."
-  },
-  {
-    "objectID": "listing-options.html#dashboard-listing-types",
-    "href": "listing-options.html#dashboard-listing-types",
-    "title": "Listing Options",
-    "section": "Dashboard Listing Types",
-    "text": "Dashboard Listing Types\n\nGridListTable\n\n\nGrid style listings display a card for each item.\n\n\n\nList will appear in full width rows that display the item’s metadata (author and date), title, description, and image.\n\n\n\nThe table listing style provides a traditional tabular layout."
-  },
-  {
-    "objectID": "listing-options.html#listing-field-options",
-    "href": "listing-options.html#listing-field-options",
-    "title": "Listing Options",
-    "section": "Listing Field Options",
-    "text": "Listing Field Options\nCurrently only title, image, description, and date show on each listing card but more can be added. Here is the list of field options.\n\n\n\n\n\n\n\n\nField Name\nDescription\n\n\n\n\n\ntitle\nThe title of the item, read from the title field of the front matter (or the first H1 of the document).\n\n\n\nsubtitle\nThe subtitle of the item, read from the subtitle field of the front matter.\n\n\n\nauthor\nThe author of the item, read from the author field of the front matter.\n\n\n\ndescription\nThe description of the item, read from the description or abstract field of the front matter or from the first paragraph of the document.\n\n\n\ndate\nThe date of the item, read from the date field of the front matter.\n\n\n\nimage\nThe image for this item, read from the image field of the front matter, or automatically discovered by taking the first of an image of class preview-image, an image with a file name starting with feature, cover, or thumbnail, or the first image to appear in the document.\n\n\n\nimage-alt\nThe alt text for the image for this item.\n\n\nreading-time\nAn estimate of the reading time for this item, computed by counting the words in the item and assuming a reading speed of 200 words per minute.\n\n\n\ncategories\nCategories for the item, read from the categories field of the front matter.\n\n\n\nfilename\nThe name of the input file.\n\n\n\nfile-modified\nThe last modified date of this input file."
-  },
-  {
-    "objectID": "panel/demographic-subgroups/index.html",
-    "href": "panel/demographic-subgroups/index.html",
-    "title": "Demographic Subgroup Differences",
-    "section": "",
-    "text": "Race/Ethnicity Differences\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSex Differences\n\n\nA short description could go here.\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

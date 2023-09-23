@@ -72,41 +72,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-bx-by'] = new List('listing-bx-by', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-panel .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-panel'] = new List('listing-panel', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -150,33 +122,15 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./bx-by/index.html" rel="" target="">
- <span class="menu-text">Grades 8, 10, 12</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./panel/index.html" rel="" target="">
- <span class="menu-text">Ages 19-30 &amp; 35-50</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Help</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
         <li>
-    <a class="dropdown-item" href="./faq/index.html" rel="" target=""><i class="bi bi-chat-right-text" role="img">
-</i> 
- <span class="dropdown-text">Frequently Asked Questions</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./contact.html" rel="" target=""><i class="bi bi-question-square" role="img">
 </i> 
  <span class="dropdown-text">Ask a Question</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/frscott/mtf/issues" rel="" target=""><i class="bi bi-bug" role="img">
-</i> 
- <span class="dropdown-text">Report a Problem</span></a>
   </li>  
     </ul>
   </li>
@@ -212,11 +166,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="grades-8-10-12" class="level2">
-<h2 class="anchored" data-anchor-id="grades-8-10-12">Grades 8, 10, 12</h2>
 <div id="listing-bx-by" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1690206243306" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1695407349306" data-listing-reading-time-sort="1">
 <a href="./bx-by/drug-prevalence/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -227,138 +179,11 @@ ul.task-list li input[type="checkbox"] {
 Drug Prevalence
 </h5>
 <div class="card-text listing-description">
-A short description could go here.
+8th, 10th, and 12th Grade Estimates
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
 
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1689792688758" data-listing-reading-time-sort="1">
-<a href="./bx-by/attitudes/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="bx-by\attitudes\disapproval\disapproval.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Attitudes
-</h5>
-<div class="card-text listing-description">
-A short description could go here.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1688401720000" data-listing-file-modified-sort="1688401720466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./bx-by/social-context/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./bx-by/social-context/risk.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Social Context
-</h5>
-<div class="card-text listing-description">
-A short description could go here.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jul 3, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="ages-19-30-and-35-50" class="level2">
-<h2 class="anchored" data-anchor-id="ages-19-30-and-35-50">Ages 19-30 and 35-50</h2>
-<div id="listing-panel" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1690481120425" data-listing-reading-time-sort="1">
-<a href="./panel/substance-use/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./panel/substance-use/prevalence.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Adult and Young Adult Substance Use
-</h5>
-<div class="card-text listing-description">
-A short description could go here.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1688402375000" data-listing-file-modified-sort="1688402375508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./panel/college-noncollege/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./panel/college-noncollege/prevalence.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-College and Noncollege Substance Use
-</h5>
-<div class="card-text listing-description">
-A short description could go here.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jul 3, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1688402373000" data-listing-file-modified-sort="1688402373977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./panel/demographic-subgroups/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./panel/demographic-subgroups/prevalence.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Demographic Subgroup Differences
-</h5>
-<div class="card-text listing-description">
-A short description could go here.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jul 3, 2023
 </div>
 </div>
 </div>
@@ -373,7 +198,6 @@ No matching items
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
