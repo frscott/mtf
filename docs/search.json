@@ -7,6 +7,13 @@
     "text": "Drug Prevalence\n\n\n8th, 10th, and 12th Grade Estimates\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "bx-by/drug-prevalence-edits/index.html",
+    "href": "bx-by/drug-prevalence-edits/index.html",
+    "title": "Drug Prevalence",
+    "section": "",
+    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
+  },
+  {
     "objectID": "bx-by/drug-prevalence/index.html",
     "href": "bx-by/drug-prevalence/index.html",
     "title": "Drug Prevalence",
