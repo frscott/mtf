@@ -1,5 +1,481 @@
 [
   {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Abstainers%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Abstainers%22",
+    "title": "Abstainers",
+    "section": "",
+    "text": "Abstainers: Trends in Lifetime Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Adderall%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Adderall%22",
+    "title": "Adderall",
+    "section": "",
+    "text": "Adderall: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Either+Type%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Either+Type%22",
+    "title": "ADHD Either Type",
+    "section": "",
+    "text": "ADHD Either Type: Trends in Lifetime Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Non-Stimulant%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Non-Stimulant%22",
+    "title": "ADHD Non-Stimulant",
+    "section": "",
+    "text": "ADHD Non-Stimulant: Trends in Lifetime Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Stimulant%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22ADHD+Stimulant%22",
+    "title": "ADHD Stimulant",
+    "section": "",
+    "text": "ADHD Stimulant: Trends in Lifetime Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Alcohol%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Alcohol%22",
+    "title": "Alcohol",
+    "section": "",
+    "text": "Alcohol: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Alcohol%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Alcohol%22",
+    "title": "Alcohol",
+    "section": "",
+    "text": "Alcohol: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Alcoholic+Beverages+with+Caffeine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Alcoholic+Beverages+with+Caffeine%22",
+    "title": "Alcoholic Beverages with Caffeine",
+    "section": "",
+    "text": "Alcoholic Beverages with Caffeine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Amphetamines%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Amphetamines%22",
+    "title": "Amphetamines",
+    "section": "",
+    "text": "Amphetamines: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Androstenedione%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Androstenedione%22",
+    "title": "Androstenedione",
+    "section": "",
+    "text": "Androstenedione: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug%22",
+    "title": "Any Illicit Drug",
+    "section": "",
+    "text": "Any Illicit Drug: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+including+Inhalants%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+including+Inhalants%22",
+    "title": "Any Illicit Drug including Inhalants",
+    "section": "",
+    "text": "Any Illicit Drug including Inhalants: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+other+than+Marijuana%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+other+than+Marijuana%22",
+    "title": "Any Illicit Drug other than Marijuana",
+    "section": "",
+    "text": "Any Illicit Drug other than Marijuana: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+other+than+Marijuana%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Illicit+Drug+other+than+Marijuana%22",
+    "title": "Any Illicit Drug other than Marijuana",
+    "section": "",
+    "text": "Any Illicit Drug other than Marijuana: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Prescription+Drug%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Prescription+Drug%22",
+    "title": "Any Prescription Drug",
+    "section": "",
+    "text": "Any Prescription Drug: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Nicotine+Use+other+than+Vaping%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Nicotine+Use+other+than+Vaping%22",
+    "title": "Any Nicotine Use other than Vaping",
+    "section": "",
+    "text": "Any Nicotine Use other than Vaping: Trends in Last 30 Days Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Any+Nicotine+Use%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Any+Nicotine+Use%22",
+    "title": "Any Nicotine Use",
+    "section": "",
+    "text": "Any Nicotine Use: Trends in Last 30 Days Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Been+Drunk%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Been+Drunk%22",
+    "title": "Been Drunk",
+    "section": "",
+    "text": "Been Drunk: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Beer%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Beer%22",
+    "title": "Beer",
+    "section": "",
+    "text": "Beer: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Cigarillos+%28Small+Cigars%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Cigarillos+%28Small+Cigars%29%22",
+    "title": "Cigarillos (Small Cigars)",
+    "section": "",
+    "text": "Cigarillos (Small Cigars): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Cigarettes%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Cigarettes%22",
+    "title": "Cigarettes",
+    "section": "",
+    "text": "Cigarettes: Trends in Lifetime Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Cocaine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Cocaine%22",
+    "title": "Cocaine",
+    "section": "",
+    "text": "Cocaine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Cocaine+other+than+Crack%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Cocaine+other+than+Crack%22",
+    "title": "Cocaine other than Crack",
+    "section": "",
+    "text": "Cocaine other than Crack: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Crack%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Crack%22",
+    "title": "Crack",
+    "section": "",
+    "text": "Crack: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Creatine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Creatine%22",
+    "title": "Creatine",
+    "section": "",
+    "text": "Creatine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Crystal+Methamphetamine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Crystal+Methamphetamine%22",
+    "title": "Crystal Methamphetamine",
+    "section": "",
+    "text": "Crystal Methamphetamine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Delta-8%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Delta-8%22",
+    "title": "Delta-8",
+    "section": "",
+    "text": "Delta-8: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Diet+Pills%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Diet+Pills%22",
+    "title": "Diet Pills",
+    "section": "",
+    "text": "Diet Pills: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Ecstasy+%28MDMA%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Ecstasy+%28MDMA%29%22",
+    "title": "Ecstasy (MDMA)",
+    "section": "",
+    "text": "Ecstasy (MDMA): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Energy+Drinks%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Energy+Drinks%22",
+    "title": "Energy Drinks",
+    "section": "",
+    "text": "Energy Drinks: Trends in Daily Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Energy+Shots%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Energy+Shots%22",
+    "title": "Energy Shots",
+    "section": "",
+    "text": "Energy Shots: Trends in Daily Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Energy+Drinks+or+Shots%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Energy+Drinks+or+Shots%22",
+    "title": "Energy Drinks or Shots",
+    "section": "",
+    "text": "Energy Drinks or Shots: Trends in Daily Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Flavored+Alcoholic+Beverages%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Flavored+Alcoholic+Beverages%22",
+    "title": "Flavored Alcoholic Beverages",
+    "section": "",
+    "text": "Flavored Alcoholic Beverages: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Flavored+Little+Cigars%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Flavored+Little+Cigars%22",
+    "title": "Flavored Little Cigars",
+    "section": "",
+    "text": "Flavored Little Cigars: Trends in Last 30 Days Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22GHB%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22GHB%22",
+    "title": "GHB",
+    "section": "",
+    "text": "GHB: Trends in Last 30 Days Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Hallucinogens%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Hallucinogens%22",
+    "title": "Hallucinogens",
+    "section": "",
+    "text": "Hallucinogens: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Hallucinogens+other+than+LSD%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Hallucinogens+other+than+LSD%22",
+    "title": "Hallucinogens other than LSD",
+    "section": "",
+    "text": "Hallucinogens other than LSD: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Heroin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Heroin%22",
+    "title": "Heroin",
+    "section": "",
+    "text": "Heroin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Inhalants%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Inhalants%22",
+    "title": "Inhalants",
+    "section": "",
+    "text": "Inhalants: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Ketamine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Ketamine%22",
+    "title": "Ketamine",
+    "section": "",
+    "text": "Ketamine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Large+Cigars%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Large+Cigars%22",
+    "title": "Large Cigars",
+    "section": "",
+    "text": "Large Cigars: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Liquor%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Liquor%22",
+    "title": "Liquor",
+    "section": "",
+    "text": "Liquor: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22LSD%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22LSD%22",
+    "title": "LSD",
+    "section": "",
+    "text": "LSD: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Marijuana+%28Cannabis%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Marijuana+%28Cannabis%29%22",
+    "title": "Marijuana (Cannabis)",
+    "section": "",
+    "text": "Marijuana (Cannabis): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Medical+Marijuana+%28Cannabis%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Medical+Marijuana+%28Cannabis%29%22",
+    "title": "Medical Marijuana (Cannabis)",
+    "section": "",
+    "text": "Medical Marijuana (Cannabis): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Methamphetamine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Methamphetamine%22",
+    "title": "Methamphetamine",
+    "section": "",
+    "text": "Methamphetamine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Narcotics+other+than+Heroin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Narcotics+other+than+Heroin%22",
+    "title": "Narcotics other than Heroin",
+    "section": "",
+    "text": "Narcotics other than Heroin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Nicotine+Pouch%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Nicotine+Pouch%22",
+    "title": "Nicotine Pouch",
+    "section": "",
+    "text": "Nicotine Pouch: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22OTC+Cough%2FCold+Medication%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22OTC+Cough%2FCold+Medication%22",
+    "title": "OTC Cough/Cold Medication",
+    "section": "",
+    "text": "OTC Cough/Cold Medication: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22OxyContin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22OxyContin%22",
+    "title": "OxyContin",
+    "section": "",
+    "text": "OxyContin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22OxyContin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22OxyContin%22",
+    "title": "OxyContin",
+    "section": "",
+    "text": "OxyContin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22PCP%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22PCP%22",
+    "title": "PCP",
+    "section": "",
+    "text": "PCP: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Regular+Small+Cigars%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Regular+Small+Cigars%22",
+    "title": "Regular Small Cigars",
+    "section": "",
+    "text": "Regular Small Cigars: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Ritalin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Ritalin%22",
+    "title": "Ritalin",
+    "section": "",
+    "text": "Ritalin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Rohypnol%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Rohypnol%22",
+    "title": "Rohypnol",
+    "section": "",
+    "text": "Rohypnol: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Sedatives%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Sedatives%22",
+    "title": "Sedatives",
+    "section": "",
+    "text": "Sedatives: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Smokeless+Tobacco%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Smokeless+Tobacco%22",
+    "title": "Smokeless Tobacco",
+    "section": "",
+    "text": "Smokeless Tobacco: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Snus%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Snus%22",
+    "title": "Snus",
+    "section": "",
+    "text": "Snus: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Stay+Awake+Pills%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Stay+Awake+Pills%22",
+    "title": "Stay Awake Pills",
+    "section": "",
+    "text": "Stay Awake Pills: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Steroids%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Steroids%22",
+    "title": "Steroids",
+    "section": "",
+    "text": "Steroids: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Tobacco+Hookah%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Tobacco+Hookah%22",
+    "title": "Tobacco Hookah",
+    "section": "",
+    "text": "Tobacco Hookah: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Tranquilizers%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Tranquilizers%22",
+    "title": "Tranquilizers",
+    "section": "",
+    "text": "Tranquilizers: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Vape+Nicotine+%28E-cigarettes%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Vape+Nicotine+%28E-cigarettes%29%22",
+    "title": "Vape Nicotine (E-cigarettes)",
+    "section": "",
+    "text": "Vape Nicotine (E-cigarettes): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Vape+Flavoring%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Vape+Flavoring%22",
+    "title": "Vape Flavoring",
+    "section": "",
+    "text": "Vape Flavoring: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Vape+Flavoring+without+Nicotine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Vape+Flavoring+without+Nicotine%22",
+    "title": "Vape Flavoring without Nicotine",
+    "section": "",
+    "text": "Vape Flavoring without Nicotine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Vape+Marijuana+%28Cannabis%29%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Vape+Marijuana+%28Cannabis%29%22",
+    "title": "Vape Marijuana (Cannabis)",
+    "section": "",
+    "text": "Vape Marijuana (Cannabis): Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Vicodin%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Vicodin%22",
+    "title": "Vicodin",
+    "section": "",
+    "text": "Vicodin: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
+    "objectID": "bx-by/drug-prevalence/index.html#drug=%22Wine%22",
+    "href": "bx-by/drug-prevalence/index.html#drug=%22Wine%22",
+    "title": "Wine",
+    "section": "",
+    "text": "Wine: Trends in Last 12 Months Prevalence of Use in 8th, 10th, and 12th Grade"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Monitoring the Future Dashboards",
@@ -7,24 +483,10 @@
     "text": "Drug Prevalence\n\n\n8th, 10th, and 12th Grade Estimates\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "bx-by/drug-prevalence-edits/index.html",
-    "href": "bx-by/drug-prevalence-edits/index.html",
-    "title": "Drug Prevalence - Edit",
-    "section": "",
-    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
-  },
-  {
     "objectID": "bx-by/drug-prevalence/index.html",
     "href": "bx-by/drug-prevalence/index.html",
     "title": "Drug Prevalence",
     "section": "",
-    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof search,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof search\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Ask a Question",
-    "section": "",
-    "text": "html`\n&lt;form action=\"https://formsubmit.co/frscott@umich.edu\" method=\"POST\"&gt;\n     &lt;input size=\"38\" type=\"text\" name=\"name\" placeholder=\"Your Name\" required&gt;\n     &lt;input size=\"39\" type=\"email\" name=\"email\" placeholder=\"Your Email\" required&gt;\n     &lt;br&gt;\n     &lt;textarea placeholder=\"How can we help you?\" name=\"message\" rows=\"6\" cols=\"80\"&gt;&lt;/textarea&gt;\n     &lt;br&gt;\n     &lt;button type=\"submit\"&gt;Send&lt;/button&gt;\n&lt;/form&gt;`"
+    "text": "import {\n  plot,\n  title,\n  downloadData,\n  citation,\n  footnotes,\n  accordionButtons,\n  viewof select,\n  viewof zoomInButton,\n  viewof radio\n} from \"./documentation.qmd\"\n\nviewof select\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\n\nplot\n\n\n\n\n\n\n\ncitation\n\n\n\n\n\n\n\nviewof zoomInButton\n\n\n\n\n\n\n\nviewof radio\n\n\n\n\n\n\n\nfootnotes\n\n\n\n\n\n\n\ndownloadData\n\n\n\n\n\n\n\naccordionButtons"
   }
 ]
