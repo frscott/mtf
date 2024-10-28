@@ -1,0 +1,921 @@
+DRUG1,estimate,time,drug,sex,college,year
+Alc 5+,42.8,5+ Drinks,Alcohol,.,College Student,1988
+Alc 5+,42.12,5+ Drinks,Alcohol,.,College Student,1989
+Alc 5+,40.76,5+ Drinks,Alcohol,.,College Student,1990
+Alc 5+,42.69,5+ Drinks,Alcohol,.,College Student,1991
+Alc 5+,41.68,5+ Drinks,Alcohol,.,College Student,1992
+Alc 5+,40.15,5+ Drinks,Alcohol,.,College Student,1993
+Alc 5+,41.66,5+ Drinks,Alcohol,.,College Student,1994
+Alc 5+,38.07,5+ Drinks,Alcohol,.,College Student,1995
+Alc 5+,38.38,5+ Drinks,Alcohol,.,College Student,1996
+Alc 5+,39.99,5+ Drinks,Alcohol,.,College Student,1997
+Alc 5+,38.98,5+ Drinks,Alcohol,.,College Student,1998
+Alc 5+,40.75,5+ Drinks,Alcohol,.,College Student,1999
+Alc 5+,38.97,5+ Drinks,Alcohol,.,College Student,2000
+Alc 5+,40.08,5+ Drinks,Alcohol,.,College Student,2001
+Alc 5+,39.95,5+ Drinks,Alcohol,.,College Student,2002
+Alc 5+,39.19,5+ Drinks,Alcohol,.,College Student,2003
+Alc 5+,41.65,5+ Drinks,Alcohol,.,College Student,2004
+Alc 5+,38.9,5+ Drinks,Alcohol,.,College Student,2005
+Alc 5+,40.3,5+ Drinks,Alcohol,.,College Student,2006
+Alc 5+,40.66,5+ Drinks,Alcohol,.,College Student,2007
+Alc 5+,40.9,5+ Drinks,Alcohol,.,College Student,2008
+Alc 5+,37.28,5+ Drinks,Alcohol,.,College Student,2009
+Alc 5+,36.12,5+ Drinks,Alcohol,.,College Student,2010
+Alc 5+,35.72,5+ Drinks,Alcohol,.,College Student,2011
+Alc 5+,35.08,5+ Drinks,Alcohol,.,College Student,2012
+Alc 5+,34.99,5+ Drinks,Alcohol,.,College Student,2013
+Alc 5+,34.5,5+ Drinks,Alcohol,.,College Student,2014
+Alc 5+,31.28,5+ Drinks,Alcohol,.,College Student,2015
+Alc 5+,31,5+ Drinks,Alcohol,.,College Student,2016
+Alc 5+,32.1,5+ Drinks,Alcohol,.,College Student,2017
+Alc 5+,27.4,5+ Drinks,Alcohol,.,College Student,2018
+Alc 5+,30.4,5+ Drinks,Alcohol,.,College Student,2019
+Alc 5+,23.5,5+ Drinks,Alcohol,.,College Student,2020
+Alc 5+,31.2,5+ Drinks,Alcohol,.,College Student,2021
+Alc 5+,27.7,5+ Drinks,Alcohol,.,College Student,2022
+Alc 5+,21.9,5+ Drinks,Alcohol,.,College Student,2023
+Alc 5+,35.41,5+ Drinks,Alcohol,College Student Women,.,1988
+Alc 5+,35.01,5+ Drinks,Alcohol,College Student Women,.,1989
+Alc 5+,31.93,5+ Drinks,Alcohol,College Student Women,.,1990
+Alc 5+,34.15,5+ Drinks,Alcohol,College Student Women,.,1991
+Alc 5+,32.6,5+ Drinks,Alcohol,College Student Women,.,1992
+Alc 5+,32.32,5+ Drinks,Alcohol,College Student Women,.,1993
+Alc 5+,31.59,5+ Drinks,Alcohol,College Student Women,.,1994
+Alc 5+,31.82,5+ Drinks,Alcohol,College Student Women,.,1995
+Alc 5+,30.83,5+ Drinks,Alcohol,College Student Women,.,1996
+Alc 5+,31.97,5+ Drinks,Alcohol,College Student Women,.,1997
+Alc 5+,29.92,5+ Drinks,Alcohol,College Student Women,.,1998
+Alc 5+,32.86,5+ Drinks,Alcohol,College Student Women,.,1999
+Alc 5+,33.14,5+ Drinks,Alcohol,College Student Women,.,2000
+Alc 5+,34.14,5+ Drinks,Alcohol,College Student Women,.,2001
+Alc 5+,32.81,5+ Drinks,Alcohol,College Student Women,.,2002
+Alc 5+,32.64,5+ Drinks,Alcohol,College Student Women,.,2003
+Alc 5+,37.27,5+ Drinks,Alcohol,College Student Women,.,2004
+Alc 5+,32.3,5+ Drinks,Alcohol,College Student Women,.,2005
+Alc 5+,36.63,5+ Drinks,Alcohol,College Student Women,.,2006
+Alc 5+,34.48,5+ Drinks,Alcohol,College Student Women,.,2007
+Alc 5+,34.96,5+ Drinks,Alcohol,College Student Women,.,2008
+Alc 5+,30.08,5+ Drinks,Alcohol,College Student Women,.,2009
+Alc 5+,30.8,5+ Drinks,Alcohol,College Student Women,.,2010
+Alc 5+,31.41,5+ Drinks,Alcohol,College Student Women,.,2011
+Alc 5+,31.99,5+ Drinks,Alcohol,College Student Women,.,2012
+Alc 5+,29.53,5+ Drinks,Alcohol,College Student Women,.,2013
+Alc 5+,27.5,5+ Drinks,Alcohol,College Student Women,.,2014
+Alc 5+,26.72,5+ Drinks,Alcohol,College Student Women,.,2015
+Alc 5+,28.9,5+ Drinks,Alcohol,College Student Women,.,2016
+Alc 5+,28,5+ Drinks,Alcohol,College Student Women,.,2017
+Alc 5+,26,5+ Drinks,Alcohol,College Student Women,.,2018
+Alc 5+,28.4,5+ Drinks,Alcohol,College Student Women,.,2019
+Alc 5+,18.2,5+ Drinks,Alcohol,College Student Women,.,2020
+Alc 5+,31.1,5+ Drinks,Alcohol,College Student Women,.,2021
+Alc 5+,27.5,5+ Drinks,Alcohol,College Student Women,.,2022
+Alc 5+,19.9,5+ Drinks,Alcohol,College Student Women,.,2023
+Alc 5+,51.28,5+ Drinks,Alcohol,College Student Men,.,1988
+Alc 5+,49.7,5+ Drinks,Alcohol,College Student Men,.,1989
+Alc 5+,49.8,5+ Drinks,Alcohol,College Student Men,.,1990
+Alc 5+,52.01,5+ Drinks,Alcohol,College Student Men,.,1991
+Alc 5+,50.72,5+ Drinks,Alcohol,College Student Men,.,1992
+Alc 5+,48.84,5+ Drinks,Alcohol,College Student Men,.,1993
+Alc 5+,53.31,5+ Drinks,Alcohol,College Student Men,.,1994
+Alc 5+,45.47,5+ Drinks,Alcohol,College Student Men,.,1995
+Alc 5+,48.45,5+ Drinks,Alcohol,College Student Men,.,1996
+Alc 5+,48.94,5+ Drinks,Alcohol,College Student Men,.,1997
+Alc 5+,50.29,5+ Drinks,Alcohol,College Student Men,.,1998
+Alc 5+,49.44,5+ Drinks,Alcohol,College Student Men,.,1999
+Alc 5+,45.69,5+ Drinks,Alcohol,College Student Men,.,2000
+Alc 5+,46.91,5+ Drinks,Alcohol,College Student Men,.,2001
+Alc 5+,48.07,5+ Drinks,Alcohol,College Student Men,.,2002
+Alc 5+,47.18,5+ Drinks,Alcohol,College Student Men,.,2003
+Alc 5+,47.42,5+ Drinks,Alcohol,College Student Men,.,2004
+Alc 5+,47.44,5+ Drinks,Alcohol,College Student Men,.,2005
+Alc 5+,44.88,5+ Drinks,Alcohol,College Student Men,.,2006
+Alc 5+,48.18,5+ Drinks,Alcohol,College Student Men,.,2007
+Alc 5+,48.16,5+ Drinks,Alcohol,College Student Men,.,2008
+Alc 5+,45.61,5+ Drinks,Alcohol,College Student Men,.,2009
+Alc 5+,42.72,5+ Drinks,Alcohol,College Student Men,.,2010
+Alc 5+,41.13,5+ Drinks,Alcohol,College Student Men,.,2011
+Alc 5+,38.74,5+ Drinks,Alcohol,College Student Men,.,2012
+Alc 5+,41.88,5+ Drinks,Alcohol,College Student Men,.,2013
+Alc 5+,42.17,5+ Drinks,Alcohol,College Student Men,.,2014
+Alc 5+,36.57,5+ Drinks,Alcohol,College Student Men,.,2015
+Alc 5+,33.4,5+ Drinks,Alcohol,College Student Men,.,2016
+Alc 5+,37.3,5+ Drinks,Alcohol,College Student Men,.,2017
+Alc 5+,29.8,5+ Drinks,Alcohol,College Student Men,.,2018
+Alc 5+,32.7,5+ Drinks,Alcohol,College Student Men,.,2019
+Alc 5+,30.6,5+ Drinks,Alcohol,College Student Men,.,2020
+Alc 5+,31.6,5+ Drinks,Alcohol,College Student Men,.,2021
+Alc 5+,26.8,5+ Drinks,Alcohol,College Student Men,.,2022
+Alc 5+,24.4,5+ Drinks,Alcohol,College Student Men,.,2023
+Alc 5+,36.21,5+ Drinks,Alcohol,.,Non-College Adult,1988
+Alc 5+,35.4,5+ Drinks,Alcohol,.,Non-College Adult,1989
+Alc 5+,33.33,5+ Drinks,Alcohol,.,Non-College Adult,1990
+Alc 5+,34.41,5+ Drinks,Alcohol,.,Non-College Adult,1991
+Alc 5+,33.34,5+ Drinks,Alcohol,.,Non-College Adult,1992
+Alc 5+,33.75,5+ Drinks,Alcohol,.,Non-College Adult,1993
+Alc 5+,35.51,5+ Drinks,Alcohol,.,Non-College Adult,1994
+Alc 5+,31.03,5+ Drinks,Alcohol,.,Non-College Adult,1995
+Alc 5+,32.67,5+ Drinks,Alcohol,.,Non-College Adult,1996
+Alc 5+,35.55,5+ Drinks,Alcohol,.,Non-College Adult,1997
+Alc 5+,35.58,5+ Drinks,Alcohol,.,Non-College Adult,1998
+Alc 5+,34.86,5+ Drinks,Alcohol,.,Non-College Adult,1999
+Alc 5+,36.65,5+ Drinks,Alcohol,.,Non-College Adult,2000
+Alc 5+,37.74,5+ Drinks,Alcohol,.,Non-College Adult,2001
+Alc 5+,34.59,5+ Drinks,Alcohol,.,Non-College Adult,2002
+Alc 5+,33.37,5+ Drinks,Alcohol,.,Non-College Adult,2003
+Alc 5+,34.73,5+ Drinks,Alcohol,.,Non-College Adult,2004
+Alc 5+,34.86,5+ Drinks,Alcohol,.,Non-College Adult,2005
+Alc 5+,36.03,5+ Drinks,Alcohol,.,Non-College Adult,2006
+Alc 5+,35.17,5+ Drinks,Alcohol,.,Non-College Adult,2007
+Alc 5+,30.63,5+ Drinks,Alcohol,.,Non-College Adult,2008
+Alc 5+,30.04,5+ Drinks,Alcohol,.,Non-College Adult,2009
+Alc 5+,27.53,5+ Drinks,Alcohol,.,Non-College Adult,2010
+Alc 5+,32.71,5+ Drinks,Alcohol,.,Non-College Adult,2011
+Alc 5+,29.03,5+ Drinks,Alcohol,.,Non-College Adult,2012
+Alc 5+,31.33,5+ Drinks,Alcohol,.,Non-College Adult,2013
+Alc 5+,27.27,5+ Drinks,Alcohol,.,Non-College Adult,2014
+Alc 5+,25.45,5+ Drinks,Alcohol,.,Non-College Adult,2015
+Alc 5+,29.8,5+ Drinks,Alcohol,.,Non-College Adult,2016
+Alc 5+,26.7,5+ Drinks,Alcohol,.,Non-College Adult,2017
+Alc 5+,23.9,5+ Drinks,Alcohol,.,Non-College Adult,2018
+Alc 5+,21.4,5+ Drinks,Alcohol,.,Non-College Adult,2019
+Alc 5+,25.5,5+ Drinks,Alcohol,.,Non-College Adult,2020
+Alc 5+,27,5+ Drinks,Alcohol,.,Non-College Adult,2021
+Alc 5+,23.9,5+ Drinks,Alcohol,.,Non-College Adult,2022
+Alc 5+,20.3,5+ Drinks,Alcohol,.,Non-College Adult,2023
+Alcohol 30d,76.77,30 Day,Alcohol,.,College Student,1988
+Alcohol 30d,76.06,30 Day,Alcohol,.,College Student,1989
+Alcohol 30d,74.77,30 Day,Alcohol,.,College Student,1990
+Alcohol 30d,74.88,30 Day,Alcohol,.,College Student,1991
+Alcohol 30d,71.97,30 Day,Alcohol,.,College Student,1992
+Alcohol 30d,69.42,30 Day,Alcohol,.,College Student,1993
+Alcohol 30d,69.14,30 Day,Alcohol,.,College Student,1994
+Alcohol 30d,66.69,30 Day,Alcohol,.,College Student,1995
+Alcohol 30d,66.42,30 Day,Alcohol,.,College Student,1996
+Alcohol 30d,65.62,30 Day,Alcohol,.,College Student,1997
+Alcohol 30d,67.67,30 Day,Alcohol,.,College Student,1998
+Alcohol 30d,69.71,30 Day,Alcohol,.,College Student,1999
+Alcohol 30d,66.09,30 Day,Alcohol,.,College Student,2000
+Alcohol 30d,67.03,30 Day,Alcohol,.,College Student,2001
+Alcohol 30d,68.55,30 Day,Alcohol,.,College Student,2002
+Alcohol 30d,66.28,30 Day,Alcohol,.,College Student,2003
+Alcohol 30d,66.74,30 Day,Alcohol,.,College Student,2004
+Alcohol 30d,66.57,30 Day,Alcohol,.,College Student,2005
+Alcohol 30d,64.61,30 Day,Alcohol,.,College Student,2006
+Alcohol 30d,66,30 Day,Alcohol,.,College Student,2007
+Alcohol 30d,68.92,30 Day,Alcohol,.,College Student,2008
+Alcohol 30d,65.91,30 Day,Alcohol,.,College Student,2009
+Alcohol 30d,63.78,30 Day,Alcohol,.,College Student,2010
+Alcohol 30d,62.49,30 Day,Alcohol,.,College Student,2011
+Alcohol 30d,65.66,30 Day,Alcohol,.,College Student,2012
+Alcohol 30d,62.02,30 Day,Alcohol,.,College Student,2013
+Alcohol 30d,61.32,30 Day,Alcohol,.,College Student,2014
+Alcohol 30d,63.48,30 Day,Alcohol,.,College Student,2015
+Alcohol 30d,61.3,30 Day,Alcohol,.,College Student,2016
+Alcohol 30d,61.8,30 Day,Alcohol,.,College Student,2017
+Alcohol 30d,58.4,30 Day,Alcohol,.,College Student,2018
+Alcohol 30d,61.3,30 Day,Alcohol,.,College Student,2019
+Alcohol 30d,55.5,30 Day,Alcohol,.,College Student,2020
+Alcohol 30d,63.2,30 Day,Alcohol,.,College Student,2021
+Alcohol 30d,62.5,30 Day,Alcohol,.,College Student,2022
+Alcohol 30d,55,30 Day,Alcohol,.,College Student,2023
+Alcohol 30d,74.62,30 Day,Alcohol,College Student Women,.,1988
+Alcohol 30d,74.41,30 Day,Alcohol,College Student Women,.,1989
+Alcohol 30d,71.99,30 Day,Alcohol,College Student Women,.,1990
+Alcohol 30d,73.01,30 Day,Alcohol,College Student Women,.,1991
+Alcohol 30d,66.34,30 Day,Alcohol,College Student Women,.,1992
+Alcohol 30d,66.43,30 Day,Alcohol,College Student Women,.,1993
+Alcohol 30d,61.96,30 Day,Alcohol,College Student Women,.,1994
+Alcohol 30d,63.73,30 Day,Alcohol,College Student Women,.,1995
+Alcohol 30d,64.72,30 Day,Alcohol,College Student Women,.,1996
+Alcohol 30d,61.67,30 Day,Alcohol,College Student Women,.,1997
+Alcohol 30d,64.11,30 Day,Alcohol,College Student Women,.,1998
+Alcohol 30d,66.88,30 Day,Alcohol,College Student Women,.,1999
+Alcohol 30d,67.04,30 Day,Alcohol,College Student Women,.,2000
+Alcohol 30d,63.53,30 Day,Alcohol,College Student Women,.,2001
+Alcohol 30d,68.08,30 Day,Alcohol,College Student Women,.,2002
+Alcohol 30d,62.93,30 Day,Alcohol,College Student Women,.,2003
+Alcohol 30d,67.16,30 Day,Alcohol,College Student Women,.,2004
+Alcohol 30d,64.17,30 Day,Alcohol,College Student Women,.,2005
+Alcohol 30d,64.03,30 Day,Alcohol,College Student Women,.,2006
+Alcohol 30d,65.01,30 Day,Alcohol,College Student Women,.,2007
+Alcohol 30d,67.09,30 Day,Alcohol,College Student Women,.,2008
+Alcohol 30d,61.66,30 Day,Alcohol,College Student Women,.,2009
+Alcohol 30d,61.23,30 Day,Alcohol,College Student Women,.,2010
+Alcohol 30d,62.25,30 Day,Alcohol,College Student Women,.,2011
+Alcohol 30d,65.47,30 Day,Alcohol,College Student Women,.,2012
+Alcohol 30d,60.96,30 Day,Alcohol,College Student Women,.,2013
+Alcohol 30d,59.55,30 Day,Alcohol,College Student Women,.,2014
+Alcohol 30d,62.59,30 Day,Alcohol,College Student Women,.,2015
+Alcohol 30d,63,30 Day,Alcohol,College Student Women,.,2016
+Alcohol 30d,60.7,30 Day,Alcohol,College Student Women,.,2017
+Alcohol 30d,60.7,30 Day,Alcohol,College Student Women,.,2018
+Alcohol 30d,60.9,30 Day,Alcohol,College Student Women,.,2019
+Alcohol 30d,56.7,30 Day,Alcohol,College Student Women,.,2020
+Alcohol 30d,63.8,30 Day,Alcohol,College Student Women,.,2021
+Alcohol 30d,65.8,30 Day,Alcohol,College Student Women,.,2022
+Alcohol 30d,58.4,30 Day,Alcohol,College Student Women,.,2023
+Alcohol 30d,79.25,30 Day,Alcohol,College Student Men,.,1988
+Alcohol 30d,77.8,30 Day,Alcohol,College Student Men,.,1989
+Alcohol 30d,77.62,30 Day,Alcohol,College Student Men,.,1990
+Alcohol 30d,76.92,30 Day,Alcohol,College Student Men,.,1991
+Alcohol 30d,77.52,30 Day,Alcohol,College Student Men,.,1992
+Alcohol 30d,72.76,30 Day,Alcohol,College Student Men,.,1993
+Alcohol 30d,77.28,30 Day,Alcohol,College Student Men,.,1994
+Alcohol 30d,70.19,30 Day,Alcohol,College Student Men,.,1995
+Alcohol 30d,68.67,30 Day,Alcohol,College Student Men,.,1996
+Alcohol 30d,70.05,30 Day,Alcohol,College Student Men,.,1997
+Alcohol 30d,72.1,30 Day,Alcohol,College Student Men,.,1998
+Alcohol 30d,72.84,30 Day,Alcohol,College Student Men,.,1999
+Alcohol 30d,65,30 Day,Alcohol,College Student Men,.,2000
+Alcohol 30d,71.01,30 Day,Alcohol,College Student Men,.,2001
+Alcohol 30d,69.09,30 Day,Alcohol,College Student Men,.,2002
+Alcohol 30d,70.4,30 Day,Alcohol,College Student Men,.,2003
+Alcohol 30d,66.19,30 Day,Alcohol,College Student Men,.,2004
+Alcohol 30d,69.69,30 Day,Alcohol,College Student Men,.,2005
+Alcohol 30d,65.33,30 Day,Alcohol,College Student Men,.,2006
+Alcohol 30d,67.21,30 Day,Alcohol,College Student Men,.,2007
+Alcohol 30d,71.18,30 Day,Alcohol,College Student Men,.,2008
+Alcohol 30d,70.88,30 Day,Alcohol,College Student Men,.,2009
+Alcohol 30d,66.97,30 Day,Alcohol,College Student Men,.,2010
+Alcohol 30d,62.81,30 Day,Alcohol,College Student Men,.,2011
+Alcohol 30d,65.88,30 Day,Alcohol,College Student Men,.,2012
+Alcohol 30d,63.34,30 Day,Alcohol,College Student Men,.,2013
+Alcohol 30d,63.25,30 Day,Alcohol,College Student Men,.,2014
+Alcohol 30d,64.51,30 Day,Alcohol,College Student Men,.,2015
+Alcohol 30d,59.4,30 Day,Alcohol,College Student Men,.,2016
+Alcohol 30d,63.1,30 Day,Alcohol,College Student Men,.,2017
+Alcohol 30d,56.6,30 Day,Alcohol,College Student Men,.,2018
+Alcohol 30d,61.7,30 Day,Alcohol,College Student Men,.,2019
+Alcohol 30d,53.3,30 Day,Alcohol,College Student Men,.,2020
+Alcohol 30d,61.9,30 Day,Alcohol,College Student Men,.,2021
+Alcohol 30d,56.8,30 Day,Alcohol,College Student Men,.,2022
+Alcohol 30d,51,30 Day,Alcohol,College Student Men,.,2023
+Alcohol 30d,69.04,30 Day,Alcohol,.,Non-College Adult,1988
+Alcohol 30d,68.49,30 Day,Alcohol,.,Non-College Adult,1989
+Alcohol 30d,66.96,30 Day,Alcohol,.,Non-College Adult,1990
+Alcohol 30d,65.01,30 Day,Alcohol,.,Non-College Adult,1991
+Alcohol 30d,63.27,30 Day,Alcohol,.,Non-College Adult,1992
+Alcohol 30d,60.99,30 Day,Alcohol,.,Non-College Adult,1993
+Alcohol 30d,62.9,30 Day,Alcohol,.,Non-College Adult,1994
+Alcohol 30d,60.83,30 Day,Alcohol,.,Non-College Adult,1995
+Alcohol 30d,60.51,30 Day,Alcohol,.,Non-College Adult,1996
+Alcohol 30d,61.75,30 Day,Alcohol,.,Non-College Adult,1997
+Alcohol 30d,60.7,30 Day,Alcohol,.,Non-College Adult,1998
+Alcohol 30d,60.91,30 Day,Alcohol,.,Non-College Adult,1999
+Alcohol 30d,60.26,30 Day,Alcohol,.,Non-College Adult,2000
+Alcohol 30d,62.83,30 Day,Alcohol,.,Non-College Adult,2001
+Alcohol 30d,59.98,30 Day,Alcohol,.,Non-College Adult,2002
+Alcohol 30d,58.69,30 Day,Alcohol,.,Non-College Adult,2003
+Alcohol 30d,60.81,30 Day,Alcohol,.,Non-College Adult,2004
+Alcohol 30d,59.89,30 Day,Alcohol,.,Non-College Adult,2005
+Alcohol 30d,62.02,30 Day,Alcohol,.,Non-College Adult,2006
+Alcohol 30d,61.07,30 Day,Alcohol,.,Non-College Adult,2007
+Alcohol 30d,55.46,30 Day,Alcohol,.,Non-College Adult,2008
+Alcohol 30d,57.19,30 Day,Alcohol,.,Non-College Adult,2009
+Alcohol 30d,54.9,30 Day,Alcohol,.,Non-College Adult,2010
+Alcohol 30d,56.59,30 Day,Alcohol,.,Non-College Adult,2011
+Alcohol 30d,53.22,30 Day,Alcohol,.,Non-College Adult,2012
+Alcohol 30d,56.45,30 Day,Alcohol,.,Non-College Adult,2013
+Alcohol 30d,55.03,30 Day,Alcohol,.,Non-College Adult,2014
+Alcohol 30d,52.66,30 Day,Alcohol,.,Non-College Adult,2015
+Alcohol 30d,59.4,30 Day,Alcohol,.,Non-College Adult,2016
+Alcohol 30d,53.3,30 Day,Alcohol,.,Non-College Adult,2017
+Alcohol 30d,49.7,30 Day,Alcohol,.,Non-College Adult,2018
+Alcohol 30d,49.4,30 Day,Alcohol,.,Non-College Adult,2019
+Alcohol 30d,50.9,30 Day,Alcohol,.,Non-College Adult,2020
+Alcohol 30d,51,30 Day,Alcohol,.,Non-College Adult,2021
+Alcohol 30d,54.1,30 Day,Alcohol,.,Non-College Adult,2022
+Alcohol 30d,51.9,30 Day,Alcohol,.,Non-College Adult,2023
+Any OTM 30d,8.42,30 Day,Any Drug Other Than Cannabis,.,College Student,1988
+Any OTM 30d,6.72,30 Day,Any Drug Other Than Cannabis,.,College Student,1989
+Any OTM 30d,4.17,30 Day,Any Drug Other Than Cannabis,.,College Student,1990
+Any OTM 30d,4.24,30 Day,Any Drug Other Than Cannabis,.,College Student,1991
+Any OTM 30d,4.68,30 Day,Any Drug Other Than Cannabis,.,College Student,1992
+Any OTM 30d,5.28,30 Day,Any Drug Other Than Cannabis,.,College Student,1993
+Any OTM 30d,4.65,30 Day,Any Drug Other Than Cannabis,.,College Student,1994
+Any OTM 30d,6.12,30 Day,Any Drug Other Than Cannabis,.,College Student,1995
+Any OTM 30d,4.6,30 Day,Any Drug Other Than Cannabis,.,College Student,1996
+Any OTM 30d,6.8,30 Day,Any Drug Other Than Cannabis,.,College Student,1997
+Any OTM 30d,6,30 Day,Any Drug Other Than Cannabis,.,College Student,1998
+Any OTM 30d,6.34,30 Day,Any Drug Other Than Cannabis,.,College Student,1999
+Any OTM 30d,6.72,30 Day,Any Drug Other Than Cannabis,.,College Student,2000
+Any OTM 30d,7.31,30 Day,Any Drug Other Than Cannabis,.,College Student,2001
+Any OTM 30d,7.06,30 Day,Any Drug Other Than Cannabis,.,College Student,2002
+Any OTM 30d,7.94,30 Day,Any Drug Other Than Cannabis,.,College Student,2003
+Any OTM 30d,8.73,30 Day,Any Drug Other Than Cannabis,.,College Student,2004
+Any OTM 30d,8.22,30 Day,Any Drug Other Than Cannabis,.,College Student,2005
+Any OTM 30d,8.09,30 Day,Any Drug Other Than Cannabis,.,College Student,2006
+Any OTM 30d,8.01,30 Day,Any Drug Other Than Cannabis,.,College Student,2007
+Any OTM 30d,7.51,30 Day,Any Drug Other Than Cannabis,.,College Student,2008
+Any OTM 30d,8.05,30 Day,Any Drug Other Than Cannabis,.,College Student,2009
+Any OTM 30d,8.32,30 Day,Any Drug Other Than Cannabis,.,College Student,2010
+Any OTM 30d,8.18,30 Day,Any Drug Other Than Cannabis,.,College Student,2011
+Any OTM 30d,7.7,30 Day,Any Drug Other Than Cannabis,.,College Student,2012
+Any OTM 30d,8.38,30 Day,Any Drug Other Than Cannabis,.,College Student,2013
+Any OTM 30d,10.45,30 Day,Any Drug Other Than Cannabis,.,College Student,2014
+Any OTM 30d,10.1,30 Day,Any Drug Other Than Cannabis,.,College Student,2015
+Any OTM 30d,9.3,30 Day,Any Drug Other Than Cannabis,.,College Student,2016
+Any OTM 30d,6.7,30 Day,Any Drug Other Than Cannabis,.,College Student,2017
+Any OTM 30d,7.8,30 Day,Any Drug Other Than Cannabis,.,College Student,2018
+Any OTM 30d,7,30 Day,Any Drug Other Than Cannabis,.,College Student,2019
+Any OTM 30d,6.1,30 Day,Any Drug Other Than Cannabis,.,College Student,2020
+Any OTM 30d,5.5,30 Day,Any Drug Other Than Cannabis,.,College Student,2021
+Any OTM 30d,2.9,30 Day,Any Drug Other Than Cannabis,.,College Student,2022
+Any OTM 30d,4.2,30 Day,Any Drug Other Than Cannabis,.,College Student,2023
+Any OTM 30d,8.56,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1988
+Any OTM 30d,5.82,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1989
+Any OTM 30d,3.82,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1990
+Any OTM 30d,4.14,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1991
+Any OTM 30d,4.28,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1992
+Any OTM 30d,3.61,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1993
+Any OTM 30d,3.33,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1994
+Any OTM 30d,4.23,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1995
+Any OTM 30d,3.28,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1996
+Any OTM 30d,5.9,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1997
+Any OTM 30d,4.16,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1998
+Any OTM 30d,5.5,30 Day,Any Drug Other Than Cannabis,College Student Women,.,1999
+Any OTM 30d,6.06,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2000
+Any OTM 30d,6.17,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2001
+Any OTM 30d,6.08,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2002
+Any OTM 30d,7.63,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2003
+Any OTM 30d,7.3,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2004
+Any OTM 30d,6.62,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2005
+Any OTM 30d,6.83,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2006
+Any OTM 30d,6.42,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2007
+Any OTM 30d,5.81,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2008
+Any OTM 30d,7.53,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2009
+Any OTM 30d,6.76,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2010
+Any OTM 30d,7.28,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2011
+Any OTM 30d,6.58,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2012
+Any OTM 30d,6.79,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2013
+Any OTM 30d,7.69,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2014
+Any OTM 30d,7.17,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2015
+Any OTM 30d,6.6,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2016
+Any OTM 30d,6.4,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2017
+Any OTM 30d,8.1,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2018
+Any OTM 30d,6.7,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2019
+Any OTM 30d,4,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2020
+Any OTM 30d,4.9,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2021
+Any OTM 30d,2.1,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2022
+Any OTM 30d,1.7,30 Day,Any Drug Other Than Cannabis,College Student Women,.,2023
+Any OTM 30d,8.26,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1988
+Any OTM 30d,7.67,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1989
+Any OTM 30d,4.52,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1990
+Any OTM 30d,4.35,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1991
+Any OTM 30d,5.08,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1992
+Any OTM 30d,7.16,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1993
+Any OTM 30d,6.16,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1994
+Any OTM 30d,8.33,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1995
+Any OTM 30d,6.34,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1996
+Any OTM 30d,7.82,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1997
+Any OTM 30d,8.29,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1998
+Any OTM 30d,7.25,30 Day,Any Drug Other Than Cannabis,College Student Men,.,1999
+Any OTM 30d,7.48,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2000
+Any OTM 30d,8.62,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2001
+Any OTM 30d,8.17,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2002
+Any OTM 30d,8.33,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2003
+Any OTM 30d,10.62,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2004
+Any OTM 30d,10.3,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2005
+Any OTM 30d,9.64,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2006
+Any OTM 30d,9.96,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2007
+Any OTM 30d,9.6,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2008
+Any OTM 30d,8.67,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2009
+Any OTM 30d,10.28,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2010
+Any OTM 30d,9.32,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2011
+Any OTM 30d,9.03,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2012
+Any OTM 30d,10.38,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2013
+Any OTM 30d,13.37,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2014
+Any OTM 30d,13.56,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2015
+Any OTM 30d,12.5,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2016
+Any OTM 30d,7.2,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2017
+Any OTM 30d,7.2,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2018
+Any OTM 30d,7.8,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2019
+Any OTM 30d,8.8,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2020
+Any OTM 30d,6.5,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2021
+Any OTM 30d,4.4,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2022
+Any OTM 30d,7,30 Day,Any Drug Other Than Cannabis,College Student Men,.,2023
+Any OTM 30d,11.21,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1988
+Any OTM 30d,8.29,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1989
+Any OTM 30d,6.9,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1990
+Any OTM 30d,5.58,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1991
+Any OTM 30d,6.65,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1992
+Any OTM 30d,5.62,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1993
+Any OTM 30d,7.98,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1994
+Any OTM 30d,7.66,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1995
+Any OTM 30d,6.96,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1996
+Any OTM 30d,7.91,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1997
+Any OTM 30d,7.46,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1998
+Any OTM 30d,8.41,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,1999
+Any OTM 30d,9.02,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2000
+Any OTM 30d,10.52,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2001
+Any OTM 30d,10.87,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2002
+Any OTM 30d,11.37,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2003
+Any OTM 30d,10.26,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2004
+Any OTM 30d,10.15,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2005
+Any OTM 30d,9.98,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2006
+Any OTM 30d,10.97,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2007
+Any OTM 30d,10.99,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2008
+Any OTM 30d,8.61,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2009
+Any OTM 30d,9.74,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2010
+Any OTM 30d,8.44,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2011
+Any OTM 30d,7.75,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2012
+Any OTM 30d,10.84,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2013
+Any OTM 30d,12.28,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2014
+Any OTM 30d,10.54,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2015
+Any OTM 30d,11.6,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2016
+Any OTM 30d,9,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2017
+Any OTM 30d,7.3,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2018
+Any OTM 30d,7.1,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2019
+Any OTM 30d,8.9,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2020
+Any OTM 30d,6.6,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2021
+Any OTM 30d,4.2,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2022
+Any OTM 30d,5.4,30 Day,Any Drug Other Than Cannabis,.,Non-College Adult,2023
+Cig 30d,22.2,30 Day,Cigarettes,.,College Student,1988
+Cig 30d,21.73,30 Day,Cigarettes,.,College Student,1989
+Cig 30d,21.14,30 Day,Cigarettes,.,College Student,1990
+Cig 30d,23.8,30 Day,Cigarettes,.,College Student,1991
+Cig 30d,23.57,30 Day,Cigarettes,.,College Student,1992
+Cig 30d,24.39,30 Day,Cigarettes,.,College Student,1993
+Cig 30d,24.24,30 Day,Cigarettes,.,College Student,1994
+Cig 30d,26.24,30 Day,Cigarettes,.,College Student,1995
+Cig 30d,28.16,30 Day,Cigarettes,.,College Student,1996
+Cig 30d,27.57,30 Day,Cigarettes,.,College Student,1997
+Cig 30d,29.93,30 Day,Cigarettes,.,College Student,1998
+Cig 30d,30.45,30 Day,Cigarettes,.,College Student,1999
+Cig 30d,28.49,30 Day,Cigarettes,.,College Student,2000
+Cig 30d,24.35,30 Day,Cigarettes,.,College Student,2001
+Cig 30d,27,30 Day,Cigarettes,.,College Student,2002
+Cig 30d,22.18,30 Day,Cigarettes,.,College Student,2003
+Cig 30d,24.82,30 Day,Cigarettes,.,College Student,2004
+Cig 30d,22.63,30 Day,Cigarettes,.,College Student,2005
+Cig 30d,20,30 Day,Cigarettes,.,College Student,2006
+Cig 30d,19.34,30 Day,Cigarettes,.,College Student,2007
+Cig 30d,18.43,30 Day,Cigarettes,.,College Student,2008
+Cig 30d,18.01,30 Day,Cigarettes,.,College Student,2009
+Cig 30d,15.99,30 Day,Cigarettes,.,College Student,2010
+Cig 30d,15.06,30 Day,Cigarettes,.,College Student,2011
+Cig 30d,13.33,30 Day,Cigarettes,.,College Student,2012
+Cig 30d,13.9,30 Day,Cigarettes,.,College Student,2013
+Cig 30d,12.85,30 Day,Cigarettes,.,College Student,2014
+Cig 30d,12.62,30 Day,Cigarettes,.,College Student,2015
+Cig 30d,9.1,30 Day,Cigarettes,.,College Student,2016
+Cig 30d,8.4,30 Day,Cigarettes,.,College Student,2017
+Cig 30d,7.2,30 Day,Cigarettes,.,College Student,2018
+Cig 30d,7.5,30 Day,Cigarettes,.,College Student,2019
+Cig 30d,3.5,30 Day,Cigarettes,.,College Student,2020
+Cig 30d,6,30 Day,Cigarettes,.,College Student,2021
+Cig 30d,6.4,30 Day,Cigarettes,.,College Student,2022
+Cig 30d,4.1,30 Day,Cigarettes,.,College Student,2023
+Cig 30d,25.38,30 Day,Cigarettes,College Student Women,.,1988
+Cig 30d,22.27,30 Day,Cigarettes,College Student Women,.,1989
+Cig 30d,22.8,30 Day,Cigarettes,College Student Women,.,1990
+Cig 30d,25.93,30 Day,Cigarettes,College Student Women,.,1991
+Cig 30d,23.3,30 Day,Cigarettes,College Student Women,.,1992
+Cig 30d,24.92,30 Day,Cigarettes,College Student Women,.,1993
+Cig 30d,23.33,30 Day,Cigarettes,College Student Women,.,1994
+Cig 30d,24.15,30 Day,Cigarettes,College Student Women,.,1995
+Cig 30d,26.78,30 Day,Cigarettes,College Student Women,.,1996
+Cig 30d,26.79,30 Day,Cigarettes,College Student Women,.,1997
+Cig 30d,28.32,30 Day,Cigarettes,College Student Women,.,1998
+Cig 30d,28.63,30 Day,Cigarettes,College Student Women,.,1999
+Cig 30d,27.76,30 Day,Cigarettes,College Student Women,.,2000
+Cig 30d,24.27,30 Day,Cigarettes,College Student Women,.,2001
+Cig 30d,23.99,30 Day,Cigarettes,College Student Women,.,2002
+Cig 30d,22.12,30 Day,Cigarettes,College Student Women,.,2003
+Cig 30d,20.53,30 Day,Cigarettes,College Student Women,.,2004
+Cig 30d,22.08,30 Day,Cigarettes,College Student Women,.,2005
+Cig 30d,18.21,30 Day,Cigarettes,College Student Women,.,2006
+Cig 30d,17.44,30 Day,Cigarettes,College Student Women,.,2007
+Cig 30d,17.22,30 Day,Cigarettes,College Student Women,.,2008
+Cig 30d,15.05,30 Day,Cigarettes,College Student Women,.,2009
+Cig 30d,13.79,30 Day,Cigarettes,College Student Women,.,2010
+Cig 30d,14.53,30 Day,Cigarettes,College Student Women,.,2011
+Cig 30d,10.09,30 Day,Cigarettes,College Student Women,.,2012
+Cig 30d,11.66,30 Day,Cigarettes,College Student Women,.,2013
+Cig 30d,10.16,30 Day,Cigarettes,College Student Women,.,2014
+Cig 30d,8.49,30 Day,Cigarettes,College Student Women,.,2015
+Cig 30d,6.9,30 Day,Cigarettes,College Student Women,.,2016
+Cig 30d,5.3,30 Day,Cigarettes,College Student Women,.,2017
+Cig 30d,5.3,30 Day,Cigarettes,College Student Women,.,2018
+Cig 30d,5.5,30 Day,Cigarettes,College Student Women,.,2019
+Cig 30d,2.7,30 Day,Cigarettes,College Student Women,.,2020
+Cig 30d,5.2,30 Day,Cigarettes,College Student Women,.,2021
+Cig 30d,5.4,30 Day,Cigarettes,College Student Women,.,2022
+Cig 30d,4,30 Day,Cigarettes,College Student Women,.,2023
+Cig 30d,18.58,30 Day,Cigarettes,College Student Men,.,1988
+Cig 30d,21.16,30 Day,Cigarettes,College Student Men,.,1989
+Cig 30d,19.43,30 Day,Cigarettes,College Student Men,.,1990
+Cig 30d,21.49,30 Day,Cigarettes,College Student Men,.,1991
+Cig 30d,23.84,30 Day,Cigarettes,College Student Men,.,1992
+Cig 30d,23.79,30 Day,Cigarettes,College Student Men,.,1993
+Cig 30d,25.28,30 Day,Cigarettes,College Student Men,.,1994
+Cig 30d,28.68,30 Day,Cigarettes,College Student Men,.,1995
+Cig 30d,30.03,30 Day,Cigarettes,College Student Men,.,1996
+Cig 30d,28.43,30 Day,Cigarettes,College Student Men,.,1997
+Cig 30d,31.93,30 Day,Cigarettes,College Student Men,.,1998
+Cig 30d,32.46,30 Day,Cigarettes,College Student Men,.,1999
+Cig 30d,29.34,30 Day,Cigarettes,College Student Men,.,2000
+Cig 30d,24.45,30 Day,Cigarettes,College Student Men,.,2001
+Cig 30d,30.4,30 Day,Cigarettes,College Student Men,.,2002
+Cig 30d,22.24,30 Day,Cigarettes,College Student Men,.,2003
+Cig 30d,30.47,30 Day,Cigarettes,College Student Men,.,2004
+Cig 30d,23.34,30 Day,Cigarettes,College Student Men,.,2005
+Cig 30d,22.19,30 Day,Cigarettes,College Student Men,.,2006
+Cig 30d,21.65,30 Day,Cigarettes,College Student Men,.,2007
+Cig 30d,19.93,30 Day,Cigarettes,College Student Men,.,2008
+Cig 30d,21.5,30 Day,Cigarettes,College Student Men,.,2009
+Cig 30d,18.74,30 Day,Cigarettes,College Student Men,.,2010
+Cig 30d,15.72,30 Day,Cigarettes,College Student Men,.,2011
+Cig 30d,17.13,30 Day,Cigarettes,College Student Men,.,2012
+Cig 30d,16.75,30 Day,Cigarettes,College Student Men,.,2013
+Cig 30d,15.81,30 Day,Cigarettes,College Student Men,.,2014
+Cig 30d,17.42,30 Day,Cigarettes,College Student Men,.,2015
+Cig 30d,11.7,30 Day,Cigarettes,College Student Men,.,2016
+Cig 30d,11.9,30 Day,Cigarettes,College Student Men,.,2017
+Cig 30d,9.3,30 Day,Cigarettes,College Student Men,.,2018
+Cig 30d,10.5,30 Day,Cigarettes,College Student Men,.,2019
+Cig 30d,4.5,30 Day,Cigarettes,College Student Men,.,2020
+Cig 30d,7.2,30 Day,Cigarettes,College Student Men,.,2021
+Cig 30d,8,30 Day,Cigarettes,College Student Men,.,2022
+Cig 30d,3.7,30 Day,Cigarettes,College Student Men,.,2023
+Cig 30d,34.57,30 Day,Cigarettes,.,Non-College Adult,1988
+Cig 30d,34.89,30 Day,Cigarettes,.,Non-College Adult,1989
+Cig 30d,33.21,30 Day,Cigarettes,.,Non-College Adult,1990
+Cig 30d,31.95,30 Day,Cigarettes,.,Non-College Adult,1991
+Cig 30d,34.69,30 Day,Cigarettes,.,Non-College Adult,1992
+Cig 30d,33.62,30 Day,Cigarettes,.,Non-College Adult,1993
+Cig 30d,37.24,30 Day,Cigarettes,.,Non-College Adult,1994
+Cig 30d,37.09,30 Day,Cigarettes,.,Non-College Adult,1995
+Cig 30d,38.75,30 Day,Cigarettes,.,Non-College Adult,1996
+Cig 30d,37.55,30 Day,Cigarettes,.,Non-College Adult,1997
+Cig 30d,37.63,30 Day,Cigarettes,.,Non-College Adult,1998
+Cig 30d,38.91,30 Day,Cigarettes,.,Non-College Adult,1999
+Cig 30d,38.87,30 Day,Cigarettes,.,Non-College Adult,2000
+Cig 30d,42.37,30 Day,Cigarettes,.,Non-College Adult,2001
+Cig 30d,36.59,30 Day,Cigarettes,.,Non-College Adult,2002
+Cig 30d,36.89,30 Day,Cigarettes,.,Non-College Adult,2003
+Cig 30d,36.43,30 Day,Cigarettes,.,Non-College Adult,2004
+Cig 30d,34.66,30 Day,Cigarettes,.,Non-College Adult,2005
+Cig 30d,36.76,30 Day,Cigarettes,.,Non-College Adult,2006
+Cig 30d,32.39,30 Day,Cigarettes,.,Non-College Adult,2007
+Cig 30d,30.77,30 Day,Cigarettes,.,Non-College Adult,2008
+Cig 30d,29.39,30 Day,Cigarettes,.,Non-College Adult,2009
+Cig 30d,29.34,30 Day,Cigarettes,.,Non-College Adult,2010
+Cig 30d,31.16,30 Day,Cigarettes,.,Non-College Adult,2011
+Cig 30d,24.89,30 Day,Cigarettes,.,Non-College Adult,2012
+Cig 30d,28.71,30 Day,Cigarettes,.,Non-College Adult,2013
+Cig 30d,22.36,30 Day,Cigarettes,.,Non-College Adult,2014
+Cig 30d,24.88,30 Day,Cigarettes,.,Non-College Adult,2015
+Cig 30d,18.1,30 Day,Cigarettes,.,Non-College Adult,2016
+Cig 30d,20.1,30 Day,Cigarettes,.,Non-College Adult,2017
+Cig 30d,17,30 Day,Cigarettes,.,Non-College Adult,2018
+Cig 30d,14.8,30 Day,Cigarettes,.,Non-College Adult,2019
+Cig 30d,12.6,30 Day,Cigarettes,.,Non-College Adult,2020
+Cig 30d,9.8,30 Day,Cigarettes,.,Non-College Adult,2021
+Cig 30d,7,30 Day,Cigarettes,.,Non-College Adult,2022
+Cig 30d,8.3,30 Day,Cigarettes,.,Non-College Adult,2023
+Marijuana 30d,16.09,30 Day,Cannabis,.,College Student,1988
+Marijuana 30d,16.01,30 Day,Cannabis,.,College Student,1989
+Marijuana 30d,13.61,30 Day,Cannabis,.,College Student,1990
+Marijuana 30d,13.95,30 Day,Cannabis,.,College Student,1991
+Marijuana 30d,14.75,30 Day,Cannabis,.,College Student,1992
+Marijuana 30d,13.51,30 Day,Cannabis,.,College Student,1993
+Marijuana 30d,15.75,30 Day,Cannabis,.,College Student,1994
+Marijuana 30d,17.85,30 Day,Cannabis,.,College Student,1995
+Marijuana 30d,17.22,30 Day,Cannabis,.,College Student,1996
+Marijuana 30d,17.78,30 Day,Cannabis,.,College Student,1997
+Marijuana 30d,17.78,30 Day,Cannabis,.,College Student,1998
+Marijuana 30d,20.41,30 Day,Cannabis,.,College Student,1999
+Marijuana 30d,19.12,30 Day,Cannabis,.,College Student,2000
+Marijuana 30d,19.35,30 Day,Cannabis,.,College Student,2001
+Marijuana 30d,18.4,30 Day,Cannabis,.,College Student,2002
+Marijuana 30d,18.66,30 Day,Cannabis,.,College Student,2003
+Marijuana 30d,18.23,30 Day,Cannabis,.,College Student,2004
+Marijuana 30d,16.62,30 Day,Cannabis,.,College Student,2005
+Marijuana 30d,16.09,30 Day,Cannabis,.,College Student,2006
+Marijuana 30d,16.99,30 Day,Cannabis,.,College Student,2007
+Marijuana 30d,16.62,30 Day,Cannabis,.,College Student,2008
+Marijuana 30d,17.69,30 Day,Cannabis,.,College Student,2009
+Marijuana 30d,16.7,30 Day,Cannabis,.,College Student,2010
+Marijuana 30d,19.43,30 Day,Cannabis,.,College Student,2011
+Marijuana 30d,20.63,30 Day,Cannabis,.,College Student,2012
+Marijuana 30d,21.11,30 Day,Cannabis,.,College Student,2013
+Marijuana 30d,21.23,30 Day,Cannabis,.,College Student,2014
+Marijuana 30d,21.98,30 Day,Cannabis,.,College Student,2015
+Marijuana 30d,22.2,30 Day,Cannabis,.,College Student,2016
+Marijuana 30d,20.9,30 Day,Cannabis,.,College Student,2017
+Marijuana 30d,24.3,30 Day,Cannabis,.,College Student,2018
+Marijuana 30d,25,30 Day,Cannabis,.,College Student,2019
+Marijuana 30d,23.9,30 Day,Cannabis,.,College Student,2020
+Marijuana 30d,23.5,30 Day,Cannabis,.,College Student,2021
+Marijuana 30d,22.1,30 Day,Cannabis,.,College Student,2022
+Marijuana 30d,26.1,30 Day,Cannabis,.,College Student,2023
+Marijuana 30d,14.82,30 Day,Cannabis,College Student Women,.,1988
+Marijuana 30d,13.2,30 Day,Cannabis,College Student Women,.,1989
+Marijuana 30d,10.72,30 Day,Cannabis,College Student Women,.,1990
+Marijuana 30d,13.15,30 Day,Cannabis,College Student Women,.,1991
+Marijuana 30d,12.66,30 Day,Cannabis,College Student Women,.,1992
+Marijuana 30d,12.24,30 Day,Cannabis,College Student Women,.,1993
+Marijuana 30d,11.55,30 Day,Cannabis,College Student Women,.,1994
+Marijuana 30d,13.76,30 Day,Cannabis,College Student Women,.,1995
+Marijuana 30d,15.16,30 Day,Cannabis,College Student Women,.,1996
+Marijuana 30d,13.45,30 Day,Cannabis,College Student Women,.,1997
+Marijuana 30d,15.33,30 Day,Cannabis,College Student Women,.,1998
+Marijuana 30d,16.16,30 Day,Cannabis,College Student Women,.,1999
+Marijuana 30d,17.76,30 Day,Cannabis,College Student Women,.,2000
+Marijuana 30d,16.47,30 Day,Cannabis,College Student Women,.,2001
+Marijuana 30d,15.78,30 Day,Cannabis,College Student Women,.,2002
+Marijuana 30d,16.49,30 Day,Cannabis,College Student Women,.,2003
+Marijuana 30d,14.01,30 Day,Cannabis,College Student Women,.,2004
+Marijuana 30d,14.19,30 Day,Cannabis,College Student Women,.,2005
+Marijuana 30d,13.18,30 Day,Cannabis,College Student Women,.,2006
+Marijuana 30d,14.07,30 Day,Cannabis,College Student Women,.,2007
+Marijuana 30d,13.07,30 Day,Cannabis,College Student Women,.,2008
+Marijuana 30d,15.48,30 Day,Cannabis,College Student Women,.,2009
+Marijuana 30d,11.98,30 Day,Cannabis,College Student Women,.,2010
+Marijuana 30d,15.93,30 Day,Cannabis,College Student Women,.,2011
+Marijuana 30d,17.58,30 Day,Cannabis,College Student Women,.,2012
+Marijuana 30d,16.17,30 Day,Cannabis,College Student Women,.,2013
+Marijuana 30d,17.6,30 Day,Cannabis,College Student Women,.,2014
+Marijuana 30d,18.88,30 Day,Cannabis,College Student Women,.,2015
+Marijuana 30d,21.8,30 Day,Cannabis,College Student Women,.,2016
+Marijuana 30d,17.7,30 Day,Cannabis,College Student Women,.,2017
+Marijuana 30d,26.5,30 Day,Cannabis,College Student Women,.,2018
+Marijuana 30d,22.9,30 Day,Cannabis,College Student Women,.,2019
+Marijuana 30d,19.9,30 Day,Cannabis,College Student Women,.,2020
+Marijuana 30d,23.6,30 Day,Cannabis,College Student Women,.,2021
+Marijuana 30d,23.3,30 Day,Cannabis,College Student Women,.,2022
+Marijuana 30d,25.6,30 Day,Cannabis,College Student Women,.,2023
+Marijuana 30d,17.56,30 Day,Cannabis,College Student Men,.,1988
+Marijuana 30d,18.98,30 Day,Cannabis,College Student Men,.,1989
+Marijuana 30d,16.58,30 Day,Cannabis,College Student Men,.,1990
+Marijuana 30d,14.82,30 Day,Cannabis,College Student Men,.,1991
+Marijuana 30d,16.81,30 Day,Cannabis,College Student Men,.,1992
+Marijuana 30d,14.93,30 Day,Cannabis,College Student Men,.,1993
+Marijuana 30d,20.6,30 Day,Cannabis,College Student Men,.,1994
+Marijuana 30d,22.6,30 Day,Cannabis,College Student Men,.,1995
+Marijuana 30d,19.98,30 Day,Cannabis,College Student Men,.,1996
+Marijuana 30d,22.64,30 Day,Cannabis,College Student Men,.,1997
+Marijuana 30d,20.82,30 Day,Cannabis,College Student Men,.,1998
+Marijuana 30d,25.09,30 Day,Cannabis,College Student Men,.,1999
+Marijuana 30d,20.68,30 Day,Cannabis,College Student Men,.,2000
+Marijuana 30d,22.66,30 Day,Cannabis,College Student Men,.,2001
+Marijuana 30d,21.35,30 Day,Cannabis,College Student Men,.,2002
+Marijuana 30d,21.25,30 Day,Cannabis,College Student Men,.,2003
+Marijuana 30d,23.77,30 Day,Cannabis,College Student Men,.,2004
+Marijuana 30d,19.79,30 Day,Cannabis,College Student Men,.,2005
+Marijuana 30d,19.67,30 Day,Cannabis,College Student Men,.,2006
+Marijuana 30d,20.56,30 Day,Cannabis,College Student Men,.,2007
+Marijuana 30d,20.97,30 Day,Cannabis,College Student Men,.,2008
+Marijuana 30d,20.29,30 Day,Cannabis,College Student Men,.,2009
+Marijuana 30d,22.67,30 Day,Cannabis,College Student Men,.,2010
+Marijuana 30d,23.85,30 Day,Cannabis,College Student Men,.,2011
+Marijuana 30d,24.21,30 Day,Cannabis,College Student Men,.,2012
+Marijuana 30d,27.36,30 Day,Cannabis,College Student Men,.,2013
+Marijuana 30d,25.24,30 Day,Cannabis,College Student Men,.,2014
+Marijuana 30d,25.64,30 Day,Cannabis,College Student Men,.,2015
+Marijuana 30d,22.8,30 Day,Cannabis,College Student Men,.,2016
+Marijuana 30d,24.7,30 Day,Cannabis,College Student Men,.,2017
+Marijuana 30d,22.5,30 Day,Cannabis,College Student Men,.,2018
+Marijuana 30d,28,30 Day,Cannabis,College Student Men,.,2019
+Marijuana 30d,29.1,30 Day,Cannabis,College Student Men,.,2020
+Marijuana 30d,23.4,30 Day,Cannabis,College Student Men,.,2021
+Marijuana 30d,19.8,30 Day,Cannabis,College Student Men,.,2022
+Marijuana 30d,26.7,30 Day,Cannabis,College Student Men,.,2023
+Marijuana 30d,21.07,30 Day,Cannabis,.,Non-College Adult,1988
+Marijuana 30d,15.57,30 Day,Cannabis,.,Non-College Adult,1989
+Marijuana 30d,14.92,30 Day,Cannabis,.,Non-College Adult,1990
+Marijuana 30d,13.5,30 Day,Cannabis,.,Non-College Adult,1991
+Marijuana 30d,14.03,30 Day,Cannabis,.,Non-College Adult,1992
+Marijuana 30d,13.93,30 Day,Cannabis,.,Non-College Adult,1993
+Marijuana 30d,17.04,30 Day,Cannabis,.,Non-College Adult,1994
+Marijuana 30d,15.63,30 Day,Cannabis,.,Non-College Adult,1995
+Marijuana 30d,18.19,30 Day,Cannabis,.,Non-College Adult,1996
+Marijuana 30d,20.66,30 Day,Cannabis,.,Non-College Adult,1997
+Marijuana 30d,18.47,30 Day,Cannabis,.,Non-College Adult,1998
+Marijuana 30d,19.03,30 Day,Cannabis,.,Non-College Adult,1999
+Marijuana 30d,22.24,30 Day,Cannabis,.,Non-College Adult,2000
+Marijuana 30d,23.35,30 Day,Cannabis,.,Non-College Adult,2001
+Marijuana 30d,20.37,30 Day,Cannabis,.,Non-College Adult,2002
+Marijuana 30d,22.56,30 Day,Cannabis,.,Non-College Adult,2003
+Marijuana 30d,19.37,30 Day,Cannabis,.,Non-College Adult,2004
+Marijuana 30d,20,30 Day,Cannabis,.,Non-College Adult,2005
+Marijuana 30d,19.29,30 Day,Cannabis,.,Non-College Adult,2006
+Marijuana 30d,20.13,30 Day,Cannabis,.,Non-College Adult,2007
+Marijuana 30d,17.96,30 Day,Cannabis,.,Non-College Adult,2008
+Marijuana 30d,20.28,30 Day,Cannabis,.,Non-College Adult,2009
+Marijuana 30d,18.91,30 Day,Cannabis,.,Non-College Adult,2010
+Marijuana 30d,22.99,30 Day,Cannabis,.,Non-College Adult,2011
+Marijuana 30d,19.49,30 Day,Cannabis,.,Non-College Adult,2012
+Marijuana 30d,25.76,30 Day,Cannabis,.,Non-College Adult,2013
+Marijuana 30d,23.78,30 Day,Cannabis,.,Non-College Adult,2014
+Marijuana 30d,25.87,30 Day,Cannabis,.,Non-College Adult,2015
+Marijuana 30d,29.8,30 Day,Cannabis,.,Non-College Adult,2016
+Marijuana 30d,27.9,30 Day,Cannabis,.,Non-College Adult,2017
+Marijuana 30d,26,30 Day,Cannabis,.,Non-College Adult,2018
+Marijuana 30d,30,30 Day,Cannabis,.,Non-College Adult,2019
+Marijuana 30d,27.7,30 Day,Cannabis,.,Non-College Adult,2020
+Marijuana 30d,34.9,30 Day,Cannabis,.,Non-College Adult,2021
+Marijuana 30d,28.2,30 Day,Cannabis,.,Non-College Adult,2022
+Marijuana 30d,28.8,30 Day,Cannabis,.,Non-College Adult,2023
+Marijuana Daily,1.74,Daily,Cannabis,.,College Student,1988
+Marijuana Daily,2.7,Daily,Cannabis,.,College Student,1989
+Marijuana Daily,1.69,Daily,Cannabis,.,College Student,1990
+Marijuana Daily,1.76,Daily,Cannabis,.,College Student,1991
+Marijuana Daily,1.67,Daily,Cannabis,.,College Student,1992
+Marijuana Daily,1.72,Daily,Cannabis,.,College Student,1993
+Marijuana Daily,2.12,Daily,Cannabis,.,College Student,1994
+Marijuana Daily,3.35,Daily,Cannabis,.,College Student,1995
+Marijuana Daily,2.74,Daily,Cannabis,.,College Student,1996
+Marijuana Daily,3.71,Daily,Cannabis,.,College Student,1997
+Marijuana Daily,3.83,Daily,Cannabis,.,College Student,1998
+Marijuana Daily,4.06,Daily,Cannabis,.,College Student,1999
+Marijuana Daily,4.2,Daily,Cannabis,.,College Student,2000
+Marijuana Daily,4.22,Daily,Cannabis,.,College Student,2001
+Marijuana Daily,3.7,Daily,Cannabis,.,College Student,2002
+Marijuana Daily,4.65,Daily,Cannabis,.,College Student,2003
+Marijuana Daily,4.05,Daily,Cannabis,.,College Student,2004
+Marijuana Daily,4.17,Daily,Cannabis,.,College Student,2005
+Marijuana Daily,3.93,Daily,Cannabis,.,College Student,2006
+Marijuana Daily,3.33,Daily,Cannabis,.,College Student,2007
+Marijuana Daily,3.78,Daily,Cannabis,.,College Student,2008
+Marijuana Daily,4.58,Daily,Cannabis,.,College Student,2009
+Marijuana Daily,4.3,Daily,Cannabis,.,College Student,2010
+Marijuana Daily,4.9,Daily,Cannabis,.,College Student,2011
+Marijuana Daily,4.64,Daily,Cannabis,.,College Student,2012
+Marijuana Daily,5.54,Daily,Cannabis,.,College Student,2013
+Marijuana Daily,6.57,Daily,Cannabis,.,College Student,2014
+Marijuana Daily,5.36,Daily,Cannabis,.,College Student,2015
+Marijuana Daily,5.3,Daily,Cannabis,.,College Student,2016
+Marijuana Daily,4.3,Daily,Cannabis,.,College Student,2017
+Marijuana Daily,5.2,Daily,Cannabis,.,College Student,2018
+Marijuana Daily,5.1,Daily,Cannabis,.,College Student,2019
+Marijuana Daily,6.9,Daily,Cannabis,.,College Student,2020
+Marijuana Daily,4.8,Daily,Cannabis,.,College Student,2021
+Marijuana Daily,4.7,Daily,Cannabis,.,College Student,2022
+Marijuana Daily,6.3,Daily,Cannabis,.,College Student,2023
+Marijuana Daily,0.97,Daily,Cannabis,College Student Women,.,1988
+Marijuana Daily,1.56,Daily,Cannabis,College Student Women,.,1989
+Marijuana Daily,0.76,Daily,Cannabis,College Student Women,.,1990
+Marijuana Daily,1.21,Daily,Cannabis,College Student Women,.,1991
+Marijuana Daily,0.79,Daily,Cannabis,College Student Women,.,1992
+Marijuana Daily,1.1,Daily,Cannabis,College Student Women,.,1993
+Marijuana Daily,0.89,Daily,Cannabis,College Student Women,.,1994
+Marijuana Daily,2.4,Daily,Cannabis,College Student Women,.,1995
+Marijuana Daily,1.86,Daily,Cannabis,College Student Women,.,1996
+Marijuana Daily,2.25,Daily,Cannabis,College Student Women,.,1997
+Marijuana Daily,2.21,Daily,Cannabis,College Student Women,.,1998
+Marijuana Daily,2.73,Daily,Cannabis,College Student Women,.,1999
+Marijuana Daily,3.3,Daily,Cannabis,College Student Women,.,2000
+Marijuana Daily,3.18,Daily,Cannabis,College Student Women,.,2001
+Marijuana Daily,2.55,Daily,Cannabis,College Student Women,.,2002
+Marijuana Daily,3.32,Daily,Cannabis,College Student Women,.,2003
+Marijuana Daily,2.54,Daily,Cannabis,College Student Women,.,2004
+Marijuana Daily,3.1,Daily,Cannabis,College Student Women,.,2005
+Marijuana Daily,3.38,Daily,Cannabis,College Student Women,.,2006
+Marijuana Daily,2.28,Daily,Cannabis,College Student Women,.,2007
+Marijuana Daily,1.56,Daily,Cannabis,College Student Women,.,2008
+Marijuana Daily,3.5,Daily,Cannabis,College Student Women,.,2009
+Marijuana Daily,2.83,Daily,Cannabis,College Student Women,.,2010
+Marijuana Daily,2.48,Daily,Cannabis,College Student Women,.,2011
+Marijuana Daily,2.24,Daily,Cannabis,College Student Women,.,2012
+Marijuana Daily,2.74,Daily,Cannabis,College Student Women,.,2013
+Marijuana Daily,3.45,Daily,Cannabis,College Student Women,.,2014
+Marijuana Daily,3.84,Daily,Cannabis,College Student Women,.,2015
+Marijuana Daily,3.7,Daily,Cannabis,College Student Women,.,2016
+Marijuana Daily,2.8,Daily,Cannabis,College Student Women,.,2017
+Marijuana Daily,4.1,Daily,Cannabis,College Student Women,.,2018
+Marijuana Daily,4.2,Daily,Cannabis,College Student Women,.,2019
+Marijuana Daily,4.4,Daily,Cannabis,College Student Women,.,2020
+Marijuana Daily,3.5,Daily,Cannabis,College Student Women,.,2021
+Marijuana Daily,5.8,Daily,Cannabis,College Student Women,.,2022
+Marijuana Daily,5.1,Daily,Cannabis,College Student Women,.,2023
+Marijuana Daily,2.63,Daily,Cannabis,College Student Men,.,1988
+Marijuana Daily,3.9,Daily,Cannabis,College Student Men,.,1989
+Marijuana Daily,2.64,Daily,Cannabis,College Student Men,.,1990
+Marijuana Daily,2.36,Daily,Cannabis,College Student Men,.,1991
+Marijuana Daily,2.54,Daily,Cannabis,College Student Men,.,1992
+Marijuana Daily,2.41,Daily,Cannabis,College Student Men,.,1993
+Marijuana Daily,3.53,Daily,Cannabis,College Student Men,.,1994
+Marijuana Daily,4.46,Daily,Cannabis,College Student Men,.,1995
+Marijuana Daily,3.91,Daily,Cannabis,College Student Men,.,1996
+Marijuana Daily,5.34,Daily,Cannabis,College Student Men,.,1997
+Marijuana Daily,5.84,Daily,Cannabis,College Student Men,.,1998
+Marijuana Daily,5.53,Daily,Cannabis,College Student Men,.,1999
+Marijuana Daily,5.22,Daily,Cannabis,College Student Men,.,2000
+Marijuana Daily,5.41,Daily,Cannabis,College Student Men,.,2001
+Marijuana Daily,5,Daily,Cannabis,College Student Men,.,2002
+Marijuana Daily,6.24,Daily,Cannabis,College Student Men,.,2003
+Marijuana Daily,6.03,Daily,Cannabis,College Student Men,.,2004
+Marijuana Daily,5.56,Daily,Cannabis,College Student Men,.,2005
+Marijuana Daily,4.6,Daily,Cannabis,College Student Men,.,2006
+Marijuana Daily,4.62,Daily,Cannabis,College Student Men,.,2007
+Marijuana Daily,6.5,Daily,Cannabis,College Student Men,.,2008
+Marijuana Daily,5.86,Daily,Cannabis,College Student Men,.,2009
+Marijuana Daily,6.17,Daily,Cannabis,College Student Men,.,2010
+Marijuana Daily,7.95,Daily,Cannabis,College Student Men,.,2011
+Marijuana Daily,7.48,Daily,Cannabis,College Student Men,.,2012
+Marijuana Daily,9.1,Daily,Cannabis,College Student Men,.,2013
+Marijuana Daily,10,Daily,Cannabis,College Student Men,.,2014
+Marijuana Daily,7.17,Daily,Cannabis,College Student Men,.,2015
+Marijuana Daily,7.3,Daily,Cannabis,College Student Men,.,2016
+Marijuana Daily,6.1,Daily,Cannabis,College Student Men,.,2017
+Marijuana Daily,6.6,Daily,Cannabis,College Student Men,.,2018
+Marijuana Daily,5.8,Daily,Cannabis,College Student Men,.,2019
+Marijuana Daily,10.3,Daily,Cannabis,College Student Men,.,2020
+Marijuana Daily,6,Daily,Cannabis,College Student Men,.,2021
+Marijuana Daily,3.6,Daily,Cannabis,College Student Men,.,2022
+Marijuana Daily,8,Daily,Cannabis,College Student Men,.,2023
+Marijuana Daily,4.54,Daily,Cannabis,.,Non-College Adult,1988
+Marijuana Daily,3.1,Daily,Cannabis,.,Non-College Adult,1989
+Marijuana Daily,3.03,Daily,Cannabis,.,Non-College Adult,1990
+Marijuana Daily,2.48,Daily,Cannabis,.,Non-College Adult,1991
+Marijuana Daily,2.22,Daily,Cannabis,.,Non-College Adult,1992
+Marijuana Daily,2.36,Daily,Cannabis,.,Non-College Adult,1993
+Marijuana Daily,4.06,Daily,Cannabis,.,Non-College Adult,1994
+Marijuana Daily,4.87,Daily,Cannabis,.,Non-College Adult,1995
+Marijuana Daily,4.89,Daily,Cannabis,.,Non-College Adult,1996
+Marijuana Daily,6.7,Daily,Cannabis,.,Non-College Adult,1997
+Marijuana Daily,6.6,Daily,Cannabis,.,Non-College Adult,1998
+Marijuana Daily,6.76,Daily,Cannabis,.,Non-College Adult,1999
+Marijuana Daily,6.71,Daily,Cannabis,.,Non-College Adult,2000
+Marijuana Daily,8.97,Daily,Cannabis,.,Non-College Adult,2001
+Marijuana Daily,7.72,Daily,Cannabis,.,Non-College Adult,2002
+Marijuana Daily,8.91,Daily,Cannabis,.,Non-College Adult,2003
+Marijuana Daily,6.77,Daily,Cannabis,.,Non-College Adult,2004
+Marijuana Daily,7.68,Daily,Cannabis,.,Non-College Adult,2005
+Marijuana Daily,5.99,Daily,Cannabis,.,Non-College Adult,2006
+Marijuana Daily,7.15,Daily,Cannabis,.,Non-College Adult,2007
+Marijuana Daily,6.57,Daily,Cannabis,.,Non-College Adult,2008
+Marijuana Daily,7.14,Daily,Cannabis,.,Non-College Adult,2009
+Marijuana Daily,7.13,Daily,Cannabis,.,Non-College Adult,2010
+Marijuana Daily,7.83,Daily,Cannabis,.,Non-College Adult,2011
+Marijuana Daily,7.65,Daily,Cannabis,.,Non-College Adult,2012
+Marijuana Daily,9.28,Daily,Cannabis,.,Non-College Adult,2013
+Marijuana Daily,9.85,Daily,Cannabis,.,Non-College Adult,2014
+Marijuana Daily,11.22,Daily,Cannabis,.,Non-College Adult,2015
+Marijuana Daily,12.1,Daily,Cannabis,.,Non-College Adult,2016
+Marijuana Daily,12.3,Daily,Cannabis,.,Non-College Adult,2017
+Marijuana Daily,10.2,Daily,Cannabis,.,Non-College Adult,2018
+Marijuana Daily,12.9,Daily,Cannabis,.,Non-College Adult,2019
+Marijuana Daily,12.3,Daily,Cannabis,.,Non-College Adult,2020
+Marijuana Daily,15.4,Daily,Cannabis,.,Non-College Adult,2021
+Marijuana Daily,14.5,Daily,Cannabis,.,Non-College Adult,2022
+Marijuana Daily,11.7,Daily,Cannabis,.,Non-College Adult,2023
+Vape Mj 30d,4.9,30 Day,Vaping Cannabis,.,College Student,2017
+Vape Mj 30d,10,30 Day,Vaping Cannabis,.,College Student,2018
+Vape Mj 30d,9.7,30 Day,Vaping Cannabis,.,College Student,2019
+Vape Mj 30d,11.5,30 Day,Vaping Cannabis,.,College Student,2020
+Vape Mj 30d,10.7,30 Day,Vaping Cannabis,.,College Student,2021
+Vape Mj 30d,11.2,30 Day,Vaping Cannabis,.,College Student,2022
+Vape Mj 30d,14.2,30 Day,Vaping Cannabis,.,College Student,2023
+Vape Mj 30d,2.5,30 Day,Vaping Cannabis,College Student Women,.,2017
+Vape Mj 30d,9.4,30 Day,Vaping Cannabis,College Student Women,.,2018
+Vape Mj 30d,8.2,30 Day,Vaping Cannabis,College Student Women,.,2019
+Vape Mj 30d,9,30 Day,Vaping Cannabis,College Student Women,.,2020
+Vape Mj 30d,9.4,30 Day,Vaping Cannabis,College Student Women,.,2021
+Vape Mj 30d,10.1,30 Day,Vaping Cannabis,College Student Women,.,2022
+Vape Mj 30d,13.5,30 Day,Vaping Cannabis,College Student Women,.,2023
+Vape Mj 30d,7.5,30 Day,Vaping Cannabis,College Student Men,.,2017
+Vape Mj 30d,10.6,30 Day,Vaping Cannabis,College Student Men,.,2018
+Vape Mj 30d,11.8,30 Day,Vaping Cannabis,College Student Men,.,2019
+Vape Mj 30d,15.1,30 Day,Vaping Cannabis,College Student Men,.,2020
+Vape Mj 30d,12.7,30 Day,Vaping Cannabis,College Student Men,.,2021
+Vape Mj 30d,13.5,30 Day,Vaping Cannabis,College Student Men,.,2022
+Vape Mj 30d,15.5,30 Day,Vaping Cannabis,College Student Men,.,2023
+Vape Mj 30d,6.7,30 Day,Vaping Cannabis,.,Non-College Adult,2017
+Vape Mj 30d,7.7,30 Day,Vaping Cannabis,.,Non-College Adult,2018
+Vape Mj 30d,12.8,30 Day,Vaping Cannabis,.,Non-College Adult,2019
+Vape Mj 30d,13.1,30 Day,Vaping Cannabis,.,Non-College Adult,2020
+Vape Mj 30d,16.3,30 Day,Vaping Cannabis,.,Non-College Adult,2021
+Vape Mj 30d,18.9,30 Day,Vaping Cannabis,.,Non-College Adult,2022
+Vape Mj 30d,19.6,30 Day,Vaping Cannabis,.,Non-College Adult,2023
+Vape Nic 30d,5.4,30 Day,Vaping Nicotine,.,College Student,2017
+Vape Nic 30d,14.9,30 Day,Vaping Nicotine,.,College Student,2018
+Vape Nic 30d,17.1,30 Day,Vaping Nicotine,.,College Student,2019
+Vape Nic 30d,18.8,30 Day,Vaping Nicotine,.,College Student,2020
+Vape Nic 30d,19.6,30 Day,Vaping Nicotine,.,College Student,2021
+Vape Nic 30d,18.9,30 Day,Vaping Nicotine,.,College Student,2022
+Vape Nic 30d,18,30 Day,Vaping Nicotine,.,College Student,2023
+Vape Nic 30d,2.7,30 Day,Vaping Nicotine,College Student Women,.,2017
+Vape Nic 30d,12,30 Day,Vaping Nicotine,College Student Women,.,2018
+Vape Nic 30d,13.9,30 Day,Vaping Nicotine,College Student Women,.,2019
+Vape Nic 30d,16.4,30 Day,Vaping Nicotine,College Student Women,.,2020
+Vape Nic 30d,19,30 Day,Vaping Nicotine,College Student Women,.,2021
+Vape Nic 30d,19,30 Day,Vaping Nicotine,College Student Women,.,2022
+Vape Nic 30d,16.9,30 Day,Vaping Nicotine,College Student Women,.,2023
+Vape Nic 30d,8.3,30 Day,Vaping Nicotine,College Student Men,.,2017
+Vape Nic 30d,17.9,30 Day,Vaping Nicotine,College Student Men,.,2018
+Vape Nic 30d,21.6,30 Day,Vaping Nicotine,College Student Men,.,2019
+Vape Nic 30d,23,30 Day,Vaping Nicotine,College Student Men,.,2020
+Vape Nic 30d,20.2,30 Day,Vaping Nicotine,College Student Men,.,2021
+Vape Nic 30d,18.2,30 Day,Vaping Nicotine,College Student Men,.,2022
+Vape Nic 30d,19.1,30 Day,Vaping Nicotine,College Student Men,.,2023
+Vape Nic 30d,7,30 Day,Vaping Nicotine,.,Non-College Adult,2017
+Vape Nic 30d,13.4,30 Day,Vaping Nicotine,.,Non-College Adult,2018
+Vape Nic 30d,12.4,30 Day,Vaping Nicotine,.,Non-College Adult,2019
+Vape Nic 30d,20.1,30 Day,Vaping Nicotine,.,Non-College Adult,2020
+Vape Nic 30d,26.6,30 Day,Vaping Nicotine,.,Non-College Adult,2021
+Vape Nic 30d,23.2,30 Day,Vaping Nicotine,.,Non-College Adult,2022
+Vape Nic 30d,28.8,30 Day,Vaping Nicotine,.,Non-College Adult,2023

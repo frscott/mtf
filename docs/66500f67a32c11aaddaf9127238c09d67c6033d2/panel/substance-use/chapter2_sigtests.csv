@@ -1,0 +1,74 @@
+Variable,age,OneYear1,OneYear2,oneyrchange,sig_oneyr,FiveYear1,FiveYear2,fiveyrchange,sig_fiveyr,TenYear1,TenYear2,tenyrchange,sig_tenyr,time,drug
+mj_annual,Age 19-30,43.5841,42.3888,.,n.s.,38.6616,42.3888,3.7,p<.001,30.5707,42.3888,11.8,p<.001,12 Month,Cannabis
+mj_annual,Age 35-50,27.899,29.2451,.,n.s.,18.9748,29.2451,10.3,p<.001,14.363,29.2451,14.9,p<.001,12 Month,Cannabis
+mj_30d,Age 19-30,28.8354,28.6928,.,n.s.,24.2941,28.6928,4.4,p<.001,18.26,28.6928,10.4,p<.001,30 Day,Cannabis
+mj_30d,Age 35-50,17.2809,19.1709,.,n.s.,12.0607,19.1709,7.1,p<.001,8.33,19.1709,10.8,p<.001,30 Day,Cannabis
+mj_dly,Age 19-30,11.2943,10.3613,.,n.s.,8.5925,10.3613,1.8,p<.001,5.9391,10.3613,4.4,p<.001,Daily,Cannabis
+mj_dly,Age 35-50,6.5176,7.5377,.,n.s.,4.3428,7.5377,3.2,p<.001,2.7536,7.5377,4.8,p<.001,Daily,Cannabis
+alc_annual,Age 19-30,83.4872,83.7242,.,n.s.,82.0546,83.7242,1.7,p<.01,82.5041,83.7242,.,n.s.,12 Month,Alcohol
+alc_annual,Age 35-50,84.7773,83.9385,.,n.s.,83.9716,83.9385,.,n.s.,82.5205,83.9385,.,n.s.,12 Month,Alcohol
+alc_30d,Age 19-30,67.4941,64.8645,-2.6,p<.05,65.6665,64.8645,.,n.s.,67.8614,64.8645,-3,p<.01,30 Day,Alcohol
+alc_30d,Age 35-50,71.3321,69.0637,.,n.s.,68.8397,69.0637,.,n.s.,67.6998,69.0637,1.4,p<.01,30 Day,Alcohol
+alc_dly,Age 19-30,4.6283,3.593,.,n.s.,4.8119,3.593,-1.2,p<.05,5.4902,3.593,-1.9,p<.01,Daily,Alcohol
+alc_dly,Age 35-50,8.4503,7.6257,.,n.s.,9.4583,7.6257,-1.8,p<.01,9.042,7.6257,.,n.s.,Daily,Alcohol
+alc_binge5,Age 19-30,30.5293,27.1688,-3.4,p<.01,30.1125,27.1688,.,n.s.,35.0969,27.1688,-7.9,p<.001,5+ Drinks,Alcohol
+alc_binge5,Age 35-50,29.2019,26.973,.,n.s.,24.8152,26.973,2.2,p<.01,23.6369,26.973,3.3,p<.001,5+ Drinks,Alcohol
+cig_30d,Age 19-30,8.5417,8.8317,.,n.s.,13.7686,8.8317,-4.9,p<.001,20.6424,8.8317,-11.8,p<.001,30 Day,Cigarettes
+cig_30d,Age 35-50,12.2432,10.1697,-2.1,p<.05,12.8906,10.1697,-2.7,p<.01,16.8957,10.1697,-6.7,p<.001,30 Day,Cigarettes
+cig_dly,Age 19-30,4.2039,3.6049,.,n.s.,8.2357,3.6049,-4.6,p<.001,12.7551,3.6049,-9.2,p<.001,Daily,Cigarettes
+cig_dly,Age 35-50,9.0158,7.8109,.,n.s.,9.8841,7.8109,-2.1,p<.01,13.3212,7.8109,-5.5,p<.001,Daily,Cigarettes
+cig_hp,Age 19-30,2.0625,2.0116,.,n.s.,4.5598,2.0116,-2.5,p<.001,7.3541,2.0116,-5.3,p<.001,Half Pack or More per Day,Cigarettes
+cig_hp,Age 35-50,6.2019,5.8553,.,n.s.,6.9251,5.8553,-1.1,p<.05,10.0863,5.8553,-4.2,p<.001,Half Pack or More per Day,Cigarettes
+mjvape_30d,Age 19-30,13.8677,14.3715,.,n.s.,9.223,14.3715,5.1,p<.001,.,14.3715,.,N/A,30 Day,Vaping Cannabis
+mjvape_30d,Age 35-50,6.2617,6.3035,.,n.s.,.,6.3035,.,n.s.,.,6.3035,.,N/A,30 Day,Vaping Cannabis
+nicvape_30d,Age 19-30,17.2028,18.706,.,n.s.,10.1821,18.706,8.5,p<.001,.,18.706,.,N/A,30 Day,Vaping Nicotine
+nicvape_30d,Age 35-50,5.204,5.3949,.,n.s.,.,5.3949,.,p<.001,.,5.3949,.,N/A,30 Day,Vaping Nicotine
+otm_annual,Age 19-30,17.4025,16.6314,.,n.s.,19.1594,16.6314,-2.5,p<.01,17.4838,16.6314,-0.9,p<.01,12 Month,Any Drug Other Than Cannabis
+otm_annual,Age 35-50,11.8825,11.3091,.,n.s.,12.1349,11.3091,.,n.s.,10.5792,11.3091,.,n.s.,12 Month,Any Drug Other Than Cannabis
+amph_annual,Age 19-30,5.3633,4.4803,.,n.s.,7.7823,4.4803,-3.3,p<.001,7.2812,4.4803,-2.8,p<.001,12 Month,Amphetamines
+amph_annual,Age 35-50,3.156,2.6023,.,n.s.,2.1062,2.6023,.,n.s.,1.533,2.6023,1.1,p<.001,12 Month,Amphetamines
+coke_annual,Age 19-30,5.5419,5.248,.,n.s.,6.9563,5.248,-1.7,p<.001,3.9821,5.248,.,n.s.,12 Month,Cocaine
+coke_annual,Age 35-50,2.8575,2.9396,.,n.s.,2.684,2.9396,.,n.s.,2.5033,2.9396,0.4,p<.05,12 Month,Cocaine
+hals_annual,Age 19-30,7.9681,8.8612,.,n.s.,5.2667,8.8612,3.6,p<.001,3.8067,8.8612,5.1,p<.001,12 Month,Hallucinogens
+hals_annual,Age 35-50,4.1084,4.2312,.,n.s.,1.3579,4.2312,2.9,p<.001,0.5728,4.2312,3.7,p<.001,12 Month,Hallucinogens
+othhals_annual,Age 19-30,7.028,8.5083,.,n.s.,3.3741,8.5083,5.1,p<.001,3.1454,8.5083,5.4,p<.001,12 Month,Hallucinogens Other Than LSD
+her_annual,Age 19-30,0.2333,2.51E-02,-0.2,p<.05,0.3544,2.51E-02,-0.3,p<.01,0.6926,2.51E-02,-0.7,p<.001,12 Month,Heroin
+her_annual,Age 35-50,0.3439,0.175,.,n.s.,0.2265,0.175,.,n.s.,0.3045,0.175,.,n.s.,12 Month,Heroin
+lsd_annual,Age 19-30,2.5978,2.4898,.,n.s.,3.6838,2.4898,-1.2,p<.01,1.8251,2.4898,0.7,p<.001,12 Month,LSD
+mdma2_annual,Age 19-30,3.2025,2.9265,.,n.s.,3.7795,2.9265,-0.9,p<.01,.,2.9265,.,p<.001,12 Month,"MDMA (Ecstasy, Molly)"
+othnarcs_annual,Age 19-30,1.7565,1.312,.,n.s.,3.8443,1.312,-2.5,p<.001,7.5725,1.312,-6.3,p<.001,12 Month,Narcotics Other Than Heroin
+othnarcs_annual,Age 35-50,3.1442,2.7004,.,n.s.,4.734,2.7004,-2,p<.01,4.3962,2.7004,-1.7,p<.001,12 Month,Narcotics Other Than Heroin
+seds_annual,Age 19-30,1.3943,0.9475,.,n.s.,2.818,0.9475,-1.9,p<.001,3.3895,0.9475,-2.4,p<.001,12 Month,Sedatives (Barbiturates)
+seds_annual,Age 35-50,2.1721,1.9734,.,n.s.,2.4999,1.9734,.,n.s.,2.5838,1.9734,-0.6,p<.01,12 Month,Sedatives (Barbiturates)
+tranqs_annual,Age 19-30,2.243,2.1431,.,n.s.,4.3666,2.1431,-2.2,p<.001,5.5878,2.1431,-3.4,p<.001,12 Month,Tranquilizers
+tranqs_annual,Age 35-50,3.6276,3.4441,.,n.s.,4.0261,3.4441,.,n.s.,4.0045,3.4441,.,n.s.,12 Month,Tranquilizers
+cig_annual,Age 19-30,17.7725,18.7991,.,n.s.,23.5617,18.7991,-4.8,p<.001,29.9068,18.7991,-11.1,p<.001,12 Month,Cigarettes
+cig_annual,Age 35-50,16.5918,16.229,.,n.s.,17.9772,16.229,.,n.s.,21.2517,16.229,-5,p<.001,12 Month,Cigarettes
+mjvape_annual,Age 19-30,21.2615,22.2439,.,n.s.,15.6848,22.2439,6.6,p<.001,.,22.2439,.,N/A,12 Month,Vaping Cannabis
+mjvape_annual,Age 35-50,9.022,8.6708,.,n.s.,.,8.6708,.,n.s.,.,8.6708,.,N/A,12 Month,Vaping Cannabis
+nicvape_annual,Age 19-30,23.7239,25.2955,.,n.s.,16.4513,25.2955,8.8,p<.001,.,25.2955,.,N/A,12 Month,Vaping Nicotine
+nicvape_annual,Age 35-50,6.7387,6.9971,.,n.s.,.,6.9971,.,n.s.,.,6.9971,.,N/A,12 Month,Vaping Nicotine
+binge10,Age 19-30,9.4537,8.5396,.,n.s.,9.2708,8.5396,.,n.s.,11.0476,8.5396,-2.5,p<.05,10+ Drinks,Alcohol
+adderall_annual,Age 19-30,7.7772,3.7041,-4.1,p<.001,8.2583,3.7041,-4.6,p<.05,6.2807,3.7041,.,n.s.,12 Month,Adderall
+meth_annual,Age 19-30,0.7912,0.3955,.,n.s.,1.5147,0.3955,-1.1,p<.05,0.7938,0.3955,.,n.s.,12 Month,Methamphetamine
+ritalin_annual,Age 19-30,1.4633,1.1841,.,n.s.,1.4029,1.1841,.,n.s.,1.9354,1.1841,.,n.s.,12 Month,Ritalin
+hookah_annual,Age 19-30,.,7.9117,.,N/A,.,7.9117,.,N/A,.,7.9117,.,N/A,12 Month,Tobacco Using a Hookah
+hookah_annual,Age 35-50,.,2.9771,.,N/A,.,2.9771,.,N/A,.,2.9771,.,N/A,12 Month,Tobacco Using a Hookah
+smcigar_annual,Age 19-30,.,10.8302,.,N/A,.,10.8302,.,N/A,.,10.8302,.,N/A,12 Month,Small Cigars
+smcigar_annual,Age 35-50,.,7.2165,.,N/A,.,7.2165,.,N/A,.,7.2165,.,N/A,12 Month,Small Cigars
+snus_annual,Age 19-30,2.7674,1.7944,.,n.s.,3.5537,1.7944,.,n.s.,5.202,1.7944,-3.4,p<.001,12 Month,Snus
+oxy_annual,Age 19-30,1.4305,1.4823,.,n.s.,2.1217,1.4823,.,n.s.,2.8153,1.4823,-1.3,p<.001,12 Month,OxyContin
+vic_annual,Age 19-30,1.6452,0.7437,.,n.s.,2.7599,0.7437,-2,p<.001,6.2547,0.7437,-5.5,p<.001,12 Month,Vicodin
+otm_30d,Age 19-30,6.7043,6.5703,.,n.s.,8.6304,6.5703,-2.1,p<.001,8.1671,6.5703,-1.6,p<.001,30 Day,Any Drug Other Than Cannabis
+otm_30d,Age 35-50,5.4572,4.6555,.,n.s.,5.3178,4.6555,.,n.s.,5.2857,4.6555,.,n.s.,30 Day,Any Drug Other Than Cannabis
+anyrx_annual,Age 19-30,8.0178,6.9931,.,n.s.,12.6838,6.9931,-5.7,p<.001,15.5922,6.9931,-8.6,p<.001,12 Month,Any Prescription Drug
+anyrx_annual,Age 35-50,8.3388,7.6938,.,n.s.,10.0568,7.6938,-2.4,p<.05,8.9715,7.6938,-1.3,p<.001,12 Month,Any Prescription Drug
+delta8_annual,Age 19-30,.,12.3541,.,N/A,.,12.3541,.,N/A,.,12.3541,.,N/A,12 Month,Delta-8
+nicpouch_annual,Age 19-30,.,4.8383,.,N/A,.,4.8383,.,N/A,.,4.8383,.,N/A,12 Month,Nicotine Pouches
+nicpouch_annual,Age 35-50,.,3.2831,.,N/A,.,3.2831,.,N/A,.,3.2831,.,N/A,12 Month,Nicotine Pouches
+lgcigar_annual,Age 19-30,.,10.2365,.,N/A,.,10.2365,.,N/A,.,10.2365,.,N/A,12 Month,Large Cigars
+lgcigar_annual,Age 35-50,.,7.7826,.,N/A,.,7.7826,.,N/A,.,7.7826,.,N/A,12 Month,Large Cigars
+smkls_annual,Age 19-30,.,3.3,.,N/A,.,3.3,.,N/A,.,3.3,.,N/A,12 Month,Smokeless Tobacco
+smkls_annual,Age 35-50,.,4.7236,.,N/A,.,4.7236,.,N/A,.,4.7236,.,N/A,12 Month,Smokeless Tobacco
+anynic_annual,Age 19-30,.,40.6,.,N/A,.,40.6,.,N/A,.,40.6,.,N/A,12 Month,Any Nicotine Use
+anynic_annual,Age 35-50,.,29.5929,.,N/A,.,29.5929,.,N/A,.,29.5929,.,N/A,12 Month,Any Nicotine Use

@@ -1,0 +1,70 @@
+/* css styles */
+body,h1,h2,h3,h4,h5,h6,span {font-family: "Archivo"; color: #000066;}
+
+nav {
+  background-color: white !important;
+}
+
+caption {
+  caption-side: top;
+}
+
+.navbar-logo {
+  max-height: 44px;
+}
+
+.menu-text {
+  color: black;
+}
+
+.dropdown-toggle {
+  color: black;
+}
+
+.dropdown-toggle::after {
+  color: black;
+}
+
+.dropdown-text {
+  color: black;
+}
+
+.observablehq table {
+    font-family: "Archivo";
+    font-size: 0.79em !important;
+  }
+
+.observablehq {
+    display: flex; 
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.citation {
+    display: flex; 
+    justify-content: center;
+}
+
+.center {
+  display: flex; 
+  justify-content: center;
+}
+
+.oi-3a86ea-table {
+    color: #000066  
+}
+
+.oi-3a86ea-table tr:nth-child(odd) {
+    background-color: rgb(224 243 236); /* Background color for odd rows */
+    table-layout: fixed;
+    width: 100%;
+  }
+ 
+.oi-3a86ea-table th,
+.oi-3a86ea-table td {
+    padding: 8px; /* Adjust padding for cells */
+    text-align: center; /* Align text as needed */
+    width: 150px; /* Set equal width for each column */
+  }
+
+/* plot color theme (Ages 19-30) #59bbeb (Ages 35-50) #6ac4a1 (Ages 55-65) #cca438*/

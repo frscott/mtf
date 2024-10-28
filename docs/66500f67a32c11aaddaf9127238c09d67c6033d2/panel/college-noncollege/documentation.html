@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 4</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../um_favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JSSB1SYY4T"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JSSB1SYY4T', { 'anonymize_ip': true});
+</script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="http://blue.isr.umich.edu/data/index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../mtf_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-main-study" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Main Study</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-main-study">    
+        <li>
+    <a class="dropdown-item" href="../../bx-by/drug-prevalence/index.html">
+ <span class="dropdown-text">Prevalence/Trends</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-panel-study" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Panel Study</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-panel-study">    
+        <li>
+    <a class="dropdown-item" href="../../panel/substance-use/index.html">
+ <span class="dropdown-text">Prevalence/Trends</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../panel/demographic-subgroups/index.html">
+ <span class="dropdown-text">Demographic Subgroups</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../panel/college-noncollege/index.html">
+ <span class="dropdown-text">College Students</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Help</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
+        <li>
+    <a class="dropdown-item" href="https://monitoringthefuture.org/about/"><i class="bi bi-info-square" role="img">
+</i> 
+ <span class="dropdown-text">About the Study</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://monitoringthefuture.org/contact-us/"><i class="bi bi-question-square" role="img">
+</i> 
+ <span class="dropdown-text">Contact Us</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://monitoringthefuture.org/results/data-access/"><i class="bi bi-files" role="img">
+</i> 
+ <span class="dropdown-text">Data Access</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chapter 4</h1>
+<p class="subtitle lead">College and Noncollege</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="column-page">
+<section id="significance-tests" class="level2">
+<h2 class="anchored" data-anchor-id="significance-tests">Significance Tests</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="14" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 13;"><span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>sigData <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"chapter4_sigtests.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({ <span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span> })</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>sigsDrug <span class="op">=</span> sigData<span class="op">.</span><span class="fu">filter</span>(</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  ({ drug }) <span class="kw">=&gt;</span> drug <span class="op">===</span> select</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>significance <span class="op">=</span> sigsDrug<span class="op">.</span><span class="fu">filter</span>(({ time }) <span class="kw">=&gt;</span> time <span class="op">===</span> radio[<span class="dv">0</span>]<span class="op">.</span><span class="at">time</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>significance</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="significance-legend-in-graph" class="level2">
+<h2 class="anchored" data-anchor-id="significance-legend-in-graph">Significance Legend in Graph</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="27" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>sigLegend1 <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="vs">    caption {</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="vs">      font-size: 9px;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="vs">    table {</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="vs">      margin-bottom: 0.5rem;</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="vs">    .small td {</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="vs">        font-size: 9px;</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="vs">        color: #000066;</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/style&gt;</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;table class="small" style="width: 250px; "&gt;</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;caption style="color: #000066;"&gt; &lt;b&gt;&lt;u&gt;2023 Trends&lt;/b&gt;&lt;/u&gt; &lt;/caption&gt;</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;College Students&lt;/td&gt;</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;1-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">oneyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">sig_oneyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt; &lt;/td&gt;</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;5-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">fiveyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">sig_fiveyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr style="background-color: white;"&gt;</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;&lt;/td&gt;</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;10-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">tenyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">0</span>]<span class="op">?.</span><span class="at">sig_tenyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;tr&gt;</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;Noncollege Young Adults&lt;/td&gt;</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;1-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">oneyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">sig_oneyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt; &lt;/td&gt;</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;5-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">fiveyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">sig_fiveyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr style="background-color: white;"&gt;</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;&lt;/td&gt;</span></span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;10-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">tenyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">1</span>]<span class="op">?.</span><span class="at">sig_tenyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/table&gt;`</span></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>sigLegend2 <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;</span></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="vs">    caption {</span></span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="vs">      font-size: 9px;</span></span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="vs">    table {</span></span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="vs">      margin-bottom: 0.5rem;</span></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="vs">   .small td {</span></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="vs">        font-size: 9px;</span></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="vs">        color: #000066;</span></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="vs">    }</span></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/style&gt;</span></span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;table class="small" style="width: 250px; "&gt;</span></span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;caption style="color: #000066;"&gt; &lt;b&gt;&lt;u&gt;2023 Trends&lt;/b&gt;&lt;/u&gt; &lt;/caption&gt;</span></span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;College Men&lt;/td&gt;</span></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;1-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">oneyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">sig_oneyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt; &lt;/td&gt;</span></span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;5-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">fiveyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">sig_fiveyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr style="background-color: white;"&gt;</span></span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;&lt;/td&gt;</span></span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;10-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">tenyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">2</span>]<span class="op">?.</span><span class="at">sig_tenyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;College Women&lt;/td&gt;</span></span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;1-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">oneyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">sig_oneyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;&lt;/td&gt;</span></span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;5-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">fiveyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">sig_fiveyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tr&gt;</span></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;&lt;/td&gt;</span></span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;10-Year Change&lt;/td&gt;</span></span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">tenyrchange</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>significance[<span class="dv">3</span>]<span class="op">?.</span><span class="at">sig_tenyr</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;</span></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/table&gt;`</span></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>legendPlace <span class="op">=</span> {<span class="cf">if</span> (collegedata[<span class="dv">0</span>]<span class="op">?.</span><span class="at">drug</span> <span class="op">==</span> <span class="st">"Cigarettes"</span> <span class="op">&amp;&amp;</span> collegedata[<span class="dv">0</span>]<span class="op">?.</span><span class="at">time</span> <span class="op">==</span> <span class="st">"30 Day"</span>){</span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="st">"top: 60px; right: 10px;"</span><span class="op">;</span></span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (collegedata[<span class="dv">0</span>]<span class="op">?.</span><span class="at">drug</span> <span class="op">==</span> <span class="st">"Any Drug Other Than Cannabis"</span> <span class="op">&amp;&amp;</span> collegedata[<span class="dv">0</span>]<span class="op">?.</span><span class="at">time</span> <span class="op">==</span> <span class="st">"30 Day"</span>){</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="st">"bottom: 65px; right: 70px;"</span><span class="op">;</span></span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="st">"bottom: 65px; right: 50px;"</span><span class="op">;</span></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="combined-sig-plot-with-legend" class="level2">
+<h2 class="anchored" data-anchor-id="combined-sig-plot-with-legend">Combined Sig Plot with Legend</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="151" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 150;"><span id="cb3-151"><a href="#cb3-151" aria-hidden="true" tabindex="-1"></a>combosexPlot <span class="op">=</span> <span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb3-152"><a href="#cb3-152" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div style="position: relative;"&gt;</span></span>
+<span id="cb3-153"><a href="#cb3-153" aria-hidden="true" tabindex="-1"></a><span class="vs">  </span><span class="sc">${</span>sexplot<span class="sc">}</span></span>
+<span id="cb3-154"><a href="#cb3-154" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div style="position: absolute; </span><span class="sc">${</span>legendPlace<span class="sc">}</span><span class="vs"> border: solid 1px black;"&gt;</span></span>
+<span id="cb3-155"><a href="#cb3-155" aria-hidden="true" tabindex="-1"></a><span class="vs">    </span><span class="sc">${</span>sigLegend2<span class="sc">}</span></span>
+<span id="cb3-156"><a href="#cb3-156" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
+<span id="cb3-157"><a href="#cb3-157" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="162" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 161;"><span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a>combocollegePlot <span class="op">=</span> <span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div style="position: relative;"&gt;</span></span>
+<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a><span class="vs">  </span><span class="sc">${</span>collegeplot<span class="sc">}</span></span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div style="position: absolute; </span><span class="sc">${</span>legendPlace<span class="sc">}</span><span class="vs"> border: solid 1px black;"&gt;</span></span>
+<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a><span class="vs">    </span><span class="sc">${</span>sigLegend1<span class="sc">}</span></span>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="175" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 174;"><span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>rawdata <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"final_graph4_data.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({ <span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span> })</span>
+<span id="cb5-176"><a href="#cb5-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-177"><a href="#cb5-177" aria-hidden="true" tabindex="-1"></a>alphabetical <span class="op">=</span> rawdata<span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> {</span>
+<span id="cb5-178"><a href="#cb5-178" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (a<span class="op">.</span><span class="at">drug</span> <span class="op">&amp;&amp;</span> b<span class="op">.</span><span class="at">drug</span>) {</span>
+<span id="cb5-179"><a href="#cb5-179" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> a<span class="op">.</span><span class="at">drug</span><span class="op">.</span><span class="fu">localeCompare</span>(b<span class="op">.</span><span class="at">drug</span>)<span class="op">;</span></span>
+<span id="cb5-180"><a href="#cb5-180" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb5-181"><a href="#cb5-181" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span> <span class="co">// Preserve the order if 'name' is missing</span></span>
+<span id="cb5-182"><a href="#cb5-182" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-183"><a href="#cb5-183" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb5-184"><a href="#cb5-184" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-185"><a href="#cb5-185" aria-hidden="true" tabindex="-1"></a>parser <span class="op">=</span> d3<span class="op">.</span><span class="fu">timeParse</span>(<span class="st">"%Y"</span>)</span>
+<span id="cb5-186"><a href="#cb5-186" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-187"><a href="#cb5-187" aria-hidden="true" tabindex="-1"></a>format <span class="op">=</span> d3<span class="op">.</span><span class="fu">format</span>(<span class="st">".4"</span>)</span>
+<span id="cb5-188"><a href="#cb5-188" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-189"><a href="#cb5-189" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb5-190"><a href="#cb5-190" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> subset <span class="op">=</span> alphabetical<span class="op">.</span><span class="fu">map</span>(</span>
+<span id="cb5-191"><a href="#cb5-191" aria-hidden="true" tabindex="-1"></a>    ({ year<span class="op">,</span> drug<span class="op">,</span> estimate<span class="op">,</span> time<span class="op">,</span> sex<span class="op">,</span> college }) <span class="kw">=&gt;</span> ({</span>
+<span id="cb5-192"><a href="#cb5-192" aria-hidden="true" tabindex="-1"></a>      <span class="dt">year</span><span class="op">:</span> <span class="fu">parser</span>(year)<span class="op">,</span></span>
+<span id="cb5-193"><a href="#cb5-193" aria-hidden="true" tabindex="-1"></a>      <span class="dt">year2</span><span class="op">:</span> <span class="fu">format</span>(year)<span class="op">,</span></span>
+<span id="cb5-194"><a href="#cb5-194" aria-hidden="true" tabindex="-1"></a>      <span class="dt">estimate</span><span class="op">:</span> <span class="op">+</span>estimate<span class="op">,</span></span>
+<span id="cb5-195"><a href="#cb5-195" aria-hidden="true" tabindex="-1"></a>      <span class="dt">drug</span><span class="op">:</span> drug<span class="op">,</span></span>
+<span id="cb5-196"><a href="#cb5-196" aria-hidden="true" tabindex="-1"></a>      <span class="dt">time</span><span class="op">:</span> time<span class="op">,</span></span>
+<span id="cb5-197"><a href="#cb5-197" aria-hidden="true" tabindex="-1"></a>      <span class="dt">sex</span><span class="op">:</span> sex<span class="op">,</span></span>
+<span id="cb5-198"><a href="#cb5-198" aria-hidden="true" tabindex="-1"></a>      <span class="dt">college</span><span class="op">:</span> college</span>
+<span id="cb5-199"><a href="#cb5-199" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb5-200"><a href="#cb5-200" aria-hidden="true" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb5-201"><a href="#cb5-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-202"><a href="#cb5-202" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> filtered <span class="op">=</span> subset<span class="op">.</span><span class="fu">filter</span>(thing <span class="kw">=&gt;</span> </span>
+<span id="cb5-203"><a href="#cb5-203" aria-hidden="true" tabindex="-1"></a>  thing<span class="op">.</span><span class="at">drug</span><span class="op">?.</span><span class="fu">toLocaleLowerCase</span>() <span class="op">===</span> select<span class="op">?.</span><span class="fu">toLocaleLowerCase</span>()</span>
+<span id="cb5-204"><a href="#cb5-204" aria-hidden="true" tabindex="-1"></a>)<span class="op">;</span></span>
+<span id="cb5-205"><a href="#cb5-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-206"><a href="#cb5-206" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> filtered<span class="op">;</span></span>
+<span id="cb5-207"><a href="#cb5-207" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="citations" class="level2">
+<h2 class="anchored" data-anchor-id="citations">Citations</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="213" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 212;"><span id="cb6-213"><a href="#cb6-213" aria-hidden="true" tabindex="-1"></a>citation1 <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;div style="max-width: 750px;"&gt;&lt;p style="font-size: small;"&gt;Suggested citation: Patrick, M. E., Miech, R. A., Johnston, L. D., &amp; O’Malley, P. M. (2024). Monitoring the Future Panel Study annual report: National data on substance use among adults ages 19 to 65, 1976-2023. Monitoring the Future Monograph Series. Ann Arbor: Institute for Social Research, The University of Michigan.&lt;/p&gt;&lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-6" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="217" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 216;"><span id="cb7-217"><a href="#cb7-217" aria-hidden="true" tabindex="-1"></a>citation2 <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;div style="max-width: 750px;"&gt;&lt;p style="font-size: small;"&gt;Suggested citation: Patrick, M. E., Miech, R. A., Johnston, L. D., &amp; O’Malley, P. M. (2024). Monitoring the Future Panel Study annual report: National data on substance use among adults ages 19 to 65, 1976-2023. Monitoring the Future Monograph Series. Ann Arbor: Institute for Social Research, The University of Michigan.&lt;/p&gt;&lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-7" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</section>
+<section id="download-data-button" class="level2">
+<h2 class="anchored" data-anchor-id="download-data-button">Download Data Button</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="249" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 248;"><span id="cb8-249"><a href="#cb8-249" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {PersistInput} <span class="im">from</span> <span class="st">"@john-guerra/persist-input@latest"</span></span>
+<span id="cb8-250"><a href="#cb8-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-251"><a href="#cb8-251" aria-hidden="true" tabindex="-1"></a>viewof select <span class="op">=</span> <span class="fu">PersistInput</span>(<span class="st">"drug"</span><span class="op">,</span></span>
+<span id="cb8-252"><a href="#cb8-252" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">select</span>(</span>
+<span id="cb8-253"><a href="#cb8-253" aria-hidden="true" tabindex="-1"></a>  rawdata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">drug</span>)<span class="op">,</span></span>
+<span id="cb8-254"><a href="#cb8-254" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb8-255"><a href="#cb8-255" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">"Alcohol"</span><span class="op">,</span></span>
+<span id="cb8-256"><a href="#cb8-256" aria-hidden="true" tabindex="-1"></a>    <span class="dt">width</span><span class="op">:</span> <span class="dv">175</span><span class="op">,</span></span>
+<span id="cb8-257"><a href="#cb8-257" aria-hidden="true" tabindex="-1"></a>    <span class="dt">unique</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb8-258"><a href="#cb8-258" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb8-259"><a href="#cb8-259" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb8-260"><a href="#cb8-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-261"><a href="#cb8-261" aria-hidden="true" tabindex="-1"></a>viewof radio <span class="op">=</span> {</span>
+<span id="cb8-262"><a href="#cb8-262" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> values <span class="op">=</span> d3<span class="op">.</span><span class="fu">group</span>(data<span class="op">,</span> (d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">time</span>)<span class="op">;</span></span>
+<span id="cb8-263"><a href="#cb8-263" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> Inputs<span class="op">.</span><span class="fu">radio</span>(values<span class="op">,</span> {</span>
+<span id="cb8-264"><a href="#cb8-264" aria-hidden="true" tabindex="-1"></a>    <span class="dt">key</span><span class="op">:</span> values<span class="op">.</span><span class="fu">has</span>(<span class="st">"12 Month"</span>)</span>
+<span id="cb8-265"><a href="#cb8-265" aria-hidden="true" tabindex="-1"></a>      <span class="op">?</span> <span class="st">"12 Month"</span></span>
+<span id="cb8-266"><a href="#cb8-266" aria-hidden="true" tabindex="-1"></a>      <span class="op">:</span> values<span class="op">.</span><span class="fu">keys</span>()<span class="op">.</span><span class="fu">next</span>()<span class="op">.</span><span class="at">value</span></span>
+<span id="cb8-267"><a href="#cb8-267" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb8-268"><a href="#cb8-268" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-269"><a href="#cb8-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-270"><a href="#cb8-270" aria-hidden="true" tabindex="-1"></a> sexdata <span class="op">=</span> radio<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">sex</span> <span class="op">!=</span> <span class="st">"."</span>)</span>
+<span id="cb8-271"><a href="#cb8-271" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-272"><a href="#cb8-272" aria-hidden="true" tabindex="-1"></a> collegedata <span class="op">=</span> radio<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">college</span> <span class="op">!=</span> <span class="st">"."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-9-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="281" data-source-offset="-4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 280;"><span id="cb9-281"><a href="#cb9-281" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div&gt; </span><span class="sc">${</span>sexplot<span class="sc">}</span><span class="vs"> &lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-10-1" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="283" data-source-offset="-37"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 282;"><span id="cb10-283"><a href="#cb10-283" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div&gt; </span><span class="sc">${</span>collegeplot<span class="sc">}</span><span class="vs"> &lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-10-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="291" data-source-offset="-6"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 290;"><span id="cb11-291"><a href="#cb11-291" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {addTooltips} <span class="im">from</span> <span class="st">"@mkfreeman/plot-tooltip"</span></span>
+<span id="cb11-292"><a href="#cb11-292" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-293"><a href="#cb11-293" aria-hidden="true" tabindex="-1"></a>formatter <span class="op">=</span> d3<span class="op">.</span><span class="fu">timeFormat</span>(<span class="st">"%Y"</span>)</span>
+<span id="cb11-294"><a href="#cb11-294" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-295"><a href="#cb11-295" aria-hidden="true" tabindex="-1"></a>color1 <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(</span>
+<span id="cb11-296"><a href="#cb11-296" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"College Students"</span><span class="op">,</span> <span class="st">"Noncollege Young Adults"</span><span class="op">,</span> <span class="st">"WHITE"</span>]<span class="op">,</span></span>
+<span id="cb11-297"><a href="#cb11-297" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"#59bbeb"</span><span class="op">,</span> <span class="st">"#6ac4a1"</span><span class="op">,</span> <span class="st">"#cca438"</span>]</span>
+<span id="cb11-298"><a href="#cb11-298" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-299"><a href="#cb11-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-300"><a href="#cb11-300" aria-hidden="true" tabindex="-1"></a>symbol1 <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(</span>
+<span id="cb11-301"><a href="#cb11-301" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"College Students"</span><span class="op">,</span> <span class="st">"Noncollege Young Adults"</span>]<span class="op">,</span></span>
+<span id="cb11-302"><a href="#cb11-302" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"circle"</span><span class="op">,</span> <span class="st">"square"</span>]</span>
+<span id="cb11-303"><a href="#cb11-303" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-304"><a href="#cb11-304" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-305"><a href="#cb11-305" aria-hidden="true" tabindex="-1"></a>collegeplot <span class="op">=</span> <span class="fu">addTooltips</span>(</span>
+<span id="cb11-306"><a href="#cb11-306" aria-hidden="true" tabindex="-1"></a>  Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb11-307"><a href="#cb11-307" aria-hidden="true" tabindex="-1"></a>    <span class="dt">ariaLabel</span><span class="op">:</span> <span class="st">"Adult and Young Adult Substance Use Line Charts"</span><span class="op">,</span></span>
+<span id="cb11-308"><a href="#cb11-308" aria-hidden="true" tabindex="-1"></a>    <span class="dt">ariaDescription</span><span class="op">:</span></span>
+<span id="cb11-309"><a href="#cb11-309" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Drug Prevalence Chart showing estimates of use over time (1975 to 2022) in 19-30 and 35-50 year olds filtered by drug name and reporting interval. Currently showing ${radio[0].drug}"</span><span class="op">,</span></span>
+<span id="cb11-310"><a href="#cb11-310" aria-hidden="true" tabindex="-1"></a>    <span class="dt">width</span><span class="op">:</span> <span class="dv">900</span><span class="op">,</span></span>
+<span id="cb11-311"><a href="#cb11-311" aria-hidden="true" tabindex="-1"></a>    <span class="dt">height</span><span class="op">:</span> <span class="dv">700</span><span class="op">,</span></span>
+<span id="cb11-312"><a href="#cb11-312" aria-hidden="true" tabindex="-1"></a>    <span class="dt">marginBottom</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span></span>
+<span id="cb11-313"><a href="#cb11-313" aria-hidden="true" tabindex="-1"></a>    <span class="dt">style</span><span class="op">:</span> {</span>
+<span id="cb11-314"><a href="#cb11-314" aria-hidden="true" tabindex="-1"></a>      <span class="dt">overflow</span><span class="op">:</span> <span class="st">"visible"</span><span class="op">,</span></span>
+<span id="cb11-315"><a href="#cb11-315" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">12</span></span>
+<span id="cb11-316"><a href="#cb11-316" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-317"><a href="#cb11-317" aria-hidden="true" tabindex="-1"></a>      <span class="dt">symbol</span><span class="op">:</span> {</span>
+<span id="cb11-318"><a href="#cb11-318" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Set</span>(collegedata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">college</span>))<span class="op">,</span></span>
+<span id="cb11-319"><a href="#cb11-319" aria-hidden="true" tabindex="-1"></a>      <span class="dt">range</span><span class="op">:</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(collegedata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">college</span>))]<span class="op">.</span><span class="fu">map</span>(symbol1)<span class="op">,</span></span>
+<span id="cb11-320"><a href="#cb11-320" aria-hidden="true" tabindex="-1"></a>      <span class="dt">legend</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb11-321"><a href="#cb11-321" aria-hidden="true" tabindex="-1"></a>      <span class="dt">swatchSize</span><span class="op">:</span> <span class="dv">23</span></span>
+<span id="cb11-322"><a href="#cb11-322" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-323"><a href="#cb11-323" aria-hidden="true" tabindex="-1"></a>      <span class="dt">color</span><span class="op">:</span> {</span>
+<span id="cb11-324"><a href="#cb11-324" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Set</span>(collegedata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">college</span>))<span class="op">,</span></span>
+<span id="cb11-325"><a href="#cb11-325" aria-hidden="true" tabindex="-1"></a>      <span class="dt">range</span><span class="op">:</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(collegedata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">college</span>))]<span class="op">.</span><span class="fu">map</span>(color1)<span class="op">,</span></span>
+<span id="cb11-326"><a href="#cb11-326" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-327"><a href="#cb11-327" aria-hidden="true" tabindex="-1"></a>    <span class="dt">y</span><span class="op">:</span> {</span>
+<span id="cb11-328"><a href="#cb11-328" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> <span class="st">"Percentage (%)"</span><span class="op">,</span></span>
+<span id="cb11-329"><a href="#cb11-329" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span></span>
+<span id="cb11-330"><a href="#cb11-330" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-331"><a href="#cb11-331" aria-hidden="true" tabindex="-1"></a>    <span class="dt">x</span><span class="op">:</span> {</span>
+<span id="cb11-332"><a href="#cb11-332" aria-hidden="true" tabindex="-1"></a>      <span class="dt">type</span><span class="op">:</span> <span class="st">"time"</span><span class="op">,</span></span>
+<span id="cb11-333"><a href="#cb11-333" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> <span class="st">"Years"</span><span class="op">,</span></span>
+<span id="cb11-334"><a href="#cb11-334" aria-hidden="true" tabindex="-1"></a>      <span class="dt">anchor</span><span class="op">:</span> <span class="st">"bottom"</span><span class="op">,</span></span>
+<span id="cb11-335"><a href="#cb11-335" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span><span class="op">,</span></span>
+<span id="cb11-336"><a href="#cb11-336" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> [<span class="kw">new</span> <span class="bu">Date</span>(<span class="st">"1987-01-01"</span>)<span class="op">,</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="st">"2024-01-01"</span>)]</span>
+<span id="cb11-337"><a href="#cb11-337" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-338"><a href="#cb11-338" aria-hidden="true" tabindex="-1"></a>    <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb11-339"><a href="#cb11-339" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">0</span>])<span class="op">,</span></span>
+<span id="cb11-340"><a href="#cb11-340" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">dot</span>(radio<span class="op">,</span> {</span>
+<span id="cb11-341"><a href="#cb11-341" aria-hidden="true" tabindex="-1"></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb11-342"><a href="#cb11-342" aria-hidden="true" tabindex="-1"></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"estimate"</span><span class="op">,</span></span>
+<span id="cb11-343"><a href="#cb11-343" aria-hidden="true" tabindex="-1"></a>        <span class="dt">r</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span></span>
+<span id="cb11-344"><a href="#cb11-344" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fill</span><span class="op">:</span> <span class="st">"college"</span><span class="op">,</span></span>
+<span id="cb11-345"><a href="#cb11-345" aria-hidden="true" tabindex="-1"></a>        <span class="dt">symbol</span><span class="op">:</span> <span class="st">"college"</span><span class="op">,</span></span>
+<span id="cb11-346"><a href="#cb11-346" aria-hidden="true" tabindex="-1"></a>        <span class="dt">title</span><span class="op">:</span> (d) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>d<span class="op">.</span><span class="at">college</span><span class="sc">}</span><span class="vs"> </span><span class="sc">\n</span><span class="vs"> </span><span class="sc">${</span><span class="fu">formatter</span>(d<span class="op">.</span><span class="at">year</span>)<span class="sc">}</span><span class="vs">: </span><span class="sc">${</span>d<span class="op">.</span><span class="at">estimate</span><span class="sc">}</span><span class="vs">%`</span></span>
+<span id="cb11-347"><a href="#cb11-347" aria-hidden="true" tabindex="-1"></a>      })<span class="op">,</span></span>
+<span id="cb11-348"><a href="#cb11-348" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(radio<span class="op">,</span> {</span>
+<span id="cb11-349"><a href="#cb11-349" aria-hidden="true" tabindex="-1"></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb11-350"><a href="#cb11-350" aria-hidden="true" tabindex="-1"></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"estimate"</span><span class="op">,</span></span>
+<span id="cb11-351"><a href="#cb11-351" aria-hidden="true" tabindex="-1"></a>        <span class="dt">z</span><span class="op">:</span> (d) <span class="kw">=&gt;</span> <span class="co">// This creates the line breaks</span></span>
+<span id="cb11-352"><a href="#cb11-352" aria-hidden="true" tabindex="-1"></a>          [</span>
+<span id="cb11-353"><a href="#cb11-353" aria-hidden="true" tabindex="-1"></a>            d<span class="op">.</span><span class="at">college</span><span class="op">,</span></span>
+<span id="cb11-354"><a href="#cb11-354" aria-hidden="true" tabindex="-1"></a>            d<span class="op">.</span><span class="at">Flag</span></span>
+<span id="cb11-355"><a href="#cb11-355" aria-hidden="true" tabindex="-1"></a>          ]<span class="op">.</span><span class="fu">join</span>()<span class="op">,</span></span>
+<span id="cb11-356"><a href="#cb11-356" aria-hidden="true" tabindex="-1"></a>        <span class="dt">stroke</span><span class="op">:</span> <span class="st">"college"</span>})</span>
+<span id="cb11-357"><a href="#cb11-357" aria-hidden="true" tabindex="-1"></a>        ]</span>
+<span id="cb11-358"><a href="#cb11-358" aria-hidden="true" tabindex="-1"></a>  })<span class="op">,</span></span>
+<span id="cb11-359"><a href="#cb11-359" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">fill</span><span class="op">:</span> <span class="st">"college"</span> }</span>
+<span id="cb11-360"><a href="#cb11-360" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-361"><a href="#cb11-361" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-362"><a href="#cb11-362" aria-hidden="true" tabindex="-1"></a>color2 <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(</span>
+<span id="cb11-363"><a href="#cb11-363" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"MEN"</span><span class="op">,</span> <span class="st">"WOMEN"</span>]<span class="op">,</span></span>
+<span id="cb11-364"><a href="#cb11-364" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"#59bbeb"</span><span class="op">,</span> <span class="st">"#6ac4a1"</span>]</span>
+<span id="cb11-365"><a href="#cb11-365" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-366"><a href="#cb11-366" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-367"><a href="#cb11-367" aria-hidden="true" tabindex="-1"></a>symbol2 <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(</span>
+<span id="cb11-368"><a href="#cb11-368" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"MEN"</span><span class="op">,</span> <span class="st">"WOMEN"</span>]<span class="op">,</span></span>
+<span id="cb11-369"><a href="#cb11-369" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"circle"</span><span class="op">,</span> <span class="st">"square"</span>]</span>
+<span id="cb11-370"><a href="#cb11-370" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-371"><a href="#cb11-371" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-372"><a href="#cb11-372" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-373"><a href="#cb11-373" aria-hidden="true" tabindex="-1"></a>sexplot <span class="op">=</span> <span class="fu">addTooltips</span>(</span>
+<span id="cb11-374"><a href="#cb11-374" aria-hidden="true" tabindex="-1"></a>  Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb11-375"><a href="#cb11-375" aria-hidden="true" tabindex="-1"></a>    <span class="dt">ariaLabel</span><span class="op">:</span> <span class="st">"Adult and Young Adult Substance Use Line Charts"</span><span class="op">,</span></span>
+<span id="cb11-376"><a href="#cb11-376" aria-hidden="true" tabindex="-1"></a>    <span class="dt">ariaDescription</span><span class="op">:</span></span>
+<span id="cb11-377"><a href="#cb11-377" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Drug Prevalence Chart showing estimates of use over time (1975 to 2022) in 19-30 and 35-50 year olds filtered by drug name and reporting interval. Currently showing ${radio[0].drug}"</span><span class="op">,</span></span>
+<span id="cb11-378"><a href="#cb11-378" aria-hidden="true" tabindex="-1"></a>    <span class="dt">width</span><span class="op">:</span> <span class="dv">900</span><span class="op">,</span></span>
+<span id="cb11-379"><a href="#cb11-379" aria-hidden="true" tabindex="-1"></a>    <span class="dt">height</span><span class="op">:</span> <span class="dv">700</span><span class="op">,</span></span>
+<span id="cb11-380"><a href="#cb11-380" aria-hidden="true" tabindex="-1"></a>    <span class="dt">marginBottom</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span></span>
+<span id="cb11-381"><a href="#cb11-381" aria-hidden="true" tabindex="-1"></a>    <span class="dt">style</span><span class="op">:</span> {</span>
+<span id="cb11-382"><a href="#cb11-382" aria-hidden="true" tabindex="-1"></a>      <span class="dt">overflow</span><span class="op">:</span> <span class="st">"visible"</span><span class="op">,</span></span>
+<span id="cb11-383"><a href="#cb11-383" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">12</span></span>
+<span id="cb11-384"><a href="#cb11-384" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-385"><a href="#cb11-385" aria-hidden="true" tabindex="-1"></a>      <span class="dt">symbol</span><span class="op">:</span> {</span>
+<span id="cb11-386"><a href="#cb11-386" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Set</span>(sexdata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">sex</span>))<span class="op">,</span></span>
+<span id="cb11-387"><a href="#cb11-387" aria-hidden="true" tabindex="-1"></a>      <span class="dt">range</span><span class="op">:</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(sexdata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">sex</span>))]<span class="op">.</span><span class="fu">map</span>(symbol2)<span class="op">,</span></span>
+<span id="cb11-388"><a href="#cb11-388" aria-hidden="true" tabindex="-1"></a>      <span class="dt">legend</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb11-389"><a href="#cb11-389" aria-hidden="true" tabindex="-1"></a>      <span class="dt">swatchSize</span><span class="op">:</span> <span class="dv">23</span></span>
+<span id="cb11-390"><a href="#cb11-390" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-391"><a href="#cb11-391" aria-hidden="true" tabindex="-1"></a>      <span class="dt">color</span><span class="op">:</span> {</span>
+<span id="cb11-392"><a href="#cb11-392" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Set</span>(sexdata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">sex</span>))<span class="op">,</span></span>
+<span id="cb11-393"><a href="#cb11-393" aria-hidden="true" tabindex="-1"></a>      <span class="dt">range</span><span class="op">:</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(sexdata<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">sex</span>))]<span class="op">.</span><span class="fu">map</span>(color2)<span class="op">,</span></span>
+<span id="cb11-394"><a href="#cb11-394" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-395"><a href="#cb11-395" aria-hidden="true" tabindex="-1"></a>    <span class="dt">y</span><span class="op">:</span> {</span>
+<span id="cb11-396"><a href="#cb11-396" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> <span class="st">"Percentage (%)"</span><span class="op">,</span></span>
+<span id="cb11-397"><a href="#cb11-397" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span></span>
+<span id="cb11-398"><a href="#cb11-398" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-399"><a href="#cb11-399" aria-hidden="true" tabindex="-1"></a>    <span class="dt">x</span><span class="op">:</span> {</span>
+<span id="cb11-400"><a href="#cb11-400" aria-hidden="true" tabindex="-1"></a>      <span class="dt">type</span><span class="op">:</span> <span class="st">"time"</span><span class="op">,</span></span>
+<span id="cb11-401"><a href="#cb11-401" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> <span class="st">"Years"</span><span class="op">,</span></span>
+<span id="cb11-402"><a href="#cb11-402" aria-hidden="true" tabindex="-1"></a>      <span class="dt">anchor</span><span class="op">:</span> <span class="st">"bottom"</span><span class="op">,</span></span>
+<span id="cb11-403"><a href="#cb11-403" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span><span class="op">,</span></span>
+<span id="cb11-404"><a href="#cb11-404" aria-hidden="true" tabindex="-1"></a>      <span class="dt">domain</span><span class="op">:</span> [<span class="kw">new</span> <span class="bu">Date</span>(<span class="st">"1987-01-01"</span>)<span class="op">,</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="st">"2024-01-01"</span>)]</span>
+<span id="cb11-405"><a href="#cb11-405" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb11-406"><a href="#cb11-406" aria-hidden="true" tabindex="-1"></a>    <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb11-407"><a href="#cb11-407" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">ruleY</span>([<span class="dv">0</span>])<span class="op">,</span></span>
+<span id="cb11-408"><a href="#cb11-408" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">dot</span>(sexdata<span class="op">,</span> {</span>
+<span id="cb11-409"><a href="#cb11-409" aria-hidden="true" tabindex="-1"></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb11-410"><a href="#cb11-410" aria-hidden="true" tabindex="-1"></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"estimate"</span><span class="op">,</span></span>
+<span id="cb11-411"><a href="#cb11-411" aria-hidden="true" tabindex="-1"></a>        <span class="dt">r</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span></span>
+<span id="cb11-412"><a href="#cb11-412" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fill</span><span class="op">:</span> <span class="st">"sex"</span><span class="op">,</span></span>
+<span id="cb11-413"><a href="#cb11-413" aria-hidden="true" tabindex="-1"></a>        <span class="dt">symbol</span><span class="op">:</span> <span class="st">"sex"</span><span class="op">,</span></span>
+<span id="cb11-414"><a href="#cb11-414" aria-hidden="true" tabindex="-1"></a>        <span class="dt">title</span><span class="op">:</span> (d) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>d<span class="op">.</span><span class="at">sex</span><span class="sc">}</span><span class="vs"> </span><span class="sc">\n</span><span class="vs"> </span><span class="sc">${</span><span class="fu">formatter</span>(d<span class="op">.</span><span class="at">year</span>)<span class="sc">}</span><span class="vs">: </span><span class="sc">${</span>d<span class="op">.</span><span class="at">estimate</span><span class="sc">}</span><span class="vs">%`</span></span>
+<span id="cb11-415"><a href="#cb11-415" aria-hidden="true" tabindex="-1"></a>      })<span class="op">,</span></span>
+<span id="cb11-416"><a href="#cb11-416" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(sexdata<span class="op">,</span> {</span>
+<span id="cb11-417"><a href="#cb11-417" aria-hidden="true" tabindex="-1"></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"year"</span><span class="op">,</span></span>
+<span id="cb11-418"><a href="#cb11-418" aria-hidden="true" tabindex="-1"></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"estimate"</span><span class="op">,</span></span>
+<span id="cb11-419"><a href="#cb11-419" aria-hidden="true" tabindex="-1"></a>        <span class="dt">z</span><span class="op">:</span> (d) <span class="kw">=&gt;</span> <span class="co">// This creates the line breaks</span></span>
+<span id="cb11-420"><a href="#cb11-420" aria-hidden="true" tabindex="-1"></a>          [</span>
+<span id="cb11-421"><a href="#cb11-421" aria-hidden="true" tabindex="-1"></a>            d<span class="op">.</span><span class="at">sex</span><span class="op">,</span></span>
+<span id="cb11-422"><a href="#cb11-422" aria-hidden="true" tabindex="-1"></a>            d<span class="op">.</span><span class="at">Flag</span></span>
+<span id="cb11-423"><a href="#cb11-423" aria-hidden="true" tabindex="-1"></a>          ]<span class="op">.</span><span class="fu">join</span>()<span class="op">,</span></span>
+<span id="cb11-424"><a href="#cb11-424" aria-hidden="true" tabindex="-1"></a>        <span class="dt">stroke</span><span class="op">:</span> <span class="st">"sex"</span>})</span>
+<span id="cb11-425"><a href="#cb11-425" aria-hidden="true" tabindex="-1"></a>        ]</span>
+<span id="cb11-426"><a href="#cb11-426" aria-hidden="true" tabindex="-1"></a>  })<span class="op">,</span></span>
+<span id="cb11-427"><a href="#cb11-427" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">fill</span><span class="op">:</span> <span class="st">"sex"</span> }</span>
+<span id="cb11-428"><a href="#cb11-428" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-6" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-7" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-11-8" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="annotated-cell-8" data-startfrom="224" data-source-offset="-0"><pre class="sourceCode js code-annotation-code code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 223;"><span id="annotated-cell-8-224"><a href="#annotated-cell-8-224" aria-hidden="true" tabindex="-1"></a>downloadButton <span class="op">=</span> (data<span class="op">,</span> filename) <span class="kw">=&gt;</span> {</span>
+<span id="annotated-cell-8-225"><a href="#annotated-cell-8-225" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="annotated-cell-8-226"><a href="#annotated-cell-8-226" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> downloadData<span class="op">;</span></span>
+<span id="annotated-cell-8-227"><a href="#annotated-cell-8-227" aria-hidden="true" tabindex="-1"></a>  downloadData <span class="op">=</span> <span class="kw">new</span> <span class="bu">Blob</span>([d3<span class="op">.</span><span class="fu">csvFormat</span>(data)]<span class="op">,</span> { <span class="dt">type</span><span class="op">:</span> <span class="st">"text/csv"</span> })<span class="op">;</span></span>
+<span id="annotated-cell-8-228"><a href="#annotated-cell-8-228" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> size <span class="op">=</span> (downloadData<span class="op">.</span><span class="at">size</span> <span class="op">/</span> <span class="dv">1024</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">0</span>)<span class="op">;</span></span>
+<span id="annotated-cell-8-229"><a href="#annotated-cell-8-229" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> button <span class="op">=</span> DOM<span class="op">.</span><span class="fu">download</span>(</span>
+<span id="annotated-cell-8-230"><a href="#annotated-cell-8-230" aria-hidden="true" tabindex="-1"></a>    downloadData<span class="op">,</span></span>
+<span id="annotated-cell-8-231"><a href="#annotated-cell-8-231" aria-hidden="true" tabindex="-1"></a>    filename<span class="op">,</span></span>
+<span id="annotated-cell-8-232"><a href="#annotated-cell-8-232" aria-hidden="true" tabindex="-1"></a>    <span class="vs">`Download </span><span class="sc">${</span>filename<span class="sc">}</span><span class="vs"> Dataset (~</span><span class="sc">${</span>size<span class="sc">}</span><span class="vs"> KB)`</span></span>
+<span id="annotated-cell-8-233"><a href="#annotated-cell-8-233" aria-hidden="true" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="annotated-cell-8-234"><a href="#annotated-cell-8-234" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> button<span class="op">;</span></span>
+<span id="annotated-cell-8-235"><a href="#annotated-cell-8-235" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="annotated-cell-8-236"><a href="#annotated-cell-8-236" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-8-237"><a href="#annotated-cell-8-237" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="vs">`</span><span class="sc">${</span>radio[<span class="dv">0</span>]<span class="op">.</span><span class="at">drug</span><span class="sc">}</span><span class="vs"> - </span><span class="sc">${</span>radio[<span class="dv">0</span>]<span class="op">.</span><span class="at">time</span><span class="sc">}</span><span class="vs">`</span></span>
+<span id="annotated-cell-8-238"><a href="#annotated-cell-8-238" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-8-239"><a href="#annotated-cell-8-239" aria-hidden="true" tabindex="-1"></a>data2 <span class="op">=</span> radio<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({<span class="op">...</span>d<span class="op">,</span> <span class="dt">year</span><span class="op">:</span> d<span class="op">.</span><span class="at">year2</span>}))</span>
+<span id="annotated-cell-8-240"><a href="#annotated-cell-8-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-8-241"><a href="#annotated-cell-8-241" aria-hidden="true" tabindex="-1"></a>data3 <span class="op">=</span> data2<span class="op">.</span><span class="fu">map</span>(({year2<span class="op">,</span> <span class="op">...</span>keep}) <span class="kw">=&gt;</span> keep)</span>
+<span id="annotated-cell-8-242"><a href="#annotated-cell-8-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-8-243"><a href="#annotated-cell-8-243" aria-hidden="true" tabindex="-1"></a>downloadData1 <span class="op">=</span> <span class="fu">downloadButton</span>(data3<span class="op">,</span> name)</span>
+<span id="annotated-cell-8-244"><a href="#annotated-cell-8-244" aria-hidden="true" tabindex="-1"></a>downloadData2 <span class="op">=</span> <span class="fu">downloadButton</span>(data3<span class="op">,</span> name)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-6" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5zaWdEYXRhID0gRmlsZUF0dGFjaG1lbnQoXCJjaGFwdGVyNF9zaWd0ZXN0cy5jc3ZcIikuY3N2KHsgdHlwZWQ6IHRydWUgfSlcclxuXHJcbnNpZ3NEcnVnID0gc2lnRGF0YS5maWx0ZXIoXHJcbiAgKHsgZHJ1ZyB9KSA9PiBkcnVnID09PSBzZWxlY3RcclxuKVxyXG5cclxuc2lnbmlmaWNhbmNlID0gc2lnc0RydWcuZmlsdGVyKCh7IHRpbWUgfSkgPT4gdGltZSA9PT0gcmFkaW9bMF0udGltZSlcclxuc2lnbmlmaWNhbmNlXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5zaWdMZWdlbmQxID0gaHRtbGA8c3R5bGU+XHJcbiAgICBjYXB0aW9uIHtcclxuICAgICAgZm9udC1zaXplOiA5cHg7XHJcbiAgICB9XHJcblxyXG4gICAgdGFibGUge1xyXG4gICAgICBtYXJnaW4tYm90dG9tOiAwLjVyZW07XHJcbiAgICB9XHJcblxyXG4gICAgLnNtYWxsIHRkIHtcclxuICAgICAgICBmb250LXNpemU6IDlweDtcclxuICAgICAgICBjb2xvcjogIzAwMDA2NjtcclxuICAgIH1cclxuXHJcbjwvc3R5bGU+XHJcbjx0YWJsZSBjbGFzcz1cInNtYWxsXCIgc3R5bGU9XCJ3aWR0aDogMjUwcHg7IFwiPlxyXG4gIDxjYXB0aW9uIHN0eWxlPVwiY29sb3I6ICMwMDAwNjY7XCI+IDxiPjx1PjIwMjMgVHJlbmRzPC9iPjwvdT4gPC9jYXB0aW9uPlxyXG4gIDx0cj5cclxuICAgIDx0ZD5Db2xsZWdlIFN0dWRlbnRzPC90ZD5cclxuICAgIDx0ZD4xLVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVswXT8ub25leXJjaGFuZ2V9PC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVswXT8uc2lnX29uZXlyfTwvdGQ+XHJcbiAgPC90cj5cclxuICA8dHI+XHJcbiAgICA8dGQ+IDwvdGQ+XHJcbiAgICA8dGQ+NS1ZZWFyIENoYW5nZTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMF0/LmZpdmV5cmNoYW5nZX08L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzBdPy5zaWdfZml2ZXlyfTwvdGQ+XHJcbiAgPC90cj5cclxuICA8dHIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcIj5cclxuICAgIDx0ZD48L3RkPlxyXG4gICAgPHRkPjEwLVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVswXT8udGVueXJjaGFuZ2V9PC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVswXT8uc2lnX3RlbnlyfTwvdGQ+XHJcbiAgPC90cj5cclxuICAgIDx0cj5cclxuICAgIDx0ZD5Ob25jb2xsZWdlIFlvdW5nIEFkdWx0czwvdGQ+XHJcbiAgICA8dGQ+MS1ZZWFyIENoYW5nZTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMV0/Lm9uZXlyY2hhbmdlfTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMV0/LnNpZ19vbmV5cn08L3RkPlxyXG4gIDwvdHI+XHJcbiAgPHRyPlxyXG4gICAgPHRkPiA8L3RkPlxyXG4gICAgPHRkPjUtWWVhciBDaGFuZ2U8L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzFdPy5maXZleXJjaGFuZ2V9PC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVsxXT8uc2lnX2ZpdmV5cn08L3RkPlxyXG4gIDwvdHI+XHJcbiAgPHRyIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XCI+XHJcbiAgICA8dGQ+PC90ZD5cclxuICAgIDx0ZD4xMC1ZZWFyIENoYW5nZTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMV0/LnRlbnlyY2hhbmdlfTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMV0/LnNpZ190ZW55cn08L3RkPlxyXG4gIDwvdHI+XHJcbjwvdGFibGU+YFxyXG5cclxuXHJcbnNpZ0xlZ2VuZDIgPSBodG1sYDxzdHlsZT5cclxuICAgIGNhcHRpb24ge1xyXG4gICAgICBmb250LXNpemU6IDlweDtcclxuICAgIH1cclxuXHJcbiAgICB0YWJsZSB7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTtcclxuICAgIH1cclxuXHJcbiAgIC5zbWFsbCB0ZCB7XHJcbiAgICAgICAgZm9udC1zaXplOiA5cHg7XHJcbiAgICAgICAgY29sb3I6ICMwMDAwNjY7XHJcbiAgICB9XHJcblxyXG48L3N0eWxlPlxyXG48dGFibGUgY2xhc3M9XCJzbWFsbFwiIHN0eWxlPVwid2lkdGg6IDI1MHB4OyBcIj5cclxuICA8Y2FwdGlvbiBzdHlsZT1cImNvbG9yOiAjMDAwMDY2O1wiPiA8Yj48dT4yMDIzIFRyZW5kczwvYj48L3U+IDwvY2FwdGlvbj5cclxuICA8dHI+XHJcbiAgICA8dGQ+Q29sbGVnZSBNZW48L3RkPlxyXG4gICAgPHRkPjEtWWVhciBDaGFuZ2U8L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzJdPy5vbmV5cmNoYW5nZX08L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzJdPy5zaWdfb25leXJ9PC90ZD5cclxuICA8L3RyPlxyXG4gIDx0cj5cclxuICAgIDx0ZD4gPC90ZD5cclxuICAgIDx0ZD41LVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVsyXT8uZml2ZXlyY2hhbmdlfTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbMl0/LnNpZ19maXZleXJ9PC90ZD5cclxuICA8L3RyPlxyXG4gIDx0ciBzdHlsZT1cImJhY2tncm91bmQtY29sb3I6IHdoaXRlO1wiPlxyXG4gICAgPHRkPjwvdGQ+XHJcbiAgICA8dGQ+MTAtWWVhciBDaGFuZ2U8L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzJdPy50ZW55cmNoYW5nZX08L3RkPlxyXG4gICAgPHRkPiR7c2lnbmlmaWNhbmNlWzJdPy5zaWdfdGVueXJ9PC90ZD5cclxuICA8L3RyPlxyXG4gIDx0cj5cclxuICAgIDx0ZD5Db2xsZWdlIFdvbWVuPC90ZD5cclxuICAgIDx0ZD4xLVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVszXT8ub25leXJjaGFuZ2V9PC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVszXT8uc2lnX29uZXlyfTwvdGQ+XHJcbiAgPC90cj5cclxuICA8dHI+XHJcbiAgICA8dGQ+PC90ZD5cclxuICAgIDx0ZD41LVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVszXT8uZml2ZXlyY2hhbmdlfTwvdGQ+XHJcbiAgICA8dGQ+JHtzaWduaWZpY2FuY2VbM10/LnNpZ19maXZleXJ9PC90ZD5cclxuICA8L3RyPlxyXG4gIDx0cj5cclxuICAgIDx0ZD48L3RkPlxyXG4gICAgPHRkPjEwLVllYXIgQ2hhbmdlPC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVszXT8udGVueXJjaGFuZ2V9PC90ZD5cclxuICAgIDx0ZD4ke3NpZ25pZmljYW5jZVszXT8uc2lnX3RlbnlyfTwvdGQ+XHJcbiAgPC90cj5cclxuPC90YWJsZT5gXHJcblxyXG5sZWdlbmRQbGFjZSA9IHtpZiAoY29sbGVnZWRhdGFbMF0/LmRydWcgPT0gXCJDaWdhcmV0dGVzXCIgJiYgY29sbGVnZWRhdGFbMF0/LnRpbWUgPT0gXCIzMCBEYXlcIil7XHJcbiAgcmV0dXJuIFwidG9wOiA2MHB4OyByaWdodDogMTBweDtcIjtcclxufSBlbHNlIGlmIChjb2xsZWdlZGF0YVswXT8uZHJ1ZyA9PSBcIkFueSBEcnVnIE90aGVyIFRoYW4gQ2FubmFiaXNcIiAmJiBjb2xsZWdlZGF0YVswXT8udGltZSA9PSBcIjMwIERheVwiKXtcclxuICByZXR1cm4gXCJib3R0b206IDY1cHg7IHJpZ2h0OiA3MHB4O1wiO1xyXG59IGVsc2Uge1xyXG4gIHJldHVybiBcImJvdHRvbTogNjVweDsgcmlnaHQ6IDUwcHg7XCI7XHJcbn1cclxufVxyXG5cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiY29tYm9zZXhQbG90ID0gaHRtbGBcclxuPGRpdiBzdHlsZT1cInBvc2l0aW9uOiByZWxhdGl2ZTtcIj5cclxuICAke3NleHBsb3R9XHJcbiAgPGRpdiBzdHlsZT1cInBvc2l0aW9uOiBhYnNvbHV0ZTsgJHtsZWdlbmRQbGFjZX0gYm9yZGVyOiBzb2xpZCAxcHggYmxhY2s7XCI+XHJcbiAgICAke3NpZ0xlZ2VuZDJ9XHJcbiAgPC9kaXY+XHJcbjwvZGl2PmBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC00IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiY29tYm9jb2xsZWdlUGxvdCA9IGh0bWxgXHJcbjxkaXYgc3R5bGU9XCJwb3NpdGlvbjogcmVsYXRpdmU7XCI+XHJcbiAgJHtjb2xsZWdlcGxvdH1cclxuICA8ZGl2IHN0eWxlPVwicG9zaXRpb246IGFic29sdXRlOyAke2xlZ2VuZFBsYWNlfSBib3JkZXI6IHNvbGlkIDFweCBibGFjaztcIj5cclxuICAgICR7c2lnTGVnZW5kMX1cclxuICA8L2Rpdj5cclxuPC9kaXY+YFxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxucmF3ZGF0YSA9IEZpbGVBdHRhY2htZW50KFwiZmluYWxfZ3JhcGg0X2RhdGEuY3N2XCIpLmNzdih7IHR5cGVkOiB0cnVlIH0pXHJcblxyXG5hbHBoYWJldGljYWwgPSByYXdkYXRhLnNvcnQoKGEsIGIpID0+IHtcclxuICBpZiAoYS5kcnVnICYmIGIuZHJ1Zykge1xyXG4gICAgcmV0dXJuIGEuZHJ1Zy5sb2NhbGVDb21wYXJlKGIuZHJ1Zyk7XHJcbiAgfSBlbHNlIHtcclxuICAgIHJldHVybiAwOyAvLyBQcmVzZXJ2ZSB0aGUgb3JkZXIgaWYgJ25hbWUnIGlzIG1pc3NpbmdcclxuICB9XHJcbn0pO1xyXG5cclxucGFyc2VyID0gZDMudGltZVBhcnNlKFwiJVlcIilcclxuXHJcbmZvcm1hdCA9IGQzLmZvcm1hdChcIi40XCIpXHJcblxyXG5kYXRhID0ge1xyXG4gIGNvbnN0IHN1YnNldCA9IGFscGhhYmV0aWNhbC5tYXAoXHJcbiAgICAoeyB5ZWFyLCBkcnVnLCBlc3RpbWF0ZSwgdGltZSwgc2V4LCBjb2xsZWdlIH0pID0+ICh7XHJcbiAgICAgIHllYXI6IHBhcnNlcih5ZWFyKSxcclxuICAgICAgeWVhcjI6IGZvcm1hdCh5ZWFyKSxcclxuICAgICAgZXN0aW1hdGU6ICtlc3RpbWF0ZSxcclxuICAgICAgZHJ1ZzogZHJ1ZyxcclxuICAgICAgdGltZTogdGltZSxcclxuICAgICAgc2V4OiBzZXgsXHJcbiAgICAgIGNvbGxlZ2U6IGNvbGxlZ2VcclxuICAgIH0pXHJcbiAgKTtcclxuXHJcbiAgY29uc3QgZmlsdGVyZWQgPSBzdWJzZXQuZmlsdGVyKHRoaW5nID0+IFxyXG4gIHRoaW5nLmRydWc/LnRvTG9jYWxlTG93ZXJDYXNlKCkgPT09IHNlbGVjdD8udG9Mb2NhbGVMb3dlckNhc2UoKVxyXG4pO1xyXG5cclxuICByZXR1cm4gZmlsdGVyZWQ7XHJcbn1cclxuXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImNpdGF0aW9uMSA9IGh0bWxgPGRpdiBzdHlsZT1cIm1heC13aWR0aDogNzUwcHg7XCI+PHAgc3R5bGU9XCJmb250LXNpemU6IHNtYWxsO1wiPlN1Z2dlc3RlZCBjaXRhdGlvbjogUGF0cmljaywgTS4gRS4sIE1pZWNoLCBSLiBBLiwgSm9obnN0b24sIEwuIEQuLCAmIE/igJlNYWxsZXksIFAuIE0uICgyMDI0KS4gTW9uaXRvcmluZyB0aGUgRnV0dXJlIFBhbmVsIFN0dWR5IGFubnVhbCByZXBvcnQ6IE5hdGlvbmFsIGRhdGEgb24gc3Vic3RhbmNlIHVzZSBhbW9uZyBhZHVsdHMgYWdlcyAxOSB0byA2NSwgMTk3Ni0yMDIzLiBNb25pdG9yaW5nIHRoZSBGdXR1cmUgTW9ub2dyYXBoIFNlcmllcy4gQW5uIEFyYm9yOiBJbnN0aXR1dGUgZm9yIFNvY2lhbCBSZXNlYXJjaCwgVGhlIFVuaXZlcnNpdHkgb2YgTWljaGlnYW4uPC9wPjwvZGl2PmBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC03IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiY2l0YXRpb24yID0gaHRtbGA8ZGl2IHN0eWxlPVwibWF4LXdpZHRoOiA3NTBweDtcIj48cCBzdHlsZT1cImZvbnQtc2l6ZTogc21hbGw7XCI+U3VnZ2VzdGVkIGNpdGF0aW9uOiBQYXRyaWNrLCBNLiBFLiwgTWllY2gsIFIuIEEuLCBKb2huc3RvbiwgTC4gRC4sICYgT+KAmU1hbGxleSwgUC4gTS4gKDIwMjQpLiBNb25pdG9yaW5nIHRoZSBGdXR1cmUgUGFuZWwgU3R1ZHkgYW5udWFsIHJlcG9ydDogTmF0aW9uYWwgZGF0YSBvbiBzdWJzdGFuY2UgdXNlIGFtb25nIGFkdWx0cyBhZ2VzIDE5IHRvIDY1LCAxOTc2LTIwMjMuIE1vbml0b3JpbmcgdGhlIEZ1dHVyZSBNb25vZ3JhcGggU2VyaWVzLiBBbm4gQXJib3I6IEluc3RpdHV0ZSBmb3IgU29jaWFsIFJlc2VhcmNoLCBUaGUgVW5pdmVyc2l0eSBvZiBNaWNoaWdhbi48L3A+PC9kaXY+YFxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTgiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJkb3dubG9hZEJ1dHRvbiA9IChkYXRhLCBmaWxlbmFtZSkgPT4ge1xyXG4gIFxyXG4gIGxldCBkb3dubG9hZERhdGE7XHJcbiAgZG93bmxvYWREYXRhID0gbmV3IEJsb2IoW2QzLmNzdkZvcm1hdChkYXRhKV0sIHsgdHlwZTogXCJ0ZXh0L2NzdlwiIH0pO1xyXG4gIGNvbnN0IHNpemUgPSAoZG93bmxvYWREYXRhLnNpemUgLyAxMDI0KS50b0ZpeGVkKDApO1xyXG4gIGNvbnN0IGJ1dHRvbiA9IERPTS5kb3dubG9hZChcclxuICAgIGRvd25sb2FkRGF0YSxcclxuICAgIGZpbGVuYW1lLFxyXG4gICAgYERvd25sb2FkICR7ZmlsZW5hbWV9IERhdGFzZXQgKH4ke3NpemV9IEtCKWBcclxuICApO1xyXG4gIHJldHVybiBidXR0b247XHJcbn0gLy8gPDE+XHJcblxyXG5uYW1lID0gYCR7cmFkaW9bMF0uZHJ1Z30gLSAke3JhZGlvWzBdLnRpbWV9YFxyXG5cclxuZGF0YTIgPSByYWRpby5tYXAoZCA9PiAoey4uLmQsIHllYXI6IGQueWVhcjJ9KSlcclxuXHJcbmRhdGEzID0gZGF0YTIubWFwKCh7eWVhcjIsIC4uLmtlZXB9KSA9PiBrZWVwKVxyXG5cclxuZG93bmxvYWREYXRhMSA9IGRvd25sb2FkQnV0dG9uKGRhdGEzLCBuYW1lKVxyXG5kb3dubG9hZERhdGEyID0gZG93bmxvYWRCdXR0b24oZGF0YTMsIG5hbWUpXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge1BlcnNpc3RJbnB1dH0gZnJvbSBcIkBqb2huLWd1ZXJyYS9wZXJzaXN0LWlucHV0QGxhdGVzdFwiXHJcblxyXG52aWV3b2Ygc2VsZWN0ID0gUGVyc2lzdElucHV0KFwiZHJ1Z1wiLFxyXG5JbnB1dHMuc2VsZWN0KFxyXG4gIHJhd2RhdGEubWFwKChkKSA9PiBkLmRydWcpLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIkFsY29ob2xcIixcclxuICAgIHdpZHRoOiAxNzUsXHJcbiAgICB1bmlxdWU6IHRydWVcclxuICB9XHJcbikpXHJcblxyXG52aWV3b2YgcmFkaW8gPSB7XHJcbiAgY29uc3QgdmFsdWVzID0gZDMuZ3JvdXAoZGF0YSwgKGQpID0+IGQudGltZSk7XHJcbiAgcmV0dXJuIElucHV0cy5yYWRpbyh2YWx1ZXMsIHtcclxuICAgIGtleTogdmFsdWVzLmhhcyhcIjEyIE1vbnRoXCIpXHJcbiAgICAgID8gXCIxMiBNb250aFwiXHJcbiAgICAgIDogdmFsdWVzLmtleXMoKS5uZXh0KCkudmFsdWVcclxuICB9KTtcclxufVxyXG5cclxuIHNleGRhdGEgPSByYWRpby5maWx0ZXIoZCA9PiBkLnNleCAhPSBcIi5cIilcclxuXHJcbiBjb2xsZWdlZGF0YSA9IHJhZGlvLmZpbHRlcihkID0+IGQuY29sbGVnZSAhPSBcIi5cIilcclxuXHJcblxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTEwIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcblxyXG5odG1sYDxkaXY+ICR7c2V4cGxvdH0gPC9kaXY+YFxyXG5cclxuaHRtbGA8ZGl2PiAke2NvbGxlZ2VwbG90fSA8L2Rpdj5gXHJcblxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTExIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcblxyXG5cclxuaW1wb3J0IHthZGRUb29sdGlwc30gZnJvbSBcIkBta2ZyZWVtYW4vcGxvdC10b29sdGlwXCJcclxuXHJcbmZvcm1hdHRlciA9IGQzLnRpbWVGb3JtYXQoXCIlWVwiKVxyXG5cclxuY29sb3IxID0gZDMuc2NhbGVPcmRpbmFsKFxyXG4gIFtcIkNvbGxlZ2UgU3R1ZGVudHNcIiwgXCJOb25jb2xsZWdlIFlvdW5nIEFkdWx0c1wiLCBcIldISVRFXCJdLFxyXG4gIFtcIiM1OWJiZWJcIiwgXCIjNmFjNGExXCIsIFwiI2NjYTQzOFwiXVxyXG4pXHJcblxyXG5zeW1ib2wxID0gZDMuc2NhbGVPcmRpbmFsKFxyXG4gIFtcIkNvbGxlZ2UgU3R1ZGVudHNcIiwgXCJOb25jb2xsZWdlIFlvdW5nIEFkdWx0c1wiXSxcclxuICBbXCJjaXJjbGVcIiwgXCJzcXVhcmVcIl1cclxuKVxyXG5cclxuY29sbGVnZXBsb3QgPSBhZGRUb29sdGlwcyhcclxuICBQbG90LnBsb3Qoe1xyXG4gICAgYXJpYUxhYmVsOiBcIkFkdWx0IGFuZCBZb3VuZyBBZHVsdCBTdWJzdGFuY2UgVXNlIExpbmUgQ2hhcnRzXCIsXHJcbiAgICBhcmlhRGVzY3JpcHRpb246XHJcbiAgICAgIFwiRHJ1ZyBQcmV2YWxlbmNlIENoYXJ0IHNob3dpbmcgZXN0aW1hdGVzIG9mIHVzZSBvdmVyIHRpbWUgKDE5NzUgdG8gMjAyMikgaW4gMTktMzAgYW5kIDM1LTUwIHllYXIgb2xkcyBmaWx0ZXJlZCBieSBkcnVnIG5hbWUgYW5kIHJlcG9ydGluZyBpbnRlcnZhbC4gQ3VycmVudGx5IHNob3dpbmcgJHtyYWRpb1swXS5kcnVnfVwiLFxyXG4gICAgd2lkdGg6IDkwMCxcclxuICAgIGhlaWdodDogNzAwLFxyXG4gICAgbWFyZ2luQm90dG9tOiA1MCxcclxuICAgIHN0eWxlOiB7XHJcbiAgICAgIG92ZXJmbG93OiBcInZpc2libGVcIixcclxuICAgICAgZm9udFNpemU6IDEyXHJcbiAgICB9LFxyXG4gICAgICBzeW1ib2w6IHtcclxuICAgICAgZG9tYWluOiBuZXcgU2V0KGNvbGxlZ2VkYXRhLm1hcCgoZCkgPT4gZC5jb2xsZWdlKSksXHJcbiAgICAgIHJhbmdlOiBbLi4ubmV3IFNldChjb2xsZWdlZGF0YS5tYXAoKGQpID0+IGQuY29sbGVnZSkpXS5tYXAoc3ltYm9sMSksXHJcbiAgICAgIGxlZ2VuZDogdHJ1ZSxcclxuICAgICAgc3dhdGNoU2l6ZTogMjNcclxuICAgIH0sXHJcbiAgICAgIGNvbG9yOiB7XHJcbiAgICAgIGRvbWFpbjogbmV3IFNldChjb2xsZWdlZGF0YS5tYXAoKGQpID0+IGQuY29sbGVnZSkpLFxyXG4gICAgICByYW5nZTogWy4uLm5ldyBTZXQoY29sbGVnZWRhdGEubWFwKChkKSA9PiBkLmNvbGxlZ2UpKV0ubWFwKGNvbG9yMSksXHJcbiAgICB9LFxyXG4gICAgeToge1xyXG4gICAgICBsYWJlbDogXCJQZXJjZW50YWdlICglKVwiLFxyXG4gICAgICBsYWJlbEFuY2hvcjogXCJjZW50ZXJcIlxyXG4gICAgfSxcclxuICAgIHg6IHtcclxuICAgICAgdHlwZTogXCJ0aW1lXCIsXHJcbiAgICAgIGxhYmVsOiBcIlllYXJzXCIsXHJcbiAgICAgIGFuY2hvcjogXCJib3R0b21cIixcclxuICAgICAgbGFiZWxBbmNob3I6IFwiY2VudGVyXCIsXHJcbiAgICAgIGRvbWFpbjogW25ldyBEYXRlKFwiMTk4Ny0wMS0wMVwiKSwgbmV3IERhdGUoXCIyMDI0LTAxLTAxXCIpXVxyXG4gICAgfSxcclxuICAgIG1hcmtzOiBbXHJcbiAgICAgIFBsb3QucnVsZVkoWzBdKSxcclxuICAgICAgUGxvdC5kb3QocmFkaW8sIHtcclxuICAgICAgICB4OiBcInllYXJcIixcclxuICAgICAgICB5OiBcImVzdGltYXRlXCIsXHJcbiAgICAgICAgcjogNCxcclxuICAgICAgICBmaWxsOiBcImNvbGxlZ2VcIixcclxuICAgICAgICBzeW1ib2w6IFwiY29sbGVnZVwiLFxyXG4gICAgICAgIHRpdGxlOiAoZCkgPT4gYCR7ZC5jb2xsZWdlfSBcXG4gJHtmb3JtYXR0ZXIoZC55ZWFyKX06ICR7ZC5lc3RpbWF0ZX0lYFxyXG4gICAgICB9KSxcclxuICAgICAgUGxvdC5saW5lKHJhZGlvLCB7XHJcbiAgICAgICAgeDogXCJ5ZWFyXCIsXHJcbiAgICAgICAgeTogXCJlc3RpbWF0ZVwiLFxyXG4gICAgICAgIHo6IChkKSA9PiAvLyBUaGlzIGNyZWF0ZXMgdGhlIGxpbmUgYnJlYWtzXHJcbiAgICAgICAgICBbXHJcbiAgICAgICAgICAgIGQuY29sbGVnZSxcclxuICAgICAgICAgICAgZC5GbGFnXHJcbiAgICAgICAgICBdLmpvaW4oKSxcclxuICAgICAgICBzdHJva2U6IFwiY29sbGVnZVwifSlcclxuICAgICAgICBdXHJcbiAgfSksXHJcbiAgeyBmaWxsOiBcImNvbGxlZ2VcIiB9XHJcbilcclxuXHJcbmNvbG9yMiA9IGQzLnNjYWxlT3JkaW5hbChcclxuICBbXCJNRU5cIiwgXCJXT01FTlwiXSxcclxuICBbXCIjNTliYmViXCIsIFwiIzZhYzRhMVwiXVxyXG4pXHJcblxyXG5zeW1ib2wyID0gZDMuc2NhbGVPcmRpbmFsKFxyXG4gIFtcIk1FTlwiLCBcIldPTUVOXCJdLFxyXG4gIFtcImNpcmNsZVwiLCBcInNxdWFyZVwiXVxyXG4pXHJcblxyXG5cclxuc2V4cGxvdCA9IGFkZFRvb2x0aXBzKFxyXG4gIFBsb3QucGxvdCh7XHJcbiAgICBhcmlhTGFiZWw6IFwiQWR1bHQgYW5kIFlvdW5nIEFkdWx0IFN1YnN0YW5jZSBVc2UgTGluZSBDaGFydHNcIixcclxuICAgIGFyaWFEZXNjcmlwdGlvbjpcclxuICAgICAgXCJEcnVnIFByZXZhbGVuY2UgQ2hhcnQgc2hvd2luZyBlc3RpbWF0ZXMgb2YgdXNlIG92ZXIgdGltZSAoMTk3NSB0byAyMDIyKSBpbiAxOS0zMCBhbmQgMzUtNTAgeWVhciBvbGRzIGZpbHRlcmVkIGJ5IGRydWcgbmFtZSBhbmQgcmVwb3J0aW5nIGludGVydmFsLiBDdXJyZW50bHkgc2hvd2luZyAke3JhZGlvWzBdLmRydWd9XCIsXHJcbiAgICB3aWR0aDogOTAwLFxyXG4gICAgaGVpZ2h0OiA3MDAsXHJcbiAgICBtYXJnaW5Cb3R0b206IDUwLFxyXG4gICAgc3R5bGU6IHtcclxuICAgICAgb3ZlcmZsb3c6IFwidmlzaWJsZVwiLFxyXG4gICAgICBmb250U2l6ZTogMTJcclxuICAgIH0sXHJcbiAgICAgIHN5bWJvbDoge1xyXG4gICAgICBkb21haW46IG5ldyBTZXQoc2V4ZGF0YS5tYXAoKGQpID0+IGQuc2V4KSksXHJcbiAgICAgIHJhbmdlOiBbLi4ubmV3IFNldChzZXhkYXRhLm1hcCgoZCkgPT4gZC5zZXgpKV0ubWFwKHN5bWJvbDIpLFxyXG4gICAgICBsZWdlbmQ6IHRydWUsXHJcbiAgICAgIHN3YXRjaFNpemU6IDIzXHJcbiAgICB9LFxyXG4gICAgICBjb2xvcjoge1xyXG4gICAgICBkb21haW46IG5ldyBTZXQoc2V4ZGF0YS5tYXAoKGQpID0+IGQuc2V4KSksXHJcbiAgICAgIHJhbmdlOiBbLi4ubmV3IFNldChzZXhkYXRhLm1hcCgoZCkgPT4gZC5zZXgpKV0ubWFwKGNvbG9yMiksXHJcbiAgICB9LFxyXG4gICAgeToge1xyXG4gICAgICBsYWJlbDogXCJQZXJjZW50YWdlICglKVwiLFxyXG4gICAgICBsYWJlbEFuY2hvcjogXCJjZW50ZXJcIlxyXG4gICAgfSxcclxuICAgIHg6IHtcclxuICAgICAgdHlwZTogXCJ0aW1lXCIsXHJcbiAgICAgIGxhYmVsOiBcIlllYXJzXCIsXHJcbiAgICAgIGFuY2hvcjogXCJib3R0b21cIixcclxuICAgICAgbGFiZWxBbmNob3I6IFwiY2VudGVyXCIsXHJcbiAgICAgIGRvbWFpbjogW25ldyBEYXRlKFwiMTk4Ny0wMS0wMVwiKSwgbmV3IERhdGUoXCIyMDI0LTAxLTAxXCIpXVxyXG4gICAgfSxcclxuICAgIG1hcmtzOiBbXHJcbiAgICAgIFBsb3QucnVsZVkoWzBdKSxcclxuICAgICAgUGxvdC5kb3Qoc2V4ZGF0YSwge1xyXG4gICAgICAgIHg6IFwieWVhclwiLFxyXG4gICAgICAgIHk6IFwiZXN0aW1hdGVcIixcclxuICAgICAgICByOiA0LFxyXG4gICAgICAgIGZpbGw6IFwic2V4XCIsXHJcbiAgICAgICAgc3ltYm9sOiBcInNleFwiLFxyXG4gICAgICAgIHRpdGxlOiAoZCkgPT4gYCR7ZC5zZXh9IFxcbiAke2Zvcm1hdHRlcihkLnllYXIpfTogJHtkLmVzdGltYXRlfSVgXHJcbiAgICAgIH0pLFxyXG4gICAgICBQbG90LmxpbmUoc2V4ZGF0YSwge1xyXG4gICAgICAgIHg6IFwieWVhclwiLFxyXG4gICAgICAgIHk6IFwiZXN0aW1hdGVcIixcclxuICAgICAgICB6OiAoZCkgPT4gLy8gVGhpcyBjcmVhdGVzIHRoZSBsaW5lIGJyZWFrc1xyXG4gICAgICAgICAgW1xyXG4gICAgICAgICAgICBkLnNleCxcclxuICAgICAgICAgICAgZC5GbGFnXHJcbiAgICAgICAgICBdLmpvaW4oKSxcclxuICAgICAgICBzdHJva2U6IFwic2V4XCJ9KVxyXG4gICAgICAgIF1cclxuICB9KSxcclxuICB7IGZpbGw6IFwic2V4XCIgfVxyXG4pXHJcblxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3NlbGVjdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdyYWRpbycpIn1dfQ==
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../panel/college-noncollege";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/monitoringthefuture\.com\/data\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,33 @@
+Variable,Group,OneYear1,OneYear2,oneyrchange,sig_oneyr,FiveYear1,FiveYear2,fiveyrchange,sig_fiveyr,TenYear1,TenYear2,tenyrchange,sig_tenyr,time,drug,college1,sex1,sex,college,year,.,.,.,.,.,.
+cs_mj_30d,cs,22.0595,26.0726,.,n.s.,24.2483,26.0726,.,n.s.,21.1096,26.0726,5.0,p<.05,30 Day,Cannabis,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_mj_30d,ncs,28.2335,28.8291,.,n.s.,25.9937,28.8291,.,n.s.,25.7635,28.8291,3.1,p<.05,30 Day,Cannabis,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_mj_30d,csm,19.8374,26.7213,.,n.s.,22.4476,26.7213,.,n.s.,27.3643,26.7213,.,n.s.,30 Day,Cannabis,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_mj_30d,csf,23.3026,25.5649,.,n.s.,26.5424,25.5649,.,n.s.,16.1677,25.5649,9.4,p<.001,30 Day,Cannabis,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_alc_30d,cs,62.4717,54.9989,-7.5,p<.05,58.3481,54.9989,.,n.s.,62.0191,54.9989,-7.0,p<.05,30 Day,Alcohol,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_alc_30d,ncs,54.0548,51.9208,.,n.s.,49.6918,51.9208,.,n.s.,56.4465,51.9208,-4.5,p<.05,30 Day,Alcohol,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_alc_30d,csm,56.8414,50.9853,.,n.s.,56.5535,50.9853,.,n.s.,63.3392,50.9853,-12.4,p<.01,30 Day,Alcohol,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_alc_30d,csf,65.768,58.4204,-7.3,p<.05,60.7218,58.4204,.,n.s.,60.9641,58.4204,.,n.s.,30 Day,Alcohol,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_alc_binge5,cs,27.6626,21.8536,-5.8,p<.05,27.4271,21.8536,.,n.s.,34.9944,21.8536,-13.1,p<.001,5+ Drinks,Alcohol,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_alc_binge5,ncs,23.8677,20.2814,.,n.s.,23.9294,20.2814,.,n.s.,31.3289,20.2814,-11.0,p<.001,5+ Drinks,Alcohol,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_alc_binge5,csm,26.8241,24.3785,.,n.s.,29.8261,24.3785,.,n.s.,41.8796,24.3785,-17.5,p<.001,5+ Drinks,Alcohol,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_alc_binge5,csf,27.4572,19.8942,-7.6,p<.05,25.9933,19.8942,.,n.s.,29.5337,19.8942,-9.6,p<.05,5+ Drinks,Alcohol,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_cig_30d,cs,6.386,4.0456,.,n.s.,7.1965,4.0456,-3.2,p<.05,13.8994,4.0456,-9.9,p<.001,30 Day,Cigarettes,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_cig_30d,ncs,7.0072,8.2793,.,n.s.,16.9535,8.2793,-8.7,p<.001,28.7136,8.2793,-20.4,p<.001,30 Day,Cigarettes,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_cig_30d,csm,7.9886,3.7313,.,n.s.,9.2534,3.7313,-5.5,p<.05,16.7454,3.7313,-13.0,p<.001,30 Day,Cigarettes,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_cig_30d,csf,5.3927,4.0332,.,n.s.,5.3196,4.0332,.,n.s.,11.6556,4.0332,-7.6,p<.001,30 Day,Cigarettes,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_mjvape_30d,cs,11.2421,14.2383,.,n.s.,10.0309,14.2383,4.2,p<.05,.,14.2383,.,p<.001,30 Day,Vaping Cannabis,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_mjvape_30d,ncs,18.9323,19.5865,.,n.s.,7.6763,19.5865,11.9,p<.001,.,19.5865,.,p<.001,30 Day,Vaping Cannabis,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_mjvape_30d,csm,13.535,15.478,.,n.s.,10.5965,15.478,.,n.s.,.,15.478,.,n.s.,30 Day,Vaping Cannabis,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_mjvape_30d,csf,10.1111,13.5181,.,n.s.,9.413,13.5181,.,n.s.,.,13.5181,.,p<.001,30 Day,Vaping Cannabis,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_nicvape_30d,cs,18.8781,18.0002,.,n.s.,14.879,18.0002,.,n.s.,.,18.0002,.,p<.001,30 Day,Vaping Nicotine,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_nicvape_30d,ncs,23.2375,28.7575,.,n.s.,13.3922,28.7575,15.4,p<.001,.,28.7575,.,p<.001,30 Day,Vaping Nicotine,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_nicvape_30d,csm,18.2319,19.0939,.,n.s.,17.8652,19.0939,.,n.s.,.,19.0939,.,n.s.,30 Day,Vaping Nicotine,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_nicvape_30d,csf,18.9675,16.8891,.,n.s.,11.9708,16.8891,4.9,p<.05,.,16.8891,.,p<.001,30 Day,Vaping Nicotine,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_otm_30d,cs,2.8939,4.2198,.,n.s.,7.7452,4.2198,-3.5,p<.001,8.3777,4.2198,-4.2,p<.001,30 Day,Any Drug Other Than Cannabis,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_otm_30d,ncs,4.1623,5.4394,.,n.s.,7.2657,5.4394,.,n.s.,10.8436,5.4394,-5.4,p<.001,30 Day,Any Drug Other Than Cannabis,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_otm_30d,csm,4.3802,7.028,.,n.s.,7.1736,7.028,.,n.s.,10.3848,7.028,-3.4,p<.001,30 Day,Any Drug Other Than Cannabis,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_otm_30d,csf,2.114,1.6671,.,n.s.,8.046,1.6671,-6.4,p<.001,6.789,1.6671,-5.1,p<.001,30 Day,Any Drug Other Than Cannabis,.,csf,College Student Women,.,.,.,.,.,.,.,.
+cs_mj_dly,cs,4.7449,6.3299,.,n.s.,5.1954,6.3299,.,n.s.,5.5442,6.3299,.,n.s.,Daily,Cannabis,cs,.,.,College Student,.,.,.,.,.,.,.
+ncs_mj_dly,ncs,14.4989,11.6493,.,n.s.,10.1557,11.6493,.,n.s.,9.2806,11.6493,2.4,p<.01,Daily,Cannabis,ncs,.,.,Non-college Adult,.,.,.,.,.,.,.
+csm_mj_dly,csm,3.5798,7.9584,.,n.s.,6.6116,7.9584,.,n.s.,9.0983,7.9584,.,n.s.,Daily,Cannabis,.,csm,College Student Men,.,.,.,.,.,.,.,.
+csf_mj_dly,csf,5.7522,5.1077,.,n.s.,4.1095,5.1077,.,n.s.,2.736,5.1077,2.4,p<.05,Daily,Cannabis,.,csf,College Student Women,.,.,.,.,.,.,.,.

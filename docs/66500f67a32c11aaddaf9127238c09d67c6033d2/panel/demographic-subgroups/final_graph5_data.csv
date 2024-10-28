@@ -1,0 +1,1881 @@
+drug1,estimate,time,drug,raceEthnicity,sex,age,year
+ALC 30-DAY,55.72,30 Day,Alcohol,BLACK,,Ages 19-30,1988
+ALC 30-DAY,57.41,30 Day,Alcohol,BLACK,,Ages 19-30,1989
+ALC 30-DAY,54.04,30 Day,Alcohol,BLACK,,Ages 19-30,1990
+ALC 30-DAY,55.06,30 Day,Alcohol,BLACK,,Ages 19-30,1991
+ALC 30-DAY,49.79,30 Day,Alcohol,BLACK,,Ages 19-30,1992
+ALC 30-DAY,51.92,30 Day,Alcohol,BLACK,,Ages 19-30,1993
+ALC 30-DAY,51.01,30 Day,Alcohol,BLACK,,Ages 19-30,1994
+ALC 30-DAY,53.96,30 Day,Alcohol,BLACK,,Ages 19-30,1995
+ALC 30-DAY,50.43,30 Day,Alcohol,BLACK,,Ages 19-30,1996
+ALC 30-DAY,50,30 Day,Alcohol,BLACK,,Ages 19-30,1997
+ALC 30-DAY,49.41,30 Day,Alcohol,BLACK,,Ages 19-30,1998
+ALC 30-DAY,48.97,30 Day,Alcohol,BLACK,,Ages 19-30,1999
+ALC 30-DAY,47.46,30 Day,Alcohol,BLACK,,Ages 19-30,2000
+ALC 30-DAY,50.73,30 Day,Alcohol,BLACK,,Ages 19-30,2001
+ALC 30-DAY,51.34,30 Day,Alcohol,BLACK,,Ages 19-30,2002
+ALC 30-DAY,44.13,30 Day,Alcohol,BLACK,,Ages 19-30,2003
+ALC 30-DAY,50.69,30 Day,Alcohol,BLACK,,Ages 19-30,2004
+ALC 30-DAY,48.04,30 Day,Alcohol,BLACK,,Ages 19-30,2005
+ALC 30-DAY,46.25,30 Day,Alcohol,BLACK,,Ages 19-30,2006
+ALC 30-DAY,49.41,30 Day,Alcohol,BLACK,,Ages 19-30,2007
+ALC 30-DAY,55.07,30 Day,Alcohol,BLACK,,Ages 19-30,2008
+ALC 30-DAY,55.77,30 Day,Alcohol,BLACK,,Ages 19-30,2009
+ALC 30-DAY,49.6,30 Day,Alcohol,BLACK,,Ages 19-30,2010
+ALC 30-DAY,54.6,30 Day,Alcohol,BLACK,,Ages 19-30,2011
+ALC 30-DAY,55.4,30 Day,Alcohol,BLACK,,Ages 19-30,2012
+ALC 30-DAY,53.7,30 Day,Alcohol,BLACK,,Ages 19-30,2013
+ALC 30-DAY,54.87,30 Day,Alcohol,BLACK,,Ages 19-30,2014
+ALC 30-DAY,53.18,30 Day,Alcohol,BLACK,,Ages 19-30,2015
+ALC 30-DAY,56.1,30 Day,Alcohol,BLACK,,Ages 19-30,2016
+ALC 30-DAY,51.73,30 Day,Alcohol,BLACK,,Ages 19-30,2017
+ALC 30-DAY,56.4,30 Day,Alcohol,BLACK,,Ages 19-30,2018
+ALC 30-DAY,55.9,30 Day,Alcohol,BLACK,,Ages 19-30,2019
+ALC 30-DAY,56.2,30 Day,Alcohol,BLACK,,Ages 19-30,2020
+ALC 30-DAY,61.5,30 Day,Alcohol,BLACK,,Ages 19-30,2021
+ALC 30-DAY,60.7,30 Day,Alcohol,BLACK,,Ages 19-30,2022
+ALC 30-DAY,57.3,30 Day,Alcohol,BLACK,,Ages 19-30,2023
+ALC 30-DAY,65.13,30 Day,Alcohol,HISPANIC,,Ages 19-30,1988
+ALC 30-DAY,68.1,30 Day,Alcohol,HISPANIC,,Ages 19-30,1989
+ALC 30-DAY,62.21,30 Day,Alcohol,HISPANIC,,Ages 19-30,1990
+ALC 30-DAY,59.54,30 Day,Alcohol,HISPANIC,,Ages 19-30,1991
+ALC 30-DAY,62.79,30 Day,Alcohol,HISPANIC,,Ages 19-30,1992
+ALC 30-DAY,61.87,30 Day,Alcohol,HISPANIC,,Ages 19-30,1993
+ALC 30-DAY,62.26,30 Day,Alcohol,HISPANIC,,Ages 19-30,1994
+ALC 30-DAY,59.93,30 Day,Alcohol,HISPANIC,,Ages 19-30,1995
+ALC 30-DAY,59.06,30 Day,Alcohol,HISPANIC,,Ages 19-30,1996
+ALC 30-DAY,61.04,30 Day,Alcohol,HISPANIC,,Ages 19-30,1997
+ALC 30-DAY,60.75,30 Day,Alcohol,HISPANIC,,Ages 19-30,1998
+ALC 30-DAY,63.99,30 Day,Alcohol,HISPANIC,,Ages 19-30,1999
+ALC 30-DAY,59.37,30 Day,Alcohol,HISPANIC,,Ages 19-30,2000
+ALC 30-DAY,64.11,30 Day,Alcohol,HISPANIC,,Ages 19-30,2001
+ALC 30-DAY,62.93,30 Day,Alcohol,HISPANIC,,Ages 19-30,2002
+ALC 30-DAY,64.34,30 Day,Alcohol,HISPANIC,,Ages 19-30,2003
+ALC 30-DAY,64.34,30 Day,Alcohol,HISPANIC,,Ages 19-30,2004
+ALC 30-DAY,64.64,30 Day,Alcohol,HISPANIC,,Ages 19-30,2005
+ALC 30-DAY,63.24,30 Day,Alcohol,HISPANIC,,Ages 19-30,2006
+ALC 30-DAY,62.36,30 Day,Alcohol,HISPANIC,,Ages 19-30,2007
+ALC 30-DAY,63.85,30 Day,Alcohol,HISPANIC,,Ages 19-30,2008
+ALC 30-DAY,64.07,30 Day,Alcohol,HISPANIC,,Ages 19-30,2009
+ALC 30-DAY,59.37,30 Day,Alcohol,HISPANIC,,Ages 19-30,2010
+ALC 30-DAY,62.74,30 Day,Alcohol,HISPANIC,,Ages 19-30,2011
+ALC 30-DAY,64.67,30 Day,Alcohol,HISPANIC,,Ages 19-30,2012
+ALC 30-DAY,63.93,30 Day,Alcohol,HISPANIC,,Ages 19-30,2013
+ALC 30-DAY,62.29,30 Day,Alcohol,HISPANIC,,Ages 19-30,2014
+ALC 30-DAY,61.91,30 Day,Alcohol,HISPANIC,,Ages 19-30,2015
+ALC 30-DAY,60.6,30 Day,Alcohol,HISPANIC,,Ages 19-30,2016
+ALC 30-DAY,64.33,30 Day,Alcohol,HISPANIC,,Ages 19-30,2017
+ALC 30-DAY,62.7,30 Day,Alcohol,HISPANIC,,Ages 19-30,2018
+ALC 30-DAY,60.7,30 Day,Alcohol,HISPANIC,,Ages 19-30,2019
+ALC 30-DAY,60.7,30 Day,Alcohol,HISPANIC,,Ages 19-30,2020
+ALC 30-DAY,60.8,30 Day,Alcohol,HISPANIC,,Ages 19-30,2021
+ALC 30-DAY,66.2,30 Day,Alcohol,HISPANIC,,Ages 19-30,2022
+ALC 30-DAY,59.2,30 Day,Alcohol,HISPANIC,,Ages 19-30,2023
+ALC 30-DAY,79.84,30 Day,Alcohol,,MEN,Ages 19-30,1988
+ALC 30-DAY,78.58,30 Day,Alcohol,,MEN,Ages 19-30,1989
+ALC 30-DAY,78.15,30 Day,Alcohol,,MEN,Ages 19-30,1990
+ALC 30-DAY,76.51,30 Day,Alcohol,,MEN,Ages 19-30,1991
+ALC 30-DAY,75.46,30 Day,Alcohol,,MEN,Ages 19-30,1992
+ALC 30-DAY,73.96,30 Day,Alcohol,,MEN,Ages 19-30,1993
+ALC 30-DAY,75.14,30 Day,Alcohol,,MEN,Ages 19-30,1994
+ALC 30-DAY,74.38,30 Day,Alcohol,,MEN,Ages 19-30,1995
+ALC 30-DAY,72.15,30 Day,Alcohol,,MEN,Ages 19-30,1996
+ALC 30-DAY,73.85,30 Day,Alcohol,,MEN,Ages 19-30,1997
+ALC 30-DAY,72.55,30 Day,Alcohol,,MEN,Ages 19-30,1998
+ALC 30-DAY,73,30 Day,Alcohol,,MEN,Ages 19-30,1999
+ALC 30-DAY,72.11,30 Day,Alcohol,,MEN,Ages 19-30,2000
+ALC 30-DAY,73.24,30 Day,Alcohol,,MEN,Ages 19-30,2001
+ALC 30-DAY,72.77,30 Day,Alcohol,,MEN,Ages 19-30,2002
+ALC 30-DAY,72.09,30 Day,Alcohol,,MEN,Ages 19-30,2003
+ALC 30-DAY,72.17,30 Day,Alcohol,,MEN,Ages 19-30,2004
+ALC 30-DAY,72.67,30 Day,Alcohol,,MEN,Ages 19-30,2005
+ALC 30-DAY,73.39,30 Day,Alcohol,,MEN,Ages 19-30,2006
+ALC 30-DAY,73.14,30 Day,Alcohol,,MEN,Ages 19-30,2007
+ALC 30-DAY,71.77,30 Day,Alcohol,,MEN,Ages 19-30,2008
+ALC 30-DAY,74.68,30 Day,Alcohol,,MEN,Ages 19-30,2009
+ALC 30-DAY,71.18,30 Day,Alcohol,,MEN,Ages 19-30,2010
+ALC 30-DAY,73.03,30 Day,Alcohol,,MEN,Ages 19-30,2011
+ALC 30-DAY,70.78,30 Day,Alcohol,,MEN,Ages 19-30,2012
+ALC 30-DAY,71.62,30 Day,Alcohol,,MEN,Ages 19-30,2013
+ALC 30-DAY,71.04,30 Day,Alcohol,,MEN,Ages 19-30,2014
+ALC 30-DAY,70.82,30 Day,Alcohol,,MEN,Ages 19-30,2015
+ALC 30-DAY,70.1,30 Day,Alcohol,,MEN,Ages 19-30,2016
+ALC 30-DAY,69.91,30 Day,Alcohol,,MEN,Ages 19-30,2017
+ALC 30-DAY,67.8,30 Day,Alcohol,,MEN,Ages 19-30,2018
+ALC 30-DAY,66.6,30 Day,Alcohol,,MEN,Ages 19-30,2019
+ALC 30-DAY,67.1,30 Day,Alcohol,,MEN,Ages 19-30,2020
+ALC 30-DAY,68.6,30 Day,Alcohol,,MEN,Ages 19-30,2021
+ALC 30-DAY,68.6,30 Day,Alcohol,,MEN,Ages 19-30,2022
+ALC 30-DAY,65.6,30 Day,Alcohol,,MEN,Ages 19-30,2023
+ALC 30-DAY,77.48,30 Day,Alcohol,WHITE,,Ages 19-30,1988
+ALC 30-DAY,76.15,30 Day,Alcohol,WHITE,,Ages 19-30,1989
+ALC 30-DAY,74.83,30 Day,Alcohol,WHITE,,Ages 19-30,1990
+ALC 30-DAY,74.41,30 Day,Alcohol,WHITE,,Ages 19-30,1991
+ALC 30-DAY,73.44,30 Day,Alcohol,WHITE,,Ages 19-30,1992
+ALC 30-DAY,72.29,30 Day,Alcohol,WHITE,,Ages 19-30,1993
+ALC 30-DAY,71.82,30 Day,Alcohol,WHITE,,Ages 19-30,1994
+ALC 30-DAY,71.6,30 Day,Alcohol,WHITE,,Ages 19-30,1995
+ALC 30-DAY,70.65,30 Day,Alcohol,WHITE,,Ages 19-30,1996
+ALC 30-DAY,71.43,30 Day,Alcohol,WHITE,,Ages 19-30,1997
+ALC 30-DAY,70.47,30 Day,Alcohol,WHITE,,Ages 19-30,1998
+ALC 30-DAY,71.88,30 Day,Alcohol,WHITE,,Ages 19-30,1999
+ALC 30-DAY,70.29,30 Day,Alcohol,WHITE,,Ages 19-30,2000
+ALC 30-DAY,70.68,30 Day,Alcohol,WHITE,,Ages 19-30,2001
+ALC 30-DAY,71.76,30 Day,Alcohol,WHITE,,Ages 19-30,2002
+ALC 30-DAY,70.82,30 Day,Alcohol,WHITE,,Ages 19-30,2003
+ALC 30-DAY,71.17,30 Day,Alcohol,WHITE,,Ages 19-30,2004
+ALC 30-DAY,71.96,30 Day,Alcohol,WHITE,,Ages 19-30,2005
+ALC 30-DAY,72.9,30 Day,Alcohol,WHITE,,Ages 19-30,2006
+ALC 30-DAY,73.11,30 Day,Alcohol,WHITE,,Ages 19-30,2007
+ALC 30-DAY,73.17,30 Day,Alcohol,WHITE,,Ages 19-30,2008
+ALC 30-DAY,73.93,30 Day,Alcohol,WHITE,,Ages 19-30,2009
+ALC 30-DAY,73.33,30 Day,Alcohol,WHITE,,Ages 19-30,2010
+ALC 30-DAY,72.59,30 Day,Alcohol,WHITE,,Ages 19-30,2011
+ALC 30-DAY,72.76,30 Day,Alcohol,WHITE,,Ages 19-30,2012
+ALC 30-DAY,72.09,30 Day,Alcohol,WHITE,,Ages 19-30,2013
+ALC 30-DAY,72.54,30 Day,Alcohol,WHITE,,Ages 19-30,2014
+ALC 30-DAY,72.13,30 Day,Alcohol,WHITE,,Ages 19-30,2015
+ALC 30-DAY,73.7,30 Day,Alcohol,WHITE,,Ages 19-30,2016
+ALC 30-DAY,71.09,30 Day,Alcohol,WHITE,,Ages 19-30,2017
+ALC 30-DAY,69,30 Day,Alcohol,WHITE,,Ages 19-30,2018
+ALC 30-DAY,71.8,30 Day,Alcohol,WHITE,,Ages 19-30,2019
+ALC 30-DAY,69.4,30 Day,Alcohol,WHITE,,Ages 19-30,2020
+ALC 30-DAY,71.3,30 Day,Alcohol,WHITE,,Ages 19-30,2021
+ALC 30-DAY,70.3,30 Day,Alcohol,WHITE,,Ages 19-30,2022
+ALC 30-DAY,69.3,30 Day,Alcohol,WHITE,,Ages 19-30,2023
+ALC 30-DAY,68.39,30 Day,Alcohol,,WOMEN,Ages 19-30,1988
+ALC 30-DAY,67.51,30 Day,Alcohol,,WOMEN,Ages 19-30,1989
+ALC 30-DAY,65.01,30 Day,Alcohol,,WOMEN,Ages 19-30,1990
+ALC 30-DAY,65.55,30 Day,Alcohol,,WOMEN,Ages 19-30,1991
+ALC 30-DAY,63.57,30 Day,Alcohol,,WOMEN,Ages 19-30,1992
+ALC 30-DAY,62.58,30 Day,Alcohol,,WOMEN,Ages 19-30,1993
+ALC 30-DAY,61.14,30 Day,Alcohol,,WOMEN,Ages 19-30,1994
+ALC 30-DAY,61.55,30 Day,Alcohol,,WOMEN,Ages 19-30,1995
+ALC 30-DAY,61.98,30 Day,Alcohol,,WOMEN,Ages 19-30,1996
+ALC 30-DAY,60.51,30 Day,Alcohol,,WOMEN,Ages 19-30,1997
+ALC 30-DAY,60.87,30 Day,Alcohol,,WOMEN,Ages 19-30,1998
+ALC 30-DAY,61.82,30 Day,Alcohol,,WOMEN,Ages 19-30,1999
+ALC 30-DAY,60.15,30 Day,Alcohol,,WOMEN,Ages 19-30,2000
+ALC 30-DAY,60.5,30 Day,Alcohol,,WOMEN,Ages 19-30,2001
+ALC 30-DAY,63.21,30 Day,Alcohol,,WOMEN,Ages 19-30,2002
+ALC 30-DAY,61.05,30 Day,Alcohol,,WOMEN,Ages 19-30,2003
+ALC 30-DAY,62.87,30 Day,Alcohol,,WOMEN,Ages 19-30,2004
+ALC 30-DAY,62.61,30 Day,Alcohol,,WOMEN,Ages 19-30,2005
+ALC 30-DAY,63.47,30 Day,Alcohol,,WOMEN,Ages 19-30,2006
+ALC 30-DAY,64.67,30 Day,Alcohol,,WOMEN,Ages 19-30,2007
+ALC 30-DAY,66.56,30 Day,Alcohol,,WOMEN,Ages 19-30,2008
+ALC 30-DAY,65.27,30 Day,Alcohol,,WOMEN,Ages 19-30,2009
+ALC 30-DAY,63.92,30 Day,Alcohol,,WOMEN,Ages 19-30,2010
+ALC 30-DAY,64.45,30 Day,Alcohol,,WOMEN,Ages 19-30,2011
+ALC 30-DAY,66.17,30 Day,Alcohol,,WOMEN,Ages 19-30,2012
+ALC 30-DAY,64.51,30 Day,Alcohol,,WOMEN,Ages 19-30,2013
+ALC 30-DAY,65.32,30 Day,Alcohol,,WOMEN,Ages 19-30,2014
+ALC 30-DAY,64.81,30 Day,Alcohol,,WOMEN,Ages 19-30,2015
+ALC 30-DAY,66.2,30 Day,Alcohol,,WOMEN,Ages 19-30,2016
+ALC 30-DAY,63.69,30 Day,Alcohol,,WOMEN,Ages 19-30,2017
+ALC 30-DAY,64.1,30 Day,Alcohol,,WOMEN,Ages 19-30,2018
+ALC 30-DAY,66.9,30 Day,Alcohol,,WOMEN,Ages 19-30,2019
+ALC 30-DAY,62.8,30 Day,Alcohol,,WOMEN,Ages 19-30,2020
+ALC 30-DAY,66,30 Day,Alcohol,,WOMEN,Ages 19-30,2021
+ALC 30-DAY,66.7,30 Day,Alcohol,,WOMEN,Ages 19-30,2022
+ALC 30-DAY,65.1,30 Day,Alcohol,,WOMEN,Ages 19-30,2023
+ALC 30-DAY,49.78,30 Day,Alcohol,BLACK,,Ages 35-50,2008
+ALC 30-DAY,50.15,30 Day,Alcohol,BLACK,,Ages 35-50,2009
+ALC 30-DAY,58.5,30 Day,Alcohol,BLACK,,Ages 35-50,2010
+ALC 30-DAY,57.3,30 Day,Alcohol,BLACK,,Ages 35-50,2011
+ALC 30-DAY,50.71,30 Day,Alcohol,BLACK,,Ages 35-50,2012
+ALC 30-DAY,57.69,30 Day,Alcohol,BLACK,,Ages 35-50,2013
+ALC 30-DAY,58.36,30 Day,Alcohol,BLACK,,Ages 35-50,2014
+ALC 30-DAY,55.3,30 Day,Alcohol,BLACK,,Ages 35-50,2015
+ALC 30-DAY,60.6,30 Day,Alcohol,BLACK,,Ages 35-50,2016
+ALC 30-DAY,56.17,30 Day,Alcohol,BLACK,,Ages 35-50,2017
+ALC 30-DAY,60.1,30 Day,Alcohol,BLACK,,Ages 35-50,2018
+ALC 30-DAY,60.8,30 Day,Alcohol,BLACK,,Ages 35-50,2019
+ALC 30-DAY,65.8,30 Day,Alcohol,BLACK,,Ages 35-50,2020
+ALC 30-DAY,64.8,30 Day,Alcohol,BLACK,,Ages 35-50,2021
+ALC 30-DAY,57.5,30 Day,Alcohol,BLACK,,Ages 35-50,2022
+ALC 30-DAY,60.1,30 Day,Alcohol,BLACK,,Ages 35-50,2023
+ALC 30-DAY,58.85,30 Day,Alcohol,HISPANIC,,Ages 35-50,2008
+ALC 30-DAY,63.32,30 Day,Alcohol,HISPANIC,,Ages 35-50,2009
+ALC 30-DAY,70.69,30 Day,Alcohol,HISPANIC,,Ages 35-50,2010
+ALC 30-DAY,62.8,30 Day,Alcohol,HISPANIC,,Ages 35-50,2011
+ALC 30-DAY,72.18,30 Day,Alcohol,HISPANIC,,Ages 35-50,2012
+ALC 30-DAY,68.88,30 Day,Alcohol,HISPANIC,,Ages 35-50,2013
+ALC 30-DAY,59.73,30 Day,Alcohol,HISPANIC,,Ages 35-50,2014
+ALC 30-DAY,64.2,30 Day,Alcohol,HISPANIC,,Ages 35-50,2015
+ALC 30-DAY,66.7,30 Day,Alcohol,HISPANIC,,Ages 35-50,2016
+ALC 30-DAY,73.23,30 Day,Alcohol,HISPANIC,,Ages 35-50,2017
+ALC 30-DAY,67.7,30 Day,Alcohol,HISPANIC,,Ages 35-50,2018
+ALC 30-DAY,69.5,30 Day,Alcohol,HISPANIC,,Ages 35-50,2019
+ALC 30-DAY,63.6,30 Day,Alcohol,HISPANIC,,Ages 35-50,2020
+ALC 30-DAY,68.2,30 Day,Alcohol,HISPANIC,,Ages 35-50,2021
+ALC 30-DAY,77.3,30 Day,Alcohol,HISPANIC,,Ages 35-50,2022
+ALC 30-DAY,76.8,30 Day,Alcohol,HISPANIC,,Ages 35-50,2023
+ALC 30-DAY,71.89,30 Day,Alcohol,,MEN,Ages 35-50,2008
+ALC 30-DAY,73.57,30 Day,Alcohol,,MEN,Ages 35-50,2009
+ALC 30-DAY,72.23,30 Day,Alcohol,,MEN,Ages 35-50,2010
+ALC 30-DAY,71.05,30 Day,Alcohol,,MEN,Ages 35-50,2011
+ALC 30-DAY,70.37,30 Day,Alcohol,,MEN,Ages 35-50,2012
+ALC 30-DAY,72.61,30 Day,Alcohol,,MEN,Ages 35-50,2013
+ALC 30-DAY,74.38,30 Day,Alcohol,,MEN,Ages 35-50,2014
+ALC 30-DAY,71.5,30 Day,Alcohol,,MEN,Ages 35-50,2015
+ALC 30-DAY,71.4,30 Day,Alcohol,,MEN,Ages 35-50,2016
+ALC 30-DAY,73.69,30 Day,Alcohol,,MEN,Ages 35-50,2017
+ALC 30-DAY,71.2,30 Day,Alcohol,,MEN,Ages 35-50,2018
+ALC 30-DAY,74.3,30 Day,Alcohol,,MEN,Ages 35-50,2019
+ALC 30-DAY,71.6,30 Day,Alcohol,,MEN,Ages 35-50,2020
+ALC 30-DAY,72.6,30 Day,Alcohol,,MEN,Ages 35-50,2021
+ALC 30-DAY,74.1,30 Day,Alcohol,,MEN,Ages 35-50,2022
+ALC 30-DAY,74.4,30 Day,Alcohol,,MEN,Ages 35-50,2023
+ALC 30-DAY,68.64,30 Day,Alcohol,WHITE,,Ages 35-50,2008
+ALC 30-DAY,69.89,30 Day,Alcohol,WHITE,,Ages 35-50,2009
+ALC 30-DAY,70.36,30 Day,Alcohol,WHITE,,Ages 35-50,2010
+ALC 30-DAY,69.73,30 Day,Alcohol,WHITE,,Ages 35-50,2011
+ALC 30-DAY,71.12,30 Day,Alcohol,WHITE,,Ages 35-50,2012
+ALC 30-DAY,69.64,30 Day,Alcohol,WHITE,,Ages 35-50,2013
+ALC 30-DAY,71.27,30 Day,Alcohol,WHITE,,Ages 35-50,2014
+ALC 30-DAY,71.94,30 Day,Alcohol,WHITE,,Ages 35-50,2015
+ALC 30-DAY,70.2,30 Day,Alcohol,WHITE,,Ages 35-50,2016
+ALC 30-DAY,73.25,30 Day,Alcohol,WHITE,,Ages 35-50,2017
+ALC 30-DAY,70.3,30 Day,Alcohol,WHITE,,Ages 35-50,2018
+ALC 30-DAY,73.5,30 Day,Alcohol,WHITE,,Ages 35-50,2019
+ALC 30-DAY,71.7,30 Day,Alcohol,WHITE,,Ages 35-50,2020
+ALC 30-DAY,72.8,30 Day,Alcohol,WHITE,,Ages 35-50,2021
+ALC 30-DAY,73.8,30 Day,Alcohol,WHITE,,Ages 35-50,2022
+ALC 30-DAY,68.6,30 Day,Alcohol,WHITE,,Ages 35-50,2023
+ALC 30-DAY,60.04,30 Day,Alcohol,,WOMEN,Ages 35-50,2008
+ALC 30-DAY,60.31,30 Day,Alcohol,,WOMEN,Ages 35-50,2009
+ALC 30-DAY,64.38,30 Day,Alcohol,,WOMEN,Ages 35-50,2010
+ALC 30-DAY,64.16,30 Day,Alcohol,,WOMEN,Ages 35-50,2011
+ALC 30-DAY,66.01,30 Day,Alcohol,,WOMEN,Ages 35-50,2012
+ALC 30-DAY,62.99,30 Day,Alcohol,,WOMEN,Ages 35-50,2013
+ALC 30-DAY,63.83,30 Day,Alcohol,,WOMEN,Ages 35-50,2014
+ALC 30-DAY,64.5,30 Day,Alcohol,,WOMEN,Ages 35-50,2015
+ALC 30-DAY,65.5,30 Day,Alcohol,,WOMEN,Ages 35-50,2016
+ALC 30-DAY,67.55,30 Day,Alcohol,,WOMEN,Ages 35-50,2017
+ALC 30-DAY,66.6,30 Day,Alcohol,,WOMEN,Ages 35-50,2018
+ALC 30-DAY,67.9,30 Day,Alcohol,,WOMEN,Ages 35-50,2019
+ALC 30-DAY,66.8,30 Day,Alcohol,,WOMEN,Ages 35-50,2020
+ALC 30-DAY,68.5,30 Day,Alcohol,,WOMEN,Ages 35-50,2021
+ALC 30-DAY,68.8,30 Day,Alcohol,,WOMEN,Ages 35-50,2022
+ALC 30-DAY,64.2,30 Day,Alcohol,,WOMEN,Ages 35-50,2023
+ALC 5+ DRKS,18.12,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1988
+ALC 5+ DRKS,20.59,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1989
+ALC 5+ DRKS,19,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1990
+ALC 5+ DRKS,19.53,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1991
+ALC 5+ DRKS,16.11,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1992
+ALC 5+ DRKS,18.43,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1993
+ALC 5+ DRKS,20.55,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1994
+ALC 5+ DRKS,17.09,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1995
+ALC 5+ DRKS,18.68,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1996
+ALC 5+ DRKS,14.04,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1997
+ALC 5+ DRKS,18.09,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1998
+ALC 5+ DRKS,14.98,5+ Drinks,Alcohol,BLACK,,Ages 19-30,1999
+ALC 5+ DRKS,18.63,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2000
+ALC 5+ DRKS,17.47,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2001
+ALC 5+ DRKS,18.8,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2002
+ALC 5+ DRKS,12.31,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2003
+ALC 5+ DRKS,16.87,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2004
+ALC 5+ DRKS,14.74,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2005
+ALC 5+ DRKS,14.6,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2006
+ALC 5+ DRKS,15.38,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2007
+ALC 5+ DRKS,21.15,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2008
+ALC 5+ DRKS,20.04,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2009
+ALC 5+ DRKS,17.99,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2010
+ALC 5+ DRKS,20.79,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2011
+ALC 5+ DRKS,19.82,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2012
+ALC 5+ DRKS,22.32,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2013
+ALC 5+ DRKS,20.08,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2014
+ALC 5+ DRKS,19.82,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2015
+ALC 5+ DRKS,20.6,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2016
+ALC 5+ DRKS,15.45,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2017
+ALC 5+ DRKS,17,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2018
+ALC 5+ DRKS,18.7,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2019
+ALC 5+ DRKS,20.8,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2020
+ALC 5+ DRKS,27.7,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2021
+ALC 5+ DRKS,20.2,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2022
+ALC 5+ DRKS,20,5+ Drinks,Alcohol,BLACK,,Ages 19-30,2023
+ALC 5+ DRKS,29.28,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1988
+ALC 5+ DRKS,29.69,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1989
+ALC 5+ DRKS,25.59,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1990
+ALC 5+ DRKS,29.28,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1991
+ALC 5+ DRKS,27.85,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1992
+ALC 5+ DRKS,31.95,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1993
+ALC 5+ DRKS,31.28,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1994
+ALC 5+ DRKS,27.29,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1995
+ALC 5+ DRKS,29.34,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1996
+ALC 5+ DRKS,32.78,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1997
+ALC 5+ DRKS,31.37,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1998
+ALC 5+ DRKS,34.51,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,1999
+ALC 5+ DRKS,31.95,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2000
+ALC 5+ DRKS,34.17,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2001
+ALC 5+ DRKS,32.51,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2002
+ALC 5+ DRKS,29.76,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2003
+ALC 5+ DRKS,32.81,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2004
+ALC 5+ DRKS,34.4,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2005
+ALC 5+ DRKS,31.58,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2006
+ALC 5+ DRKS,30.52,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2007
+ALC 5+ DRKS,35.37,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2008
+ALC 5+ DRKS,33.94,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2009
+ALC 5+ DRKS,32.01,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2010
+ALC 5+ DRKS,31.7,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2011
+ALC 5+ DRKS,35.01,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2012
+ALC 5+ DRKS,31.94,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2013
+ALC 5+ DRKS,29.94,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2014
+ALC 5+ DRKS,24.92,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2015
+ALC 5+ DRKS,28.2,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2016
+ALC 5+ DRKS,29.38,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2017
+ALC 5+ DRKS,30.3,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2018
+ALC 5+ DRKS,28.8,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2019
+ALC 5+ DRKS,30.1,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2020
+ALC 5+ DRKS,29.1,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2021
+ALC 5+ DRKS,35.2,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2022
+ALC 5+ DRKS,26.2,5+ Drinks,Alcohol,HISPANIC,,Ages 19-30,2023
+ALC 5+ DRKS,44.71,5+ Drinks,Alcohol,,MEN,Ages 19-30,1988
+ALC 5+ DRKS,45.69,5+ Drinks,Alcohol,,MEN,Ages 19-30,1989
+ALC 5+ DRKS,45.26,5+ Drinks,Alcohol,,MEN,Ages 19-30,1990
+ALC 5+ DRKS,44.63,5+ Drinks,Alcohol,,MEN,Ages 19-30,1991
+ALC 5+ DRKS,43.59,5+ Drinks,Alcohol,,MEN,Ages 19-30,1992
+ALC 5+ DRKS,43.04,5+ Drinks,Alcohol,,MEN,Ages 19-30,1993
+ALC 5+ DRKS,44.4,5+ Drinks,Alcohol,,MEN,Ages 19-30,1994
+ALC 5+ DRKS,41.98,5+ Drinks,Alcohol,,MEN,Ages 19-30,1995
+ALC 5+ DRKS,43.44,5+ Drinks,Alcohol,,MEN,Ages 19-30,1996
+ALC 5+ DRKS,44.04,5+ Drinks,Alcohol,,MEN,Ages 19-30,1997
+ALC 5+ DRKS,44.28,5+ Drinks,Alcohol,,MEN,Ages 19-30,1998
+ALC 5+ DRKS,44.56,5+ Drinks,Alcohol,,MEN,Ages 19-30,1999
+ALC 5+ DRKS,43.69,5+ Drinks,Alcohol,,MEN,Ages 19-30,2000
+ALC 5+ DRKS,45.11,5+ Drinks,Alcohol,,MEN,Ages 19-30,2001
+ALC 5+ DRKS,44.58,5+ Drinks,Alcohol,,MEN,Ages 19-30,2002
+ALC 5+ DRKS,43.7,5+ Drinks,Alcohol,,MEN,Ages 19-30,2003
+ALC 5+ DRKS,44.45,5+ Drinks,Alcohol,,MEN,Ages 19-30,2004
+ALC 5+ DRKS,45.96,5+ Drinks,Alcohol,,MEN,Ages 19-30,2005
+ALC 5+ DRKS,45.78,5+ Drinks,Alcohol,,MEN,Ages 19-30,2006
+ALC 5+ DRKS,46.52,5+ Drinks,Alcohol,,MEN,Ages 19-30,2007
+ALC 5+ DRKS,45,5+ Drinks,Alcohol,,MEN,Ages 19-30,2008
+ALC 5+ DRKS,46.65,5+ Drinks,Alcohol,,MEN,Ages 19-30,2009
+ALC 5+ DRKS,44,5+ Drinks,Alcohol,,MEN,Ages 19-30,2010
+ALC 5+ DRKS,44.83,5+ Drinks,Alcohol,,MEN,Ages 19-30,2011
+ALC 5+ DRKS,41.31,5+ Drinks,Alcohol,,MEN,Ages 19-30,2012
+ALC 5+ DRKS,43.99,5+ Drinks,Alcohol,,MEN,Ages 19-30,2013
+ALC 5+ DRKS,41.04,5+ Drinks,Alcohol,,MEN,Ages 19-30,2014
+ALC 5+ DRKS,38.17,5+ Drinks,Alcohol,,MEN,Ages 19-30,2015
+ALC 5+ DRKS,39,5+ Drinks,Alcohol,,MEN,Ages 19-30,2016
+ALC 5+ DRKS,36.18,5+ Drinks,Alcohol,,MEN,Ages 19-30,2017
+ALC 5+ DRKS,35.1,5+ Drinks,Alcohol,,MEN,Ages 19-30,2018
+ALC 5+ DRKS,35.1,5+ Drinks,Alcohol,,MEN,Ages 19-30,2019
+ALC 5+ DRKS,33.3,5+ Drinks,Alcohol,,MEN,Ages 19-30,2020
+ALC 5+ DRKS,37.2,5+ Drinks,Alcohol,,MEN,Ages 19-30,2021
+ALC 5+ DRKS,35.7,5+ Drinks,Alcohol,,MEN,Ages 19-30,2022
+ALC 5+ DRKS,31.8,5+ Drinks,Alcohol,,MEN,Ages 19-30,2023
+ALC 5+ DRKS,36.64,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1988
+ALC 5+ DRKS,36.92,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1989
+ALC 5+ DRKS,35.97,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1990
+ALC 5+ DRKS,36.04,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1991
+ALC 5+ DRKS,36.28,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1992
+ALC 5+ DRKS,36.15,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1993
+ALC 5+ DRKS,35.61,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1994
+ALC 5+ DRKS,34.63,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1995
+ALC 5+ DRKS,35.78,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1996
+ALC 5+ DRKS,36.76,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1997
+ALC 5+ DRKS,37.02,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1998
+ALC 5+ DRKS,38.07,5+ Drinks,Alcohol,WHITE,,Ages 19-30,1999
+ALC 5+ DRKS,36.69,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2000
+ALC 5+ DRKS,38.33,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2001
+ALC 5+ DRKS,38.27,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2002
+ALC 5+ DRKS,38.75,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2003
+ALC 5+ DRKS,39.37,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2004
+ALC 5+ DRKS,40.8,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2005
+ALC 5+ DRKS,41.52,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2006
+ALC 5+ DRKS,41.85,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2007
+ALC 5+ DRKS,41.5,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2008
+ALC 5+ DRKS,41.05,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2009
+ALC 5+ DRKS,40.49,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2010
+ALC 5+ DRKS,40.69,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2011
+ALC 5+ DRKS,38.96,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2012
+ALC 5+ DRKS,38.84,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2013
+ALC 5+ DRKS,37.21,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2014
+ALC 5+ DRKS,35.16,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2015
+ALC 5+ DRKS,35.6,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2016
+ALC 5+ DRKS,34.76,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2017
+ALC 5+ DRKS,33.5,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2018
+ALC 5+ DRKS,34.4,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2019
+ALC 5+ DRKS,30.8,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2020
+ALC 5+ DRKS,34.6,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2021
+ALC 5+ DRKS,32.5,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2022
+ALC 5+ DRKS,29.6,5+ Drinks,Alcohol,WHITE,,Ages 19-30,2023
+ALC 5+ DRKS,23.53,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1988
+ALC 5+ DRKS,22.89,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1989
+ALC 5+ DRKS,21.65,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1990
+ALC 5+ DRKS,22.85,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1991
+ALC 5+ DRKS,22.82,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1992
+ALC 5+ DRKS,23.29,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1993
+ALC 5+ DRKS,22.42,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1994
+ALC 5+ DRKS,21.39,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1995
+ALC 5+ DRKS,22.86,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1996
+ALC 5+ DRKS,22.63,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1997
+ALC 5+ DRKS,23.26,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1998
+ALC 5+ DRKS,24.22,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,1999
+ALC 5+ DRKS,23.89,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2000
+ALC 5+ DRKS,24.57,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2001
+ALC 5+ DRKS,25.28,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2002
+ALC 5+ DRKS,24.99,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2003
+ALC 5+ DRKS,26.6,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2004
+ALC 5+ DRKS,26.59,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2005
+ALC 5+ DRKS,28.05,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2006
+ALC 5+ DRKS,27.66,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2007
+ALC 5+ DRKS,30.28,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2008
+ALC 5+ DRKS,28.15,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2009
+ALC 5+ DRKS,27.62,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2010
+ALC 5+ DRKS,27.94,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2011
+ALC 5+ DRKS,29.67,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2012
+ALC 5+ DRKS,27.16,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2013
+ALC 5+ DRKS,25.56,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2014
+ALC 5+ DRKS,25.19,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2015
+ALC 5+ DRKS,25,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2016
+ALC 5+ DRKS,25.64,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2017
+ALC 5+ DRKS,25.7,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2018
+ALC 5+ DRKS,26.6,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2019
+ALC 5+ DRKS,23.4,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2020
+ALC 5+ DRKS,27.7,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2021
+ALC 5+ DRKS,26,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2022
+ALC 5+ DRKS,23.4,5+ Drinks,Alcohol,,WOMEN,Ages 19-30,2023
+ALC 5+ DRKS,15.64,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2008
+ALC 5+ DRKS,15.43,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2009
+ALC 5+ DRKS,15.58,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2010
+ALC 5+ DRKS,16.44,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2011
+ALC 5+ DRKS,11.65,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2012
+ALC 5+ DRKS,19.57,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2013
+ALC 5+ DRKS,18.53,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2014
+ALC 5+ DRKS,11.69,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2015
+ALC 5+ DRKS,20,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2016
+ALC 5+ DRKS,15.71,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2017
+ALC 5+ DRKS,15.8,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2018
+ALC 5+ DRKS,17.9,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2019
+ALC 5+ DRKS,13.7,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2020
+ALC 5+ DRKS,18.6,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2021
+ALC 5+ DRKS,17.1,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2022
+ALC 5+ DRKS,19.3,5+ Drinks,Alcohol,BLACK,,Ages 35-50,2023
+ALC 5+ DRKS,25.57,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2008
+ALC 5+ DRKS,27.31,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2009
+ALC 5+ DRKS,23.54,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2010
+ALC 5+ DRKS,22.36,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2011
+ALC 5+ DRKS,25.34,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2012
+ALC 5+ DRKS,29.1,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2013
+ALC 5+ DRKS,27.66,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2014
+ALC 5+ DRKS,23.95,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2015
+ALC 5+ DRKS,27.1,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2016
+ALC 5+ DRKS,32.42,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2017
+ALC 5+ DRKS,32.1,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2018
+ALC 5+ DRKS,28.7,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2019
+ALC 5+ DRKS,25.6,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2020
+ALC 5+ DRKS,26,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2021
+ALC 5+ DRKS,30.6,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2022
+ALC 5+ DRKS,34,5+ Drinks,Alcohol,HISPANIC,,Ages 35-50,2023
+ALC 5+ DRKS,33.13,5+ Drinks,Alcohol,,MEN,Ages 35-50,2008
+ALC 5+ DRKS,31.34,5+ Drinks,Alcohol,,MEN,Ages 35-50,2009
+ALC 5+ DRKS,31.02,5+ Drinks,Alcohol,,MEN,Ages 35-50,2010
+ALC 5+ DRKS,31.66,5+ Drinks,Alcohol,,MEN,Ages 35-50,2011
+ALC 5+ DRKS,31.69,5+ Drinks,Alcohol,,MEN,Ages 35-50,2012
+ALC 5+ DRKS,32.8,5+ Drinks,Alcohol,,MEN,Ages 35-50,2013
+ALC 5+ DRKS,33.28,5+ Drinks,Alcohol,,MEN,Ages 35-50,2014
+ALC 5+ DRKS,33.69,5+ Drinks,Alcohol,,MEN,Ages 35-50,2015
+ALC 5+ DRKS,32.9,5+ Drinks,Alcohol,,MEN,Ages 35-50,2016
+ALC 5+ DRKS,33.92,5+ Drinks,Alcohol,,MEN,Ages 35-50,2017
+ALC 5+ DRKS,33,5+ Drinks,Alcohol,,MEN,Ages 35-50,2018
+ALC 5+ DRKS,32.9,5+ Drinks,Alcohol,,MEN,Ages 35-50,2019
+ALC 5+ DRKS,34.5,5+ Drinks,Alcohol,,MEN,Ages 35-50,2020
+ALC 5+ DRKS,34.3,5+ Drinks,Alcohol,,MEN,Ages 35-50,2021
+ALC 5+ DRKS,36.3,5+ Drinks,Alcohol,,MEN,Ages 35-50,2022
+ALC 5+ DRKS,36,5+ Drinks,Alcohol,,MEN,Ages 35-50,2023
+ALC 5+ DRKS,24.41,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2008
+ALC 5+ DRKS,23.74,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2009
+ALC 5+ DRKS,23.75,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2010
+ALC 5+ DRKS,23.98,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2011
+ALC 5+ DRKS,24.55,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2012
+ALC 5+ DRKS,24.18,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2013
+ALC 5+ DRKS,25.54,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2014
+ALC 5+ DRKS,26.66,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2015
+ALC 5+ DRKS,25.4,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2016
+ALC 5+ DRKS,26.86,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2017
+ALC 5+ DRKS,25.6,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2018
+ALC 5+ DRKS,27.4,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2019
+ALC 5+ DRKS,28,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2020
+ALC 5+ DRKS,28.1,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2021
+ALC 5+ DRKS,31.4,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2022
+ALC 5+ DRKS,27.3,5+ Drinks,Alcohol,WHITE,,Ages 35-50,2023
+ALC 5+ DRKS,13.83,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2008
+ALC 5+ DRKS,13.96,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2009
+ALC 5+ DRKS,14.6,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2010
+ALC 5+ DRKS,14.77,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2011
+ALC 5+ DRKS,14.5,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2012
+ALC 5+ DRKS,14.82,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2013
+ALC 5+ DRKS,16.29,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2014
+ALC 5+ DRKS,14.6,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2015
+ALC 5+ DRKS,16.4,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2016
+ALC 5+ DRKS,17.05,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2017
+ALC 5+ DRKS,17,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2018
+ALC 5+ DRKS,19.2,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2019
+ALC 5+ DRKS,17.1,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2020
+ALC 5+ DRKS,17.8,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2021
+ALC 5+ DRKS,22.7,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2022
+ALC 5+ DRKS,18.8,5+ Drinks,Alcohol,,WOMEN,Ages 35-50,2023
+ANYOTM 30 DAY,7.17,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1988
+ANYOTM 30 DAY,5.01,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1989
+ANYOTM 30 DAY,3.51,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1990
+ANYOTM 30 DAY,4.5,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1991
+ANYOTM 30 DAY,3.19,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1992
+ANYOTM 30 DAY,3.12,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1993
+ANYOTM 30 DAY,3.96,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1994
+ANYOTM 30 DAY,2.9,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1995
+ANYOTM 30 DAY,2.29,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1996
+ANYOTM 30 DAY,2.45,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1997
+ANYOTM 30 DAY,3.21,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1998
+ANYOTM 30 DAY,1.79,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1999
+ANYOTM 30 DAY,2,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2000
+ANYOTM 30 DAY,3.16,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2001
+ANYOTM 30 DAY,2.04,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2002
+ANYOTM 30 DAY,2.97,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2003
+ANYOTM 30 DAY,1.97,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2004
+ANYOTM 30 DAY,2.86,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2005
+ANYOTM 30 DAY,3.91,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2006
+ANYOTM 30 DAY,4.41,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2007
+ANYOTM 30 DAY,5.2,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2008
+ANYOTM 30 DAY,3.36,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2009
+ANYOTM 30 DAY,3.8,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2010
+ANYOTM 30 DAY,4.05,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2011
+ANYOTM 30 DAY,4.09,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2012
+ANYOTM 30 DAY,4.32,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2013
+ANYOTM 30 DAY,6.8,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2014
+ANYOTM 30 DAY,4.13,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2015
+ANYOTM 30 DAY,7.2,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2016
+ANYOTM 30 DAY,1.89,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2017
+ANYOTM 30 DAY,5.8,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2018
+ANYOTM 30 DAY,1.4,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2019
+ANYOTM 30 DAY,4.1,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2020
+ANYOTM 30 DAY,6.1,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2021
+ANYOTM 30 DAY,3.5,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2022
+ANYOTM 30 DAY,3.4,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2023
+ANYOTM 30 DAY,9.32,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1988
+ANYOTM 30 DAY,8.79,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1989
+ANYOTM 30 DAY,6.38,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1990
+ANYOTM 30 DAY,4.74,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1991
+ANYOTM 30 DAY,5.73,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1992
+ANYOTM 30 DAY,4.07,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1993
+ANYOTM 30 DAY,5.77,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1994
+ANYOTM 30 DAY,3.52,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1995
+ANYOTM 30 DAY,7.1,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1996
+ANYOTM 30 DAY,4.88,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1997
+ANYOTM 30 DAY,6.04,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1998
+ANYOTM 30 DAY,6.71,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1999
+ANYOTM 30 DAY,5.91,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2000
+ANYOTM 30 DAY,5.36,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2001
+ANYOTM 30 DAY,6.69,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2002
+ANYOTM 30 DAY,7.91,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2003
+ANYOTM 30 DAY,5.77,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2004
+ANYOTM 30 DAY,6.65,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2005
+ANYOTM 30 DAY,6.74,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2006
+ANYOTM 30 DAY,5.93,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2007
+ANYOTM 30 DAY,6.91,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2008
+ANYOTM 30 DAY,5.2,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2009
+ANYOTM 30 DAY,7.56,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2010
+ANYOTM 30 DAY,6.84,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2011
+ANYOTM 30 DAY,6.63,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2012
+ANYOTM 30 DAY,7.08,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2013
+ANYOTM 30 DAY,10.55,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2014
+ANYOTM 30 DAY,6.95,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2015
+ANYOTM 30 DAY,7.6,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2016
+ANYOTM 30 DAY,8.28,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2017
+ANYOTM 30 DAY,6.9,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2018
+ANYOTM 30 DAY,7.4,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2019
+ANYOTM 30 DAY,9.1,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2020
+ANYOTM 30 DAY,6.2,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2021
+ANYOTM 30 DAY,7.2,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2022
+ANYOTM 30 DAY,5.4,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2023
+ANYOTM 30 DAY,10.62,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1988
+ANYOTM 30 DAY,9.11,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1989
+ANYOTM 30 DAY,6.61,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1990
+ANYOTM 30 DAY,6.65,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1991
+ANYOTM 30 DAY,6.02,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1992
+ANYOTM 30 DAY,5.36,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1993
+ANYOTM 30 DAY,6.78,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1994
+ANYOTM 30 DAY,6.41,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1995
+ANYOTM 30 DAY,5.83,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1996
+ANYOTM 30 DAY,6.06,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1997
+ANYOTM 30 DAY,6.71,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1998
+ANYOTM 30 DAY,6.43,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1999
+ANYOTM 30 DAY,6.78,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2000
+ANYOTM 30 DAY,7.15,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2001
+ANYOTM 30 DAY,7.97,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2002
+ANYOTM 30 DAY,8.82,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2003
+ANYOTM 30 DAY,9.16,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2004
+ANYOTM 30 DAY,8.94,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2005
+ANYOTM 30 DAY,9,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2006
+ANYOTM 30 DAY,9.74,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2007
+ANYOTM 30 DAY,9.6,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2008
+ANYOTM 30 DAY,8.51,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2009
+ANYOTM 30 DAY,9.7,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2010
+ANYOTM 30 DAY,9.33,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2011
+ANYOTM 30 DAY,8.52,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2012
+ANYOTM 30 DAY,9.28,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2013
+ANYOTM 30 DAY,11.77,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2014
+ANYOTM 30 DAY,9.88,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2015
+ANYOTM 30 DAY,10.8,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2016
+ANYOTM 30 DAY,10.29,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2017
+ANYOTM 30 DAY,9.7,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2018
+ANYOTM 30 DAY,9.6,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2019
+ANYOTM 30 DAY,8.8,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2020
+ANYOTM 30 DAY,8.8,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2021
+ANYOTM 30 DAY,7.9,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2022
+ANYOTM 30 DAY,7.4,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2023
+ANYOTM 30 DAY,9.49,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1988
+ANYOTM 30 DAY,7.8,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1989
+ANYOTM 30 DAY,6.28,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1990
+ANYOTM 30 DAY,5.89,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1991
+ANYOTM 30 DAY,5.79,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1992
+ANYOTM 30 DAY,4.86,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1993
+ANYOTM 30 DAY,5.35,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1994
+ANYOTM 30 DAY,6.12,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1995
+ANYOTM 30 DAY,5.01,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1996
+ANYOTM 30 DAY,5.61,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1997
+ANYOTM 30 DAY,5.39,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1998
+ANYOTM 30 DAY,6.16,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1999
+ANYOTM 30 DAY,6.19,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2000
+ANYOTM 30 DAY,7.37,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2001
+ANYOTM 30 DAY,7.98,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2002
+ANYOTM 30 DAY,8.75,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2003
+ANYOTM 30 DAY,8.98,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2004
+ANYOTM 30 DAY,9.23,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2005
+ANYOTM 30 DAY,8.75,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2006
+ANYOTM 30 DAY,9.86,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2007
+ANYOTM 30 DAY,9.77,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2008
+ANYOTM 30 DAY,10.05,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2009
+ANYOTM 30 DAY,9.58,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2010
+ANYOTM 30 DAY,9.8,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2011
+ANYOTM 30 DAY,8.53,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2012
+ANYOTM 30 DAY,9.15,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2013
+ANYOTM 30 DAY,11.03,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2014
+ANYOTM 30 DAY,9.13,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2015
+ANYOTM 30 DAY,10.2,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2016
+ANYOTM 30 DAY,10.27,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2017
+ANYOTM 30 DAY,9.1,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2018
+ANYOTM 30 DAY,9.5,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2019
+ANYOTM 30 DAY,7.9,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2020
+ANYOTM 30 DAY,8.1,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2021
+ANYOTM 30 DAY,7.3,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2022
+ANYOTM 30 DAY,7.6,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2023
+ANYOTM 30 DAY,8.24,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1988
+ANYOTM 30 DAY,5.83,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1989
+ANYOTM 30 DAY,5.26,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1990
+ANYOTM 30 DAY,4.56,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1991
+ANYOTM 30 DAY,4.91,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1992
+ANYOTM 30 DAY,3.75,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1993
+ANYOTM 30 DAY,3.89,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1994
+ANYOTM 30 DAY,4.52,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1995
+ANYOTM 30 DAY,3.9,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1996
+ANYOTM 30 DAY,4.22,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1997
+ANYOTM 30 DAY,4.03,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1998
+ANYOTM 30 DAY,4.54,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1999
+ANYOTM 30 DAY,4.81,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2000
+ANYOTM 30 DAY,5.66,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2001
+ANYOTM 30 DAY,6.06,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2002
+ANYOTM 30 DAY,6.74,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2003
+ANYOTM 30 DAY,6.01,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2004
+ANYOTM 30 DAY,7.14,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2005
+ANYOTM 30 DAY,6.57,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2006
+ANYOTM 30 DAY,7.31,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2007
+ANYOTM 30 DAY,8.01,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2008
+ANYOTM 30 DAY,8,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2009
+ANYOTM 30 DAY,7.11,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2010
+ANYOTM 30 DAY,7.61,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2011
+ANYOTM 30 DAY,6.67,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2012
+ANYOTM 30 DAY,7.17,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2013
+ANYOTM 30 DAY,9.09,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2014
+ANYOTM 30 DAY,7.08,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2015
+ANYOTM 30 DAY,7.5,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2016
+ANYOTM 30 DAY,7.36,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2017
+ANYOTM 30 DAY,7.7,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2018
+ANYOTM 30 DAY,6.6,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2019
+ANYOTM 30 DAY,6.8,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2020
+ANYOTM 30 DAY,6.4,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2021
+ANYOTM 30 DAY,5.6,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2022
+ANYOTM 30 DAY,5.9,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2023
+ANYOTM 30 DAY,4.74,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2008
+ANYOTM 30 DAY,3.92,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2009
+ANYOTM 30 DAY,3.95,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2010
+ANYOTM 30 DAY,5.62,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2011
+ANYOTM 30 DAY,3.33,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2012
+ANYOTM 30 DAY,3.91,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2013
+ANYOTM 30 DAY,3.91,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2014
+ANYOTM 30 DAY,2.75,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2015
+ANYOTM 30 DAY,1.9,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2016
+ANYOTM 30 DAY,2.19,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2017
+ANYOTM 30 DAY,5.3,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2018
+ANYOTM 30 DAY,2.3,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2019
+ANYOTM 30 DAY,1.1,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2020
+ANYOTM 30 DAY,4.8,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2021
+ANYOTM 30 DAY,2.5,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2022
+ANYOTM 30 DAY,2.9,30 Day,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2023
+ANYOTM 30 DAY,4.5,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2008
+ANYOTM 30 DAY,6.85,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2009
+ANYOTM 30 DAY,6.43,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2010
+ANYOTM 30 DAY,4.69,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2011
+ANYOTM 30 DAY,6.58,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2012
+ANYOTM 30 DAY,6.76,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2013
+ANYOTM 30 DAY,6.33,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2014
+ANYOTM 30 DAY,3.67,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2015
+ANYOTM 30 DAY,5,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2016
+ANYOTM 30 DAY,6.83,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2017
+ANYOTM 30 DAY,5.2,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2018
+ANYOTM 30 DAY,5.4,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2019
+ANYOTM 30 DAY,3.2,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2020
+ANYOTM 30 DAY,2.6,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2021
+ANYOTM 30 DAY,2.4,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2022
+ANYOTM 30 DAY,3.3,30 Day,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2023
+ANYOTM 30 DAY,6.47,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2008
+ANYOTM 30 DAY,6.35,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2009
+ANYOTM 30 DAY,4.92,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2010
+ANYOTM 30 DAY,5.52,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2011
+ANYOTM 30 DAY,5.92,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2012
+ANYOTM 30 DAY,5.91,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2013
+ANYOTM 30 DAY,5.15,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2014
+ANYOTM 30 DAY,6.78,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2015
+ANYOTM 30 DAY,4.9,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2016
+ANYOTM 30 DAY,5.68,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2017
+ANYOTM 30 DAY,5.4,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2018
+ANYOTM 30 DAY,4.9,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2019
+ANYOTM 30 DAY,5,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2020
+ANYOTM 30 DAY,5.3,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2021
+ANYOTM 30 DAY,6,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2022
+ANYOTM 30 DAY,4.6,30 Day,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2023
+ANYOTM 30 DAY,5.86,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2008
+ANYOTM 30 DAY,5.64,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2009
+ANYOTM 30 DAY,6.15,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2010
+ANYOTM 30 DAY,5.21,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2011
+ANYOTM 30 DAY,5.63,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2012
+ANYOTM 30 DAY,5.33,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2013
+ANYOTM 30 DAY,5.23,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2014
+ANYOTM 30 DAY,6.6,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2015
+ANYOTM 30 DAY,6.1,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2016
+ANYOTM 30 DAY,5.43,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2017
+ANYOTM 30 DAY,5.1,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2018
+ANYOTM 30 DAY,5.7,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2019
+ANYOTM 30 DAY,5.9,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2020
+ANYOTM 30 DAY,6.2,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2021
+ANYOTM 30 DAY,6.3,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2022
+ANYOTM 30 DAY,5.2,30 Day,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2023
+ANYOTM 30 DAY,4.67,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2008
+ANYOTM 30 DAY,4.85,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2009
+ANYOTM 30 DAY,6.27,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2010
+ANYOTM 30 DAY,5.16,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2011
+ANYOTM 30 DAY,4.89,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2012
+ANYOTM 30 DAY,4.69,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2013
+ANYOTM 30 DAY,5.12,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2014
+ANYOTM 30 DAY,4.66,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2015
+ANYOTM 30 DAY,5.9,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2016
+ANYOTM 30 DAY,4.26,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2017
+ANYOTM 30 DAY,5.3,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2018
+ANYOTM 30 DAY,5.9,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2019
+ANYOTM 30 DAY,4.7,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2020
+ANYOTM 30 DAY,5.4,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2021
+ANYOTM 30 DAY,5,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2022
+ANYOTM 30 DAY,4.8,30 Day,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2023
+ANYOTM ANNUAL,15.27,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1988
+ANYOTM ANNUAL,11.04,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1989
+ANYOTM ANNUAL,9.71,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1990
+ANYOTM ANNUAL,7.58,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1991
+ANYOTM ANNUAL,6.53,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1992
+ANYOTM ANNUAL,8.14,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1993
+ANYOTM ANNUAL,8.53,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1994
+ANYOTM ANNUAL,5.85,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1995
+ANYOTM ANNUAL,5.7,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1996
+ANYOTM ANNUAL,5.9,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1997
+ANYOTM ANNUAL,7.17,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1998
+ANYOTM ANNUAL,4.75,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,1999
+ANYOTM ANNUAL,5.81,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2000
+ANYOTM ANNUAL,6.13,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2001
+ANYOTM ANNUAL,5.69,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2002
+ANYOTM ANNUAL,7.79,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2003
+ANYOTM ANNUAL,5.86,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2004
+ANYOTM ANNUAL,5.51,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2005
+ANYOTM ANNUAL,8.42,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2006
+ANYOTM ANNUAL,6.99,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2007
+ANYOTM ANNUAL,10.87,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2008
+ANYOTM ANNUAL,6.82,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2009
+ANYOTM ANNUAL,7.84,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2010
+ANYOTM ANNUAL,7.88,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2011
+ANYOTM ANNUAL,9.34,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2012
+ANYOTM ANNUAL,11.38,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2013
+ANYOTM ANNUAL,14.89,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2014
+ANYOTM ANNUAL,9.58,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2015
+ANYOTM ANNUAL,12.8,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2016
+ANYOTM ANNUAL,9.41,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2017
+ANYOTM ANNUAL,11.1,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2018
+ANYOTM ANNUAL,6.3,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2019
+ANYOTM ANNUAL,11.4,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2020
+ANYOTM ANNUAL,10.2,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2021
+ANYOTM ANNUAL,8.3,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2022
+ANYOTM ANNUAL,8.2,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 19-30,2023
+ANYOTM ANNUAL,20.37,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1988
+ANYOTM ANNUAL,17.07,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1989
+ANYOTM ANNUAL,13.65,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1990
+ANYOTM ANNUAL,11.98,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1991
+ANYOTM ANNUAL,13.42,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1992
+ANYOTM ANNUAL,9.99,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1993
+ANYOTM ANNUAL,12.47,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1994
+ANYOTM ANNUAL,12.22,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1995
+ANYOTM ANNUAL,14.72,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1996
+ANYOTM ANNUAL,11.44,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1997
+ANYOTM ANNUAL,11.21,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1998
+ANYOTM ANNUAL,13.7,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,1999
+ANYOTM ANNUAL,10.57,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2000
+ANYOTM ANNUAL,11.67,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2001
+ANYOTM ANNUAL,16.81,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2002
+ANYOTM ANNUAL,16.23,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2003
+ANYOTM ANNUAL,16.61,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2004
+ANYOTM ANNUAL,14.81,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2005
+ANYOTM ANNUAL,14.47,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2006
+ANYOTM ANNUAL,11.56,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2007
+ANYOTM ANNUAL,17.11,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2008
+ANYOTM ANNUAL,13.72,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2009
+ANYOTM ANNUAL,14.85,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2010
+ANYOTM ANNUAL,14.64,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2011
+ANYOTM ANNUAL,14.46,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2012
+ANYOTM ANNUAL,12.91,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2013
+ANYOTM ANNUAL,20.81,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2014
+ANYOTM ANNUAL,14.9,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2015
+ANYOTM ANNUAL,17.6,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2016
+ANYOTM ANNUAL,19.78,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2017
+ANYOTM ANNUAL,16,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2018
+ANYOTM ANNUAL,15.2,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2019
+ANYOTM ANNUAL,17.4,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2020
+ANYOTM ANNUAL,15.5,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2021
+ANYOTM ANNUAL,20.7,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2022
+ANYOTM ANNUAL,15.4,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 19-30,2023
+ANYOTM ANNUAL,23.54,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1988
+ANYOTM ANNUAL,20.85,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1989
+ANYOTM ANNUAL,17.99,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1990
+ANYOTM ANNUAL,16.01,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1991
+ANYOTM ANNUAL,15.76,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1992
+ANYOTM ANNUAL,13.76,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1993
+ANYOTM ANNUAL,15.71,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1994
+ANYOTM ANNUAL,14.83,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1995
+ANYOTM ANNUAL,14.54,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1996
+ANYOTM ANNUAL,14.09,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1997
+ANYOTM ANNUAL,14.71,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1998
+ANYOTM ANNUAL,14.85,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,1999
+ANYOTM ANNUAL,15.72,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2000
+ANYOTM ANNUAL,15.11,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2001
+ANYOTM ANNUAL,17.95,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2002
+ANYOTM ANNUAL,18.32,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2003
+ANYOTM ANNUAL,19.13,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2004
+ANYOTM ANNUAL,19.65,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2005
+ANYOTM ANNUAL,19.93,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2006
+ANYOTM ANNUAL,19.32,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2007
+ANYOTM ANNUAL,20.35,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2008
+ANYOTM ANNUAL,18.39,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2009
+ANYOTM ANNUAL,20.2,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2010
+ANYOTM ANNUAL,19.04,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2011
+ANYOTM ANNUAL,17.91,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2012
+ANYOTM ANNUAL,19.62,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2013
+ANYOTM ANNUAL,23.02,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2014
+ANYOTM ANNUAL,21.49,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2015
+ANYOTM ANNUAL,21.6,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2016
+ANYOTM ANNUAL,22.36,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2017
+ANYOTM ANNUAL,21.3,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2018
+ANYOTM ANNUAL,20.7,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2019
+ANYOTM ANNUAL,19.7,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2020
+ANYOTM ANNUAL,20.1,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2021
+ANYOTM ANNUAL,19.6,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2022
+ANYOTM ANNUAL,19.1,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 19-30,2023
+ANYOTM ANNUAL,21.5,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1988
+ANYOTM ANNUAL,19.38,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1989
+ANYOTM ANNUAL,16.76,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1990
+ANYOTM ANNUAL,15.16,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1991
+ANYOTM ANNUAL,14.75,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1992
+ANYOTM ANNUAL,13.01,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1993
+ANYOTM ANNUAL,13.17,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1994
+ANYOTM ANNUAL,14.12,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1995
+ANYOTM ANNUAL,13.22,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1996
+ANYOTM ANNUAL,13.84,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1997
+ANYOTM ANNUAL,12.95,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1998
+ANYOTM ANNUAL,13.83,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,1999
+ANYOTM ANNUAL,14.89,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2000
+ANYOTM ANNUAL,15.41,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2001
+ANYOTM ANNUAL,16.89,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2002
+ANYOTM ANNUAL,18.39,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2003
+ANYOTM ANNUAL,19.15,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2004
+ANYOTM ANNUAL,20.2,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2005
+ANYOTM ANNUAL,19.82,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2006
+ANYOTM ANNUAL,20.24,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2007
+ANYOTM ANNUAL,20.12,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2008
+ANYOTM ANNUAL,19.51,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2009
+ANYOTM ANNUAL,19.83,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2010
+ANYOTM ANNUAL,19.37,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2011
+ANYOTM ANNUAL,18.06,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2012
+ANYOTM ANNUAL,19.6,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2013
+ANYOTM ANNUAL,22.35,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2014
+ANYOTM ANNUAL,20.45,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2015
+ANYOTM ANNUAL,20.8,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2016
+ANYOTM ANNUAL,21.59,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2017
+ANYOTM ANNUAL,21.6,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2018
+ANYOTM ANNUAL,21.5,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2019
+ANYOTM ANNUAL,19.3,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2020
+ANYOTM ANNUAL,20.6,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2021
+ANYOTM ANNUAL,17.8,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2022
+ANYOTM ANNUAL,18.1,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 19-30,2023
+ANYOTM ANNUAL,18.23,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1988
+ANYOTM ANNUAL,15.36,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1989
+ANYOTM ANNUAL,13.51,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1990
+ANYOTM ANNUAL,11.78,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1991
+ANYOTM ANNUAL,11.41,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1992
+ANYOTM ANNUAL,10.53,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1993
+ANYOTM ANNUAL,9.88,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1994
+ANYOTM ANNUAL,10.66,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1995
+ANYOTM ANNUAL,10.59,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1996
+ANYOTM ANNUAL,10.98,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1997
+ANYOTM ANNUAL,9.87,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1998
+ANYOTM ANNUAL,10.03,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,1999
+ANYOTM ANNUAL,11.07,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2000
+ANYOTM ANNUAL,12.4,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2001
+ANYOTM ANNUAL,12.8,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2002
+ANYOTM ANNUAL,14.87,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2003
+ANYOTM ANNUAL,15.03,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2004
+ANYOTM ANNUAL,15.73,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2005
+ANYOTM ANNUAL,15.09,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2006
+ANYOTM ANNUAL,14.97,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2007
+ANYOTM ANNUAL,16.37,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2008
+ANYOTM ANNUAL,15.51,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2009
+ANYOTM ANNUAL,15.38,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2010
+ANYOTM ANNUAL,15.15,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2011
+ANYOTM ANNUAL,14.77,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2012
+ANYOTM ANNUAL,15.57,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2013
+ANYOTM ANNUAL,19.1,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2014
+ANYOTM ANNUAL,16.02,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2015
+ANYOTM ANNUAL,17,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2016
+ANYOTM ANNUAL,17.01,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2017
+ANYOTM ANNUAL,17.3,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2018
+ANYOTM ANNUAL,15.9,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2019
+ANYOTM ANNUAL,16.4,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2020
+ANYOTM ANNUAL,16.1,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2021
+ANYOTM ANNUAL,15.4,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2022
+ANYOTM ANNUAL,14.5,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 19-30,2023
+ANYOTM ANNUAL,9.08,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2008
+ANYOTM ANNUAL,7.62,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2009
+ANYOTM ANNUAL,8.01,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2010
+ANYOTM ANNUAL,9.22,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2011
+ANYOTM ANNUAL,6.77,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2012
+ANYOTM ANNUAL,6.19,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2013
+ANYOTM ANNUAL,7.87,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2014
+ANYOTM ANNUAL,7,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2015
+ANYOTM ANNUAL,5,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2016
+ANYOTM ANNUAL,5.8,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2017
+ANYOTM ANNUAL,10.6,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2018
+ANYOTM ANNUAL,7.4,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2019
+ANYOTM ANNUAL,5,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2020
+ANYOTM ANNUAL,5.2,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2021
+ANYOTM ANNUAL,5.2,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2022
+ANYOTM ANNUAL,6,12 Month,Any Drug Other Than Cannabis,BLACK,,Ages 35-50,2023
+ANYOTM ANNUAL,11.73,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2008
+ANYOTM ANNUAL,15.36,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2009
+ANYOTM ANNUAL,10.19,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2010
+ANYOTM ANNUAL,11.43,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2011
+ANYOTM ANNUAL,13.31,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2012
+ANYOTM ANNUAL,12.65,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2013
+ANYOTM ANNUAL,15.3,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2014
+ANYOTM ANNUAL,13.05,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2015
+ANYOTM ANNUAL,10.9,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2016
+ANYOTM ANNUAL,9.58,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2017
+ANYOTM ANNUAL,14.2,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2018
+ANYOTM ANNUAL,9.3,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2019
+ANYOTM ANNUAL,8,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2020
+ANYOTM ANNUAL,6.9,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2021
+ANYOTM ANNUAL,12,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2022
+ANYOTM ANNUAL,9.2,12 Month,Any Drug Other Than Cannabis,HISPANIC,,Ages 35-50,2023
+ANYOTM ANNUAL,13.42,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2008
+ANYOTM ANNUAL,12.19,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2009
+ANYOTM ANNUAL,10.99,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2010
+ANYOTM ANNUAL,11.67,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2011
+ANYOTM ANNUAL,11.97,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2012
+ANYOTM ANNUAL,11.64,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2013
+ANYOTM ANNUAL,11.24,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2014
+ANYOTM ANNUAL,13.75,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2015
+ANYOTM ANNUAL,11.4,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2016
+ANYOTM ANNUAL,12.67,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2017
+ANYOTM ANNUAL,12.8,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2018
+ANYOTM ANNUAL,10,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2019
+ANYOTM ANNUAL,10.3,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2020
+ANYOTM ANNUAL,11.9,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2021
+ANYOTM ANNUAL,13.3,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2022
+ANYOTM ANNUAL,12.7,12 Month,Any Drug Other Than Cannabis,,MEN,Ages 35-50,2023
+ANYOTM ANNUAL,12.14,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2008
+ANYOTM ANNUAL,11.42,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2009
+ANYOTM ANNUAL,12.35,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2010
+ANYOTM ANNUAL,11.12,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2011
+ANYOTM ANNUAL,11.94,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2012
+ANYOTM ANNUAL,11.18,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2013
+ANYOTM ANNUAL,11.06,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2014
+ANYOTM ANNUAL,13.14,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2015
+ANYOTM ANNUAL,12.2,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2016
+ANYOTM ANNUAL,12.44,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2017
+ANYOTM ANNUAL,12.2,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2018
+ANYOTM ANNUAL,11.1,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2019
+ANYOTM ANNUAL,11.4,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2020
+ANYOTM ANNUAL,12.3,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2021
+ANYOTM ANNUAL,13.1,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2022
+ANYOTM ANNUAL,12.1,12 Month,Any Drug Other Than Cannabis,WHITE,,Ages 35-50,2023
+ANYOTM ANNUAL,10.03,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2008
+ANYOTM ANNUAL,10.34,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2009
+ANYOTM ANNUAL,11.4,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2010
+ANYOTM ANNUAL,10.64,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2011
+ANYOTM ANNUAL,10.7,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2012
+ANYOTM ANNUAL,9.56,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2013
+ANYOTM ANNUAL,10.22,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2014
+ANYOTM ANNUAL,10.28,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2015
+ANYOTM ANNUAL,11,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2016
+ANYOTM ANNUAL,9.38,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2017
+ANYOTM ANNUAL,11.5,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2018
+ANYOTM ANNUAL,11.1,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2019
+ANYOTM ANNUAL,9.7,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2020
+ANYOTM ANNUAL,10.1,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2021
+ANYOTM ANNUAL,10.6,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2022
+ANYOTM ANNUAL,10.1,12 Month,Any Drug Other Than Cannabis,,WOMEN,Ages 35-50,2023
+CIGS 30-DAY,25.03,30 Day,Cigarettes,BLACK,,Ages 19-30,1988
+CIGS 30-DAY,26.76,30 Day,Cigarettes,BLACK,,Ages 19-30,1989
+CIGS 30-DAY,20.83,30 Day,Cigarettes,BLACK,,Ages 19-30,1990
+CIGS 30-DAY,22.46,30 Day,Cigarettes,BLACK,,Ages 19-30,1991
+CIGS 30-DAY,18.55,30 Day,Cigarettes,BLACK,,Ages 19-30,1992
+CIGS 30-DAY,18.72,30 Day,Cigarettes,BLACK,,Ages 19-30,1993
+CIGS 30-DAY,16.66,30 Day,Cigarettes,BLACK,,Ages 19-30,1994
+CIGS 30-DAY,16.26,30 Day,Cigarettes,BLACK,,Ages 19-30,1995
+CIGS 30-DAY,14.97,30 Day,Cigarettes,BLACK,,Ages 19-30,1996
+CIGS 30-DAY,15.13,30 Day,Cigarettes,BLACK,,Ages 19-30,1997
+CIGS 30-DAY,17.81,30 Day,Cigarettes,BLACK,,Ages 19-30,1998
+CIGS 30-DAY,13.42,30 Day,Cigarettes,BLACK,,Ages 19-30,1999
+CIGS 30-DAY,16.71,30 Day,Cigarettes,BLACK,,Ages 19-30,2000
+CIGS 30-DAY,15.41,30 Day,Cigarettes,BLACK,,Ages 19-30,2001
+CIGS 30-DAY,15.75,30 Day,Cigarettes,BLACK,,Ages 19-30,2002
+CIGS 30-DAY,11.43,30 Day,Cigarettes,BLACK,,Ages 19-30,2003
+CIGS 30-DAY,17.34,30 Day,Cigarettes,BLACK,,Ages 19-30,2004
+CIGS 30-DAY,13.6,30 Day,Cigarettes,BLACK,,Ages 19-30,2005
+CIGS 30-DAY,17.85,30 Day,Cigarettes,BLACK,,Ages 19-30,2006
+CIGS 30-DAY,13.2,30 Day,Cigarettes,BLACK,,Ages 19-30,2007
+CIGS 30-DAY,23.03,30 Day,Cigarettes,BLACK,,Ages 19-30,2008
+CIGS 30-DAY,14.54,30 Day,Cigarettes,BLACK,,Ages 19-30,2009
+CIGS 30-DAY,20.11,30 Day,Cigarettes,BLACK,,Ages 19-30,2010
+CIGS 30-DAY,16.6,30 Day,Cigarettes,BLACK,,Ages 19-30,2011
+CIGS 30-DAY,15.95,30 Day,Cigarettes,BLACK,,Ages 19-30,2012
+CIGS 30-DAY,15.96,30 Day,Cigarettes,BLACK,,Ages 19-30,2013
+CIGS 30-DAY,14.32,30 Day,Cigarettes,BLACK,,Ages 19-30,2014
+CIGS 30-DAY,13.63,30 Day,Cigarettes,BLACK,,Ages 19-30,2015
+CIGS 30-DAY,15.7,30 Day,Cigarettes,BLACK,,Ages 19-30,2016
+CIGS 30-DAY,11.06,30 Day,Cigarettes,BLACK,,Ages 19-30,2017
+CIGS 30-DAY,13.2,30 Day,Cigarettes,BLACK,,Ages 19-30,2018
+CIGS 30-DAY,10.9,30 Day,Cigarettes,BLACK,,Ages 19-30,2019
+CIGS 30-DAY,9.5,30 Day,Cigarettes,BLACK,,Ages 19-30,2020
+CIGS 30-DAY,6.1,30 Day,Cigarettes,BLACK,,Ages 19-30,2021
+CIGS 30-DAY,4.2,30 Day,Cigarettes,BLACK,,Ages 19-30,2022
+CIGS 30-DAY,7.4,30 Day,Cigarettes,BLACK,,Ages 19-30,2023
+CIGS 30-DAY,20.33,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1988
+CIGS 30-DAY,24.13,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1989
+CIGS 30-DAY,20.25,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1990
+CIGS 30-DAY,23.76,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1991
+CIGS 30-DAY,20.04,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1992
+CIGS 30-DAY,25.47,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1993
+CIGS 30-DAY,23.23,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1994
+CIGS 30-DAY,18.7,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1995
+CIGS 30-DAY,17.8,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1996
+CIGS 30-DAY,19.93,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1997
+CIGS 30-DAY,21.52,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1998
+CIGS 30-DAY,23.27,30 Day,Cigarettes,HISPANIC,,Ages 19-30,1999
+CIGS 30-DAY,18.78,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2000
+CIGS 30-DAY,24.35,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2001
+CIGS 30-DAY,23.97,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2002
+CIGS 30-DAY,21.81,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2003
+CIGS 30-DAY,20.9,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2004
+CIGS 30-DAY,23.55,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2005
+CIGS 30-DAY,20.39,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2006
+CIGS 30-DAY,16.03,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2007
+CIGS 30-DAY,17.42,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2008
+CIGS 30-DAY,16.19,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2009
+CIGS 30-DAY,14.12,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2010
+CIGS 30-DAY,17.38,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2011
+CIGS 30-DAY,13.57,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2012
+CIGS 30-DAY,16.32,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2013
+CIGS 30-DAY,13.41,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2014
+CIGS 30-DAY,11.03,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2015
+CIGS 30-DAY,9.3,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2016
+CIGS 30-DAY,9.43,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2017
+CIGS 30-DAY,10.6,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2018
+CIGS 30-DAY,9.1,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2019
+CIGS 30-DAY,6.5,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2020
+CIGS 30-DAY,6.6,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2021
+CIGS 30-DAY,7.8,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2022
+CIGS 30-DAY,9.7,30 Day,Cigarettes,HISPANIC,,Ages 19-30,2023
+CIGS 30-DAY,28.94,30 Day,Cigarettes,,MEN,Ages 19-30,1988
+CIGS 30-DAY,30.02,30 Day,Cigarettes,,MEN,Ages 19-30,1989
+CIGS 30-DAY,27.88,30 Day,Cigarettes,,MEN,Ages 19-30,1990
+CIGS 30-DAY,29.62,30 Day,Cigarettes,,MEN,Ages 19-30,1991
+CIGS 30-DAY,28.29,30 Day,Cigarettes,,MEN,Ages 19-30,1992
+CIGS 30-DAY,29.23,30 Day,Cigarettes,,MEN,Ages 19-30,1993
+CIGS 30-DAY,30.18,30 Day,Cigarettes,,MEN,Ages 19-30,1994
+CIGS 30-DAY,30.12,30 Day,Cigarettes,,MEN,Ages 19-30,1995
+CIGS 30-DAY,29.9,30 Day,Cigarettes,,MEN,Ages 19-30,1996
+CIGS 30-DAY,29.94,30 Day,Cigarettes,,MEN,Ages 19-30,1997
+CIGS 30-DAY,31.86,30 Day,Cigarettes,,MEN,Ages 19-30,1998
+CIGS 30-DAY,31.14,30 Day,Cigarettes,,MEN,Ages 19-30,1999
+CIGS 30-DAY,31.33,30 Day,Cigarettes,,MEN,Ages 19-30,2000
+CIGS 30-DAY,30.95,30 Day,Cigarettes,,MEN,Ages 19-30,2001
+CIGS 30-DAY,31.13,30 Day,Cigarettes,,MEN,Ages 19-30,2002
+CIGS 30-DAY,29.48,30 Day,Cigarettes,,MEN,Ages 19-30,2003
+CIGS 30-DAY,32.68,30 Day,Cigarettes,,MEN,Ages 19-30,2004
+CIGS 30-DAY,29.04,30 Day,Cigarettes,,MEN,Ages 19-30,2005
+CIGS 30-DAY,30.4,30 Day,Cigarettes,,MEN,Ages 19-30,2006
+CIGS 30-DAY,27.34,30 Day,Cigarettes,,MEN,Ages 19-30,2007
+CIGS 30-DAY,29.27,30 Day,Cigarettes,,MEN,Ages 19-30,2008
+CIGS 30-DAY,27.5,30 Day,Cigarettes,,MEN,Ages 19-30,2009
+CIGS 30-DAY,28.19,30 Day,Cigarettes,,MEN,Ages 19-30,2010
+CIGS 30-DAY,26.27,30 Day,Cigarettes,,MEN,Ages 19-30,2011
+CIGS 30-DAY,24,30 Day,Cigarettes,,MEN,Ages 19-30,2012
+CIGS 30-DAY,23.94,30 Day,Cigarettes,,MEN,Ages 19-30,2013
+CIGS 30-DAY,21.25,30 Day,Cigarettes,,MEN,Ages 19-30,2014
+CIGS 30-DAY,21.1,30 Day,Cigarettes,,MEN,Ages 19-30,2015
+CIGS 30-DAY,17.9,30 Day,Cigarettes,,MEN,Ages 19-30,2016
+CIGS 30-DAY,18.99,30 Day,Cigarettes,,MEN,Ages 19-30,2017
+CIGS 30-DAY,15.4,30 Day,Cigarettes,,MEN,Ages 19-30,2018
+CIGS 30-DAY,16.1,30 Day,Cigarettes,,MEN,Ages 19-30,2019
+CIGS 30-DAY,11.7,30 Day,Cigarettes,,MEN,Ages 19-30,2020
+CIGS 30-DAY,14.2,30 Day,Cigarettes,,MEN,Ages 19-30,2021
+CIGS 30-DAY,10.5,30 Day,Cigarettes,,MEN,Ages 19-30,2022
+CIGS 30-DAY,11.4,30 Day,Cigarettes,,MEN,Ages 19-30,2023
+CIGS 30-DAY,30.11,30 Day,Cigarettes,WHITE,,Ages 19-30,1988
+CIGS 30-DAY,30.18,30 Day,Cigarettes,WHITE,,Ages 19-30,1989
+CIGS 30-DAY,29.75,30 Day,Cigarettes,WHITE,,Ages 19-30,1990
+CIGS 30-DAY,29.48,30 Day,Cigarettes,WHITE,,Ages 19-30,1991
+CIGS 30-DAY,29.75,30 Day,Cigarettes,WHITE,,Ages 19-30,1992
+CIGS 30-DAY,29.69,30 Day,Cigarettes,WHITE,,Ages 19-30,1993
+CIGS 30-DAY,30.27,30 Day,Cigarettes,WHITE,,Ages 19-30,1994
+CIGS 30-DAY,31.59,30 Day,Cigarettes,WHITE,,Ages 19-30,1995
+CIGS 30-DAY,32.42,30 Day,Cigarettes,WHITE,,Ages 19-30,1996
+CIGS 30-DAY,32.2,30 Day,Cigarettes,WHITE,,Ages 19-30,1997
+CIGS 30-DAY,33.01,30 Day,Cigarettes,WHITE,,Ages 19-30,1998
+CIGS 30-DAY,32.19,30 Day,Cigarettes,WHITE,,Ages 19-30,1999
+CIGS 30-DAY,32.38,30 Day,Cigarettes,WHITE,,Ages 19-30,2000
+CIGS 30-DAY,31.41,30 Day,Cigarettes,WHITE,,Ages 19-30,2001
+CIGS 30-DAY,32.07,30 Day,Cigarettes,WHITE,,Ages 19-30,2002
+CIGS 30-DAY,30.84,30 Day,Cigarettes,WHITE,,Ages 19-30,2003
+CIGS 30-DAY,31.8,30 Day,Cigarettes,WHITE,,Ages 19-30,2004
+CIGS 30-DAY,30.87,30 Day,Cigarettes,WHITE,,Ages 19-30,2005
+CIGS 30-DAY,30.33,30 Day,Cigarettes,WHITE,,Ages 19-30,2006
+CIGS 30-DAY,29.4,30 Day,Cigarettes,WHITE,,Ages 19-30,2007
+CIGS 30-DAY,27.86,30 Day,Cigarettes,WHITE,,Ages 19-30,2008
+CIGS 30-DAY,27.07,30 Day,Cigarettes,WHITE,,Ages 19-30,2009
+CIGS 30-DAY,26.38,30 Day,Cigarettes,WHITE,,Ages 19-30,2010
+CIGS 30-DAY,24.47,30 Day,Cigarettes,WHITE,,Ages 19-30,2011
+CIGS 30-DAY,22.66,30 Day,Cigarettes,WHITE,,Ages 19-30,2012
+CIGS 30-DAY,22.74,30 Day,Cigarettes,WHITE,,Ages 19-30,2013
+CIGS 30-DAY,20.35,30 Day,Cigarettes,WHITE,,Ages 19-30,2014
+CIGS 30-DAY,19.81,30 Day,Cigarettes,WHITE,,Ages 19-30,2015
+CIGS 30-DAY,16.5,30 Day,Cigarettes,WHITE,,Ages 19-30,2016
+CIGS 30-DAY,17.89,30 Day,Cigarettes,WHITE,,Ages 19-30,2017
+CIGS 30-DAY,15,30 Day,Cigarettes,WHITE,,Ages 19-30,2018
+CIGS 30-DAY,14.9,30 Day,Cigarettes,WHITE,,Ages 19-30,2019
+CIGS 30-DAY,11.4,30 Day,Cigarettes,WHITE,,Ages 19-30,2020
+CIGS 30-DAY,13.8,30 Day,Cigarettes,WHITE,,Ages 19-30,2021
+CIGS 30-DAY,9.7,30 Day,Cigarettes,WHITE,,Ages 19-30,2022
+CIGS 30-DAY,9.3,30 Day,Cigarettes,WHITE,,Ages 19-30,2023
+CIGS 30-DAY,29.85,30 Day,Cigarettes,,WOMEN,Ages 19-30,1988
+CIGS 30-DAY,29.26,30 Day,Cigarettes,,WOMEN,Ages 19-30,1989
+CIGS 30-DAY,28.61,30 Day,Cigarettes,,WOMEN,Ages 19-30,1990
+CIGS 30-DAY,27.42,30 Day,Cigarettes,,WOMEN,Ages 19-30,1991
+CIGS 30-DAY,27.68,30 Day,Cigarettes,,WOMEN,Ages 19-30,1992
+CIGS 30-DAY,27.13,30 Day,Cigarettes,,WOMEN,Ages 19-30,1993
+CIGS 30-DAY,26.55,30 Day,Cigarettes,,WOMEN,Ages 19-30,1994
+CIGS 30-DAY,27.24,30 Day,Cigarettes,,WOMEN,Ages 19-30,1995
+CIGS 30-DAY,28.49,30 Day,Cigarettes,,WOMEN,Ages 19-30,1996
+CIGS 30-DAY,27.78,30 Day,Cigarettes,,WOMEN,Ages 19-30,1997
+CIGS 30-DAY,28.53,30 Day,Cigarettes,,WOMEN,Ages 19-30,1998
+CIGS 30-DAY,26.87,30 Day,Cigarettes,,WOMEN,Ages 19-30,1999
+CIGS 30-DAY,27.05,30 Day,Cigarettes,,WOMEN,Ages 19-30,2000
+CIGS 30-DAY,26.14,30 Day,Cigarettes,,WOMEN,Ages 19-30,2001
+CIGS 30-DAY,26.99,30 Day,Cigarettes,,WOMEN,Ages 19-30,2002
+CIGS 30-DAY,25.39,30 Day,Cigarettes,,WOMEN,Ages 19-30,2003
+CIGS 30-DAY,25.35,30 Day,Cigarettes,,WOMEN,Ages 19-30,2004
+CIGS 30-DAY,26.21,30 Day,Cigarettes,,WOMEN,Ages 19-30,2005
+CIGS 30-DAY,25.23,30 Day,Cigarettes,,WOMEN,Ages 19-30,2006
+CIGS 30-DAY,24.21,30 Day,Cigarettes,,WOMEN,Ages 19-30,2007
+CIGS 30-DAY,22.11,30 Day,Cigarettes,,WOMEN,Ages 19-30,2008
+CIGS 30-DAY,21.41,30 Day,Cigarettes,,WOMEN,Ages 19-30,2009
+CIGS 30-DAY,19.52,30 Day,Cigarettes,,WOMEN,Ages 19-30,2010
+CIGS 30-DAY,19,30 Day,Cigarettes,,WOMEN,Ages 19-30,2011
+CIGS 30-DAY,17.19,30 Day,Cigarettes,,WOMEN,Ages 19-30,2012
+CIGS 30-DAY,17.69,30 Day,Cigarettes,,WOMEN,Ages 19-30,2013
+CIGS 30-DAY,15.45,30 Day,Cigarettes,,WOMEN,Ages 19-30,2014
+CIGS 30-DAY,14.22,30 Day,Cigarettes,,WOMEN,Ages 19-30,2015
+CIGS 30-DAY,12.7,30 Day,Cigarettes,,WOMEN,Ages 19-30,2016
+CIGS 30-DAY,11.83,30 Day,Cigarettes,,WOMEN,Ages 19-30,2017
+CIGS 30-DAY,12.3,30 Day,Cigarettes,,WOMEN,Ages 19-30,2018
+CIGS 30-DAY,10.2,30 Day,Cigarettes,,WOMEN,Ages 19-30,2019
+CIGS 30-DAY,9.1,30 Day,Cigarettes,,WOMEN,Ages 19-30,2020
+CIGS 30-DAY,8.3,30 Day,Cigarettes,,WOMEN,Ages 19-30,2021
+CIGS 30-DAY,6.7,30 Day,Cigarettes,,WOMEN,Ages 19-30,2022
+CIGS 30-DAY,6.4,30 Day,Cigarettes,,WOMEN,Ages 19-30,2023
+CIGS 30-DAY,20.53,30 Day,Cigarettes,BLACK,,Ages 35-50,2008
+CIGS 30-DAY,16.92,30 Day,Cigarettes,BLACK,,Ages 35-50,2009
+CIGS 30-DAY,20.2,30 Day,Cigarettes,BLACK,,Ages 35-50,2010
+CIGS 30-DAY,15.11,30 Day,Cigarettes,BLACK,,Ages 35-50,2011
+CIGS 30-DAY,10.42,30 Day,Cigarettes,BLACK,,Ages 35-50,2012
+CIGS 30-DAY,16.68,30 Day,Cigarettes,BLACK,,Ages 35-50,2013
+CIGS 30-DAY,14.76,30 Day,Cigarettes,BLACK,,Ages 35-50,2014
+CIGS 30-DAY,13.15,30 Day,Cigarettes,BLACK,,Ages 35-50,2015
+CIGS 30-DAY,13.8,30 Day,Cigarettes,BLACK,,Ages 35-50,2016
+CIGS 30-DAY,8.32,30 Day,Cigarettes,BLACK,,Ages 35-50,2017
+CIGS 30-DAY,10.3,30 Day,Cigarettes,BLACK,,Ages 35-50,2018
+CIGS 30-DAY,10.2,30 Day,Cigarettes,BLACK,,Ages 35-50,2019
+CIGS 30-DAY,8.5,30 Day,Cigarettes,BLACK,,Ages 35-50,2020
+CIGS 30-DAY,4.9,30 Day,Cigarettes,BLACK,,Ages 35-50,2021
+CIGS 30-DAY,8.5,30 Day,Cigarettes,BLACK,,Ages 35-50,2022
+CIGS 30-DAY,7.6,30 Day,Cigarettes,BLACK,,Ages 35-50,2023
+CIGS 30-DAY,20.08,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2008
+CIGS 30-DAY,10.61,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2009
+CIGS 30-DAY,12.04,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2010
+CIGS 30-DAY,13.87,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2011
+CIGS 30-DAY,11.56,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2012
+CIGS 30-DAY,15.11,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2013
+CIGS 30-DAY,8.48,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2014
+CIGS 30-DAY,7.88,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2015
+CIGS 30-DAY,9,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2016
+CIGS 30-DAY,11.14,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2017
+CIGS 30-DAY,6.6,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2018
+CIGS 30-DAY,10.1,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2019
+CIGS 30-DAY,7.3,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2020
+CIGS 30-DAY,5.5,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2021
+CIGS 30-DAY,9.1,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2022
+CIGS 30-DAY,7.4,30 Day,Cigarettes,HISPANIC,,Ages 35-50,2023
+CIGS 30-DAY,22.09,30 Day,Cigarettes,,MEN,Ages 35-50,2008
+CIGS 30-DAY,17.8,30 Day,Cigarettes,,MEN,Ages 35-50,2009
+CIGS 30-DAY,20.08,30 Day,Cigarettes,,MEN,Ages 35-50,2010
+CIGS 30-DAY,16.99,30 Day,Cigarettes,,MEN,Ages 35-50,2011
+CIGS 30-DAY,16.2,30 Day,Cigarettes,,MEN,Ages 35-50,2012
+CIGS 30-DAY,19.25,30 Day,Cigarettes,,MEN,Ages 35-50,2013
+CIGS 30-DAY,16.7,30 Day,Cigarettes,,MEN,Ages 35-50,2014
+CIGS 30-DAY,15.94,30 Day,Cigarettes,,MEN,Ages 35-50,2015
+CIGS 30-DAY,14.3,30 Day,Cigarettes,,MEN,Ages 35-50,2016
+CIGS 30-DAY,14.51,30 Day,Cigarettes,,MEN,Ages 35-50,2017
+CIGS 30-DAY,13.7,30 Day,Cigarettes,,MEN,Ages 35-50,2018
+CIGS 30-DAY,12.8,30 Day,Cigarettes,,MEN,Ages 35-50,2019
+CIGS 30-DAY,13.3,30 Day,Cigarettes,,MEN,Ages 35-50,2020
+CIGS 30-DAY,11.1,30 Day,Cigarettes,,MEN,Ages 35-50,2021
+CIGS 30-DAY,14.3,30 Day,Cigarettes,,MEN,Ages 35-50,2022
+CIGS 30-DAY,10.2,30 Day,Cigarettes,,MEN,Ages 35-50,2023
+CIGS 30-DAY,19.42,30 Day,Cigarettes,WHITE,,Ages 35-50,2008
+CIGS 30-DAY,18.08,30 Day,Cigarettes,WHITE,,Ages 35-50,2009
+CIGS 30-DAY,19.69,30 Day,Cigarettes,WHITE,,Ages 35-50,2010
+CIGS 30-DAY,17.63,30 Day,Cigarettes,WHITE,,Ages 35-50,2011
+CIGS 30-DAY,17.03,30 Day,Cigarettes,WHITE,,Ages 35-50,2012
+CIGS 30-DAY,16.91,30 Day,Cigarettes,WHITE,,Ages 35-50,2013
+CIGS 30-DAY,17.44,30 Day,Cigarettes,WHITE,,Ages 35-50,2014
+CIGS 30-DAY,16.65,30 Day,Cigarettes,WHITE,,Ages 35-50,2015
+CIGS 30-DAY,15.5,30 Day,Cigarettes,WHITE,,Ages 35-50,2016
+CIGS 30-DAY,14.88,30 Day,Cigarettes,WHITE,,Ages 35-50,2017
+CIGS 30-DAY,14.1,30 Day,Cigarettes,WHITE,,Ages 35-50,2018
+CIGS 30-DAY,12.7,30 Day,Cigarettes,WHITE,,Ages 35-50,2019
+CIGS 30-DAY,13.9,30 Day,Cigarettes,WHITE,,Ages 35-50,2020
+CIGS 30-DAY,12.7,30 Day,Cigarettes,WHITE,,Ages 35-50,2021
+CIGS 30-DAY,13.1,30 Day,Cigarettes,WHITE,,Ages 35-50,2022
+CIGS 30-DAY,11.3,30 Day,Cigarettes,WHITE,,Ages 35-50,2023
+CIGS 30-DAY,18.34,30 Day,Cigarettes,,WOMEN,Ages 35-50,2008
+CIGS 30-DAY,17.54,30 Day,Cigarettes,,WOMEN,Ages 35-50,2009
+CIGS 30-DAY,18.67,30 Day,Cigarettes,,WOMEN,Ages 35-50,2010
+CIGS 30-DAY,18.22,30 Day,Cigarettes,,WOMEN,Ages 35-50,2011
+CIGS 30-DAY,15.85,30 Day,Cigarettes,,WOMEN,Ages 35-50,2012
+CIGS 30-DAY,14.63,30 Day,Cigarettes,,WOMEN,Ages 35-50,2013
+CIGS 30-DAY,16.02,30 Day,Cigarettes,,WOMEN,Ages 35-50,2014
+CIGS 30-DAY,14.74,30 Day,Cigarettes,,WOMEN,Ages 35-50,2015
+CIGS 30-DAY,15.4,30 Day,Cigarettes,,WOMEN,Ages 35-50,2016
+CIGS 30-DAY,12.55,30 Day,Cigarettes,,WOMEN,Ages 35-50,2017
+CIGS 30-DAY,12.1,30 Day,Cigarettes,,WOMEN,Ages 35-50,2018
+CIGS 30-DAY,11.9,30 Day,Cigarettes,,WOMEN,Ages 35-50,2019
+CIGS 30-DAY,11,30 Day,Cigarettes,,WOMEN,Ages 35-50,2020
+CIGS 30-DAY,10.8,30 Day,Cigarettes,,WOMEN,Ages 35-50,2021
+CIGS 30-DAY,10.3,30 Day,Cigarettes,,WOMEN,Ages 35-50,2022
+CIGS 30-DAY,10.2,30 Day,Cigarettes,,WOMEN,Ages 35-50,2023
+MJ 30-DAY,14.39,30 Day,Cannabis,BLACK,,Ages 19-30,1988
+MJ 30-DAY,11.41,30 Day,Cannabis,BLACK,,Ages 19-30,1989
+MJ 30-DAY,9.54,30 Day,Cannabis,BLACK,,Ages 19-30,1990
+MJ 30-DAY,8.56,30 Day,Cannabis,BLACK,,Ages 19-30,1991
+MJ 30-DAY,8.63,30 Day,Cannabis,BLACK,,Ages 19-30,1992
+MJ 30-DAY,10.16,30 Day,Cannabis,BLACK,,Ages 19-30,1993
+MJ 30-DAY,10.48,30 Day,Cannabis,BLACK,,Ages 19-30,1994
+MJ 30-DAY,12.38,30 Day,Cannabis,BLACK,,Ages 19-30,1995
+MJ 30-DAY,12.39,30 Day,Cannabis,BLACK,,Ages 19-30,1996
+MJ 30-DAY,11.86,30 Day,Cannabis,BLACK,,Ages 19-30,1997
+MJ 30-DAY,14.45,30 Day,Cannabis,BLACK,,Ages 19-30,1998
+MJ 30-DAY,13.62,30 Day,Cannabis,BLACK,,Ages 19-30,1999
+MJ 30-DAY,12.64,30 Day,Cannabis,BLACK,,Ages 19-30,2000
+MJ 30-DAY,10.14,30 Day,Cannabis,BLACK,,Ages 19-30,2001
+MJ 30-DAY,12.43,30 Day,Cannabis,BLACK,,Ages 19-30,2002
+MJ 30-DAY,12.81,30 Day,Cannabis,BLACK,,Ages 19-30,2003
+MJ 30-DAY,13.18,30 Day,Cannabis,BLACK,,Ages 19-30,2004
+MJ 30-DAY,10.43,30 Day,Cannabis,BLACK,,Ages 19-30,2005
+MJ 30-DAY,13.55,30 Day,Cannabis,BLACK,,Ages 19-30,2006
+MJ 30-DAY,12.62,30 Day,Cannabis,BLACK,,Ages 19-30,2007
+MJ 30-DAY,16.73,30 Day,Cannabis,BLACK,,Ages 19-30,2008
+MJ 30-DAY,14.22,30 Day,Cannabis,BLACK,,Ages 19-30,2009
+MJ 30-DAY,14.84,30 Day,Cannabis,BLACK,,Ages 19-30,2010
+MJ 30-DAY,18.02,30 Day,Cannabis,BLACK,,Ages 19-30,2011
+MJ 30-DAY,17.37,30 Day,Cannabis,BLACK,,Ages 19-30,2012
+MJ 30-DAY,17.39,30 Day,Cannabis,BLACK,,Ages 19-30,2013
+MJ 30-DAY,21.26,30 Day,Cannabis,BLACK,,Ages 19-30,2014
+MJ 30-DAY,21.2,30 Day,Cannabis,BLACK,,Ages 19-30,2015
+MJ 30-DAY,22.4,30 Day,Cannabis,BLACK,,Ages 19-30,2016
+MJ 30-DAY,23.78,30 Day,Cannabis,BLACK,,Ages 19-30,2017
+MJ 30-DAY,29.2,30 Day,Cannabis,BLACK,,Ages 19-30,2018
+MJ 30-DAY,24.8,30 Day,Cannabis,BLACK,,Ages 19-30,2019
+MJ 30-DAY,32.4,30 Day,Cannabis,BLACK,,Ages 19-30,2020
+MJ 30-DAY,32.8,30 Day,Cannabis,BLACK,,Ages 19-30,2021
+MJ 30-DAY,33,30 Day,Cannabis,BLACK,,Ages 19-30,2022
+MJ 30-DAY,31.3,30 Day,Cannabis,BLACK,,Ages 19-30,2023
+MJ 30-DAY,17.06,30 Day,Cannabis,HISPANIC,,Ages 19-30,1988
+MJ 30-DAY,12.69,30 Day,Cannabis,HISPANIC,,Ages 19-30,1989
+MJ 30-DAY,9.52,30 Day,Cannabis,HISPANIC,,Ages 19-30,1990
+MJ 30-DAY,10.86,30 Day,Cannabis,HISPANIC,,Ages 19-30,1991
+MJ 30-DAY,12.07,30 Day,Cannabis,HISPANIC,,Ages 19-30,1992
+MJ 30-DAY,11.04,30 Day,Cannabis,HISPANIC,,Ages 19-30,1993
+MJ 30-DAY,9.87,30 Day,Cannabis,HISPANIC,,Ages 19-30,1994
+MJ 30-DAY,11.03,30 Day,Cannabis,HISPANIC,,Ages 19-30,1995
+MJ 30-DAY,11.88,30 Day,Cannabis,HISPANIC,,Ages 19-30,1996
+MJ 30-DAY,10.42,30 Day,Cannabis,HISPANIC,,Ages 19-30,1997
+MJ 30-DAY,10.02,30 Day,Cannabis,HISPANIC,,Ages 19-30,1998
+MJ 30-DAY,12.41,30 Day,Cannabis,HISPANIC,,Ages 19-30,1999
+MJ 30-DAY,11.42,30 Day,Cannabis,HISPANIC,,Ages 19-30,2000
+MJ 30-DAY,13.47,30 Day,Cannabis,HISPANIC,,Ages 19-30,2001
+MJ 30-DAY,11.59,30 Day,Cannabis,HISPANIC,,Ages 19-30,2002
+MJ 30-DAY,12.31,30 Day,Cannabis,HISPANIC,,Ages 19-30,2003
+MJ 30-DAY,10.96,30 Day,Cannabis,HISPANIC,,Ages 19-30,2004
+MJ 30-DAY,13.31,30 Day,Cannabis,HISPANIC,,Ages 19-30,2005
+MJ 30-DAY,11.09,30 Day,Cannabis,HISPANIC,,Ages 19-30,2006
+MJ 30-DAY,12.06,30 Day,Cannabis,HISPANIC,,Ages 19-30,2007
+MJ 30-DAY,12.79,30 Day,Cannabis,HISPANIC,,Ages 19-30,2008
+MJ 30-DAY,12.04,30 Day,Cannabis,HISPANIC,,Ages 19-30,2009
+MJ 30-DAY,13.03,30 Day,Cannabis,HISPANIC,,Ages 19-30,2010
+MJ 30-DAY,15.65,30 Day,Cannabis,HISPANIC,,Ages 19-30,2011
+MJ 30-DAY,16.86,30 Day,Cannabis,HISPANIC,,Ages 19-30,2012
+MJ 30-DAY,17.83,30 Day,Cannabis,HISPANIC,,Ages 19-30,2013
+MJ 30-DAY,18.79,30 Day,Cannabis,HISPANIC,,Ages 19-30,2014
+MJ 30-DAY,16.58,30 Day,Cannabis,HISPANIC,,Ages 19-30,2015
+MJ 30-DAY,19.1,30 Day,Cannabis,HISPANIC,,Ages 19-30,2016
+MJ 30-DAY,24.99,30 Day,Cannabis,HISPANIC,,Ages 19-30,2017
+MJ 30-DAY,24.7,30 Day,Cannabis,HISPANIC,,Ages 19-30,2018
+MJ 30-DAY,25.7,30 Day,Cannabis,HISPANIC,,Ages 19-30,2019
+MJ 30-DAY,27.5,30 Day,Cannabis,HISPANIC,,Ages 19-30,2020
+MJ 30-DAY,24.3,30 Day,Cannabis,HISPANIC,,Ages 19-30,2021
+MJ 30-DAY,31.5,30 Day,Cannabis,HISPANIC,,Ages 19-30,2022
+MJ 30-DAY,24.7,30 Day,Cannabis,HISPANIC,,Ages 19-30,2023
+MJ 30-DAY,21.23,30 Day,Cannabis,,MEN,Ages 19-30,1988
+MJ 30-DAY,19.2,30 Day,Cannabis,,MEN,Ages 19-30,1989
+MJ 30-DAY,16.4,30 Day,Cannabis,,MEN,Ages 19-30,1990
+MJ 30-DAY,16.95,30 Day,Cannabis,,MEN,Ages 19-30,1991
+MJ 30-DAY,16.28,30 Day,Cannabis,,MEN,Ages 19-30,1992
+MJ 30-DAY,15.87,30 Day,Cannabis,,MEN,Ages 19-30,1993
+MJ 30-DAY,17.51,30 Day,Cannabis,,MEN,Ages 19-30,1994
+MJ 30-DAY,16.55,30 Day,Cannabis,,MEN,Ages 19-30,1995
+MJ 30-DAY,17.18,30 Day,Cannabis,,MEN,Ages 19-30,1996
+MJ 30-DAY,16.64,30 Day,Cannabis,,MEN,Ages 19-30,1997
+MJ 30-DAY,17.08,30 Day,Cannabis,,MEN,Ages 19-30,1998
+MJ 30-DAY,17.29,30 Day,Cannabis,,MEN,Ages 19-30,1999
+MJ 30-DAY,17.95,30 Day,Cannabis,,MEN,Ages 19-30,2000
+MJ 30-DAY,17.89,30 Day,Cannabis,,MEN,Ages 19-30,2001
+MJ 30-DAY,18.44,30 Day,Cannabis,,MEN,Ages 19-30,2002
+MJ 30-DAY,18.32,30 Day,Cannabis,,MEN,Ages 19-30,2003
+MJ 30-DAY,17.88,30 Day,Cannabis,,MEN,Ages 19-30,2004
+MJ 30-DAY,18.14,30 Day,Cannabis,,MEN,Ages 19-30,2005
+MJ 30-DAY,17.87,30 Day,Cannabis,,MEN,Ages 19-30,2006
+MJ 30-DAY,19.42,30 Day,Cannabis,,MEN,Ages 19-30,2007
+MJ 30-DAY,18.76,30 Day,Cannabis,,MEN,Ages 19-30,2008
+MJ 30-DAY,19.64,30 Day,Cannabis,,MEN,Ages 19-30,2009
+MJ 30-DAY,19.75,30 Day,Cannabis,,MEN,Ages 19-30,2010
+MJ 30-DAY,21,30 Day,Cannabis,,MEN,Ages 19-30,2011
+MJ 30-DAY,20.02,30 Day,Cannabis,,MEN,Ages 19-30,2012
+MJ 30-DAY,22.5,30 Day,Cannabis,,MEN,Ages 19-30,2013
+MJ 30-DAY,21.19,30 Day,Cannabis,,MEN,Ages 19-30,2014
+MJ 30-DAY,22.58,30 Day,Cannabis,,MEN,Ages 19-30,2015
+MJ 30-DAY,23,30 Day,Cannabis,,MEN,Ages 19-30,2016
+MJ 30-DAY,25.93,30 Day,Cannabis,,MEN,Ages 19-30,2017
+MJ 30-DAY,25,30 Day,Cannabis,,MEN,Ages 19-30,2018
+MJ 30-DAY,28.2,30 Day,Cannabis,,MEN,Ages 19-30,2019
+MJ 30-DAY,27.8,30 Day,Cannabis,,MEN,Ages 19-30,2020
+MJ 30-DAY,30.4,30 Day,Cannabis,,MEN,Ages 19-30,2021
+MJ 30-DAY,28.7,30 Day,Cannabis,,MEN,Ages 19-30,2022
+MJ 30-DAY,27.6,30 Day,Cannabis,,MEN,Ages 19-30,2023
+MJ 30-DAY,18.1,30 Day,Cannabis,WHITE,,Ages 19-30,1988
+MJ 30-DAY,16.14,30 Day,Cannabis,WHITE,,Ages 19-30,1989
+MJ 30-DAY,14.48,30 Day,Cannabis,WHITE,,Ages 19-30,1990
+MJ 30-DAY,14.51,30 Day,Cannabis,WHITE,,Ages 19-30,1991
+MJ 30-DAY,14.03,30 Day,Cannabis,WHITE,,Ages 19-30,1992
+MJ 30-DAY,13.88,30 Day,Cannabis,WHITE,,Ages 19-30,1993
+MJ 30-DAY,14.23,30 Day,Cannabis,WHITE,,Ages 19-30,1994
+MJ 30-DAY,13.96,30 Day,Cannabis,WHITE,,Ages 19-30,1995
+MJ 30-DAY,14.38,30 Day,Cannabis,WHITE,,Ages 19-30,1996
+MJ 30-DAY,14.55,30 Day,Cannabis,WHITE,,Ages 19-30,1997
+MJ 30-DAY,14.22,30 Day,Cannabis,WHITE,,Ages 19-30,1998
+MJ 30-DAY,14.71,30 Day,Cannabis,WHITE,,Ages 19-30,1999
+MJ 30-DAY,15.86,30 Day,Cannabis,WHITE,,Ages 19-30,2000
+MJ 30-DAY,15.76,30 Day,Cannabis,WHITE,,Ages 19-30,2001
+MJ 30-DAY,16.19,30 Day,Cannabis,WHITE,,Ages 19-30,2002
+MJ 30-DAY,16.58,30 Day,Cannabis,WHITE,,Ages 19-30,2003
+MJ 30-DAY,15.44,30 Day,Cannabis,WHITE,,Ages 19-30,2004
+MJ 30-DAY,16.01,30 Day,Cannabis,WHITE,,Ages 19-30,2005
+MJ 30-DAY,15.5,30 Day,Cannabis,WHITE,,Ages 19-30,2006
+MJ 30-DAY,16.38,30 Day,Cannabis,WHITE,,Ages 19-30,2007
+MJ 30-DAY,15.45,30 Day,Cannabis,WHITE,,Ages 19-30,2008
+MJ 30-DAY,16.97,30 Day,Cannabis,WHITE,,Ages 19-30,2009
+MJ 30-DAY,15.86,30 Day,Cannabis,WHITE,,Ages 19-30,2010
+MJ 30-DAY,17.9,30 Day,Cannabis,WHITE,,Ages 19-30,2011
+MJ 30-DAY,16.39,30 Day,Cannabis,WHITE,,Ages 19-30,2012
+MJ 30-DAY,18.47,30 Day,Cannabis,WHITE,,Ages 19-30,2013
+MJ 30-DAY,18.05,30 Day,Cannabis,WHITE,,Ages 19-30,2014
+MJ 30-DAY,18.48,30 Day,Cannabis,WHITE,,Ages 19-30,2015
+MJ 30-DAY,20.5,30 Day,Cannabis,WHITE,,Ages 19-30,2016
+MJ 30-DAY,20.83,30 Day,Cannabis,WHITE,,Ages 19-30,2017
+MJ 30-DAY,22.7,30 Day,Cannabis,WHITE,,Ages 19-30,2018
+MJ 30-DAY,25.9,30 Day,Cannabis,WHITE,,Ages 19-30,2019
+MJ 30-DAY,25.2,30 Day,Cannabis,WHITE,,Ages 19-30,2020
+MJ 30-DAY,29.6,30 Day,Cannabis,WHITE,,Ages 19-30,2021
+MJ 30-DAY,26.5,30 Day,Cannabis,WHITE,,Ages 19-30,2022
+MJ 30-DAY,28.8,30 Day,Cannabis,WHITE,,Ages 19-30,2023
+MJ 30-DAY,13.95,30 Day,Cannabis,,WOMEN,Ages 19-30,1988
+MJ 30-DAY,11.67,30 Day,Cannabis,,WOMEN,Ages 19-30,1989
+MJ 30-DAY,10.83,30 Day,Cannabis,,WOMEN,Ages 19-30,1990
+MJ 30-DAY,10.27,30 Day,Cannabis,,WOMEN,Ages 19-30,1991
+MJ 30-DAY,10.21,30 Day,Cannabis,,WOMEN,Ages 19-30,1992
+MJ 30-DAY,10.21,30 Day,Cannabis,,WOMEN,Ages 19-30,1993
+MJ 30-DAY,9.83,30 Day,Cannabis,,WOMEN,Ages 19-30,1994
+MJ 30-DAY,10.47,30 Day,Cannabis,,WOMEN,Ages 19-30,1995
+MJ 30-DAY,11.16,30 Day,Cannabis,,WOMEN,Ages 19-30,1996
+MJ 30-DAY,10.84,30 Day,Cannabis,,WOMEN,Ages 19-30,1997
+MJ 30-DAY,10.81,30 Day,Cannabis,,WOMEN,Ages 19-30,1998
+MJ 30-DAY,11.44,30 Day,Cannabis,,WOMEN,Ages 19-30,1999
+MJ 30-DAY,12.06,30 Day,Cannabis,,WOMEN,Ages 19-30,2000
+MJ 30-DAY,11.68,30 Day,Cannabis,,WOMEN,Ages 19-30,2001
+MJ 30-DAY,11.89,30 Day,Cannabis,,WOMEN,Ages 19-30,2002
+MJ 30-DAY,13.05,30 Day,Cannabis,,WOMEN,Ages 19-30,2003
+MJ 30-DAY,11.64,30 Day,Cannabis,,WOMEN,Ages 19-30,2004
+MJ 30-DAY,12.13,30 Day,Cannabis,,WOMEN,Ages 19-30,2005
+MJ 30-DAY,11.73,30 Day,Cannabis,,WOMEN,Ages 19-30,2006
+MJ 30-DAY,11.73,30 Day,Cannabis,,WOMEN,Ages 19-30,2007
+MJ 30-DAY,12.26,30 Day,Cannabis,,WOMEN,Ages 19-30,2008
+MJ 30-DAY,12.93,30 Day,Cannabis,,WOMEN,Ages 19-30,2009
+MJ 30-DAY,11.23,30 Day,Cannabis,,WOMEN,Ages 19-30,2010
+MJ 30-DAY,14.34,30 Day,Cannabis,,WOMEN,Ages 19-30,2011
+MJ 30-DAY,13.42,30 Day,Cannabis,,WOMEN,Ages 19-30,2012
+MJ 30-DAY,14.51,30 Day,Cannabis,,WOMEN,Ages 19-30,2013
+MJ 30-DAY,15.93,30 Day,Cannabis,,WOMEN,Ages 19-30,2014
+MJ 30-DAY,15.83,30 Day,Cannabis,,WOMEN,Ages 19-30,2015
+MJ 30-DAY,18.3,30 Day,Cannabis,,WOMEN,Ages 19-30,2016
+MJ 30-DAY,18.75,30 Day,Cannabis,,WOMEN,Ages 19-30,2017
+MJ 30-DAY,23.8,30 Day,Cannabis,,WOMEN,Ages 19-30,2018
+MJ 30-DAY,23.3,30 Day,Cannabis,,WOMEN,Ages 19-30,2019
+MJ 30-DAY,25.7,30 Day,Cannabis,,WOMEN,Ages 19-30,2020
+MJ 30-DAY,27.7,30 Day,Cannabis,,WOMEN,Ages 19-30,2021
+MJ 30-DAY,28.8,30 Day,Cannabis,,WOMEN,Ages 19-30,2022
+MJ 30-DAY,29.7,30 Day,Cannabis,,WOMEN,Ages 19-30,2023
+MJ 30-DAY,6.14,30 Day,Cannabis,BLACK,,Ages 35-50,2008
+MJ 30-DAY,10.36,30 Day,Cannabis,BLACK,,Ages 35-50,2009
+MJ 30-DAY,7.56,30 Day,Cannabis,BLACK,,Ages 35-50,2010
+MJ 30-DAY,8.56,30 Day,Cannabis,BLACK,,Ages 35-50,2011
+MJ 30-DAY,6.68,30 Day,Cannabis,BLACK,,Ages 35-50,2012
+MJ 30-DAY,9.37,30 Day,Cannabis,BLACK,,Ages 35-50,2013
+MJ 30-DAY,8.03,30 Day,Cannabis,BLACK,,Ages 35-50,2014
+MJ 30-DAY,8.1,30 Day,Cannabis,BLACK,,Ages 35-50,2015
+MJ 30-DAY,9.2,30 Day,Cannabis,BLACK,,Ages 35-50,2016
+MJ 30-DAY,9.49,30 Day,Cannabis,BLACK,,Ages 35-50,2017
+MJ 30-DAY,10.5,30 Day,Cannabis,BLACK,,Ages 35-50,2018
+MJ 30-DAY,9.9,30 Day,Cannabis,BLACK,,Ages 35-50,2019
+MJ 30-DAY,15,30 Day,Cannabis,BLACK,,Ages 35-50,2020
+MJ 30-DAY,18,30 Day,Cannabis,BLACK,,Ages 35-50,2021
+MJ 30-DAY,16.8,30 Day,Cannabis,BLACK,,Ages 35-50,2022
+MJ 30-DAY,15.5,30 Day,Cannabis,BLACK,,Ages 35-50,2023
+MJ 30-DAY,5.27,30 Day,Cannabis,HISPANIC,,Ages 35-50,2008
+MJ 30-DAY,4.44,30 Day,Cannabis,HISPANIC,,Ages 35-50,2009
+MJ 30-DAY,5.74,30 Day,Cannabis,HISPANIC,,Ages 35-50,2010
+MJ 30-DAY,6.65,30 Day,Cannabis,HISPANIC,,Ages 35-50,2011
+MJ 30-DAY,5.95,30 Day,Cannabis,HISPANIC,,Ages 35-50,2012
+MJ 30-DAY,6.19,30 Day,Cannabis,HISPANIC,,Ages 35-50,2013
+MJ 30-DAY,3.04,30 Day,Cannabis,HISPANIC,,Ages 35-50,2014
+MJ 30-DAY,9.77,30 Day,Cannabis,HISPANIC,,Ages 35-50,2015
+MJ 30-DAY,7.4,30 Day,Cannabis,HISPANIC,,Ages 35-50,2016
+MJ 30-DAY,10.14,30 Day,Cannabis,HISPANIC,,Ages 35-50,2017
+MJ 30-DAY,9,30 Day,Cannabis,HISPANIC,,Ages 35-50,2018
+MJ 30-DAY,8.9,30 Day,Cannabis,HISPANIC,,Ages 35-50,2019
+MJ 30-DAY,9.7,30 Day,Cannabis,HISPANIC,,Ages 35-50,2020
+MJ 30-DAY,9.2,30 Day,Cannabis,HISPANIC,,Ages 35-50,2021
+MJ 30-DAY,15.6,30 Day,Cannabis,HISPANIC,,Ages 35-50,2022
+MJ 30-DAY,17.9,30 Day,Cannabis,HISPANIC,,Ages 35-50,2023
+MJ 30-DAY,10.68,30 Day,Cannabis,,MEN,Ages 35-50,2008
+MJ 30-DAY,9.52,30 Day,Cannabis,,MEN,Ages 35-50,2009
+MJ 30-DAY,9.24,30 Day,Cannabis,,MEN,Ages 35-50,2010
+MJ 30-DAY,9.44,30 Day,Cannabis,,MEN,Ages 35-50,2011
+MJ 30-DAY,9.69,30 Day,Cannabis,,MEN,Ages 35-50,2012
+MJ 30-DAY,11.68,30 Day,Cannabis,,MEN,Ages 35-50,2013
+MJ 30-DAY,11.92,30 Day,Cannabis,,MEN,Ages 35-50,2014
+MJ 30-DAY,12.63,30 Day,Cannabis,,MEN,Ages 35-50,2015
+MJ 30-DAY,11.5,30 Day,Cannabis,,MEN,Ages 35-50,2016
+MJ 30-DAY,13.55,30 Day,Cannabis,,MEN,Ages 35-50,2017
+MJ 30-DAY,14.9,30 Day,Cannabis,,MEN,Ages 35-50,2018
+MJ 30-DAY,15.5,30 Day,Cannabis,,MEN,Ages 35-50,2019
+MJ 30-DAY,17.1,30 Day,Cannabis,,MEN,Ages 35-50,2020
+MJ 30-DAY,18.3,30 Day,Cannabis,,MEN,Ages 35-50,2021
+MJ 30-DAY,19.9,30 Day,Cannabis,,MEN,Ages 35-50,2022
+MJ 30-DAY,20.7,30 Day,Cannabis,,MEN,Ages 35-50,2023
+MJ 30-DAY,7.59,30 Day,Cannabis,WHITE,,Ages 35-50,2008
+MJ 30-DAY,6.65,30 Day,Cannabis,WHITE,,Ages 35-50,2009
+MJ 30-DAY,7.96,30 Day,Cannabis,WHITE,,Ages 35-50,2010
+MJ 30-DAY,7.95,30 Day,Cannabis,WHITE,,Ages 35-50,2011
+MJ 30-DAY,7.93,30 Day,Cannabis,WHITE,,Ages 35-50,2012
+MJ 30-DAY,8.23,30 Day,Cannabis,WHITE,,Ages 35-50,2013
+MJ 30-DAY,8.81,30 Day,Cannabis,WHITE,,Ages 35-50,2014
+MJ 30-DAY,9.98,30 Day,Cannabis,WHITE,,Ages 35-50,2015
+MJ 30-DAY,9.9,30 Day,Cannabis,WHITE,,Ages 35-50,2016
+MJ 30-DAY,10.94,30 Day,Cannabis,WHITE,,Ages 35-50,2017
+MJ 30-DAY,12.2,30 Day,Cannabis,WHITE,,Ages 35-50,2018
+MJ 30-DAY,13.8,30 Day,Cannabis,WHITE,,Ages 35-50,2019
+MJ 30-DAY,14.2,30 Day,Cannabis,WHITE,,Ages 35-50,2020
+MJ 30-DAY,16.9,30 Day,Cannabis,WHITE,,Ages 35-50,2021
+MJ 30-DAY,18.1,30 Day,Cannabis,WHITE,,Ages 35-50,2022
+MJ 30-DAY,19.6,30 Day,Cannabis,WHITE,,Ages 35-50,2023
+MJ 30-DAY,4.21,30 Day,Cannabis,,WOMEN,Ages 35-50,2008
+MJ 30-DAY,4.66,30 Day,Cannabis,,WOMEN,Ages 35-50,2009
+MJ 30-DAY,5.86,30 Day,Cannabis,,WOMEN,Ages 35-50,2010
+MJ 30-DAY,6.26,30 Day,Cannabis,,WOMEN,Ages 35-50,2011
+MJ 30-DAY,5.55,30 Day,Cannabis,,WOMEN,Ages 35-50,2012
+MJ 30-DAY,5.12,30 Day,Cannabis,,WOMEN,Ages 35-50,2013
+MJ 30-DAY,5.41,30 Day,Cannabis,,WOMEN,Ages 35-50,2014
+MJ 30-DAY,6.72,30 Day,Cannabis,,WOMEN,Ages 35-50,2015
+MJ 30-DAY,7.2,30 Day,Cannabis,,WOMEN,Ages 35-50,2016
+MJ 30-DAY,7.62,30 Day,Cannabis,,WOMEN,Ages 35-50,2017
+MJ 30-DAY,9.4,30 Day,Cannabis,,WOMEN,Ages 35-50,2018
+MJ 30-DAY,10.3,30 Day,Cannabis,,WOMEN,Ages 35-50,2019
+MJ 30-DAY,10.8,30 Day,Cannabis,,WOMEN,Ages 35-50,2020
+MJ 30-DAY,14.2,30 Day,Cannabis,,WOMEN,Ages 35-50,2021
+MJ 30-DAY,14.8,30 Day,Cannabis,,WOMEN,Ages 35-50,2022
+MJ 30-DAY,17.8,30 Day,Cannabis,,WOMEN,Ages 35-50,2023
+MJ ANNUAL,24.68,12 Month,Cannabis,BLACK,,Ages 19-30,1988
+MJ ANNUAL,19.44,12 Month,Cannabis,BLACK,,Ages 19-30,1989
+MJ ANNUAL,17.63,12 Month,Cannabis,BLACK,,Ages 19-30,1990
+MJ ANNUAL,14.84,12 Month,Cannabis,BLACK,,Ages 19-30,1991
+MJ ANNUAL,15.98,12 Month,Cannabis,BLACK,,Ages 19-30,1992
+MJ ANNUAL,18.84,12 Month,Cannabis,BLACK,,Ages 19-30,1993
+MJ ANNUAL,17.52,12 Month,Cannabis,BLACK,,Ages 19-30,1994
+MJ ANNUAL,20.56,12 Month,Cannabis,BLACK,,Ages 19-30,1995
+MJ ANNUAL,20.34,12 Month,Cannabis,BLACK,,Ages 19-30,1996
+MJ ANNUAL,22.01,12 Month,Cannabis,BLACK,,Ages 19-30,1997
+MJ ANNUAL,25.03,12 Month,Cannabis,BLACK,,Ages 19-30,1998
+MJ ANNUAL,22.19,12 Month,Cannabis,BLACK,,Ages 19-30,1999
+MJ ANNUAL,21.08,12 Month,Cannabis,BLACK,,Ages 19-30,2000
+MJ ANNUAL,20.89,12 Month,Cannabis,BLACK,,Ages 19-30,2001
+MJ ANNUAL,20.64,12 Month,Cannabis,BLACK,,Ages 19-30,2002
+MJ ANNUAL,20.2,12 Month,Cannabis,BLACK,,Ages 19-30,2003
+MJ ANNUAL,22.96,12 Month,Cannabis,BLACK,,Ages 19-30,2004
+MJ ANNUAL,17.88,12 Month,Cannabis,BLACK,,Ages 19-30,2005
+MJ ANNUAL,22.2,12 Month,Cannabis,BLACK,,Ages 19-30,2006
+MJ ANNUAL,21.24,12 Month,Cannabis,BLACK,,Ages 19-30,2007
+MJ ANNUAL,25.96,12 Month,Cannabis,BLACK,,Ages 19-30,2008
+MJ ANNUAL,21.03,12 Month,Cannabis,BLACK,,Ages 19-30,2009
+MJ ANNUAL,21.74,12 Month,Cannabis,BLACK,,Ages 19-30,2010
+MJ ANNUAL,28.95,12 Month,Cannabis,BLACK,,Ages 19-30,2011
+MJ ANNUAL,28.31,12 Month,Cannabis,BLACK,,Ages 19-30,2012
+MJ ANNUAL,29.04,12 Month,Cannabis,BLACK,,Ages 19-30,2013
+MJ ANNUAL,31.68,12 Month,Cannabis,BLACK,,Ages 19-30,2014
+MJ ANNUAL,28.35,12 Month,Cannabis,BLACK,,Ages 19-30,2015
+MJ ANNUAL,34.2,12 Month,Cannabis,BLACK,,Ages 19-30,2016
+MJ ANNUAL,36.34,12 Month,Cannabis,BLACK,,Ages 19-30,2017
+MJ ANNUAL,44.4,12 Month,Cannabis,BLACK,,Ages 19-30,2018
+MJ ANNUAL,37.9,12 Month,Cannabis,BLACK,,Ages 19-30,2019
+MJ ANNUAL,45.8,12 Month,Cannabis,BLACK,,Ages 19-30,2020
+MJ ANNUAL,40.8,12 Month,Cannabis,BLACK,,Ages 19-30,2021
+MJ ANNUAL,43.1,12 Month,Cannabis,BLACK,,Ages 19-30,2022
+MJ ANNUAL,42.9,12 Month,Cannabis,BLACK,,Ages 19-30,2023
+MJ ANNUAL,28.05,12 Month,Cannabis,HISPANIC,,Ages 19-30,1988
+MJ ANNUAL,23.72,12 Month,Cannabis,HISPANIC,,Ages 19-30,1989
+MJ ANNUAL,20.83,12 Month,Cannabis,HISPANIC,,Ages 19-30,1990
+MJ ANNUAL,19.44,12 Month,Cannabis,HISPANIC,,Ages 19-30,1991
+MJ ANNUAL,21.22,12 Month,Cannabis,HISPANIC,,Ages 19-30,1992
+MJ ANNUAL,20.52,12 Month,Cannabis,HISPANIC,,Ages 19-30,1993
+MJ ANNUAL,20.91,12 Month,Cannabis,HISPANIC,,Ages 19-30,1994
+MJ ANNUAL,20.01,12 Month,Cannabis,HISPANIC,,Ages 19-30,1995
+MJ ANNUAL,22.96,12 Month,Cannabis,HISPANIC,,Ages 19-30,1996
+MJ ANNUAL,19.08,12 Month,Cannabis,HISPANIC,,Ages 19-30,1997
+MJ ANNUAL,19.92,12 Month,Cannabis,HISPANIC,,Ages 19-30,1998
+MJ ANNUAL,24.22,12 Month,Cannabis,HISPANIC,,Ages 19-30,1999
+MJ ANNUAL,19.47,12 Month,Cannabis,HISPANIC,,Ages 19-30,2000
+MJ ANNUAL,26.02,12 Month,Cannabis,HISPANIC,,Ages 19-30,2001
+MJ ANNUAL,22.94,12 Month,Cannabis,HISPANIC,,Ages 19-30,2002
+MJ ANNUAL,25.49,12 Month,Cannabis,HISPANIC,,Ages 19-30,2003
+MJ ANNUAL,23.77,12 Month,Cannabis,HISPANIC,,Ages 19-30,2004
+MJ ANNUAL,23.23,12 Month,Cannabis,HISPANIC,,Ages 19-30,2005
+MJ ANNUAL,21.75,12 Month,Cannabis,HISPANIC,,Ages 19-30,2006
+MJ ANNUAL,20.8,12 Month,Cannabis,HISPANIC,,Ages 19-30,2007
+MJ ANNUAL,25.9,12 Month,Cannabis,HISPANIC,,Ages 19-30,2008
+MJ ANNUAL,24.89,12 Month,Cannabis,HISPANIC,,Ages 19-30,2009
+MJ ANNUAL,25.6,12 Month,Cannabis,HISPANIC,,Ages 19-30,2010
+MJ ANNUAL,29.69,12 Month,Cannabis,HISPANIC,,Ages 19-30,2011
+MJ ANNUAL,27.98,12 Month,Cannabis,HISPANIC,,Ages 19-30,2012
+MJ ANNUAL,31.73,12 Month,Cannabis,HISPANIC,,Ages 19-30,2013
+MJ ANNUAL,31.01,12 Month,Cannabis,HISPANIC,,Ages 19-30,2014
+MJ ANNUAL,27.71,12 Month,Cannabis,HISPANIC,,Ages 19-30,2015
+MJ ANNUAL,31,12 Month,Cannabis,HISPANIC,,Ages 19-30,2016
+MJ ANNUAL,38.62,12 Month,Cannabis,HISPANIC,,Ages 19-30,2017
+MJ ANNUAL,39.4,12 Month,Cannabis,HISPANIC,,Ages 19-30,2018
+MJ ANNUAL,39.1,12 Month,Cannabis,HISPANIC,,Ages 19-30,2019
+MJ ANNUAL,41.7,12 Month,Cannabis,HISPANIC,,Ages 19-30,2020
+MJ ANNUAL,39.9,12 Month,Cannabis,HISPANIC,,Ages 19-30,2021
+MJ ANNUAL,45.5,12 Month,Cannabis,HISPANIC,,Ages 19-30,2022
+MJ ANNUAL,38.7,12 Month,Cannabis,HISPANIC,,Ages 19-30,2023
+MJ ANNUAL,34.5,12 Month,Cannabis,,MEN,Ages 19-30,1988
+MJ ANNUAL,31.75,12 Month,Cannabis,,MEN,Ages 19-30,1989
+MJ ANNUAL,28.6,12 Month,Cannabis,,MEN,Ages 19-30,1990
+MJ ANNUAL,27.04,12 Month,Cannabis,,MEN,Ages 19-30,1991
+MJ ANNUAL,27.47,12 Month,Cannabis,,MEN,Ages 19-30,1992
+MJ ANNUAL,27.09,12 Month,Cannabis,,MEN,Ages 19-30,1993
+MJ ANNUAL,28.76,12 Month,Cannabis,,MEN,Ages 19-30,1994
+MJ ANNUAL,27.3,12 Month,Cannabis,,MEN,Ages 19-30,1995
+MJ ANNUAL,28.08,12 Month,Cannabis,,MEN,Ages 19-30,1996
+MJ ANNUAL,27.73,12 Month,Cannabis,,MEN,Ages 19-30,1997
+MJ ANNUAL,28.73,12 Month,Cannabis,,MEN,Ages 19-30,1998
+MJ ANNUAL,28.69,12 Month,Cannabis,,MEN,Ages 19-30,1999
+MJ ANNUAL,29.16,12 Month,Cannabis,,MEN,Ages 19-30,2000
+MJ ANNUAL,30.05,12 Month,Cannabis,,MEN,Ages 19-30,2001
+MJ ANNUAL,29.68,12 Month,Cannabis,,MEN,Ages 19-30,2002
+MJ ANNUAL,29.59,12 Month,Cannabis,,MEN,Ages 19-30,2003
+MJ ANNUAL,29.98,12 Month,Cannabis,,MEN,Ages 19-30,2004
+MJ ANNUAL,28.88,12 Month,Cannabis,,MEN,Ages 19-30,2005
+MJ ANNUAL,30.09,12 Month,Cannabis,,MEN,Ages 19-30,2006
+MJ ANNUAL,30.4,12 Month,Cannabis,,MEN,Ages 19-30,2007
+MJ ANNUAL,31.44,12 Month,Cannabis,,MEN,Ages 19-30,2008
+MJ ANNUAL,31.74,12 Month,Cannabis,,MEN,Ages 19-30,2009
+MJ ANNUAL,32.3,12 Month,Cannabis,,MEN,Ages 19-30,2010
+MJ ANNUAL,34.08,12 Month,Cannabis,,MEN,Ages 19-30,2011
+MJ ANNUAL,31.48,12 Month,Cannabis,,MEN,Ages 19-30,2012
+MJ ANNUAL,34.09,12 Month,Cannabis,,MEN,Ages 19-30,2013
+MJ ANNUAL,33.02,12 Month,Cannabis,,MEN,Ages 19-30,2014
+MJ ANNUAL,34.21,12 Month,Cannabis,,MEN,Ages 19-30,2015
+MJ ANNUAL,36,12 Month,Cannabis,,MEN,Ages 19-30,2016
+MJ ANNUAL,38.76,12 Month,Cannabis,,MEN,Ages 19-30,2017
+MJ ANNUAL,39.4,12 Month,Cannabis,,MEN,Ages 19-30,2018
+MJ ANNUAL,40.6,12 Month,Cannabis,,MEN,Ages 19-30,2019
+MJ ANNUAL,40.4,12 Month,Cannabis,,MEN,Ages 19-30,2020
+MJ ANNUAL,43.4,12 Month,Cannabis,,MEN,Ages 19-30,2021
+MJ ANNUAL,42.4,12 Month,Cannabis,,MEN,Ages 19-30,2022
+MJ ANNUAL,40.3,12 Month,Cannabis,,MEN,Ages 19-30,2023
+MJ ANNUAL,31.96,12 Month,Cannabis,WHITE,,Ages 19-30,1988
+MJ ANNUAL,29.58,12 Month,Cannabis,WHITE,,Ages 19-30,1989
+MJ ANNUAL,26.61,12 Month,Cannabis,WHITE,,Ages 19-30,1990
+MJ ANNUAL,24.95,12 Month,Cannabis,WHITE,,Ages 19-30,1991
+MJ ANNUAL,25.62,12 Month,Cannabis,WHITE,,Ages 19-30,1992
+MJ ANNUAL,25.18,12 Month,Cannabis,WHITE,,Ages 19-30,1993
+MJ ANNUAL,25.2,12 Month,Cannabis,WHITE,,Ages 19-30,1994
+MJ ANNUAL,25.91,12 Month,Cannabis,WHITE,,Ages 19-30,1995
+MJ ANNUAL,25.8,12 Month,Cannabis,WHITE,,Ages 19-30,1996
+MJ ANNUAL,25.94,12 Month,Cannabis,WHITE,,Ages 19-30,1997
+MJ ANNUAL,26.07,12 Month,Cannabis,WHITE,,Ages 19-30,1998
+MJ ANNUAL,26.02,12 Month,Cannabis,WHITE,,Ages 19-30,1999
+MJ ANNUAL,27.59,12 Month,Cannabis,WHITE,,Ages 19-30,2000
+MJ ANNUAL,27.72,12 Month,Cannabis,WHITE,,Ages 19-30,2001
+MJ ANNUAL,28.04,12 Month,Cannabis,WHITE,,Ages 19-30,2002
+MJ ANNUAL,27.45,12 Month,Cannabis,WHITE,,Ages 19-30,2003
+MJ ANNUAL,27.62,12 Month,Cannabis,WHITE,,Ages 19-30,2004
+MJ ANNUAL,27.71,12 Month,Cannabis,WHITE,,Ages 19-30,2005
+MJ ANNUAL,27.8,12 Month,Cannabis,WHITE,,Ages 19-30,2006
+MJ ANNUAL,28.3,12 Month,Cannabis,WHITE,,Ages 19-30,2007
+MJ ANNUAL,28.06,12 Month,Cannabis,WHITE,,Ages 19-30,2008
+MJ ANNUAL,29.65,12 Month,Cannabis,WHITE,,Ages 19-30,2009
+MJ ANNUAL,28.3,12 Month,Cannabis,WHITE,,Ages 19-30,2010
+MJ ANNUAL,29.75,12 Month,Cannabis,WHITE,,Ages 19-30,2011
+MJ ANNUAL,28.35,12 Month,Cannabis,WHITE,,Ages 19-30,2012
+MJ ANNUAL,30.28,12 Month,Cannabis,WHITE,,Ages 19-30,2013
+MJ ANNUAL,29.6,12 Month,Cannabis,WHITE,,Ages 19-30,2014
+MJ ANNUAL,31.68,12 Month,Cannabis,WHITE,,Ages 19-30,2015
+MJ ANNUAL,32.6,12 Month,Cannabis,WHITE,,Ages 19-30,2016
+MJ ANNUAL,34.23,12 Month,Cannabis,WHITE,,Ages 19-30,2017
+MJ ANNUAL,36.7,12 Month,Cannabis,WHITE,,Ages 19-30,2018
+MJ ANNUAL,38.3,12 Month,Cannabis,WHITE,,Ages 19-30,2019
+MJ ANNUAL,39.3,12 Month,Cannabis,WHITE,,Ages 19-30,2020
+MJ ANNUAL,43.1,12 Month,Cannabis,WHITE,,Ages 19-30,2021
+MJ ANNUAL,41.6,12 Month,Cannabis,WHITE,,Ages 19-30,2022
+MJ ANNUAL,42.2,12 Month,Cannabis,WHITE,,Ages 19-30,2023
+MJ ANNUAL,27.19,12 Month,Cannabis,,WOMEN,Ages 19-30,1988
+MJ ANNUAL,24.24,12 Month,Cannabis,,WOMEN,Ages 19-30,1989
+MJ ANNUAL,21.65,12 Month,Cannabis,,WOMEN,Ages 19-30,1990
+MJ ANNUAL,19.77,12 Month,Cannabis,,WOMEN,Ages 19-30,1991
+MJ ANNUAL,20.86,12 Month,Cannabis,,WOMEN,Ages 19-30,1992
+MJ ANNUAL,20.36,12 Month,Cannabis,,WOMEN,Ages 19-30,1993
+MJ ANNUAL,19.58,12 Month,Cannabis,,WOMEN,Ages 19-30,1994
+MJ ANNUAL,21.76,12 Month,Cannabis,,WOMEN,Ages 19-30,1995
+MJ ANNUAL,22.05,12 Month,Cannabis,,WOMEN,Ages 19-30,1996
+MJ ANNUAL,21.48,12 Month,Cannabis,,WOMEN,Ages 19-30,1997
+MJ ANNUAL,21.98,12 Month,Cannabis,,WOMEN,Ages 19-30,1998
+MJ ANNUAL,21.81,12 Month,Cannabis,,WOMEN,Ages 19-30,1999
+MJ ANNUAL,22.57,12 Month,Cannabis,,WOMEN,Ages 19-30,2000
+MJ ANNUAL,22.94,12 Month,Cannabis,,WOMEN,Ages 19-30,2001
+MJ ANNUAL,23.53,12 Month,Cannabis,,WOMEN,Ages 19-30,2002
+MJ ANNUAL,22.84,12 Month,Cannabis,,WOMEN,Ages 19-30,2003
+MJ ANNUAL,23.18,12 Month,Cannabis,,WOMEN,Ages 19-30,2004
+MJ ANNUAL,23.47,12 Month,Cannabis,,WOMEN,Ages 19-30,2005
+MJ ANNUAL,23.01,12 Month,Cannabis,,WOMEN,Ages 19-30,2006
+MJ ANNUAL,22.84,12 Month,Cannabis,,WOMEN,Ages 19-30,2007
+MJ ANNUAL,23.42,12 Month,Cannabis,,WOMEN,Ages 19-30,2008
+MJ ANNUAL,24.25,12 Month,Cannabis,,WOMEN,Ages 19-30,2009
+MJ ANNUAL,22.22,12 Month,Cannabis,,WOMEN,Ages 19-30,2010
+MJ ANNUAL,25.51,12 Month,Cannabis,,WOMEN,Ages 19-30,2011
+MJ ANNUAL,25.04,12 Month,Cannabis,,WOMEN,Ages 19-30,2012
+MJ ANNUAL,27.45,12 Month,Cannabis,,WOMEN,Ages 19-30,2013
+MJ ANNUAL,27.72,12 Month,Cannabis,,WOMEN,Ages 19-30,2014
+MJ ANNUAL,28.71,12 Month,Cannabis,,WOMEN,Ages 19-30,2015
+MJ ANNUAL,30.6,12 Month,Cannabis,,WOMEN,Ages 19-30,2016
+MJ ANNUAL,32.26,12 Month,Cannabis,,WOMEN,Ages 19-30,2017
+MJ ANNUAL,37.9,12 Month,Cannabis,,WOMEN,Ages 19-30,2018
+MJ ANNUAL,36.8,12 Month,Cannabis,,WOMEN,Ages 19-30,2019
+MJ ANNUAL,41.6,12 Month,Cannabis,,WOMEN,Ages 19-30,2020
+MJ ANNUAL,41.8,12 Month,Cannabis,,WOMEN,Ages 19-30,2021
+MJ ANNUAL,44.6,12 Month,Cannabis,,WOMEN,Ages 19-30,2022
+MJ ANNUAL,44.1,12 Month,Cannabis,,WOMEN,Ages 19-30,2023
+MJ ANNUAL,8.43,12 Month,Cannabis,BLACK,,Ages 35-50,2008
+MJ ANNUAL,12.2,12 Month,Cannabis,BLACK,,Ages 35-50,2009
+MJ ANNUAL,12.6,12 Month,Cannabis,BLACK,,Ages 35-50,2010
+MJ ANNUAL,11.2,12 Month,Cannabis,BLACK,,Ages 35-50,2011
+MJ ANNUAL,9.27,12 Month,Cannabis,BLACK,,Ages 35-50,2012
+MJ ANNUAL,13.82,12 Month,Cannabis,BLACK,,Ages 35-50,2013
+MJ ANNUAL,11.98,12 Month,Cannabis,BLACK,,Ages 35-50,2014
+MJ ANNUAL,13.13,12 Month,Cannabis,BLACK,,Ages 35-50,2015
+MJ ANNUAL,11.8,12 Month,Cannabis,BLACK,,Ages 35-50,2016
+MJ ANNUAL,13.71,12 Month,Cannabis,BLACK,,Ages 35-50,2017
+MJ ANNUAL,16.2,12 Month,Cannabis,BLACK,,Ages 35-50,2018
+MJ ANNUAL,16.4,12 Month,Cannabis,BLACK,,Ages 35-50,2019
+MJ ANNUAL,23.3,12 Month,Cannabis,BLACK,,Ages 35-50,2020
+MJ ANNUAL,24.8,12 Month,Cannabis,BLACK,,Ages 35-50,2021
+MJ ANNUAL,26.5,12 Month,Cannabis,BLACK,,Ages 35-50,2022
+MJ ANNUAL,23.5,12 Month,Cannabis,BLACK,,Ages 35-50,2023
+MJ ANNUAL,11.54,12 Month,Cannabis,HISPANIC,,Ages 35-50,2008
+MJ ANNUAL,9.62,12 Month,Cannabis,HISPANIC,,Ages 35-50,2009
+MJ ANNUAL,8.18,12 Month,Cannabis,HISPANIC,,Ages 35-50,2010
+MJ ANNUAL,12.63,12 Month,Cannabis,HISPANIC,,Ages 35-50,2011
+MJ ANNUAL,9.71,12 Month,Cannabis,HISPANIC,,Ages 35-50,2012
+MJ ANNUAL,17.28,12 Month,Cannabis,HISPANIC,,Ages 35-50,2013
+MJ ANNUAL,7.41,12 Month,Cannabis,HISPANIC,,Ages 35-50,2014
+MJ ANNUAL,14,12 Month,Cannabis,HISPANIC,,Ages 35-50,2015
+MJ ANNUAL,12.7,12 Month,Cannabis,HISPANIC,,Ages 35-50,2016
+MJ ANNUAL,13.93,12 Month,Cannabis,HISPANIC,,Ages 35-50,2017
+MJ ANNUAL,15,12 Month,Cannabis,HISPANIC,,Ages 35-50,2018
+MJ ANNUAL,13.9,12 Month,Cannabis,HISPANIC,,Ages 35-50,2019
+MJ ANNUAL,16.2,12 Month,Cannabis,HISPANIC,,Ages 35-50,2020
+MJ ANNUAL,19.5,12 Month,Cannabis,HISPANIC,,Ages 35-50,2021
+MJ ANNUAL,29.5,12 Month,Cannabis,HISPANIC,,Ages 35-50,2022
+MJ ANNUAL,29.3,12 Month,Cannabis,HISPANIC,,Ages 35-50,2023
+MJ ANNUAL,16.41,12 Month,Cannabis,,MEN,Ages 35-50,2008
+MJ ANNUAL,14.73,12 Month,Cannabis,,MEN,Ages 35-50,2009
+MJ ANNUAL,15.2,12 Month,Cannabis,,MEN,Ages 35-50,2010
+MJ ANNUAL,14.89,12 Month,Cannabis,,MEN,Ages 35-50,2011
+MJ ANNUAL,16.8,12 Month,Cannabis,,MEN,Ages 35-50,2012
+MJ ANNUAL,18.16,12 Month,Cannabis,,MEN,Ages 35-50,2013
+MJ ANNUAL,17.85,12 Month,Cannabis,,MEN,Ages 35-50,2014
+MJ ANNUAL,19.69,12 Month,Cannabis,,MEN,Ages 35-50,2015
+MJ ANNUAL,17.9,12 Month,Cannabis,,MEN,Ages 35-50,2016
+MJ ANNUAL,20.96,12 Month,Cannabis,,MEN,Ages 35-50,2017
+MJ ANNUAL,21.2,12 Month,Cannabis,,MEN,Ages 35-50,2018
+MJ ANNUAL,23.6,12 Month,Cannabis,,MEN,Ages 35-50,2019
+MJ ANNUAL,26.4,12 Month,Cannabis,,MEN,Ages 35-50,2020
+MJ ANNUAL,27.4,12 Month,Cannabis,,MEN,Ages 35-50,2021
+MJ ANNUAL,31,12 Month,Cannabis,,MEN,Ages 35-50,2022
+MJ ANNUAL,31.3,12 Month,Cannabis,,MEN,Ages 35-50,2023
+MJ ANNUAL,12.76,12 Month,Cannabis,WHITE,,Ages 35-50,2008
+MJ ANNUAL,12.11,12 Month,Cannabis,WHITE,,Ages 35-50,2009
+MJ ANNUAL,13.77,12 Month,Cannabis,WHITE,,Ages 35-50,2010
+MJ ANNUAL,13.18,12 Month,Cannabis,WHITE,,Ages 35-50,2011
+MJ ANNUAL,14.17,12 Month,Cannabis,WHITE,,Ages 35-50,2012
+MJ ANNUAL,14.01,12 Month,Cannabis,WHITE,,Ages 35-50,2013
+MJ ANNUAL,15.04,12 Month,Cannabis,WHITE,,Ages 35-50,2014
+MJ ANNUAL,16.28,12 Month,Cannabis,WHITE,,Ages 35-50,2015
+MJ ANNUAL,15.7,12 Month,Cannabis,WHITE,,Ages 35-50,2016
+MJ ANNUAL,18.49,12 Month,Cannabis,WHITE,,Ages 35-50,2017
+MJ ANNUAL,19.3,12 Month,Cannabis,WHITE,,Ages 35-50,2018
+MJ ANNUAL,22.3,12 Month,Cannabis,WHITE,,Ages 35-50,2019
+MJ ANNUAL,23.6,12 Month,Cannabis,WHITE,,Ages 35-50,2020
+MJ ANNUAL,26.4,12 Month,Cannabis,WHITE,,Ages 35-50,2021
+MJ ANNUAL,28.4,12 Month,Cannabis,WHITE,,Ages 35-50,2022
+MJ ANNUAL,30.2,12 Month,Cannabis,WHITE,,Ages 35-50,2023
+MJ ANNUAL,8.07,12 Month,Cannabis,,WOMEN,Ages 35-50,2008
+MJ ANNUAL,9.3,12 Month,Cannabis,,WOMEN,Ages 35-50,2009
+MJ ANNUAL,10.89,12 Month,Cannabis,,WOMEN,Ages 35-50,2010
+MJ ANNUAL,10.7,12 Month,Cannabis,,WOMEN,Ages 35-50,2011
+MJ ANNUAL,9.55,12 Month,Cannabis,,WOMEN,Ages 35-50,2012
+MJ ANNUAL,10.72,12 Month,Cannabis,,WOMEN,Ages 35-50,2013
+MJ ANNUAL,11.05,12 Month,Cannabis,,WOMEN,Ages 35-50,2014
+MJ ANNUAL,12.19,12 Month,Cannabis,,WOMEN,Ages 35-50,2015
+MJ ANNUAL,12.2,12 Month,Cannabis,,WOMEN,Ages 35-50,2016
+MJ ANNUAL,13.92,12 Month,Cannabis,,WOMEN,Ages 35-50,2017
+MJ ANNUAL,16.9,12 Month,Cannabis,,WOMEN,Ages 35-50,2018
+MJ ANNUAL,18.4,12 Month,Cannabis,,WOMEN,Ages 35-50,2019
+MJ ANNUAL,19.2,12 Month,Cannabis,,WOMEN,Ages 35-50,2020
+MJ ANNUAL,23,12 Month,Cannabis,,WOMEN,Ages 35-50,2021
+MJ ANNUAL,25,12 Month,Cannabis,,WOMEN,Ages 35-50,2022
+MJ ANNUAL,27.4,12 Month,Cannabis,,WOMEN,Ages 35-50,2023
+VAPE NIC 30-DAY,0.06,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2017
+VAPE NIC 30-DAY,3.4,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2018
+VAPE NIC 30-DAY,5.1,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2019
+VAPE NIC 30-DAY,6.1,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2020
+VAPE NIC 30-DAY,6.9,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2021
+VAPE NIC 30-DAY,10.1,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2022
+VAPE NIC 30-DAY,12.3,30 Day,Vaping Nicotine,BLACK,,Ages 19-30,2023
+VAPE NIC 30-DAY,4.06,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2017
+VAPE NIC 30-DAY,5.6,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2018
+VAPE NIC 30-DAY,8.6,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2019
+VAPE NIC 30-DAY,10.1,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2020
+VAPE NIC 30-DAY,10.4,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2021
+VAPE NIC 30-DAY,17.2,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2022
+VAPE NIC 30-DAY,16.3,30 Day,Vaping Nicotine,HISPANIC,,Ages 19-30,2023
+VAPE NIC 30-DAY,8.48,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2017
+VAPE NIC 30-DAY,11.8,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2018
+VAPE NIC 30-DAY,13.7,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2019
+VAPE NIC 30-DAY,15.2,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2020
+VAPE NIC 30-DAY,21.2,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2021
+VAPE NIC 30-DAY,19.6,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2022
+VAPE NIC 30-DAY,22.1,30 Day,Vaping Nicotine,,MEN,Ages 19-30,2023
+VAPE NIC 30-DAY,7.59,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2017
+VAPE NIC 30-DAY,12.7,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2018
+VAPE NIC 30-DAY,12.6,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2019
+VAPE NIC 30-DAY,15.7,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2020
+VAPE NIC 30-DAY,20.4,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2021
+VAPE NIC 30-DAY,18.9,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2022
+VAPE NIC 30-DAY,20.3,30 Day,Vaping Nicotine,WHITE,,Ages 19-30,2023
+VAPE NIC 30-DAY,3.86,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2017
+VAPE NIC 30-DAY,8.5,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2018
+VAPE NIC 30-DAY,7.8,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2019
+VAPE NIC 30-DAY,11.1,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2020
+VAPE NIC 30-DAY,13.1,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2021
+VAPE NIC 30-DAY,14.6,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2022
+VAPE NIC 30-DAY,15.4,30 Day,Vaping Nicotine,,WOMEN,Ages 19-30,2023
+VAPE NIC 30-DAY,1.3,30 Day,Vaping Nicotine,BLACK,,Ages 35-50,2019
+VAPE NIC 30-DAY,1,30 Day,Vaping Nicotine,BLACK,,Ages 35-50,2020
+VAPE NIC 30-DAY,2.3,30 Day,Vaping Nicotine,BLACK,,Ages 35-50,2021
+VAPE NIC 30-DAY,2.6,30 Day,Vaping Nicotine,BLACK,,Ages 35-50,2022
+VAPE NIC 30-DAY,2.3,30 Day,Vaping Nicotine,BLACK,,Ages 35-50,2023
+VAPE NIC 30-DAY,1.2,30 Day,Vaping Nicotine,HISPANIC,,Ages 35-50,2019
+VAPE NIC 30-DAY,0.6,30 Day,Vaping Nicotine,HISPANIC,,Ages 35-50,2020
+VAPE NIC 30-DAY,3,30 Day,Vaping Nicotine,HISPANIC,,Ages 35-50,2021
+VAPE NIC 30-DAY,6.3,30 Day,Vaping Nicotine,HISPANIC,,Ages 35-50,2022
+VAPE NIC 30-DAY,4.9,30 Day,Vaping Nicotine,HISPANIC,,Ages 35-50,2023
+VAPE NIC 30-DAY,4.9,30 Day,Vaping Nicotine,,MEN,Ages 35-50,2019
+VAPE NIC 30-DAY,2.6,30 Day,Vaping Nicotine,,MEN,Ages 35-50,2020
+VAPE NIC 30-DAY,5,30 Day,Vaping Nicotine,,MEN,Ages 35-50,2021
+VAPE NIC 30-DAY,6,30 Day,Vaping Nicotine,,MEN,Ages 35-50,2022
+VAPE NIC 30-DAY,5.8,30 Day,Vaping Nicotine,,MEN,Ages 35-50,2023
+VAPE NIC 30-DAY,4.5,30 Day,Vaping Nicotine,WHITE,,Ages 35-50,2019
+VAPE NIC 30-DAY,3.7,30 Day,Vaping Nicotine,WHITE,,Ages 35-50,2020
+VAPE NIC 30-DAY,6,30 Day,Vaping Nicotine,WHITE,,Ages 35-50,2021
+VAPE NIC 30-DAY,5.5,30 Day,Vaping Nicotine,WHITE,,Ages 35-50,2022
+VAPE NIC 30-DAY,5.8,30 Day,Vaping Nicotine,WHITE,,Ages 35-50,2023
+VAPE NIC 30-DAY,3.4,30 Day,Vaping Nicotine,,WOMEN,Ages 35-50,2019
+VAPE NIC 30-DAY,3,30 Day,Vaping Nicotine,,WOMEN,Ages 35-50,2020
+VAPE NIC 30-DAY,5.3,30 Day,Vaping Nicotine,,WOMEN,Ages 35-50,2021
+VAPE NIC 30-DAY,4.5,30 Day,Vaping Nicotine,,WOMEN,Ages 35-50,2022
+VAPE NIC 30-DAY,5,30 Day,Vaping Nicotine,,WOMEN,Ages 35-50,2023

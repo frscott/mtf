@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/panel/index.html",
+    "items": [
+      "/panel/substance-use/index.html",
+      "/panel/demographic-subgroups/index.html",
+      "/panel/college-noncollege/index.html"
+    ]
+  },
+  {
+    "listing": "/bx-by/index.html",
+    "items": [
+      "/bx-by/drug-prevalence/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/bx-by/index.html",
+      "/panel/index.html"
+    ]
+  }
+]
