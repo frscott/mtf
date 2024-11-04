@@ -1,1 +1,1 @@
-Sitemap: https://monitoringthefuture.com/data/sitemap.xml
+Sitemap: https://mtftablesandfigures.com/sitemap.xml
